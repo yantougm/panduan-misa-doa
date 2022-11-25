@@ -1,0 +1,45 @@
+% SELECT day(`TglLahir`),
+% concat(u1.`Baptis`,' ',u1.`Nama`) 
+% FROM `umat` u1 WHERE month(TglLahir)=6 order by 1
+
+%=========
+% SELECT day(`TglNikah`),
+% concat(u1.`Baptis`,' ',u1.`Nama`,' + ',u2.`Baptis`,' ',u2.`Nama`) 
+% FROM `umat` u1 join kk on (u1.nokk=kk.id and u1.hubkel='KK')
+%               join umat u2 on (u2.nokk=kk.id  and (u2.hubkel='istri' or u2.hubkel='isteri'))
+% WHERE month(TglNikah)=1 order by 1
+
+\section*{Yang berulang tahun kelahiran bulan ini}
+
+\noindent{Semoga hari bahagia ini menguatkan imannya akan Dikau.}
+
+\begin{longtable}{|c|l|} 
+\hline
+Tgl & Nama \\ \hline
+\endhead1& Maria Rosary Sekar Seruni\\
+5& Anna Maria Tri Henaningsih\\
+6& Fransiscus Xaverius Sularto\\
+7& Christina Sutarni\\
+8& Marcellina Oktavia S. Padmini\\
+11& Priscilla Oktiva Rossari\\
+15& Yoseph Laba Atawolo\\
+16& Ignatius Stanley Andi Pradana\\
+18& Christina Sri Ning Hastuti\\
+24& Margareta Maria Sri Pramuwati\\
+25& Kristina Tri Tutwuri\\
+\hline
+\end{longtable}
+
+
+
+\section*{Yang berulang tahun perkawinan  bulan ini}
+
+Selamat ulang tahun perkawinan. Semoga keluarga-keluarga ini tumbuh menjadi keluarga Katolik yang sejati yang dibangun atas dasar iman dan kasih: kasih akan Dikau dan kasih antar semua anggota keluarga.
+
+\begin{longtable}{|c|l|} 
+\hline
+Tgl & Keluarga \\ \hline
+\endhead5& Nikolas Putut Andoko + Chatarina Krisyanti\\
+6& Ignatius Luddy Indra Purnama + Anna Sri Wuryaningtyas\\
+\hline
+\end{longtable} 

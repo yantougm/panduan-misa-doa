@@ -1,0 +1,84 @@
+digraph finite_state_machine {
+    mindist=0.1;
+    size="8,10";
+    overlap=false;
+    rankdir =LR;
+    node [shape = oval];
+
+    budi [label="YZ Budiman Susanto\n08122942583\n085726185355"];
+    anton [label="Antonius Supriyana\n085865355895",root=true];
+    larto [label="FX Sularto\n081314190698"];
+    andre [label="Andre Muda\n081328692102"];
+    yanto [label="Y. Suyanto\n08562869037\nBu Prima\n085628865539"];
+    anton -> larto ;
+    anton -> andre ;
+    anton -> budi [label="bila perlu"];
+    anton -> yanto ;
+    {rank = same; "anton"; "budi"; "hananto";}
+    
+    antok [label="FX. Ari W. S.\n085867335678"]; 
+    hananto [label="Eko Hananto\n081392258790"];
+    yogan [label="Yogan\n082324331390"];
+    larto -> antok;
+    larto -> hananto [label="bila perlu"];
+    larto -> yogan;
+    
+    mia [label="Maria Sode\n081392842606"];
+    anas [label="Anastasia Bare\n085643173\nMaria L.\n085725940099"];
+    andre -> mia;
+    andre -> anas;
+    
+    neo [label="Neo Suradi\n081578115615"]; 
+    pri [label="Bu Supriyati\n081328450101"]; 
+    triyono [label="P. Triyono\n081578179267"];
+    yanto -> neo;
+    yanto -> pri;
+    yanto -> triyono;     
+     
+    katrin [label="KRA YP Sunaryo Prononagoro\n087835018318\nCh. Setya Prihatiningtyas\n08122940457 "];
+    budib [label="Bu Dibyo\n08164229555"]; 
+    darmadi [label="Y. Sudarmadi\n4333545"];
+    antok -> katrin;
+    antok -> darmadi;    
+    antok -> budib;
+
+    sandy [label="Ig. Sandy\n085292171946"]; 
+    oka [label="Bu Kus/Oka\n085643430434"]; 
+    mia -> sandy;
+    mia -> oka;
+    
+    kobus [label="Yakobus L.\n7839098"]; 
+    ripto [label="Yoh. Suripto\n0817889303"]; 
+    anas -> kobus;
+    anas -> ripto;
+    
+    waldiman [label="Waldiman"];
+    mbahmino [label="mBah Mino"];
+    neo -> waldiman;
+    neo -> mbahmino;
+    
+    nanik [label="Th. Nanik\n08156861272"]; 
+    krisni [label="Krisni\n085743345162"]; 
+    pri -> nanik;
+    pri -> krisni;
+    
+    royo [label="P. Suroyo\n08122752803"];
+    dalyono [label="V. Dalyono\n081932601029"];
+    triyono -> royo;
+    triyono -> dalyono;
+    
+    //yang balik
+    darmadi -> larto;
+    katrin -> larto;
+    
+    ripto -> andre;
+    kobus -> andre;
+    oka -> andre;
+    sandy -> andre;
+    
+    dalyono -> yanto;
+    royo -> yanto;
+    krisni -> yanto;
+    nanik -> yanto;
+}
+

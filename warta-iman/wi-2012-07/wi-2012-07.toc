@@ -1,0 +1,7 @@
+\select@language {bahasa}
+\contentsline {chapter}{OMK St. Petrus Maguwo\\ Siap Menjadi Bagian Harapan Gereja}{3}{chapter*.3}
+\contentsline {chapter}{Orang Muda Katolik (OMK) dan Liturgi}{11}{chapter*.7}
+\contentsline {chapter}{Apa Perbedaan Mudika dan OMK?}{22}{chapter*.17}
+\contentsline {chapter}{Senyum Sejenak}{25}{chapter*.20}
+\contentsline {chapter}{Warta Lingkungan}{26}{chapter*.23}
+\contentsline {chapter}{Kompendium Katekese Gereja Katolik}{28}{chapter*.27}

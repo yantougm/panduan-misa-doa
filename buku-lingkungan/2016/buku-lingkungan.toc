@@ -1,0 +1,29 @@
+\select@language {bahasa}
+\contentsline {chapter}{\numberline {1}Sejarah Lingkungan}{3}{chapter.1}
+\contentsline {section}{\numberline {1.1}Lingkungan St. Theresia Kanak-kanak Yesus}{3}{section.1.1}
+\contentsline {section}{\numberline {1.2}Riwayat St. Theresia Kanak-kanak Yesus}{4}{section.1.2}
+\contentsline {chapter}{\numberline {2}Informasi Umat}{8}{chapter.2}
+\contentsline {section}{\numberline {2.1}Pengurus}{8}{section.2.1}
+\contentsline {section}{\numberline {2.2}Data Umat}{10}{section.2.2}
+\contentsline {section}{\numberline {2.3}Remaja dan Mudika}{12}{section.2.3}
+\contentsline {section}{\numberline {2.4}Jadwal Kegiatan}{15}{section.2.4}
+\contentsline {section}{\numberline {2.5}Aturan dan Kebijakan Lingkungan St. Theresia 2016}{24}{section.2.5}
+\contentsline {section}{\numberline {2.6}Tata cara persiapan dan pelaksanaan ujud misa/ibadat pribadi}{24}{section.2.6}
+\contentsline {section}{\numberline {2.7}Tata Urutan Ibadat Lingkungan}{25}{section.2.7}
+\contentsline {section}{\numberline {2.8}Tata urutan Doa Rosario}{29}{section.2.8}
+\contentsline {section}{\numberline {2.9}Mari ber-Ekaristi dengan baik dan benar}{30}{section.2.9}
+\contentsline {chapter}{\numberline {3}Doa-Doa}{35}{chapter.3}
+\contentsline {section}{\numberline {3.1}Litani St. Theresia dari Kanak-kanak Yesus}{35}{section.3.1}
+\contentsline {section}{\numberline {3.2}Novena kepada St. Theresia dari Kanak-kanak Yesus}{36}{section.3.2}
+\contentsline {section}{\numberline {3.3}Doa Angelus dan Ratu Surga}{37}{section.3.3}
+\contentsline {subsubsection}{\nonumberline Arti}{39}{section*.9}
+\contentsline {subsubsection}{\nonumberline Mengapa dinamakan Doa Angelus?}{39}{section*.10}
+\contentsline {subsubsection}{\nonumberline Tujuan Doa Angelus}{39}{section*.11}
+\contentsline {section}{\numberline {3.4}Doa masa Advent}{39}{section.3.4}
+\contentsline {section}{\numberline {3.5}Doa masa Natal}{40}{section.3.5}
+\contentsline {section}{\numberline {3.6}Doa masa PraPaskah}{40}{section.3.6}
+\contentsline {section}{\numberline {3.7}Doa Paskah}{41}{section.3.7}
+\contentsline {section}{\numberline {3.8}Doa NOVENA Roh Kudus}{41}{section.3.8}
+\contentsline {section}{\numberline {3.9}Rosario Roh Kudus}{44}{section.3.9}
+\contentsline {section}{\numberline {3.10}Doa Umat}{47}{section.3.10}
+\contentsline {section}{\numberline {3.11}Doa Syukur}{48}{section.3.11}

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">5</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">52fbbc64-2f0d-4beb-a3ae-8388daed130e</dc:identifier>
+    <dc:title>app</dc:title>
+        <dc:creator opf:file-as="Yanto" opf:role="aut">Yohanes Suyanto</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (0.6.42) [http://calibre-ebook.com]</dc:contributor>
+        <dc:date>2011-04-01T17:00:00+00:00</dc:date>
+        <dc:language>UND</dc:language>
+        <meta content="0" name="calibre:rating"/>
+        <meta content="2011-04-01T17:00:00+00:00" name="calibre:timestamp"/>
+    </metadata>
+    <guide/>
+</package>

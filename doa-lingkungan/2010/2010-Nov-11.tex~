@@ -1,0 +1,165 @@
+\documentclass[a5paper,headsepline,titlepage,11pt,nnormalheadings,DIVcalc]{scrbook}
+\usepackage[a5paper,backref]{hyperref}
+\usepackage[papersize={165mm,215mm},twoside,bindingoffset=0.5cm,hmargin={2cm,2cm},
+				vmargin={2cm,2cm},footskip=1.1cm,driver=dvipdfm]{geometry}
+\usepackage[latin1]{inputenc} 
+\usepackage{calc}
+\usepackage{setspace} 
+\usepackage{fixltx2e} 
+\usepackage{graphicx}
+\usepackage{multicol} 
+\usepackage[normalem]{ulem} 
+\usepackage[bahasa]{babel} 
+\usepackage{color}
+\usepackage{hyperref} 
+\usepackage{pstricks}
+\usepackage{fancyhdr}
+\usepackage{pst-node}
+
+\setlength{\parindent}{0mm}
+\makeatletter
+\newcommand{\lagu}[1]{%
+  {\parindent \z@ 
+    \interlinepenalty\@M \slshape \mdseries \large \textit{#1}\par\nobreak \vskip 10\p@ }}
+\newcommand{\keterangan}[1]{%
+  {\parindent \z@ 
+    \interlinepenalty\@M \slshape \mdseries \textit{#1}\par\nobreak \vskip 10\p@ }}
+\makeatother
+
+\renewcommand{\footrulewidth}{0.5pt}
+\lhead[\fancyplain{}{\thepage}]%
+      {\fancyplain{}{~}}
+\rhead[\fancyplain{}{~}]%
+      {\fancyplain{}{\thepage}}
+\pagestyle{fancy}
+\lfoot[\emph{Doa Lingkungan}]{}
+\rfoot[]{\emph{11 November 2010}}
+\cfoot{}
+\usepackage{palatino}
+\usepackage{enumerate}
+\input{../indohyp.tex}
+
+\setlength{\parindent}{0mm}
+\setlength{\parskip}{2mm}
+
+\newcommand{\BU}[1]{\begin{itemize} \item[U:] #1 \end{itemize}}
+\newcommand{\BI}[1]{\begin{itemize} \item[I:] #1 \end{itemize}}
+\newcommand{\BIU}[1]{\begin{itemize} \item[I+U:] #1 \end{itemize}}
+\newcommand{\BP}[1]{\begin{itemize} \item[P:] #1 \end{itemize}}
+\newcommand{\inputlagu}[1]{\begin{textit} \input{#1} \end{textit}}
+
+\begin{document}
+
+
+
+\section*{Ibadat Sabda}
+
+\subsection*{BACAAN PERTAMA - Flm. 1:7-20; Mzm. 146:7,89a,4bc-10}
+
+Dari kasihmu sudah kuperoleh kegembiraan besar dan kekuatan, sebab hati orang-orang kudus telah kauhiburkan, saudaraku.
+
+Karena itu, sekalipun di dalam Kristus aku mempunyai kebebasan penuh untuk memerintahkan kepadamu apa yang harus engkau lakukan,
+tetapi mengingat kasihmu itu, lebih baik aku memintanya dari padamu. Aku, Paulus, yang sudah menjadi tua, lagipula sekarang dipenjarakan karena Kristus Yesus,
+mengajukan permintaan kepadamu mengenai anakku yang kudapat selagi aku dalam penjara, yakni Onesimus
+?dahulu memang dia tidak berguna bagimu, tetapi sekarang sangat berguna baik bagimu maupun bagiku.
+Dia kusuruh kembali kepadamu?dia, yaitu buah hatiku?.
+
+Sebenarnya aku mau menahan dia di sini sebagai gantimu untuk melayani aku selama aku dipenjarakan karena Injil,
+tetapi tanpa persetujuanmu, aku tidak mau berbuat sesuatu, supaya yang baik itu jangan engkau lakukan seolah-olah dengan paksa, melainkan dengan sukarela.
+Sebab mungkin karena itulah dia dipisahkan sejenak dari padamu, supaya engkau dapat menerimanya untuk selama-lamanya,
+bukan lagi sebagai hamba, melainkan lebih dari pada hamba, yaitu sebagai saudara yang kekasih, bagiku sudah demikian, apalagi bagimu, baik secara manusia maupun di dalam Tuhan.
+
+Kalau engkau menganggap aku temanmu seiman, terimalah dia seperti aku sendiri.
+Dan kalau dia sudah merugikan engkau ataupun berhutang padamu, tanggungkanlah semuanya itu kepadaku?
+aku, Paulus, menjaminnya dengan tulisan tanganku sendiri: Aku akan membayarnya?agar jangan kukatakan: "Tanggungkanlah semuanya itu kepadamu!" ?karena engkau berhutang padaku, yaitu dirimu sendiri.
+Ya saudaraku, semoga engkau berguna bagiku di dalam Tuhan: Hiburkanlah hatiku di dalam Kristus!
+
+\subsection*{BACAAN INJIL - Luk. 17:20-25}
+
+Atas pertanyaan orang-orang Farisi, apabila Kerajaan Allah akan datang, Yesus menjawab, kata-Nya: "Kerajaan Allah datang tanpa tanda-tanda lahiriah,
+juga orang tidak dapat mengatakan: Lihat, ia ada di sini atau ia ada di sana! Sebab sesungguhnya Kerajaan Allah ada di antara kamu."
+Dan Ia berkata kepada murid-murid-Nya: "Akan datang waktunya kamu ingin melihat satu dari pada hari-hari Anak Manusia itu dan kamu tidak akan melihatnya.
+Dan orang akan berkata kepadamu: Lihat, ia ada di sana; lihat, ia ada di sini! Jangan kamu pergi ke situ, jangan kamu ikut.
+
+Sebab sama seperti kilat memancar dari ujung langit yang satu ke ujung langit yang lain, demikian pulalah kelak halnya Anak Manusia pada hari kedatangan-Nya.
+Tetapi Ia harus menanggung banyak penderitaan dahulu dan ditolak oleh angkatan ini.
+
+\subsection*{Mediatio}
+      Aneh ya kenapa orang selalu ingin tahu kapan kiamat? Padahal tanpa
+tahun pun, kita tahu bahwa itu pasti terjadi, baik itu kiamat pribadi berupa
+hari kematian kita maupun kiamat dalam arti seluruhnya. Dan juga ada banyak
+orang mengaku tahu pasti akan datangnya hari kiamat, dan lebih menyedihkan
+lagi, pengakuan mereka dipercayai banyak orang yang sudah mengenal firman
+Tuhan.
+
+
+\subsubsection*{Apa itu Kerajaan Allah ?}
+
+Kerajaan Allah adalah tema pokok pewartaan Yesus : Kerajaan Allah, yaitu Allah yang datang sebagai Raja, sudah dekat (bdk. Mrk 1:15). Orang Yahudi pada zaman Yesus menghindari penyebutan langsung Nama Allah. Maka, sebagai ganti "Allah meraja" dikatakan "Kerajaan Allah". Bahkan "Kerajaan Allah" sering juga disebut sebagai "Kerajaan Surga". Kata "Kerajaan Allah" atau "Kerajaan Surga" tidak berarti daerah kekuasaan Allah atau suatu tempat bernama surga. "Kerajaan Allah" berarti Allah sendiri yang tampil sebagai Raja. Ia tampil dalam kemuliaan dan keperkasaan, namun bukan pertama-tama untuk menghukum atau membalas, melainkan untuk menyelamatkan dan memberi perlindungan. Maka, warta Kerajaan Allah adalah warta kerahiman Allah dan karena itu merupakan warta pengharapan.
+
+ 
+
+\subsubsection*{Dilahirkan dari air dan Roh sebagai syarat masuk Kerajaan Allah}
+
+Supaya bisa ambil bagian dalam Kerajaan Allah, orang harus dilahirkan dari air dan Roh. Lahir dari air berarti dibaptis. Oleh pembaptisan, seluruh dosa lama kita dihapuskan. Maka, orang yang dibaptis dianugerahi martabat baru sebagai anak Allah, ahli warisNya dalam Kristus. Ia lahir kembali secara rohani melalui air.
+
+Dengan pembaptisan, manusia diberi rahmat Allah agar hidup seturut martabat barunya sebagai anak-anak Allah. Allah juga selalu menyediakan rahmat-rahmat bagi manusia untuk bangkit dari kelemahan-kelemahan dan kejatuhan kembali ke dalam dosa-dosa. Sebab dengan pembaptisan, dosa memang sungguh dihapus namun banyaknya godaan setan bisa membuat manusia jatuh kembali ke dosa-dosa. Itulah sebabnya Allah menganugerahkan sakramen Tobat dalam Gereja-Nya untuk menghadirkan kemaha-rahiman-Nya kepada anak-anakNya yang telah menerima pembaptisan.
+
+Kemudian, apa artinya lahir kembali dari Roh? Hal ini menjadi jelas dengan peristiwa Pentakosta (Kis 21:1-47). Dalam peristiwa Pentakosta, Roh Kudus turun atas para Rasul-Nya. Karenanya, para Rasul berani mewartakan Injil. Nilai-nilai rohani dan moral yang diajarkan Yesus, yang dulu masih tersembunyi dan tidak dimengerti, menjadi terang benderang dalam hati dan budi para Rasul. Jadi para rasul tersebut bisa disebut "lahir kembali dari-melalui Roh". Inilah yang terjadi pada kita dalam Sakramen Penguatan.
+
+\subsubsection*{Gereja Katolik menghadirkan Kerajaan Allah}
+
+Daya-daya ilahi dicurahkan dengan cuma-cuma untuk memelihara dan menyempurnakan segala ciptaan, termasuk juga manusia. Maka perlu ada tanggapan dari pihak manusia. Tanggapan itu berupa usaha untuk selalu menjaga kekudusan diri : membersihkan diri dari dosa-dosa. Kalau kita bersih hati dan beriman yang kuat, Allah akan mendewasakan dan menyempurnakan penglihatan kita atas daya-daya ilahiNya.
+
+Allah juga bekerja melalui kuasa mengajar Gereja Katolik hirarkisNya. Oleh sebab itu kita pertu melihat-memperhatikan ajaran-ajaran Gereja KatolikNya, yang terus menerus berkembang dari waktu ke waktu. Maka, semakin kita menghayati ajaran Gereja-Nya lewat tuntunan hirarki, semakin dalamlah kita dirasuki daya-daya Ilahi yang memancarkan nilai-nilai kebenaran. Hal ini akan membuat diri dan sesama makin menanjak dalam kesejahteraan rohani dan jasmani.
+
+ 
+
+\subsubsection*{Memasuki Kerajaan Allah berarti menjadi aktivis kebaikan}
+
+Lahir dari air dan roh berarti kita menerima kekuatan Allah yang menggerakkan kekuatan-kekuatan budi-hati-kehendak-ingatan-fantasi, termasuk fisik, sehingga terarah untuk bersikap dan bertindak seturut rencana-kehendak-bimbingan Allah. Ini berarti kita menjadi aktivis kebaikan, bijaksana, efektif-efisien, serba bemutu, produktif, dan pemberani dalam kesaksian-kesaksian kebenaran hidup Injili. Hal itu akan sungguh menjadi kebiasaan baik yang berdaya guna apabila didukung oleh semangat cinta doa, askese (: matiraga), rajin menerima sakramen-sakramen dan murah hati-bijaksana dalam perbuatan-perbuatan baik.
+
+Selain berdaya guna bagi diri pribadi, kita juga dipanggil untuk menampilkan kekuatan-kekuatan Kerajaan Allah yang menyelamatkan jiwa-jiwa (: menyejahterakan rohani-jasmani sesama). Itu berarti kita harus mampu menemukan talenta diri kita sendiri dan mengembangkannva untuk diabdikan demi pelayanan kepada sesama : dalam pekerjaan sehari-hari, dalam hidup bermasyarakat, dalam hidup menggereja, dlsb. Dengan kata lain, mengikuti panggilan Tuhan dengan menjadi Pastor-Bruder-Suster-Aktivis Awam Katolik.
+
+ 
+
+\subsubsection*{Pemeliharaan hidup sebagai warga Kerajaan Allah}
+
+Keadaan kesucian hidup yang diterima pada saat pembaptisan perlu dipelihara. Ujung tombaknya adalah keluarga. Beberapa pokok yang dapat memelihara kesucian hidup a.l.: keluarga yang kental bemuansa kristiani Katolik (: mewujudkan ajaran-ajaran Yesus Kristus, tersedia sarana-sarana untuk mendekatkan diri pada Allah seperti: Kitab Suci, salib, patung orang kudus, dll); keluarga yang mendukung anggota-anggota keluarga untuk terlibat ke dalam kegiatan-kegiatan benuansa kristiani Katolik (: lingkungan sekolah Katolik, lingkungan Wilayah, organisasi-organisasi Katolik, dll); memasuki kelompok-kelompok non-kristiani tetapi terbimbing oleh pendamping yang Katolik; menekuni kegiatan dan peribadatan gereja Katolik; dll.
+
+ 
+
+\subsubsection*{Peningkatan kualitas sebagai warga Kerajaan Allah}
+
+Yesus Kristus bersabda: "manusia tidak hanya hidup dari roti saja, melainkan dari setiap firman yang keluar dari mulut Allah" (Mat 4:4). Sabda tersebut juga masih berlaku untuk zaman ini. Kita seringkali tidak tertarik untuk meluangkan waktu bagi kegiatan-kegiatan yang memperdalam dan memperkaya nilai-nilai kerohanian-moralitas. Kita lebih murah hati meluangkan waktu untuk hal-hal bersifat "roti": aneka macam pesta, aneka macam pertemuan yang mendatangkan kekayaan uang-materi, aneka macam hiburan, dll. Untuk meningkatkan kualitas sebagai warga Kerajaan Allah, kita perlu menguatkan hati untuk menyenangi pula pertemuan-pertemuan yang memperkaya nilai-nilai kerohanian dan moralitas kita atau hal-hal yang bersifat "firman".
+
+Kalau dibahasakan pada jaman sekarang, maka kepribadian anak  Kerajaan  Allah  antara   lain   meliputi  kepribadian yang mencintai "roti" dan "firman", rendah hati (jujur di hadapan Allah dan sesama), penuh tanggungjawab dalam perkara kecil maupun besar,   mencintai   penguasaan-penguasaan   diri,   lembut   hati namun tegas dalam hal-hal prinsipiil, ramah dan cinta damai, menghormati martabat manusia sebagai gambar pribadi Allah mengunggulkan kebenaran dan keadilan, dalam segala sesuatu bersikap 'membangun', mengutamakan  kesejahteraan umum, dll.
+
+       Hari ini Yesus sudah secara tegas mengingatkan, terhadap hal-hal
+seperti itu "jangan kamu mengikutinya". Tetapi kita cenderung selalu mencari
+jaminan yang sebenarnya tidak ada. Padahal "Sesungguhnya Kerajaan Allah
+sudah ada di antara kita". Apa artinya pernyataan Yesus ini? Yesus dengan
+sangat jelas ingin mengatakan pada kita bahwa: Dimana saja Tuhan yang meraja
+di dalam kehidupan manusia, di situlah Kerajaan Allah hadir. Dimana saja
+kita mendahulukan Tuhan dalam setiap tingkah laku dan karya-karya serta
+pekerjaan kita, di sana Allah sudah hadir menjadi Raja atas hidup kita. Jadi
+sangat benarlah apa yang dikatakan Yesus, Kerajaan Allah itu memang sudah
+hadir di tengah-tengah kita. Sudahkah kita selalu menempatkan Allah sebagai
+Raja atas seluruh kehidupan kita, seluruh karya-karya dan permasalhahan kita?
+
+\subsection*{Contemplatio}
+Masuklah dalam keheninganMu. Mintalah Allah untuk merajai hatimu, batinmu.
+Biarlah mulai sekarang Allah yang menjadi juru mudi di dalam bahtera
+kehidupanMu.
+
+\subsection*{Oratio}
+Bapa, penuhilah aku selalu agar dapat menghadirkan kerajaanMu bagi
+orang-orang di sekitarku. Amin.
+
+\subsection*{Missio}
+Aku belajar untuk selalu menomor satukan Allah dalam setiap pekerjaan dan
+hidupku sehari-hari. Dan membiarkan Dialah yang memimpin dan menguasai
+seluruh hidupku.
+
+
+\end{document}

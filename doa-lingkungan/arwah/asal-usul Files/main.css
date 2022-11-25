@@ -1,0 +1,144 @@
+@import url(../../themes/mainstructure1.css);
+@import url(../../themes/maincolors2.css);
+@import url(../../themes/common-1.css);
+
+body {
+	background:#272727 url(/community/graphics/themes/116/bg1.gif) top left repeat-x;
+	color:#222;
+	}
+
+#wrap0 {
+	background:transparent url(/community/graphics/themes/116/bg2.jpg) center 12px no-repeat;
+	}
+
+#wrap3 {
+	background:#fff url(/community/graphics/themes/side3.gif) top right repeat-y;
+	min-width:750px;
+	}
+
+#wrap4 {
+	background:transparent url(/community/graphics/themes/main1.gif) 100% 200px no-repeat;
+	}
+
+.onecol #wrap3, .onecol #wrap4 {
+	background:#fff;
+	}
+
+#content, #footer {
+	width:890px;
+	}
+
+#mainwrap {
+	display:inline;
+	margin:0 -270px 0 0;
+	}
+
+#main, #footer-promo, #operatxtad {
+	margin-right:270px;
+	}
+
+#menu ul {
+	margin-left:15px;
+	}
+
+#top2 {
+	padding-left:15px;
+	}
+
+#side {
+	background:#161616;
+	color:#eee;
+	}
+
+#top {
+	background:#5f9f4d url(/community/graphics/themes/leaves-top.jpg) top right;
+	border-bottom:1px solid #000;
+	color:#fff;
+	}
+
+#top a {
+	color:#fff;
+	}
+
+#side h2,  #side .h2, #side caption {
+	background:#161616 url(/community/graphics/themes/114/side2.gif) top right no-repeat;
+	padding-top:14px;
+	}
+
+#menu {
+	background:#333 url(/community/graphics/themes/menu2.gif);
+	border-bottom:1px solid #000;
+	}
+
+#menu a:link, #menu a:visited, #menu a:active {
+	background:#333 url(/community/graphics/themes/menu2.gif);
+	color:#fff;
+	border-left:1px solid #000;
+	border-right:1px solid #333;
+	}
+
+#menu a:hover, #menu #selected:link, #menu #selected:visited {
+	background-color:#111;
+	}
+
+a:link, a:visited, a:active {
+	color:#176b9b;
+	}
+
+#myphoto, #albumslides, #qp li {
+	border:1px solid #333;
+	}
+
+#side a:link, #side a:visited, #meta a:link, #meta a:visited {
+	color:#fff;
+	}
+
+.title a:link, .title a:visited, .tags a:link, .tags a:visited {
+	color:#111;
+	}
+
+.title a:hover {
+	color:#176b9b;
+	}
+
+#newcomments li {
+	border-top:1px solid #333;
+	}
+
+
+#latestposts li, #pollresults li, .sidelinx li, .cdwn {
+	border-bottom:1px solid #222;
+	}
+
+#calendar {
+	background:#111;
+	border-bottom:1px solid #000;
+	color:#999;
+	}
+
+#calendar td {
+	border-top:1px solid #444;
+	border-right:1px solid #222;
+	border-bottom:1px solid #222;
+	border-left:1px solid #444;
+	}
+
+#side a.username:link, #side a.username:visited, #side .size5 a {
+	color:#44ef16;
+	}
+
+#side .size1 a {
+	color:#209900;
+	}
+
+#side .size2 a {
+	color:#2db10a;
+	}
+
+#side .size3 a {
+	color:#2fc307;
+	}
+
+#side .size4 a {
+	color:#36d70b;
+	}

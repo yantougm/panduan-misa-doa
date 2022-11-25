@@ -1,0 +1,60 @@
+
+	
+			
+	
+	
+		
+	
+	
+		
+	
+	
+		
+	
+
+<VAST xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vast.xsd" version="2.0"> 
+	<Ad id=""> 
+		<Wrapper>
+			<AdSystem>
+				
+			</AdSystem> 
+			<VASTAdTagURI> 
+				<![CDATA[
+				
+				]]> 
+			</VASTAdTagURI> 
+			<Error> 
+				<![CDATA[]]> 
+			</Error> 
+			<Impression> 
+				<![CDATA[ ]]> 
+			</Impression> 
+			<Creatives> 
+				<Creative id="" sequence="1"> 
+					<Linear> 
+						<TrackingEvents> 
+															<Tracking event=""> 
+									<![CDATA[?et=]]> 
+								</Tracking> 
+													</TrackingEvents> 
+					</Linear> 
+				</Creative> 
+			</Creatives> 
+			<Extensions>
+				<Extension type="activeview"> 
+					<CustomTracking> 
+						<Tracking event="viewable_impression"> 
+							<![CDATA[]]> 
+						</Tracking> 
+					</CustomTracking> 
+				</Extension> 
+				<Extension type="geo"> 
+					<Bandwidth>
+						4
+					</Bandwidth>
+				</Extension> 
+			</Extensions> 
+		</Wrapper> 
+	</Ad> 
+</VAST>
+

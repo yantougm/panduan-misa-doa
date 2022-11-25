@@ -1,0 +1,86 @@
+\section*{Jaringan SMS}
+\digraph[width=1.1\textwidth]{jarsms}{
+    mindist=0.1; minrank=0;
+    margin="0 0 0 0";
+    overlap=false;
+    rankdir =LR;
+    nodesep = 1;
+    node [shape = oval, fontsize=50];
+    edge [fontsize = 45, arrowsize=5, penwidth=5mm, arrowhead=open];
+    budi [label=< <FONT FACE="helvetica-bold">YZ Budiman Susanto<br /> 08122942583<br /> 085726185355</FONT>>];
+    anton [label=< <FONT FACE="helvetica-bold">Antonius Supriyana<br />  085865355895</FONT>> ,root=true];
+    larto [label=< <FONT FACE="helvetica-bold">FX Sularto<br />  081314190698</FONT>> ];
+    andre [label=< <FONT FACE="helvetica-bold">Andre Muda<br />  081328692102</FONT>> ];
+    yanto [label=< <FONT FACE="helvetica-bold">Y. Suyanto<br />  08562869037<br />  Prima Ari<br />  085628865539</FONT>> ];
+    anton -> larto ;
+    anton -> andre ;
+    anton -> budi [label=< bila perlu>, style=dashed];
+    anton -> yanto ;
+    {rank = same;  
+    budi ; anton; hananto;}
+    antok [label=< <FONT FACE="helvetica-bold">FX. Ari W. S.<br />  085867335678</FONT>> ]; 
+    hananto [label=< <FONT FACE="helvetica-bold">Eko Hananto<br />  081392258790</FONT>> ];
+    yogan [label=< <FONT FACE="helvetica-bold">Yogan<br />  082324331390</FONT>> ];
+    djoko [label=< <FONT FACE="helvetica-bold">Y. Djoko Marsito<br />081804157100</FONT>> ];
+    larto -> antok;
+    larto -> hananto [label=< bila perlu>,style=dashed];
+    larto -> yogan;
+    larto -> djoko;
+    heru [label=< <FONT FACE="helvetica-bold">Bu Heru<br />  081327252010</FONT>> ];
+    thomas [label=< <FONT FACE="helvetica-bold">Thomas S<br />  082138125680</FONT>> ];
+    djoko -> heru;
+    djoko -> thomas;
+    mia [label=< <FONT FACE="helvetica-bold">Maria Sode<br />  081392842606</FONT>> ];
+    anas [label=< <FONT FACE="helvetica-bold">Anastasia Bare<br />  085643173281<br />Aloysius Lamakey<br />  02744333684</FONT>> ];
+    andre -> mia;
+    andre -> anas;
+    neo [label=< <FONT FACE="helvetica-bold">Neo Suradi<br />  081578115615</FONT>> ]; 
+    pri [label=< <FONT FACE="helvetica-bold">Sri Supriyati<br />  081328450101</FONT>> ]; 
+    triyono [label=< <FONT FACE="helvetica-bold">C. Triyono<br />  081578179267</FONT>> ];
+    yanto -> neo;
+    yanto -> pri;
+    yanto -> triyono;     
+    budib [label=< <FONT FACE="helvetica-bold">Bu Dibyo<br />  08164229555</FONT>> ]; 
+    katrin [label=< <FONT FACE="helvetica-bold">KRA YP Sunaryo PN<br />  087835018318<br />  Ch. Setya P.<br />  08122940457 </FONT>> ];
+    darmadi [label=< <FONT FACE="helvetica-bold">Y. Sudarmadi<br />  082220036012<br />Ibu Sudarmadi<br />  085878496363</FONT>> ];
+    mukti	[label=<<FONT FACE="helvetica-bold">Mukti<br />087888878543</FONT>>];
+    antok -> katrin;
+    antok -> darmadi;    
+    darmadi -> mukti;
+    {rank = same;  yogan ;  antok;mukti ; }
+    {rank = same;  mia ;  neo;}
+    sandy [label=< <FONT FACE="helvetica-bold">Ig. Sandy<br />  085292171946</FONT>> ]; 
+    mia -> sandy;
+    kobus [label=< <FONT FACE="helvetica-bold">Yakobus L.<br />  7839098</FONT>> ]; 
+    ripto [label=< <FONT FACE="helvetica-bold">Yoh. Suripto<br />  0817889303</FONT>> ]; 
+    anas -> kobus;
+    anas -> ripto;
+    waldiman [label=< <FONT FACE="helvetica-bold">Bu Waldiman</FONT>> ];
+    mbahmino [label=< <FONT FACE="helvetica-bold">mBah Mino</FONT>> ];
+    neo -> waldiman;
+    neo -> mbahmino;
+    nanik [label=< <FONT FACE="helvetica-bold">Th. Nanik<br />  08156861272</FONT>> ]; 
+    krisni [label=< <FONT FACE="helvetica-bold">C. Krisni<br />  081931792591</FONT>> ]; 
+    pri -> nanik;
+    pri -> budib;
+    pri -> krisni;
+    royo [label=< <FONT FACE="helvetica-bold">P. Suroyo<br />  08122752803</FONT>> ];
+    dalyono [label=< <FONT FACE="helvetica-bold">V. Dalyono<br />  081932601029</FONT>> ];
+    triyono -> royo;
+    triyono -> dalyono;
+    darmadi -> larto;
+    katrin -> larto;
+    ripto -> andre;
+    kobus -> andre;
+    sandy -> andre;
+    dalyono -> yanto;
+    royo -> yanto;
+    krisni -> yanto;
+    nanik -> yanto;
+    thomas -> larto;
+    heru -> larto;
+    {
+    rank=same;
+    andre -> yanto -> larto [color=white];
+    }
+}

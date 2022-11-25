@@ -1,0 +1,19 @@
+\select@language {bahasa}
+\contentsline {chapter}{Daftar Isi}{2}
+\contentsline {chapter}{\chapternumberline {1}IBADAT MENJELANG SAAT KEMATIAN}{5}
+\contentsline {chapter}{\chapternumberline {2}DOA PENYERAHAN PADA SAAT ORANG BARU MENINGGAL}{13}
+\contentsline {chapter}{\chapternumberline {3}IBADAT SESUDAH SAAT KEMATIAN}{15}
+\contentsline {chapter}{\chapternumberline {4}IBADAT MERAWAT / MEMANDIKAN JENAZAH}{19}
+\contentsline {chapter}{\chapternumberline {5}IBADAT MENGENAKAN PAKAIAN}{21}
+\contentsline {chapter}{\chapternumberline {6}IBADAT MEMASUKKAN JENAZAH KE PETI}{23}
+\contentsline {chapter}{\chapternumberline {7}IBADAT KEMATIAN I}{25}
+\contentsline {chapter}{\chapternumberline {8}IBADAT KEMATIAN 2}{33}
+\contentsline {chapter}{\chapternumberline {9}IBADAT KEMATIAN 3}{39}
+\contentsline {chapter}{\chapternumberline {10}UPACARA DI PEMAKAMAN}{49}
+\contentsline {chapter}{\chapternumberline {11}IBADAT PERINGATAN ARWAH HARI KE-7}{53}
+\contentsline {chapter}{\chapternumberline {12}IBADAT PERINGATAN ARWAH HARI KE-40}{57}
+\contentsline {chapter}{\chapternumberline {13}IBADAT PERINGATAN ARWAH HARI KE-100}{61}
+\contentsline {chapter}{\chapternumberline {14}IBADAT PERINGATAN ARWAH HARI KE \IeC {\textendash } 1000}{65}
+\contentsline {chapter}{Lagu-lagu Pujian}{69}
+\contentsline {section}{\numberline {1.}TETAP CINTA YESUS}{69}
+\contentsline {section}{\numberline {2.}KASIH DARI SURGA}{69}

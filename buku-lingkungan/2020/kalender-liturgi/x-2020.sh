@@ -1,0 +1,30 @@
+python3 parse-kalit.py -t 2020 -b 1  -d 5
+python3 parse-kalit.py -t 2020 -b 1  -d 30
+python3 parse-kalit.py -t 2020 -b 2  -d 13
+python3 parse-kalit.py -t 2020 -b 2  -d 27
+python3 parse-kalit.py -t 2020 -b 3  -d 5
+python3 parse-kalit.py -t 2020 -b 3  -d 12
+python3 parse-kalit.py -t 2020 -b 3  -d 19
+python3 parse-kalit.py -t 2020 -b 3  -d 26
+python3 parse-kalit.py -t 2020 -b 4  -d 2
+python3 parse-kalit.py -t 2020 -b 4  -d 16
+python3 parse-kalit.py -t 2020 -b 4  -d 30
+python3 parse-kalit.py -t 2020 -b 5
+python3 parse-kalit.py -t 2020 -b 6  -d 11
+python3 parse-kalit.py -t 2020 -b 6  -d 25
+python3 parse-kalit.py -t 2020 -b 7  -d 9
+python3 parse-kalit.py -t 2020 -b 7  -d 23
+python3 parse-kalit.py -t 2020 -b 8  -d 13
+python3 parse-kalit.py -t 2020 -b 8  -d 27
+python3 parse-kalit.py -t 2020 -b 9  -d 3
+python3 parse-kalit.py -t 2020 -b 9  -d 10
+python3 parse-kalit.py -t 2020 -b 9  -d 17
+python3 parse-kalit.py -t 2020 -b 9  -d 24
+python3 parse-kalit.py -t 2020 -b 10
+python3 parse-kalit.py -t 2020 -b 11  -d 12
+python3 parse-kalit.py -t 2020 -b 11  -d 26
+python3 parse-kalit.py -t 2020 -b 12  -d 3
+python3 parse-kalit.py -t 2020 -b 12  -d 10
+python3 parse-kalit.py -t 2020 -b 12  -d 17
+python3 parse-kalit.py -t 2020 -b 12  -d 21
+python3 parse-kalit.py -t 2020 -b 12  -d 27

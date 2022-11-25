@@ -1,0 +1,88 @@
+\documentclass[a4paper,landscape,10pt]{article}
+\usepackage[latin1]{inputenc} 
+\usepackage{calc}
+\usepackage{setspace} 
+\usepackage{fixltx2e} 
+\usepackage{graphicx}
+\usepackage{multicol} 
+\usepackage[normalem]{ulem} 
+\usepackage[bahasa]{babel} 
+\usepackage{color}
+\usepackage{hyperref} 
+\setlength{\parindent}{0mm}
+\makeatletter
+\newcommand{\lagu}[1]{%
+  {\parindent \z@ 
+    \interlinepenalty\@M \slshape \mdseries \Large \textit{#1}\par\nobreak \vskip 10\p@ }}
+\makeatother
+
+\newcommand{\BU}[1]{\begin{itemize} \item[U:] #1 \end{itemize}}
+\newcommand{\BI}[1]{\begin{itemize} \item[I:] #1 \end{itemize}}
+\newcommand{\BIU}[1]{\begin{itemize} \item[I+U:] #1 \end{itemize}}
+\newcommand{\BP}[1]{\begin{itemize} \item[P:] #1 \end{itemize}}
+\newcommand{\inputlagu}[1]{\begin{textit} \input{#1} \end{textit}}
+\newcommand{\namaalm}{Bapak Yohanes Markus Gegono Purwadi}
+\newcommand{\namaromo}{Heribertus Suprihadi Pr.}
+
+\begin{document}
+\setlength{\oddsidemargin}{1.0000in-1in}
+\setlength{\textwidth}{\paperwidth - 1.0000in-1.0000in}
+\begin{multicols}{3} 
+\begin{center} Romo \namaromo\\
+"ALLAH SUMBER SUKACITA SEJATI"\\
+MISA KUDUS PERINGATAN 1 TAHUN\\
+Bp Yohanes Markus Gegono Purwadi\\
+14 Maret 2010\\
+\end{center} 
+
+\section*{RITUS PEMBUKA}
+
+\lagu{Lagu pembukaan Hai Pra umat (MB 163)}
+
+\subsection*{Seruan tobat}
+
+\lagu{Tuhan Kasihanilah Kami}
+
+\subsection*{Doa Pembukaan}
+\BI{Marilah berdoa\\
+	Allah Bapa sumber sukacita, kami telah menerima jaminan kebahagiaan abadi dalam Diri Yesus Kristus Putera-Mu. Kami serahkan hamba-Mu, Bp. Yohanes Markus Gegono Purwadi yang telah Engkau panggil satu tahun yang lalu dalam sukacita surgawi. Persatukanlah kami dalam pengharapan akan kebahagiaan kekal di surga, kendati masih harus berjuang di dunia ini. Bantulah kami agar memiliki sukacita sejati dan saling menghibur satu sama lain. Dengan pengantaraan Yesus Kristus PuteraMu Tuhan kami yang bersama dengan Dikau dalam persekutuan Roh Kudus hidup dan berkuasa, Allah sepanjang segala masa.}
+
+\BU{Amin}
+
+\section*{LITURGI SABDA}
+
+\subsection*{Bacaan I}
+
+\BP{\emph{Allah menghibur kita, sehingga kita sanggup menghibur semua orang yang berada dalam macam-macam penderitaan"}
+
+Pembacaan dari Surat kedua Rasul Paulus kepada Jemaat di Korintus (2 Kor 1:3-7)
+
+Terpujilah Allah, Bapa Tuhan kita Yesus Kristus, Bapa yang penuh belas kasihan dan Allah sumber segala penghiburan,
+yang menghibur kami dalam segala penderitaan kami, sehingga kami sanggup menghibur mereka, yang berada dalam bermacam-macam penderitaan dengan penghiburan yang kami terima sendiri dari Allah.
+Sebab sama seperti kami mendapat bagian berlimpah-limpah dalam kesengsaraan Kristus, demikian pula oleh Kristus kami menerima penghiburan berlimpah-limpah.
+Jika kami menderita, hal itu menjadi penghiburan dan keselamatan kamu; jika kami dihibur, maka hal itu adalah untuk penghiburan kamu, sehingga kamu beroleh kekuatan untuk dengan sabar menderita kesengsaraan yang sama seperti yang kami derita juga.
+Dan pengharapan kami akan kamu adalah teguh, karena kami tahu, bahwa sama seperti kamu turut mengambil bagian dalam kesengsaraan kami, kamu juga turut mengambil bagian dalam penghiburan kami.
+
+\BP{Demikianlah Sabda Tuhan}
+
+\BU{Syukur kepada Allah}
+
+\lagu{Antar bacaan MB 211}
+
+\subsection*{Bacaan Injil}
+
+\BI{Tuhan sertamu}
+\BU{dan sertamu juga}
+\BI{Inilah Injil Yesus Kristus menurut Yohanes (15:9-12)}
+\BU{Dimuliakanlah Tuhan}
+
+\BI{\emph{Tiggallah di dalam kasihKu, supaya sukacitamu menjadi penuh}
+
+Dalam amanat perpisahanNya, Yesus berkata kepada murid-muridNya,
+"Seperti Bapa telah mengasihi Aku, demikianlah juga Aku telah mengasihi kamu; tinggallah di dalam kasih-Ku itu.
+Jikalau kamu menuruti perintah-Ku, kamu akan tinggal di dalam kasih-Ku, seperti Aku menuruti perintah Bapa-Ku dan tinggal di dalam kasih-Nya.
+Semuanya itu Kukatakan kepadamu, supaya sukacita-Ku ada di dalam kamu dan sukacitamu menjadi penuh.
+Inilah perintah-Ku, yaitu supaya kamu saling mengasihi, seperti Aku telah mengasihi kamu.}
+
+\end{multicols}
+\end{document}

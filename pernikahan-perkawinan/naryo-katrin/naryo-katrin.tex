@@ -1,0 +1,463 @@
+\documentclass[a5paper,titlepage,11pt,openany]{scrbook}
+\usepackage[a5paper,backref]{hyperref}
+\usepackage[papersize={148.5mm,215mm},twoside,bindingoffset=0.5cm,hmargin={2cm,2cm},
+				vmargin={2cm,2cm},footskip=1.1cm,driver=dvipdfm]{geometry}
+\usepackage{palatino}
+\usepackage[utf8]{inputenc}
+\usepackage{fancyhdr}
+
+\usepackage{graphicx}
+\usepackage[bahasa]{babel} 
+\usepackage{lettrine}
+\usepackage{pifont}
+\usepackage{enumitem}
+\usepackage{wrapfig}
+\usepackage{indentfirst}
+\usepackage{parcolumns}
+\usepackage[titles]{tocloft}
+\usepackage{longtable}
+\usepackage{microtype}
+\usepackage{hyphenat}
+%\usepackage[raggedright]{titlesec}
+%\usepackage{titletoc}
+
+\usepackage[dvipsnames]{pstricks}
+\usepackage{pst-text}
+\usepackage{pst-grad}
+\usepackage{lipsum}
+\usepackage{bbding}
+
+
+\renewcommand{\cftchapfont}{%
+  \fontsize{9}{8}\selectfont
+}
+
+\makeatletter
+\renewcommand{\@pnumwidth}{1em} 
+\renewcommand{\@tocrmarg}{1em}
+\makeatother
+
+\author{Lingkungan St. Petrus Maguwo}
+\title{Perkawinan Naryo Katrin}
+\setlength{\parindent}{0cm}
+\psset{unit=1mm}
+
+\renewcommand{\footrulewidth}{0.5pt}
+\lhead[\fancyplain{}{\thepage}]%
+      {\fancyplain{}{\rightmark}}
+\rhead[\fancyplain{}{\leftmark}]%
+      {\fancyplain{}{\thepage}}
+\pagestyle{fancy}
+\lfoot[\emph{Sunaryo \& Katrin}]{}
+\rfoot[]{\emph{Sunaryo \& Katrin}}
+\cfoot{}
+%\sloppy
+
+
+\makeatletter
+\newcommand{\judul}[1]{%
+  {\parindent \z@ \centering 
+    \interlinepenalty\@M \Large \bfseries #1\par\nobreak \vskip 20\p@ }}
+\newcommand{\subjudul}[1]{%
+  {\parindent \z@ 
+    \interlinepenalty\@M \large \bfseries #1\par\nobreak \vskip 10\p@ }}
+\newcommand{\subsubjudul}[1]{%
+  {\parindent \z@ 
+    \interlinepenalty\@M \bfseries #1\par\nobreak \vskip 10\p@ }}
+\newcommand{\lagu}[1]{%
+  {\parindent \z@ 
+    \interlinepenalty\@M \slshape \mdseries \Large \textit{#1}\par\nobreak \vskip 40\p@ }}
+\newcommand{\keterangan}[1]{%
+  {\parindent \z@  \slshape \large
+    \interlinepenalty\@M \textsl{#1}\par\nobreak  \vskip 5\p@}}
+
+\renewenvironment{description}
+               {\list{}{\labelwidth\z@ \itemindent-\leftmargin
+                        \let\makelabel\descriptionlabel}}
+               {\endlist}
+\renewcommand*\descriptionlabel[1]{\hspace\labelsep 
+                                \normalfont\bfseries #1 }
+
+
+\makeatother
+
+\newcommand{\BU}[1]{\begin{itemize} \item[U:] #1 \end{itemize}}
+\newcommand{\BI}[1]{\begin{itemize} \item[I:] #1 \end{itemize}}
+\newcommand{\BP}[1]{\begin{itemize} \item[P:] #1 \end{itemize}}
+\newcommand{\BPL}[1]{\begin{itemize} \item[Naryo:] #1 \end{itemize}}
+\newcommand{\BPW}[1]{\begin{itemize} \item[Katrin:] #1 \end{itemize}}
+\newcommand{\BPLW}[1]{\begin{itemize} \item[N+K:] #1 \end{itemize}}
+\newcommand{\BOT}[1]{\begin{itemize} \item[OT:] #1 \end{itemize}}
+\newcommand{\BS}[1]{\begin{itemize} \item[Saksi:] #1 \end{itemize}}
+\newcommand{\BW}[1]{\begin{itemize} \item[Wakil:] #1 \end{itemize}}
+\newcommand{\WK}[1]{\begin{itemize} \item[WK:] #1 \end{itemize}}
+\newcommand{\bpcamantri}{Antonius Widyaka }
+\newcommand{\ibucamantri}{Ny. Widyaka }
+\newcommand{\bpcamantra}{R Wongsodikoro }
+\newcommand{\ibucamantra}{Ny. Wongsodikoro }
+\newcommand{\saksisatu}{Drs. Neo Suradi }
+\newcommand{\saksidua}{Drs. FX Susanto Purbokusumo }
+\newcommand{\romo}{F. Sugiyono, Pr }
+\newcommand{\camantri}{Chatarina Setya Prihatiningtyas S.TP. }
+\newcommand{\camantra}{KRA YP Sunaryo Prononagoro }
+\newcommand{\namagereja}{Gereja Bunda Maria Maguwo }
+
+\DeclareFixedFont{\PT}{T1}{ppl}{b}{}{0.35in}
+\DeclareFixedFont{\PTit}{T1}{ppl}{b}{it}{0.3in}
+\DeclareFixedFont{\PTsmall}{T1}{ppl}{b}{it}{0.25in}
+\DeclareFixedFont{\PTsmaller}{T1}{ppl}{b}{it}{0.175in}
+\DeclareFixedFont{\PTsmallest}{T1}{ppl}{b}{it}{0.15in}
+
+
+\begin{document}
+\thispagestyle{empty}
+\begin{pspicture}(11cm,14cm)
+\rput[cb](5.5cm,13cm){\PTsmall {Ibadat Perkawinan}}
+\rput[cb](5.5cm,11cm){\PTit {\camantra}}
+\rput[cb](5.5cm,9cm){\PTsmall {dengan}}
+\rput[cb](5.5cm,7cm){\PTit {\camantri}}
+\rput[cb](5.5cm,0.5cm){\PTsmall {Gerja Bunda Maria - Maguwo}}
+\rput[cb](5.5cm,-0.5cm){\PTsmall {15 Juli 2012}}
+\end{pspicture}%
+
+\newpage
+\judul{RITUS PEMBUKA}
+
+
+\subjudul{PENYAMBUTAN CALON MEMPELAI}
+
+\subsubjudul{\textit{Percikan air suci}}
+\BI{Semoga Allah memberi rahmat dan berkat, agar Saudara-saudari menghadap kepada-Nya dengan hati yang suci.}
+\BU{Amin}
+
+\BI{Selamat datang, Saudara-saudari yang dikasihi Tuhan. Kita berhimpun di sini untuk mengawali perayaan perkawinan \camantra dan \camantri Gereja menyambut Saudara-saudari dan ikut bergembira dalam perayaan kasih ini.}
+
+\WK{Romo \romo yang terhormat, seluruh keluarga \bpcamantri dan \bpcamantra hendak mengantar \camantra dan \camantri memasuki hidup perkawinan. Kami nohon agar perkawinan mereka diteguhkan dan diberkati sesuai dengan ajaran dan tata perayaan Gereja Katolik.}
+
+\textit{Tanggapan dan ajakan Imam:}
+
+\BI{Sekarang, marilah kita masuk ke rumah Tuhan dan menyerahkan seluruh harapan serta doa-doa kita kepada-Nya. Semoga kita boleh mengalami kasih setia Tuhan yang menghidupkan dan menguduskan kita, umat-Nya.}
+
+\subjudul{PERARAKAN (umat berdiri)}
+
+\textit{Nyanyian /Antifon Pembuka (mengiringi perarakan)}
+           
+\subjudul{TANDA SALIB DAN SALAM ( umat berdiri )}
+
+\BI{Dalam nama Bapa dan Putra dan Roh Kudus}
+\BU{Amin}
+\BI{Rahmat Tuhan kita Yesus Kristus, cinta kasih Allah, dan persekutuan Roh Kudus bersamamu.}
+\BU{Dan bersama rohmu}
+
+
+
+
+\subjudul{KATA PEMBUKA}
+
+\BI{Saudara-saudari terkasih,
+
+Khususnya keluarga dan sahabat kedua calon mempelai, dengan penuh suka cita kita berkumpul di rumah Tuhan bersama \camantra dan \camantri yang pada hari ini bermaksud meneguhkan ikatan kasih mereka dalam perkawinan suci. Bagi mereka hari ini sangatlah istimewa. Kita akan mendengarkan sabda Tuhan, yang ditujukan kepada mereka, namun juga kepada kita semua. Marilah menopang keinginan mereka dengan doa-doa yang tulus. Semoga Allah memberkati keluarga yang akan mereka bangun mulai hari ini.}
+
+%\subsubjudul{Madah Kemuliaan}
+
+
+\subjudul{DOA PEMBUKA}
+
+\BI{Marilah kita berdoa,
+
+Allah, Pencipta yang penuh kasih, Engkau telah menuntun kedua calon mempelai ini dalam perjalanan untuk saling mengasihi. Kukuhkanlah cinta dan keinginan luhur mereka yang melandasi ikrar untuk saling mengikatkan diri di hadapan-Mu. Limpahkanlah rahmat-Mu atas mereka. Buatlah mereka pantas dan kudus, agar mampu menjadi tanda kehadiran-Mu yang nyata. Dengan pengantaraan Yesus Kristus, Putra-Mu, Tuhan kami, yang bersama dengan Dikau dalam persatuan Roh Kudus, hidup dan berkuasa, Allah, sepanjang segala masa.}
+
+\BU{Amin.}
+
+
+
+\judul{LITURGI SABDA}
+
+
+\subsubjudul{Bacaan  Ef 5:2a.25-32}
+                                                                                    
+\BP{\textbf{Pembacaan dari Surat Rasul Paulus kepada umat di Efesus}.
+      
+   \textit{Rahasia yang diwahyukan ini agung, yang kumaksudkan ialah hubungan Kristus dengan Gereja.}
+
+         Saudara-saudari, - hiduplah di dalam cinta kasih, - sebagaimana Kristus telah mengasihi kita, - dan mengurbankan diri-Nya untuk kita.
+
+         Suami hendaklah menaruh cinta kasih kepada istrinya – sebagaimana Kristus menaruh cinta kasih kepada Gereja. – Ia menyerahkan diri bagi Gereja – untuk menguduskannya dengan pembasuhan air dan sabda kehidupan. – Dengan demikian – Kristus memperlihatkan Gereja-Nya – mulia, tak bercela, tanpa kerut dan cacat lain, - tetapi kudus dan murni.
+
+         Begitu pula – suami harus mencintai istrinya – seperti dirinya sendiri. – Tak seorang pun pernah membenci tubuhnya. – Sebaliknya – ia memelihara dan menjaganya – seperti Kristus – terhadap Gereja. – Kita adalah anggota tubuh Kristus. – Karena itu – pria harus meninggalkan ibu-bapa, - dan mengikatkan diri pada istrinya. – Dan keduanya akan bersatu jiwa raganya.
+
+         Rahasia yang diwahyukan ini – sungguh agung, - yang kumaksudkan ialah – hubungan Kristus dengan Gereja.
+
+Demikianlah sabda Tuhan.}
+
+\BU{ Syukur kepada Allah.}
+
+
+\subsubjudul{Mazmur Tanggapan}
+
+\subsubjudul{Bait Pengantar Injil}
+
+\begin{quote}
+Alleluia.
+
+         Bila kita saling menaruh cinta kasih, Tuhan beserta kita, dan cinta kasih-Nya pada kita jadilah sempurna.
+
+Alleluia.
+\end{quote}
+
+\subsubjudul{Bacaan Injil - Yoh 2:1-11}
+
+\BI{Tuhan bersamamu.}
+\BU{Dan bersama rohmu}
+\BI{Inilah Injil Yesus Kristus menurut Yohanes.}
+\BU{Dimuliakanlah Tuhan}
+
+\BI{Yesus mulai mengajarkan tanda-tanda-Nya di kota Kana di Galilea.
+
+         Pada suatu hari – diadakan perkawinan di kana  di Galilea – Ibunda Yesus hadir di situ. – Yesus dan para murid-Nya di undang juga ke pesta perkawinan itu. – Ketika mereka kekurangan anggur, - Ibunda Yesus berkata, - Mereka kekurangan anggur.
+
+         Jawab Yesus, - “Itu kan bukan urusan-Ku, Ibu. – Saat-Ku belum tiba.” – Tetapi Ibunda Yesus berkata kepada para pelayan, - “Lakukanlah – apa saja yang dikatakan-Nya kepadamu.”
+
+         Di situ tersedia enam tempayan – untuk pembasuhan menurut adat orang Yahudi, - masing-masing isinya sekitar seratus liter. – Yesus berkata kepada para pelayan, - isilah tempayan-tempayan ini dengan air.” – Mereka pun mengisinya sampai penuh. – Lalu Yesus berkata kepada mereka, - “Nah, cedoklah, - dan bawalah kepada pemimpin pesta.” – Mereka membawanya.
+
+         Setelah pemimpin pesta – mengecap air yang telah menjadi anggur, - ia memanggil pengantin pria. – Ia tidak tahu – dari mana datangnya anggur itu; - yang tahu hanya para pelayan. – Maka pemimpin pesta berkata kepada pengantin pria. – Biasanya anggur yang baik dihidangkan lebih dahulu. – Sesudah orang puas minum, - barulah yang kurang baik. – Akan tetapi engkau menyimpan anggur yang baik sampai sekarang!” Demikianlah Yesus mengerjakan tanda-tanda-Nya – di kota Kana di Galilea.
+
+Demikianlah Injil Tuhan.}
+
+\BU{Terpujilah Kristus.}
+
+
+\subjudul{HOMILI}
+
+\judul{PERAYAAN – LITURGI  PERKAWINAN}
+
+
+\subjudul{MOHON RESTU}
+
+\BI{\camantra dan \camantri, sebelum perayaan perkawinan Gereja kita laksanakan, kami persilahkan kalian berdua terlebih dahulu menghadap kedua orangtua kalian untuk mohon restu bagi perjalanan hidup yang hendak kalian awali ini.}
+
+\textit{Sementara itu dapat diiringi nyanyian yang sesuai dengan maksud ritus ini.}
+
+\subjudul{PENGANTAR}
+
+Para Saksi Perkawinan berdiri mendampingi calon mempelai. Di hadapan calon mempelai berdiri Imam menyampaikan pengantar:
+
+
+\BI{Mempelai yang berbahagia,
+
+         Kalian datang di tempat ini untuk menerima berkat Tuhan, karena kalian berniat untuk saling mengikat diri dalam hidup perkawinan. Para pelayan Gereja dan saudara-saudaramu seiman hadir juga di sini untuk menyaksikan peristiwa penuh rahmat ini. Kristus memberikan berkat melimpah bagi cinta kalian sebagai suami-istri. Ia telah menguduskan kalian dalam pembaptisan dan kini Ia memperkaya serta memperkuat kalian dengan Sakramen Perkawinan ini. Semoga kalian saling mempercayai dan melaksanakan kewajiban-kewajiban hidup perkawinan. Kini saya minta kalian menyatakan niat itu di hadapan Gereja.}
+
+PERNYATAAN MEMPELAI
+
+\textit{Kemudian Imam menanyai Mempelai (M) tentang kehendak bebas, kesetiaan, kesediaan menerima dan mendidik anak mereka. Masing-masing mengungkapkan jawaban pribadi namun diucapkan bersama.          
+}
+
+\BI{\camantra dan \camantri sungguhkah kalian dengan hati bebas dan tulus ikhlas hendak meresmikan perkawinan ini?}
+\BPLW{Ya, sungguh.}
+\BI{Selama menjalani perkawinan nanti, bersediakah kalian untuk saling mengasihi dan saling menghormati sepanjang hidup?}
+\BPL{Ya, saya bersedia.}
+\BI{Bersediakah kalian dengan penuh kasih sayang menerima anak-anak yang dianugerahkan Allah kepada kalian, dan mendidik mereka sesuai dengan hukum Kristus dan Gereja-Nya?}
+\BPLW{Ya, saya bersedia.}
+
+\subjudul{JANJI PERKAWINAN}
+
+\textit{Pada saat ini fotografer dan EO tidak boleh naik ke panti imam atau berjalan-jalan /wira-wiri dan menghalangi pandangan ada untuk mengikuti upacara ini.}
+
+\textit{Janji dengan berjabat tangan. Imam mengajak Calon mempelai Laki-laki (ML) dan Calon mempelai Perempuan (MP) untuk mengungkapkan Kesepakatan Perkawinan.}
+
+\BI{Untuk mengikrarkan perkawinan kudus ini, silahkan kalian saling berjabatan tangan kanan dan menyatakan kesepakatan kalian di hadapan Allah dan Gereja-Nya.}
+           
+\textit{Kedua calon mempelai saling berhadapan, berjabat tangan kanan, dan sambil bergantian mengucapkan janji masing-masing.}
+
+
+\BPL{Saya \textbf{\camantra}  memilih engkau, \textbf{\camantri}  menjadi istri saya. Saya berjanji untuk setia mengabdikan diri kepadamu dalam untung dan malang, di waktu sehat dan sakit. Saya mau mengasihi dan menghormati engkau sepanjang hidup saya.}
+
+\BPW{Saya \textbf{\camantri}  memilih engkau, \textbf{\camantra}  menjadi suami saya. Saya berjanji untuk setia mengabdikan diri kepadamu dalam untung dan malang, di waktu sehat dan sakit. Saya mau mengasihi dan menghormati engkau sepanjang hidup saya.}
+
+
+
+\subjudul{PENEGUHAN PERKAWINAN}
+\BI{Atas nama Gereja Allah, di hadapan para saksi dan umat Allah yang hadir di sini, saya menegaskan bahwa perkawinan yang telah diresmikan ini adalah perkawinan Katolik yang sah. Semoga bagi kalian berdua Sakramen Perkawinan ini menjadi sumber kekuatan dan kebahagiaan. Yang dipersatukan Allah, janganlah diceraikan manusia.}
+\BU{Amin}
+\BI{Marilah memuji Tuhan.}
+\BU{Syukur kepada Allah.}
+
+\subjudul{Doa Pemberkatan Nikah}
+
+\BI{Saudara-saudara terkasih, marilah kita berdoa dengan rendah hati, namun mantap supaya Tuhan rela mencurahkan rahmat-Nya atas pasangan suami istri baru yang telah menikah dalam perjanjian suci. Semoga mereka bersatu padu dalam cinta kasih.
+
+\textit{(Hening sejenak. Kemudian dengan tangan terentang)}
+
+Allah Bapa yang Maha Pengasih dan Penyayang, Engkau menguduskan ikatan suami istri dan mengangkat perjanjian nikah menjadi lambang persatuan Kristus dengan Gereja. Pandanglah dengan rela mempelai wanita ini, agar rahmat cinta dan damai tinggal dalam hatinya. Semoga ia menjadi istri yang setia dan ibu yang baik, seperti wanita-wanita kudus yang dipuji dalam Kitab Suci.
+
+Kami berdoa pula untuk mempelai pria ini, semoga ia selalu berusaha menunaikan tanggung jawabnya, baik terhadap istri dan anak-anaknya maupun terhadap masyarakat. Dan kini kami mohon kepada-Mu, ya Bapa, semoga kedua mempelai ini tetap berpegang pada iman dan perintah-perintahMu. Semoga mereka rukun bersatu sebagai suami istri, terpandang karena peri hidup yang baik dan berjasa bagi sesama dalam lingkungan mereka. Kuatkan mereka dengan semangat Injil sehingga mereka menjadi saksi Kristus bagi semua orang.
+
+Semoga mereka menjadi orangtua yang patut dicontoh, dan berbahagia melihat anak-anak dan cucu-cucunya. Semoga mereka mencapai usia lanjut dan akhirnya memasuki kehidupan bahagia dalam kerajaan surga.}
+
+\textit{Ritus ini tidak perlu diiringi nyanyian.}
+
+\subjudul{PEMBERKATAN DAN PENGENAAN CINCIN}
+\BI{Ya Tuhan, berkatilah \CrossOpenShadow
+ ~kedua cincin ini. Semoga kedua mempelai yang mengenakannya tetap bersatu dalam kesetiaan; tinggal dalam damai menurut kehendak-Mu; saling mengasihi dan menghormati. Semoga mereka selalu hidup dalam cinta kasih satu sama lain. Dengan pengantaraan Kristus, Tuhan kami.}
+
+\textit{Imam menyerahkan cincin mempelai  perempuan kepada mempelai laki-laki sambil berkata:}
+
+\BI{\camantra, kenakanlah cincin ini pada jari istrimu sebagai lambang cinta dan kesetiaan.}
+
+\textit{Mempelai laki-laki mengenakan cincin pada jari manis tangan kanan mempelai perempuan.}
+
+\BPL{\camantri, terimalah cincin ini sebagai lambang cinta dan kesetiaanku kepadamu.
+            Dalam nama Bapa, dan Putra, dan Roh Kudus.}
+
+\textit{Lalu Imam menyerahkan cincin mempelai  laki-laki kepada mempelai perempuan sambil berkata:}
+
+\BI{\camantri, kenakanlah cincin ini pada jari suamimu sebagai lambang cinta dan kesetiaan.}
+
+\textit{Mempelai perempuan mengenakan cincin pada jari manis tangan kanan mempelai laki-laki.}
+
+\BPW{\camantra, terimalah cincin ini sebagai lambang cinta dan kesetiaanku kepadamu.
+            Dalam nama Bapa, dan Putra, dan Roh Kudus.}
+
+
+
+\subsubjudul{Penyerahan Kitab Suci, Salib, dan Rosario}
+
+\BI{Ya Tuhan, berkatilah Kitab Suci, Salib dan Rosario ini agar menjadi tanda kehadiranMu serta Bunda Maria di tengah keluarga ini dan memberikan dorongan untuk saling berkorban demi kebahagiaan
+         pasangannya.† Dalam nama Bapa dan Putera dan Roh Kudus}
+
+\textit{kemudian Orangtua (OT) menyerahkannya kepada kedua mempelai.}
+
+\BOT{Anak-anak yang terkasih, terimalah Kitab Suci, Salib, dan Rosario ini sebagai bekal perjalanan hidup Perkawinan. Baik dalam suka maupun duka, pergunakanlah semua ini dengan semestinya. Tuhan akan selalu mendampingi langkah kalian. Doa kami pun selalu menyertai kalian.}
+\BPLW{Terima kasih.}
+\subjudul{DOA UMAT}
+
+\BI{Saudara-saudari terkasih, Tuhan telah berkenan menyempurnakan dan menguduskan cinta \camantra dan \camantri, maka sambil mengenangkan anugerah kebaikan dan cinta istimewa yang telah mereka terima marilah kita menyerahkan mereka kepada Tuhan melalui doa-doa ini.}
+\BP{Semoga \camantra dan \camantri yang baru saja dipersatukan dalam perkawinan suci selalu dikaruniai kesehatan jiwa dan raga. Marilah kita mohon.}
+\BU{Ya Tuhan, dengarkanlah doa kami.}
+\BP{Semoga Tuhan, yang memberkati perkawinan di Kana melalui kehadiran-Nya, senantiasa juga menjaga pasangan ini agar selalu setia pada janji perkawinan mereka. Marilah kita mohon.}
+\BU{Ya Tuhan, dengarkanlah doa kami.}
+\BP{Semoga cinta mereka akan berbuah dan menjadi sempurna. Semoga mereka dapat saling mendukung dalam damai dan saling membantu, serta, sebagai orang kristiani, mereka dapat menjadi saksi Injil.  Marilah kita mohon.}
+\BU{Ya Tuhan, dengarkanlah doa kami.}
+\BP{Semoga umat Allah tumbuh dari hari ke hari dalam keutamaan dan semoga semua orang yang berbeban berat dapat mendapat kekuatan dalam rahmat suci Allah. Marilah kita mohon.}
+\BU{Ya Tuhan, dengarkanlah doa kami.}
+\BP{Semoga rahmat Sakramen Perkawinan dari semua pasangan suami-istri yang hadir di sini diperbarui oleh Roh Kudus. Marilah kita mohon.}
+\BU{Ya Tuhan, dengarkanlah doa kami.}
+\BI{Ya Tuhan, utuslah Roh cinta-Mu atas pasangan yang berbahagia ini, agar mereka menjadi sehati dan sejiwa. Jangan biarkan sesuatu menganggu kebahagiaan mereka, karena Engkaulah yang telah memberkati mereka. Jangan biarkan pula mereka terpisah, karena Engkaulah yang telah mempersatukan mereka. Dengan pengantaraan Kristus, Tuhan kami.}
+\BU{Amin.}
+
+
+
+
+\subjudul{BAPA KAMI}
+
+\textit{Imam mengajak umat untuk bersama-sama mengucapkan atau menyanyikan doa Tuhan, “Bapa Kami”.Embolisme-Doksologi ditiadakan.}
+
+
+
+\subjudul{KOMUNI}
+
+\BI{Inilah Anak Domba Allah yang menghapus dosa dunia, berbahagialah saudara
+yang diundang ke perjamuan-Nya}
+\BU{Ya Tuhan, saya tidak pantas Tuhan datang pada saya, tetapi bersabdalah saja,
+maka saya akan sembuh.}
+
+\lagu{Lagu Komuni}
+
+\textit{Umat yang telah dibabtis secara Katolik maju untuk menerima komuni}
+
+\subjudul{DOA SESUDAH KOMUNI}
+
+\BI{Marilah kita berdoa.
+  
+          Ya Tuhan, kami telah mengambil bagian pada meja perjamuan-Mu. Kami mohon semoga mereka yang telah dipersatukan dengan Sakramen Perkawinan senantiasa berpusat pada-Mu, dan memaklumkan nama-Mu kepada semua orang. Dengan pengantaraan Kristus, Tuhan kami.}
+\BU{Amin.}
+
+
+\judul{RITUS PENUTUP}
+
+\subjudul{BERKAT MERIAH}
+
+\BI{Saudara-saudari, marilah kita mengakhiri perayaan ini dengan memohon berkat Tuhan.}
+
+\BI{Semoga Allah Bapa yang kekal memelihara kalian dalam cinta kasih dan kerukunan, supaya damai Kristus senantiasa tinggal dalam diri dan dalam rumah kalian.}
+\BU{Amin.}
+
+\BI{Semoga kalian diberkati dengan keturunan, memperoleh penghiburan dari para sahabat dan kenalan, dan hidup dalam damai sejati dengan semua orang.}
+\BU{Amin.}
+
+\BI{Semoga kalian menjadi saksi kasih Allah dalam dunia, dan berhati dermawan bagi mereka yang menderita dan berkekurangan, agar kelak mereka menyambut kalian dengan penuh terima kasih ke dalam kediaman Allah yang kekal.}
+\BU{Amin.}
+
+\BI{Dan semoga saudara sekalian yang hadir di sini diberkati oleh Allah yang mahakuasa: Bapa \CrossOpenShadow dan Putra dan Roh Kudus.}
+\BU{Amin.}
+
+
+\subjudul{PENYERAHAN KELUARGA KEPADA BUNDA MARIA}
+
+Jika dikehendaki kedua mempelai dapat berdoa di hadapan patung bunda Maria, atau Keluarga Kudus Nazaret, atau patung devosional lain yang sesuai. Imam beserta saksi dapat mendampingi mereka.
+
+\subsubjudul{Doa di depan Bunda Maria}
+
+Ya, Bunda Maria, Bunda tersuci, pandanglah kami berdua yang sangat berbahagia pada hari ini. Betapa tak terkatakan rasa syukur dan terima kasih kami, atas semua yang telah kami terima. Terutama bimbingan tangan Puteramu, Yesus Kristus yang telah mempersatukan kami.
+
+Bunda Maria, kami tahu saat ini baru merupakan awal dari semuanya yang masih harus kami jalani. Kami sadar bahwa perjalanan ini masih jauh dan panjang. Di hadapan kami masih banyak sekali hambatan kesulitan, kekecewaan dan goncangan. Oleh karena itu kami mohon selalu bantuan doamu ya Bunda Maria.
+
+Tuntunlah kami pula dalam mendidik anak-anak yang akan dipercayakan kepada kami, sehingga kelak kami boleh melanjutkan kebahagiaan kami di dunia ini, di dalam kebahagiaan bersama dalam Kerajaan Bapa.
+
+Salam Maria \ldots
+
+Kemuliaan \ldots
+
+
+
+\subsubjudul{PENANDATANGANAN SURAT PERKAWINAN}
+\textit{Kedua mempelai, para saksi, dan Imam menandatangani Surat Perkawinan gerejawi pada meja yang sudah disediakan di hadapan umat, bukan pada meja alta. Acara ini dapat diiringi nyanyian yang sesuai. Dapat pula acara ini dilaksanakan di secretariat paroki menurut kebiasaan setempat.}
+
+\subsubjudul{PERARAKAN KELUAR ( umat berdiri)}
+\textit{Imam dan para pelayan menghormati altar, lalu meninggalkan gereja/tempat perayaan menuju sakristi. Kedua mempelai beserta keluarga berarak meninggalkan gereja/tempat perayaan. Dapat diiringi nyanyian.}
+
+\lagu{Lagu Penutup }
+
+\newpage \pagestyle{empty}
+\judul{UCAPAN TERIMA KASIH}
+\noindent Dengan penuh syukur dan sukacita dalam kasih Tuhan, kami mengucapkan banyak
+terima kasih kepada:
+\large
+\flushright{
+\textbf{Romo \romo}\\
+yang telah berkenan mempimpin perayaan ekaristi penerimaan sakramen perkawinan
+ini.
+
+\textbf{\saksisatu dan \saksidua}\\
+yang telah berkenan menjadi saksi pernikahan ini.
+
+\textbf{Paduan suara lingkungan St. Petrus}\\
+yang telah menyemarakkan perayaan ekaristi ini.
+
+\textbf{Segenap petugas liturgi}\\
+(putra altar, lektor, petugas persembahan) \\
+yang telah membantu kelancaran penerimaan sakramen pernikahan ini.
+
+\textbf{Bapak Yoseph Samin, ketua Stasi Maguwo, dan Bapak YZ Budiman Susanto, ketua
+lingkungan St. Petrus, serta segenap pengurus gereja}\\
+yang berkenan mempersiapkan sarana pelaksanaan perayaan ekaristi penerimaan
+sakramen pernikahan ini. 
+
+\textbf{Segenap keluarga dan orang-orang terkasih}\\
+yang telah berkenan hadir memberikan cinta, doa, dan restu dalam perayaan
+ekaristi penerimaan sakramen pernikahan ini.
+
+Semoga Tuhan memberkati dan memelihara ikatan kasih\\ di antara kita semua.
+
+Amin.
+
+\bigskip 
+
+Kami yang berbahagia\\
+Kel. \bpcamantri \\
+Kel. \bpcamantra\\
+Sunaryo \& Katrin
+}
+
+
+\end{document}

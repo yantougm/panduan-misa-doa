@@ -1,0 +1,283 @@
+/*  
+Theme Name: Downtown Night
+Theme URI: http://preuro.eu/downtown-night/
+Description: Simple theme, widgets ready, clean design,fixed width, widgets, two columns. 
+Welcome to the Downtown and enjoy the night!
+Version: 1.1
+Author: Stratus
+Author URI: http://www.preuro.eu/
+Tags: light, white, right-sidebar
+
+The CSS, XHTML and design is released under GPL:
+http://www.opensource.org/licenses/gpl-license.php
+
+*/
+
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.alignleft {
+	float: left;
+}
+
+.alignright {
+	float: right;
+}
+
+
+body, h1, h2, h3, h4, h5, h6, blockquote, p{
+margin: 0;
+padding: 0;
+}
+
+
+body{
+		margin: 20px;
+		font-family: Arial, Helvetica, Georgia, Sans-serif;
+		font-size: 12px;
+		text-align: center;
+		vertical-align: top;
+		background: #ffffff;
+		color: #000000;
+}
+
+
+h1{
+font-family: Arial, Helvetica, Georgia, Sans-serif;
+font-size: 24px;
+padding: 0 0 10px 0;
+color: #ffffff;
+text-transform: uppercase;
+}
+
+
+a:link, a:visited{
+text-decoration: none;
+color: #336699;
+}
+
+a:hover{
+text-decoration: none;
+color: #ff0000;
+}
+
+a img {
+	border: 0;
+}
+
+
+p{
+padding: 10px 0 0 0;
+}
+
+blockquote {
+	margin: 10px 0 10px 0;
+	padding: 5px 10px 5px 10px;
+	background: #f2f2f2;
+	border-top: solid 1px #003366;
+	border-bottom: solid 1px #003366;
+}
+
+#wrapper{
+margin: 0 auto 0 auto;
+width: 750px;
+text-align: left;
+}
+
+#header{
+	float: left;
+	width: 750px;
+	height: 200px;
+	background-image: url(images/header.jpg);
+}
+
+#header h1 a {
+	color: #fff;
+}
+
+#header h1 a:hover {
+	color: #ff0000;
+}
+
+
+#header #header_right {
+	float:right;
+	width: 390px;
+	text-align: right;
+	font-size: 1.2em;
+	color: #fff;
+	padding: 60px 20px 20px 0;
+}
+
+#header #header_right a {
+	
+	color: none;
+	
+}
+
+
+#header #header_left {
+	float:left;
+	width: 480px;
+	text-align: left;
+	font-size: 1.2em;
+	color: #fff;
+	padding: 10px 0px 10px 10px;
+}
+
+#subscribe {
+	text-align: right;
+}
+
+
+
+
+
+#container{
+float: left;
+width: 500px;
+}
+
+
+.post{
+padding: 10px 0 10px 0;
+}
+
+
+.post h2{
+	font-family: Arial, Georgia, Sans-serif;
+	font-size: 18px;
+	font-weight: lighter;
+}
+
+
+.entry{
+line-height: 18px;
+}
+
+
+p.postmetadata{
+border-top: 1px solid #ccc;
+border-bottom: 3px solid #ccc;
+margin: 10px 0 0 0;
+}
+
+
+.navigation{
+padding: 10px 0 0 0;
+font-size: 14px;
+font-weight: bold;
+line-height: 18px;
+display: inline;
+}
+
+
+.sidebar{
+float: right;
+width: 240px;
+background: #eeeeee;
+}
+
+
+.sidebar ul{
+list-style-type: none;
+margin: 0;
+padding: 0 0 0 10px;
+}
+
+.sidebar ul li{
+padding: 10px 0 10px 0;
+}
+
+/*  
+dynamic sidebar
+*/
+
+.title{
+	font-family: Verdana, Georgia, Sans-serif;
+	font-size: 14px;
+	border-bottom: 1px solid #ccc;
+	font-weight: bolder;
+	padding: 10px 0 10px 0;
+}
+
+
+.sidebar ul li h2{
+font-family: Verdana, Georgia, Sans-serif;
+font-size: 14px;
+border-bottom: 1px solid #ccc;
+}
+
+.sidebar ul ul li{
+padding: 0;
+line-height: 24px;
+}
+
+
+
+
+.comments-template{
+	margin: 10px 0 0;
+	
+	padding: 10px 0 0;
+}
+
+.comments-template ol{
+	margin: 0;
+	padding: 0 0 15px;
+	list-style: none;
+}
+
+.comments-template ol li{
+	margin: 10px 0 0;
+	line-height: 18px;
+	padding: 0 0 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+.comments-template h2, .comments-template h3{
+	font-family: Arial, Georgia, Sans-serif;
+	font-size: 16px;
+}
+
+.commentmetadata{
+	font-size: 12px;
+}
+
+.comments-template p.nocomments{
+	padding: 0;
+}
+
+.comments-template textarea{
+	font-family: Arial, Helvetica, Georgia, Sans-serif;
+	font-size: 12px;
+}
+
+
+
+
+
+
+#footer{
+	clear: both;
+	
+	width: 750px;
+	padding: 10px 0 0 0;
+	background-color: #333333;
+	font: #ffffff;
+	text-align: right;
+}
+
+#footer p{
+	color: #CCCCCC;
+	padding: 10px 10px 20px 0;
+}
+
+#footer a, #footer a:hover, #footer a:visited {
+	color: #cccccc;
+	text-decoration: none;
+	font-weight: bolder;
+}

@@ -1,0 +1,49 @@
+\select@language {bahasa}
+\contentsline {chapter}{Daftar Isi}{2}
+\contentsline {chapter}{\chapternumberline {1}IBADAT MENJELANG SAAT KEMATIAN}{4}
+\contentsline {chapter}{\chapternumberline {2}DOA PENYERAHAN PADA SAAT ORANG BARU MENINGGAL}{11}
+\contentsline {chapter}{\chapternumberline {3}IBADAT SESUDAH SAAT KEMATIAN}{14}
+\contentsline {chapter}{\chapternumberline {4}IBADAT MERAWAT / MEMANDIKAN JENAZAH}{20}
+\contentsline {chapter}{\chapternumberline {5}IBADAT MENGENAKAN PAKAIAN}{22}
+\contentsline {chapter}{\chapternumberline {6}IBADAT MEMASUKKAN JENAZAH KE PETI}{23}
+\contentsline {chapter}{\chapternumberline {7}IBADAT KEMATIAN I}{25}
+\contentsline {chapter}{\chapternumberline {8}IBADAT KEMATIAN 2}{36}
+\contentsline {chapter}{\chapternumberline {9}IBADAT KEMATIAN 3}{45}
+\contentsline {chapter}{\chapternumberline {10}UPACARA PELEPASAN JENAXZAH}{51}
+\contentsline {chapter}{\chapternumberline {11}UPACARA DI PEMAKAMAN}{52}
+\contentsline {chapter}{\chapternumberline {12}IBADAT PERINGATAN ARWAH HARI KE-7}{53}
+\contentsline {chapter}{\chapternumberline {13}IBADAT PERINGATAN ARWAH HARI KE-40}{54}
+\contentsline {chapter}{\chapternumberline {14}IBADAT PERINGATAN ARWAH HARI KE-100}{59}
+\contentsline {chapter}{\chapternumberline {15}IBADAT PERINGATAN ARWAH HARI KE \IeC {\textendash } 1000}{65}
+\contentsline {chapter}{Lagu-lagu Pujian}{66}
+\contentsline {subsection}{\numberline {1.}TETAP CINTA YESUS}{66}
+\contentsline {subsection}{\numberline {2.}KASIH DARI SURGA}{66}
+\contentsline {subsection}{\numberline {3.}KINI SAATNYA}{66}
+\contentsline {subsection}{\numberline {4.}SEJAUH TIMUR DARI BARAT}{67}
+\contentsline {subsection}{\numberline {5.}BERI PENGAMPUNAN}{67}
+\contentsline {subsection}{\numberline {6.}KUSIAPKAN HATIKU TUHAN}{67}
+\contentsline {subsection}{\numberline {7.}FIRMANMU PELITA BAGI KAKIKU}{68}
+\contentsline {subsection}{\numberline {8.}BETAPA HATIKU}{68}
+\contentsline {subsection}{\numberline {9.}BAPA SURGAWI}{68}
+\contentsline {subsection}{\numberline {10.}BAYU SENJA}{68}
+\contentsline {subsection}{\numberline {11.} AVE MARIA}{69}
+\contentsline {subsection}{\numberline {12.} TUHAN ADALAH GEMBALAKU}{69}
+\contentsline {subsection}{\numberline {13.} KAU YANG TERINDAH}{70}
+\contentsline {subsection}{\numberline {14.} BAPA SURGAWI}{70}
+\contentsline {subsection}{\numberline {15.} ALLAH PEDULI}{70}
+\contentsline {subsection}{\numberline {16.} ONE DAY AT THE TIME}{71}
+\contentsline {subsection}{\numberline {17.} IN MOMENT LIKE THIS}{71}
+\contentsline {subsection}{\numberline {18.} GIVE THANKS}{72}
+\contentsline {subsection}{\numberline {19.} TUBUHKU YESUS}{72}
+\contentsline {subsection}{\numberline {20.} DARAHMU YESUS}{72}
+\contentsline {subsection}{\numberline {21.} EL SHADAI}{72}
+\contentsline {subsection}{\numberline {22.} TIAP LANGKAHKU}{73}
+\contentsline {subsection}{\numberline {23.} DI DOA IBUKU}{73}
+\contentsline {subsection}{\numberline {24.} TUHAN BERIKANLAH}{74}
+\contentsline {subsection}{\numberline {25.} INDAH RENCANAMU TUHAN}{74}
+\contentsline {subsection}{\numberline {26.} BAPA SUNGGUH BAIK}{74}
+\contentsline {subsection}{\numberline {27.} JALAN TUHAN}{75}
+\contentsline {subsection}{\numberline {28.} TANGAN TUHAN}{75}
+\contentsline {subsection}{\numberline {29.} HANYA KEPADAMU}{76}
+\contentsline {subsection}{\numberline {30.} DOAKAN KAMI BUNDA}{76}
+\contentsline {subsection}{\numberline {31.} BUNDA PEMBANTU ABADI}{77}

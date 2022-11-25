@@ -1,0 +1,150 @@
+\documentclass[10pt,a5paper,openany,fancyhdr]{memoir}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage[utf8x]{inputenc}
+\usepackage[bahasa]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{palatino}
+\usepackage{xspace}
+
+%\author{Yohanes Suyanto}
+\author{Gereja St Anna -- Duren Sawit \\  
+Jakarta Timur}
+\title{Ibadat Kematian\\ 
+dan \\
+Peringatan Arwah \\
+{~}\\
+\vspace{2cm}
+~\\
+(Edisi Percobaan) \\
+~\\
+sekretariat\_stanna@yahoo.com \\
+~\\
+~\\
+}
+\date{2009}
+\setlength{\parindent}{0mm}
+\makeatletter
+\newcommand{\lagu}[1]{%
+  {\parindent \z@ 
+    \interlinepenalty\@M \slshape \mdseries \large \textit{#1}\par\nobreak \vskip 10\p@ }}
+\newcommand{\keterangan}[1]{%
+  {\parindent \z@ 
+    \interlinepenalty\@M \slshape \mdseries \textit{#1}\par\nobreak \vskip 10\p@ }}
+\makeatother
+
+\newcommand{\BU}[1]{\begin{itemize}\itemsep0pt \item[U:] #1 \end{itemize}}
+\newcommand{\BI}[1]{\begin{itemize}\itemsep0pt \item[I:] #1 \end{itemize}}
+\newcommand{\BIU}[1]{\begin{itemize}\itemsep0pt \item[I+U:] #1 \end{itemize}}
+\newcommand{\BPU}[1]{\begin{itemize}\itemsep0pt \item[P+U:] #1 \end{itemize}}
+\newcommand{\BP}[1]{\begin{itemize}\itemsep0pt \item[P:] #1 \end{itemize}}
+
+\newcommand{\inputlagu}[1]{\begin{textit} \input{#1} \end{textit}}
+
+\newcommand{\nama}{\ldots\ldots\ldots\xspace}
+
+\newlength\chaptitlelength
+\newlength\chaptitlerlength
+
+\makeatletter 
+\newcommand\thickhrulefill[1]{%
+  \leavevmode \leaders \hrule height #1 \hfill \kern \z@} 
+\setlength\midchapskip{10pt} 
+\makechapterstyle{mystyle}{
+  \setlength\beforechapskip{0pt}
+  \renewcommand\chapternamenum{} 
+  \renewcommand\printchaptername{}
+  \renewcommand\printchapternum{} 
+  \renewcommand\chaptitlefont{\small\scshape\centering}
+  \renewcommand*{\printchaptertitle}[1]{%
+    \settowidth\chaptitlelength{\hspace*{1em}\chaptitlefont##1\hspace*{1em}}%
+    \ifnum\chaptitlelength>\dimexpr0.7\textwidth\relax%
+      \setlength\chaptitlelength{0.7\textwidth}%
+    \fi%
+    \setlength\chaptitlerlength{\textwidth}%
+    \addtolength\chaptitlerlength{-\chaptitlelength}%
+    \addtolength\chaptitlerlength{-2em}%
+    \noindent\parbox[c]{.5\chaptitlerlength}{\normalsize\thickhrulefill{0.3ex}\par\vskip-1.5ex\thickhrulefill{0.2ex}}\hspace*{1em}%
+    \parbox[c]{\chaptitlelength}{\chaptitlefont##1}\hspace*{1em}%
+    \parbox[c]{.5\chaptitlerlength}{\normalsize\thickhrulefill{0.3ex}\par\vskip-1.5ex\thickhrulefill{0.2ex}}%
+  }%
+}
+\makeatother
+\chapterstyle{mystyle}
+\chapterstyle{wilsondob}
+
+\begin{document}
+\pagestyle{Ruled}
+\begin{titlingpage}
+\maketitle
+\end{titlingpage}
+
+Kematian merupakan peristiwa iman. Pada saat kematian, kita mengambil 
+bagian dalam misteri Paskah Kristus. Bersama Yesus Kristus kita beralih 
+dari dunia fana ke dalam kehidupan kekal. Kematian adalah pintu masuk ke 
+dalam pemurnian diri manusia menuju pada keabadian. Kematian juga 
+menghantar kita pada kepenuhan hidup di dalam dan bersama Kristus 
+Tuhan kita. 
+
+ 
+
+
+
+%Daftar Isi 
+\renewcommand{\cftchapterfont}{\normalfont\rmfamily}   
+\renewcommand{\cftsectionfont}{\normalfont\rmfamily}   
+\newpage
+\tableofcontents
+
+
+
+\chapter{IBADAT MENJELANG SAAT KEMATIAN}
+\input{menjelang}
+
+\chapter{DOA PENYERAHAN PADA SAAT ORANG BARU MENINGGAL}
+\input{penyerahan}
+
+\chapter{IBADAT SESUDAH SAAT KEMATIAN} 
+\input{saat}
+
+\chapter{IBADAT MERAWAT / MEMANDIKAN JENAZAH} 
+\input{merawat}
+
+\chapter{IBADAT MENGENAKAN PAKAIAN} 
+\input{mengenakan-pakaian}
+
+\chapter{IBADAT KEMATIAN I}
+\input{kematian1}
+
+\chapter{IBADAT KEMATIAN 2} 
+\input{kematian2}
+
+\chapter{IBADAT KEMATIAN 3} 
+\input{kematian3}
+
+\chapter{UPACARA PELEPASAN JENAXZAH}
+%\input{pelepasan}
+
+\chapter{UPACARA DI PEMAKAMAN} 
+%\input{dipemakaman}
+
+\chapter{IBADAT PERINGATAN ARWAH HARI KE-7} 
+%\input{7hari}
+
+\chapter{IBADAT PERINGATAN ARWAH HARI KE-40} 
+\input{40hari}
+
+\chapter{IBADAT PERINGATAN ARWAH HARI KE-100}
+\input{100hari}
+ 
+\chapter{IBADAT PERINGATAN ARWAH HARI KE – 1000} 
+%\input{1000hari}
+
+
+\chapter*{LAGU-LAGU PUJIAN}
+\addcontentsline{toc}{chapter}{Lagu-lagu Pujian} 
+\input{lagupujian}
+
+\end{document}
+

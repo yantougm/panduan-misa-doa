@@ -1,0 +1,413 @@
+\documentclass[titlepage,10pt,openany]{scrbook}
+\usepackage[papersize={107.5mm,148.5mm},twoside,bindingoffset=0.5cm,hmargin={1cm,1cm},
+				vmargin={1.5cm,1.5cm},footskip=0.5cm,driver=dvipdfm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage[bahasa]{babel}
+\usepackage{fancyhdr}
+\usepackage{pst-text}
+\usepackage{palatino}
+\usepackage{marvosym}
+\usepackage{pdfpages}
+\usepackage{hyphenat}
+
+\renewcommand{\footrulewidth}{0.5pt}
+\lhead[\fancyplain{}{\thepage}]%
+      {\fancyplain{}{\rightmark}}
+\rhead[\fancyplain{}{\leftmark}]%
+      {\fancyplain{}{\thepage}}
+\pagestyle{fancy}
+\lfoot[\emph{\footnotesize Misa Peringatan 100 hari \namaalm}]{}
+\rfoot[]{\emph{\footnotesize Misa Peringatan 100 hari \namaalm}}
+\cfoot{}
+
+\makeatletter
+\newcommand{\judul}[1]{%
+  {\parindent \z@ \centering 
+    \interlinepenalty\@M \Large \bfseries #1\par\nobreak \vskip 20\p@ }}
+\newcommand{\subjudul}[1]{%
+  {\parindent \z@ 
+    \interlinepenalty\@M \bfseries #1\par\nobreak \vskip 10\p@ }}
+\newcommand{\lagu}[1]{%
+  {\parindent \z@ 
+    \interlinepenalty\@M \slshape \bfseries \normalsize \textit{#1}\par\nobreak \vskip 10\p@ }}
+\newcommand{\keterangan}[1]{%
+  {\parindent \z@  \slshape 
+    \interlinepenalty\@M \textsl{#1}\par\nobreak  \vskip 5\p@}}
+
+\renewenvironment{description}
+               {\list{}{\labelwidth\z@ \itemindent-\leftmargin
+                        \let\makelabel\descriptionlabel}}
+               {\endlist}
+\renewcommand*\descriptionlabel[1]{\hspace\labelsep 
+                                \normalfont\bfseries #1 }
+
+
+\makeatother
+
+\newcommand{\BU}[1]{\begin{itemize} \item[U:] #1 \end{itemize}}
+\newcommand{\BI}[1]{\begin{itemize} \item[I:] #1 \end{itemize}}
+\newcommand{\BIU}[1]{\begin{itemize} \item[I+U:] #1 \end{itemize}}
+\newcommand{\BPU}[1]{\begin{itemize} \item[P+U:] #1 \end{itemize}}
+\newcommand{\BP}[1]{\begin{itemize} \item[P:] #1 \end{itemize}}
+\newcommand{\inputlagu}[1]{\itshape{\input{#1}}}
+\newcommand{\namaalm}{Bapak Vincentius Fererius Parlan }
+\newcommand{\namaromo}{Wagiman Wigyo Sumantara Pr.}
+
+\title{Misa Peringatan 100 Hari}
+\author{\namaalm}
+\date{oleh \\ Rm \namaromo\\27 September 2015}
+\input{../../indohyp}
+\DeclareFixedFont{\PT}{T1}{ppl}{b}{it}{0.5in}
+\DeclareFixedFont{\PTsmall}{T1}{ppl}{b}{it}{0.2in}
+\DeclareFixedFont{\PTsmallest}{T1}{ppl}{b}{it}{0.15in}
+\DeclareFixedFont{\PTtext}{T1}{ppl}{b}{it}{11pt}
+\DeclareFixedFont{\Logo}{T1}{pbk}{m}{n}{0.3in}
+
+\hyphenation{me-nyi-ap-kan pan-jat-kan se-jah-te-ra Par-lan o-rang bang-kit}
+\begin{document}
+%\maketitle
+\thispagestyle{empty}
+%\begin{pspicture}(8cm,10cm)
+%\psset{unit=1cm}
+%\rput[cb](4,10){\PTsmall {EKARISTI}}
+%\rput[cb](4,9){\PTsmall {PERINGATAN 100 HARI}}
+%\rput[cb](4,8){\PTsmall {\namaalm}}
+%\rput[cb](4,3){\PTsmallest {oleh}} 
+%\rput[cb](4,2.5){\PTsmallest {Rm \namaromo}}
+%\rput[cb](4,1){\PTsmallest {27 September 2015}}
+%\end{pspicture}
+
+\includepdf{misa-100-hari-vfp-cover}
+
+\section*{RITUS PEMBUKA} 
+
+ 
+
+\lagu{Lagu Pembuka}  
+\input{../../lagu/semua-baik} 
+
+\subjudul{Tanda Salib} 
+
+\BI{Demi nama  Bapa dan Putera dan Roh Kudus}
+
+\BU{Amin}
+
+ 
+
+\subjudul{Salam}
+
+\BI{Semoga kasih karunia, rahmat dan damai sejahtera dari 
+Allah Bapa dan dari PuteraNya Yesus Kristus beserta 
+saudara.} 
+
+\BU{Sekarang dan selama-lamanya.}
+
+ 
+
+\subjudul{Pengantar}
+
+\BI{Saudara-saudari terkasih,
+Hari ini kita bersama-sama berdoa bersama untuk
+mendoakan arwah dari saudara kita \textbf{\namaalm} yang pada 100
+hari yang lalu di panggil Bapa. Kita percaya bahwa segala
+doa yang kita panjatkan untuk mereka yang sudah
+meninggal sangat bermanfaat demi terwujudnya harapan
+iman mereka untuk berdiam di rumah Tuhan selama-lamanya.}
+
+
+\subjudul{Tobat}
+
+\BI{Saudara-saudara, menyadari bahwa kita hanyalah serupa 
+debu bernoda di depan alas kaki Allah Bapa, marilah kita 
+bersyukur bahwa kita masih diperkenankan berdoa dan 
+bermohon kepada Allah Bapa. 
+
+Saya mengaku, \ldots \ldots
+} 
+
+
+
+\BI{Semoga Allah Bapa yang Maha Kuasa, mengasihani kita, 
+mengampuni dosa kita dan mengantar kita ke dalam 
+kehidupan kekal.}
+
+\BU{Amin}
+
+\lagu{Kyrie} 
+\input{../../lagu/kyrie} 
+
+\subjudul{Doa Pembuka}
+
+\BI{Marilah kita berdoa 
+
+Allah Bapa di surga, segala kelemahan dan dosa kami 
+terbentang di hadapan Engkau. Karena dosa-dosa itu 
+pula, Engkau telah mengutus PuteraMu sendiri Tuhan 
+kami Yesus Kristus, untuk datang dan menyelamatkan 
+kami dan menyiapkan tempat bagi kami dalam rumah 
+kekalMu. Ialah jalan dan kehidupan kami. 
+
+Kami memohon ampunan\hyp Mu untuk semua dosa\hyp dosa kami 
+dan terlebih untuk dosa\hyp dosa \namaalm dan juga dosa\hyp dosa para leluhur kami. 
+
+Semua ini kami mohon demi Yesus Kristus Putera\hyp Mu dan pengantara kami yang bersatu dengan Dikau dan Roh Kudus, hidup dan berkuasa kini dan sepanjang masa.}
+
+\BU{Amin}
+
+ 
+
+\section*{LITURGI SABDA} 
+
+\keterangan{Pembacaan dari Surat Pertama Rasul Paulus kepada umat di
+Korintus (1Kor 15:12-23)}
+
+\BP{Jadi, bilamana kami beritakan, bahwa Kristus dibangkitkan
+dari antara orang mati, bagaimana mungkin ada di antara kamu
+yang mengatakan, bahwa tidak ada kebangkitan orang mati?
+
+Kalau tidak ada kebangkitan orang mati, maka Kristus juga
+tidak dibangkitkan. Tetapi andaikata Kristus tidak dibangkitkan
+maka sia-sialah pemberitaan kami dan sia-sialah juga
+kepercayaan kamu. Lebih dari pada itu kami ternyata berdusta
+terhadap Allah, karena tentang Dia kami katakan, bahwa Ia telah
+membangkitkan Kristus -- padahal Ia tidak membangkitkan\hyp Nya,
+kalau andaikata benar, bahwa orang mati tidak dibangkitkan.
+
+Sebab jika benar orang mati tidak dibangkitkan, maka Kristus
+juga tidak dibangkitkan. Dan jika Kristus tidak dibangkitkan,
+maka sia-sialah kepercayaan kamu dan kamu masih hidup
+dalam dosamu. 
+Demikianlah binasa juga orang-orang yang mati
+dalam Kritus. 
+
+Jikalau kita hanya dalam hidup ini saja
+menaruh pengharapan pada Kristus, maka kita adalah orang-\-orang yang paling malang dari segala manusia. 
+
+Tetapi yang
+benar ialah, bahwa Kristus telah dibangkitkan dari antara orang
+mati, sebagai yang sulung dari orang-orang yang telah
+meninggal. Sebab sama seperti maut datang karena satu ~o- rang
+manusia, demikian juga kebangkitan orang mati datang karena
+satu orang manusia. Karena sama seperti semua orang mati
+dalam persekutuan dengan Adam, demikian pula semua orang
+akan dihidupkan kembali dalam persekutuan dengan Kristus.
+
+Tetapi tiap-tiap orang menurut urutannya : Kristus sebagai buah
+sulung ; sesudah itu mereka yang menjadi milik\hyp Nya pada waktu
+kedatangan\hyp Nya.
+
+Demikianlah Sabda Tuhan.}
+
+\BU{Syukur kepada Allah}
+
+ 
+
+\lagu{Lagu tanggapan sabda}
+\input{../../lagu/kurenungkan-sabdamu-tuhan} 
+
+\subjudul{Injil Yoh 6:37-40}
+
+\BI{Tuhan sertamu}
+
+\BU{dan sertamu juga} 
+
+\BI{Inilah Injil Yesus Kristus menurut Yohanes }
+
+\BU{Dimuliakanlah Tuhan}
+
+\BI{Semua yang diberikan Bapa kepada\hyp Ku akan datang
+kepada\hyp Ku, dan barangsiapa datang kepada\hyp Ku, ia tidak akan
+Kubuang. Sebab Aku telah turun dari sorga bukan untuk
+melakukan kehendak\hyp Ku, tetapi untuk melakukan kehendak Dia
+yang telah mengutus Aku. Dan inilah kehendak Dia yang telah
+mengutus Aku, yaitu supaya dari semua yang telah
+diberikanNya kepada-Ku jangan ada yang hilang, tetapi supaya
+Kubangkitkan pada akhir zaman. Sebab inilah kehendak
+BapaKu, yaitu supaya setiap orang, yang melihat Anak dan
+yang percaya kepada\hyp Nya beroleh hidup yang kekal, dan
+supaya Aku membangkitkannya pada akhir zaman.}
+
+
+\BI{Demikianlah Injil Tuhan}
+
+\BU{Terpujilah Kristus}
+
+ 
+
+\subjudul{Homili}
+
+\subjudul{Syahadat} 
+
+\subjudul{Doa Umat}
+
+\BI{Saudara-saudari terkasih,
+Marilah kita panjatkan doa-doa bagi arwah saudara kita
+yang sudah meninggal juga bagi kita semua dan Gereja
+yang terus menerus.}
+
+\BP{Bagi saudara kita \textbf{\namaalm} yang sudah dipanggil Bapa 100
+hari yang lalu. Semoga melalui pembaptisan yang telah
+diterima saudara kita \textbf{\namaalm} dan berkat iman akan Yesus
+sepanjang hidupnya, ia dianugerahi hidup kekal yang
+telah dijanjikan Allah sendiri kepadanya.
+
+\textit{Hening sejenak \ldots\ldots} 
+
+Marilah kita mohon :}
+
+\BU{Kabulkanlah doa kami ya Tuhan}
+
+\BP{Bagi para uskup dan para imam kita yang sudah
+meninggal.
+Semoga para pemimpin Gereja kita yang sudah dipanggil
+menghadap Bapa, diikutsertakan dalam perayaan surgawi.
+
+\textit{Hening sejenak \ldots\ldots} 
+
+Marilah kita mohon :}
+
+\BU{Kabulkanlah doa kami, ya Tuhan}
+
+\BP{Bagi siapa saja yang sudah meninggal dengan harapan akan bangkit kembali. Semoga semua orang yang meninggal, dengan harapan akan bangkit lagi, diterima dalam pangkuan surgawi abadi.
+
+\textit{Hening sejenak \ldots\ldots} 
+
+Marilah kita mohon :}
+
+\BU{Kabulkanlah doa kami, ya Tuhan}
+
+\BP{Bagi kita semua yang ada di tempat ini.
+Semoga iman pengharapan kita akan Yesus Kristus
+semakin dikuatkan dalam perjuangan hidup keseharian
+kita.
+
+\textit{Hening sejenak \ldots\ldots} 
+
+Marilah kita mohon :}
+
+\BU{Kabulkanlah doa kami, ya Tuhan}
+
+\BI{Bapa kasihMu tiada batas, kesabaranMu begitu besar. Semoga dalam pengharapan iman yang benar, kami senantiasa dalam limpahan rahmat-Mu, dengan pengantaraan Kristus Tuhan kami.}
+
+\BU{Amin}
+
+\section*{LITURGI EKARISTI}
+
+\lagu{Lagu pengantar persembahan}
+\input{../../lagu/serahkanlah-semua}
+
+\BI{Kami memuji Engkau ya Bapa, Allah semesta alam, sebab 
+dari kemurahanMu kami menerima roti dan anggur yang 
+kami persembahkan ini. Inilah hasil dari bumi dan usaha 
+manusia yang bagi kami akan menjadi santapan rohani.}
+
+\BU{Terpujilah Allah selama-lamanya}
+
+\BI{Berdoalah saudara-saudara supaya persembahan kita ini 
+diterima oleh Allah Bapa yang mahakuasa.}
+
+\BU{Semoga persembahan ini diterima demi kemuliaan Tuhan 
+dan keselamatan kita serta seluruh umat Allah yang kudus.}
+
+\BI{Ya Allah Bapa di surga, pengampunanMu menjadi sumber 
+kedamaian dan kekuatan baru di dalam hati kami untuk 
+mengikuti PuteraMu dengan setia. Maka kami mohon 
+pandanglah dengan rela persembahan di atas altar ini dan 
+teguhkanlah hati kami berkat korban Yesus Kristus, Tuhan 
+dan Pengantara kami kini dan sepanjang masa.}
+
+\BU{Amin} 
+
+\subjudul{DOA SYUKUR AGUNG}
+
+
+\subjudul{Sanctus}
+\input{../../lagu/sanctus}
+
+\subjudul{Bapa Kami}
+
+\subjudul{Agnus Dei}
+\input{../../lagu/agnus-dei} 
+\subjudul{Komuni}
+
+\subjudul{Lagu Komuni}
+\input{../../lagu/tinggallah-dihatiku} 
+
+\subjudul{Doa sesudah komuni}
+
+\BI{Marilah berdoa: Terima kasih ya Allah, atas anugerah 
+terbesar yaitu kami telah diberi rahmat untuk mengenal 
+Yesus Kristus. Dalam Dia manusia yang berdosa mendapat 
+pengampunan dan perlindungan. Semoga kami berani 
+melepaskan semuanya dan menjadi serupa dengan Dia 
+dalam kematianNya. Sebab Dialah Tuhan dan pengantara 
+kami kini dan sepanjang masa.}
+
+\BU{Amin.}
+
+ 
+
+\section*{RITUS PENUTUP}
+
+\BI{Tuhan beserta kita}
+
+\BU{Sekarang dan selama-lamanya}
+
+\BI{Semoga saudara sekalian diberkati oleh Allah Yang 
+Mahakuasa \Cross ~Bapa dan Putera dan Roh Kudus.}
+
+\BU{Amin}
+
+ 
+
+\subjudul{Pengutusan}
+
+\BI{Saudara sekalian, Perayaan Ekaristi untuk memohon 
+berkat Allah Bapa bagi arwah \namaalm telah selesai.}
+
+\BU{Syukur kepada Allah}
+
+\BI{Kita diutus untuk mewartakan bahwa Tuhan Yesus adalah 
+jalan, kebangkitan dan hidup.}
+
+\BU{Amin.}
+
+ 
+
+\lagu{Lagu Penutup}
+
+\vspace{1cm}
+
+\input{../../lagu/sakjege-aku-ndherek-gusti} 
+
+\newpage
+\begin{flushright}
+{\Large Ucapan terima kasih}\\
+\noindent Dengan penuh syukur dalam kasih Tuhan, kami mengucapkan banyak
+terima kasih kepada:
+\large
+
+\textbf{Romo \namaromo}\\
+yang telah berkenan memimpin perayaan ekaristi peringatan 100 hari meninggalnya\\ \namaalm
+ini.
+
+\textbf{Koor Calista}\\
+yang telah menyemarakkan perayaan ekaristi ini.
+
+\textbf{Umat lingkungan St. Yustinus, para undangan, segenap keluarga, dan orang-orang terkasih}\\
+yang telah berkenan hadir memberikan cinta dan doa dalam perayaan
+ekaristi ini.
+
+Semoga Tuhan memberkati dan memelihara ikatan kasih\\ di antara kita semua.
+
+Amin.
+
+\bigskip 
+
+\textit{Ibu MG Waldjijah\\
+dan segenap keluarga}
+\end{flushright}
+
+\end{document} 

@@ -1,0 +1,56 @@
+\documentclass[a5paper,titlepage,10pt,openany]{scrbook}
+\usepackage[a5paper,backref]{hyperref}
+\usepackage[papersize={148.5mm,215mm},twoside,bindingoffset=0.5cm,hmargin={2cm,2cm},
+				vmargin={2cm,2cm},footskip=1.1cm,driver=dvipdfm]{geometry}
+\usepackage{palatino}
+\usepackage[utf8]{inputenc}
+
+\usepackage{pstricks}
+\usepackage{graphicx}
+\usepackage[bahasa]{babel} 
+\usepackage{lettrine}
+\usepackage{pifont}
+\usepackage{enumitem}
+\usepackage{wrapfig}
+\usepackage{indentfirst}
+\usepackage{parcolumns}
+\usepackage[titles]{tocloft}
+\usepackage{longtable}
+\usepackage{microtype}
+\usepackage{hyphenat}
+%\usepackage[raggedright]{titlesec}
+%\usepackage{titletoc}
+
+
+\renewcommand{\cftchapfont}{%
+  \fontsize{9}{8}\selectfont
+}
+
+\makeatletter
+\renewcommand{\@pnumwidth}{1em} 
+\renewcommand{\@tocrmarg}{1em}
+\makeatother
+
+\author{Lingkungan St. Petrus Maguwo}
+\title{Warta Iman}
+\setlength{\parindent}{1cm}
+\psset{unit=1mm}
+
+
+\begin{document}
+\thispagestyle{empty}
+\input{cover}
+\setlength{\parindent}{1cm}
+\pagestyle{plain}
+\input{hari-raya-tubuh}
+\input{cara-menyambut-komuni}
+\begin{center}
+\includegraphics[scale=0.5]{gambar/communion-in-church-coloring-page.jpg}
+\end{center}
+\input{komuni-kudus-dan-hidup-kita}
+\input{percayakah-anda-dengan}
+\input{senyum}
+\input{warling}
+\input{ultah}
+\include{kgk-042-045}
+\end{document}

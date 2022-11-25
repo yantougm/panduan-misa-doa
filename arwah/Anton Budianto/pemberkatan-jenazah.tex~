@@ -1,0 +1,454 @@
+\documentclass[a5paper,headsepline,titlepage,11pt,nnormalheadings,DIVcalc]{scrbook}
+\usepackage[a5paper,backref]{hyperref}
+\usepackage[papersize={165mm,215mm},twoside,bindingoffset=0.5cm,hmargin={2cm,2cm},
+				vmargin={2cm,2cm},footskip=1.1cm,driver=dvipdfm]{geometry}
+\usepackage[latin1]{inputenc} 
+\usepackage{calc}
+\usepackage{setspace} 
+\usepackage{fixltx2e} 
+\usepackage{graphicx}
+\usepackage{multicol} 
+\usepackage[normalem]{ulem} 
+\usepackage[bahasa]{babel} 
+\usepackage{color}
+\usepackage{hyperref} 
+\usepackage{pstricks}
+\usepackage{fancyhdr}
+\usepackage{pst-node}
+
+\setlength{\parindent}{0mm}
+\makeatletter
+\newcommand{\lagu}[1]{%
+  {\parindent \z@ 
+    \interlinepenalty\@M \slshape \mdseries \large \textit{#1}\par\nobreak \vskip 10\p@ }}
+\newcommand{\keterangan}[1]{%
+  {\parindent \z@ 
+    \interlinepenalty\@M \slshape \mdseries \textit{#1}\par\nobreak \vskip 10\p@ }}
+\makeatother
+
+\renewcommand{\footrulewidth}{0.5pt}
+\lhead[\fancyplain{}{\thepage}]%
+      {\fancyplain{}{~}}
+\rhead[\fancyplain{}{~}]%
+      {\fancyplain{}{\thepage}}
+\pagestyle{fancy}
+\lfoot[\emph{Misa Pemberkatan}]{}
+\rfoot[]{\emph{Antonius Budianto}}
+\cfoot{}
+
+\newcommand{\BU}[1]{\begin{itemize} \item[U:] #1 \end{itemize}}
+\newcommand{\BI}[1]{\begin{itemize} \item[I:] #1 \end{itemize}}
+\newcommand{\BIU}[1]{\begin{itemize} \item[I+U:] #1 \end{itemize}}
+\newcommand{\BP}[1]{\begin{itemize} \item[P:] #1 \end{itemize}}
+\newcommand{\inputlagu}[1]{\begin{textit} \input{#1} \end{textit}}
+\newcommand{\namaalm}{Bapak Antonius Budianto~}
+\newcommand{\namaromo}{Setiawan SJ}
+\newcommand{\tanggal}{29 Mei 2010}
+
+\input{../../indohyp.tex}
+\begin{document}
+\thispagestyle{empty}
+\psset{unit=1in}
+\begin{pspicture}(4in,6.0in)
+% set up the fonts we use
+\DeclareFixedFont{\PT}{T1}{ppl}{b}{it}{0.4in}
+\DeclareFixedFont{\PTsmall}{T1}{ppl}{b}{it}{0.3in}
+\DeclareFixedFont{\PTsmallest}{T1}{ppl}{b}{it}{0.2in}
+\DeclareFixedFont{\PTtext}{T1}{ppl}{b}{it}{11pt}
+\DeclareFixedFont{\Logo}{T1}{pbk}{m}{n}{0.2in}
+% place the front cover picture
+%\rput[cb](2.3,2.5){\usebox\IBox}
+% put the text on the front cover
+\rput[cb](2.5,5.3){\PTsmall {Misa Pemberkatan Jenazah}}
+\rput[cb](2.5,4.8){\PTsmall {\namaalm}}
+\rput[cb](2.5,1.1){\PTsmall {29 Mei 2010}}
+\rput[cb](2.5,0.6){\PTsmallest {St Michael Panti Rapih}}
+\rput[cb](2.5,0.3){\PTsmallest {Yogyakarta}}
+
+%\rput[cb](3,-1){\PTsmallest {\namagereja}} 
+
+\end{pspicture}
+%\tableofcontents 
+\newpage
+%% \begin{center} 
+%% MISA KUDUS PEMBERKATAN JENAZAH\\
+%% \namaalm \\
+%% \tanggal\\
+%% \end{center} 
+
+\section*{RITUS PEMBUKA}
+
+\lagu{Lagu pembukaan}
+
+\subsection*{Tanda salib dan salam} 
+
+\BI{Dalam Nama Bapa dan Putera dan Roh Kudus}
+\BU{Amin} 
+\BI{Terpujilah Allah, Bapa Tuhan kita Yesus Kristus, Bapa yang 
+penuh belaskasihan dan Allah sumber segala penghiburan, yang 
+menghibur kita dalam segala penderitaan.}
+\BU{Sekarang dan selama-lamanya}
+
+\subsection*{Pengantar} 
+
+\BI{Ibu-Bapak, saudara-saudariku sekalian, keluarga yang berduka 
+yang terkasih dalam Kristus. Dengan rasa sedih hati kita mengadakan 
+upacara perpisahan dengan \namaalm yang kita kasihi ini. Sebentar lagi 
+kita akan menghantar dia ke tempat peristirahatannya yang terakhir. 
+Namun kita tidak boleh putus asa seperti orang yang tidak 
+mempunyai harapan. Sebab kita menaruh harapan kepada Kristus 
+yang telah menghancurkan kekuasaan maut dengan kebangkitan-
+Nya yang mulia. Maka marilah kita mendoakan keselamatan kekal 
+baginya dan peneguhan iman bagi kita semua, terutama bagi keluarga 
+yang ditinggalkan.} 
+
+\subsection*{Pernyataan Tobat} 
+
+\BI{Agar doa-doa yang kita panjatkan ke hadirat Allah yang 
+Maharahim diterima, marilah kita terlebih dahulu menyesali dan 
+memohon ampun dariNya atas segala dosa dan kesalahan yang telah 
+kita lakukan.}
+
+\BI{Ya Tuhan Yesus Kristus, Engkau mengalami kematian sebagai 
+manusia, tetapi dibangkitkan oleh kekuasaan Bapa dalam Roh Kudus. 
+Tuhan kasihanilah kami.} 
+\BU{Tuhan, kasihanilah kami.} 
+\BI{Engkaulah kebangkitan dan kehidupan; barang siapa percaya 
+kepada-Mu akan memperoleh kehidupan yang kekal. Kristus, 
+kasihanilah kami.} 
+\BU{Kristus, kasihanilah kami} 
+\BI{Engkau akan datang dengan mulia untuk mempersatukan kami 
+semua dalam kerajaan Bapa. Tuhan kasihanilah kami.} 
+\BU{Tuhan, kasihanilah kami.} 
+\BI{Semoga Allah yang Mahakuasa mengasihani kita, mengampuni 
+dosa-dosa kita dan menghantar kita ke hidup yang kekal.}
+\BU{Amin}
+
+\BI{Marilah Berdoa: 
+
+Allah, Bapa kami yang Maharahim dengan penuh harapan kami 
+menyerahkan hambaMu ini \namaalm ke tanganMu. 
+Berikanlah dia istirahat penuh terang dan damai dalam kerajaanMu. 
+Ampunilah ya Bapa, segala dosa dan kesalahannya. Semoga ia 
+bersatu dengan para hambaMu untuk menikmati cahaya kebahagiaan 
+kekal dan memuji kebaikanMu. 
+Kami juga berdoa bagi kami semua yang masih berziarah di 
+bumi ini, terutama bagi keluarga yang sedang berkabung. Engkaulah, 
+ya Bapa sumber belaskasihan dan penghiburan, Engkau mencintai 
+kami dengan kasih abadi; Engkau mengubah maut yang gelap gulita 
+menjadi fajar yang gilang-gemilang berkat kebangkitan mulia 
+PuteraMu. Maka kami mohon, semoga keluarga yang sedang 
+berkabung ini dapat menanggung duka-citanya dengan tabah dan 
+menaruh kepercayaan serta harapannya kepadaMu. 
+
+Demi Yesus Kristus, Puteramu, Tuhan dan pengantara kami, 
+yang hidup dan berkuasa bersama dengan Dikau dalam persekutuan 
+dengan Roh Kudus, kini dan sepanjang segala masa. }
+
+\BU{Amin}
+
+\section*{LITURGI SABDA}
+
+\subsection*{Bacaan I}
+
+\BU{\emph{Apakah yang dapat memisahkan kita dari cinta kasih Kristus}
+
+Pembacaan dari surat Rasul Paulus kepada umat di Roma 
+(8:31b-35,37-39). 
+
+Jika Allah di pihak kita, siapakah yang akan melawan kita? 
+Ia, yang tidak menyayangkan Anak-Nya sendiri, tetapi yang 
+menyerahkanNya bagi kita semua, bagaimanakah mungkin Ia tidak 
+mengaruniakan segala sesuatu kepada kita bersama-sama dengan 
+Dia? Siapakah yang akan menggugat orang-orang pilihan Allah? 
+Allah, yang membenarkan mereka? Siapakah yang akan menghukum 
+mereka? 
+
+Kristus Yesus, yang telah mati? Bahkan lebih lagi: 
+yang telah bangkit, yang juga duduk di sebelah kanan Allah, yang 
+malah menjadi Pembela bagi kita?
+Siapakah yang akan 
+memisahkan kita dari kasih Kristus? Penindasan atau kesesakan atau 
+penganiayaan, atau kelaparan atau ketelanjangan , atau bahaya, atau 
+pedang? 
+
+Tetapi dalam semuanya itu kita lebih daripada orang-
+orang yang menang baik malaikat-malaikat, maupun pemerintah-pemerintah, 
+baik yang ada sekarang, maupun yang akan datang, atau kuasa-kuasa, baik yang di atas, maupun yang di bawah, ataupun 
+sesuatu makhluk lain, tidak akan dapat memisahkan kita dari kasih 
+Allah, yang ada dalam Kristus Yesus, Tuhan kita. 
+
+Demikian Sabda Tuhan}
+
+\BU{Amin}
+
+\lagu{Lagu pengantar Injil} 
+
+\subsection*{Bacaan Injil: (Lukas 23-33,39-43)} 
+
+\BI{Tuhan sertamu} 
+\BU{Dan sertamu juga} 
+\BI{Inilah Injil Suci Yesus Kristus menurut Santo Lukas} 
+\BU{Dimuliakanlah Tuhan} 
+\BI{\emph{Hari ini juga engkau akan ada bersama-sama dengan aku di dalam firdaus}
+
+Ketika mereka sampai di tempat yang bernama Tengkorak, 
+mereka menyalibkan Yesus di situ dan juga kedua orang penjahat itu, 
+yang seorang di sebelah kanan-Nya dan yang lain di sebelah kiri-
+Nya.
+
+Seorang dari penjahat yang di gantung itu menghujat 
+Yesus, katanya: "Bukankah Engkau adalah Kristus? Selamatkanlah 
+diri-Mu dan kami! Tetapi yang seorang menegor dia, katanya: 
+"Tidakkah engkau takut, juga tidak kepada Allah, sedang engkau 
+menerima hukuman yang sama? Kita memang selayaknya 
+dihukum, sebab kita menerima balasan yang setimpal dengan 
+perbuatan kita, tetapi orang ini tidak berbuat sesuatu yang salah." 
+
+Lalu ia berkata kepada Yesus: "Yesus, ingatlah akan aku, 
+apabila Engkau datang sebagai Raja." Kata Yesus kepadanya: 
+"Aku berkata kepadamu, sesungguhnya hari ini juga engkau akan ada 
+bersama-sama dengan Aku di dalam Firdaus"
+
+Demikianlah Injil Tuhan}
+
+\BU{Terpujilah Kristus}
+
+\subsection*{Homili}
+ 
+
+\subsection*{Doa Umat}
+
+\BI{Ya Allah yang Maha murah, Engkau adalah sumber kehidupan 
+kami yang selalu setia menuntun segala langkah kehidupan kami di 
+kala suka maupun duka. Kami percaya, bersama dengan Dikau kami 
+mampu untuk membuat hidup ini menjadi makin bermakna. Karena 
+itu ya Tuhan, sudilah Engkau mendengarkan doa-doa umatMu yang 
+berhimpun di sini.}
+
+\BP{Allah, Bapa kami di dalam surga, kepadaMu kami menyerahkan 
+\namaalm yang kami kasihi ini. Engkau telah menciptakan dan 
+menempatkan dia di dunia ini untuk mengabdi kepadaMu dan 
+sesamanya. Engkaulah yang memanggil dia. Semoga ia pantas 
+bertemu dengan Dikau dan berbahagia bersama Engkau di surga. 
+
+Marilah kita memohon}
+
+\BU{Kabulkanlah doa kami, ya Tuhan}
+ 
+\BP{Semoga Engkau dengan murah hati mengasihani dia yang telah 
+kembali kepadamu. 
+
+Marilah kita memohon}
+
+\BU{Kabulkanlah doa kami, ya Tuhan.}
+ 
+\BP{Semoga ia yang telah Kau murnikan dengan air permandian, 
+tetap Kau sucikan pula dengan kemurahan belaskasihanMu. 
+
+Marilah kita memohon}
+
+\BU{Kabulkanlah doa kami, ya Tuhan.}
+
+\BP{Semoga ia yang selama hidupnya memperjuangkan kebenaran, 
+keadilan, cinta kasih dan damai, Kau beri pahala di surga. 
+
+Marilah kita memohon}
+
+\BU{Kabulkanlah doa kami, ya Tuhan.}
+ 
+\BP{Semoga di akhirat, ia Kau beri tempat yang tenteram dan terang 
+bersama dengan orang-orang kudusMu. 
+
+Marilah kita memohon} 
+
+\BU{Kabulkanlah doa kami, ya Tuhan.}
+
+\BP{Semoga kami yang bersedih hati atas kematiannya, terutama 
+keluarga yang berduka, Kau hibur dengan harapan akan persatuan 
+kelak di surga. 
+
+Marilah kita memohon}
+
+\BU{Kabulkanlah doa kami, ya Tuhan.}
+ 
+\BI{Allah yang kekal dan kuasa, Engkau senantiasa menyayangi 
+umatMu. Engkaulah kebahagiaan bagi semua orang yang meninggal 
+dalam Dikau. Semoga dalam kerahimanMu beristirahatlah 
+\namaalm yang kami kasihi. Kabulkanlah dengan rela doadoa 
+kami ini. Demi Kristus, Tuhan dan Pengantara kami.}
+
+\BU{Amin} 
+
+\section*{LITURGI EKARISTI}
+
+\lagu{Lagu Persembahan}
+
+\subsection*{Persiapan Persembahan}
+
+\BI{Terpujilah Engkau ya Tuhan, Allah semesta alam, sebab dari kemurahanMu, kami menerima roti yang kami siapkan ini. Inilah hasil dari bumi dan dari usaha manusia yang bagi kami akan menjadi roti kehidupan.}
+
+\BU{Terpujilah Allah selama-lamanya}
+
+\BI{Terpujilah Engkau ya Tuhan, Allah semesta alam, sebab dari kemurahanMu, kami menerima anggur yang kami siapkan ini. Inilah hasil dari pohon anggur dan dari usaha manusia yang bagi kami akan menjadi minuman rohani.}
+
+\BU{Terpujilah Allah selama-lamanya}
+
+\BI{Berdoalah saudara-saudari, supaya persembahanku dan persembahanmu berkenan pada Allah Bapa yang Mahakuasa.}
+
+\BU{Semoga persembahan ini diterima demi kemuliaan Tuhan dan keselamatan kita serta seluruh umat Allah yang kudus.}
+
+\subsection*{Doa Persiapan Persembahan}
+
+\BI{Allah Bapa sumber kekudusan, terimalah bahan persembahan roti dan anggur yang kami hunjukkan untuk keselamatan hambaMu \namaalm. Perkenankanlah dia memasuki rumahMu di surga, dan anugerahkan kami semua ketekunan dalam pengharapan. Demi Kristus Tuhan dan pengantara kami.}
+
+\BU{Amin.}
+
+
+\subsection*{Doa Syukur Agung}
+
+\lagu{Kudus}
+
+\lagu{Anak Domba Allah}
+
+\subsection*{Ajakan menyambut komuni}
+
+\BI{Saudara-saudari terkasih, Tuhan Yesus bersabda; "Datanglah kepadaKu, kalian yang telah memikul beban berat, maka Aku akan memberikan rasa lega kepadamu." Beban dosa kitapun akan dihapus. Maka berbahagialah kita yang diundang ke perjamuan Tuhan.}
+
+\BU{Ya Tuhan, saya tidak pantas Tuhan datang pada saya, tetapi bersabdalah saja, maka saya akan sembuh.}
+
+\lagu{Lagu Komuni}
+
+\subsection*{Doa sesudah komuni}
+
+\BI{Marilah berdoa,
+
+Allah Bapa sumber kehidupan, kami telah Engkau segarkan dengan santapan kehidupan, Tubuh dan Darah Yesus PutraMu. KehadiranNya memberi keteguhan bagi hidup kami sehari-hari dalam berusaha memenuhi kehendakMu melalui pelayanan da  pekerjaan kami. Semoga hambaMu \namaalm yang telah satu tahun menghadapMu kini berbahagia bersamaMu dan persatukanlah kami kelak dengannya serta para kudus di surga. Dengan perantaraan Kristus Tuhan kami,}
+
+\BU{Amin.}
+
+
+\section*{Pemberkatan Jenazah} 
+
+\BI{Ibu-Bapak, saudara-saudariku sekalian yang terkasih dalam 
+Kristus Tuhan. Sebentar lagi kita akan berpisah secara jasmani 
+dengan \namaalm yang kita kasihi ini. Maka dengan hati yang 
+tabah, kita memberikan penghormatan yang terakhir kepadanya, 
+karena kita berharap bahwa ia akan bangkit bersama Kristus yang 
+telah diimaninya untuk kehidupan yang kekal. Maka air suci akan 
+direciki di atas dia sebagai lambang pembaptisannya dan jenazahnya 
+akan didupai, supaya keharuman amal baktinya di dunia ini berkenan 
+kepada Tuhan. }
+\BI{Ya Tuhan, siramilah hambaMu ini \namaalm yang masuk ke 
+alam kekal, dengan air kehidupan.} 
+\BU{Terimalah dia, ya Tuhan.} 
+\BI{Supaya ia hidup bahagia selamanya bersama para kudusMu dalam 
+kerajaan surga.} 
+\BU{Terimalah dia, ya Tuhan.} 
+\BI{Dari bumi aku berseru kepadaMu, ya Tuhan. Sudilah Engkau 
+mendengarkan seruanku.} 
+\BU{Terimalah dia, ya Tuhan.} 
+\BI{PadaMu, ya Tuhan, ada pengampunan dosa agar semua orang 
+mengabdi kepadaMu dengan hati yang gembira.} 
+\BU{Terimalah dia, ya Tuhan.} 
+\BI{Aku percaya kepadaMu, ya Tuhan; jiwaku percaya akan 
+SabdaMu.}
+\BU{Terimalah dia, ya Tuhan.}
+\BI{Pada-Mu, ya Tuhan, ada belaskasihan serta penebusan berlimpah 
+ada pada-Mu}
+\BU{Terimalah dia, ya Tuhan} 
+\BI{Hai para kudus dan para malaikat Allah, datanglah menyongsong 
+\namaalm ini dan hantarkanlah dia kepada Kristus.} 
+\BU{Di hadapan Allah yang Mahatinggi.}
+\BI{Semoga Kristus menyambutmu, sebab Dia-lah yang telah 
+memanggil engkau. Semoga para malaikat mengiringi dan 
+menjemput engkau ke pangkuan Abraham.}
+\BU{Di hadapan Allah yang Mahatinggi}
+\BI{Tuhan, berilah dia istirahat kekal dan sinarilah dia dengan cahaya 
+abadi}
+\BU{Di hadapan Allah yang Mahatinggi}
+\BI{Marilah berdoa: 
+
+Ya Tuhan, kehidupan dan kematian kami berada di dalam tanganMu 
+sendiri. Engkau telah menciptakan manusia karena kasih dan 
+cintaMu. Ya Tuhan, lihatlah kami putera-puteri-Mu yang kini 
+berhimpun di sekitar peti jenazah dari \namaalm yang kami 
+kasihi ini. Kami semua berduka cita atas kematiannya. Maafkan kami 
+ya Tuhan, jika kami belum sempat mengucapkan terima kasih kami 
+kepadanya atas segala kebaikan yang telah dilakukannya kepada 
+kami. Kami juga menyesal jika kami belum sempat meminta maaf 
+atas segala dosa dan kesalahan yang telah kami lakukan terhadapnya. 
+Akan tetapi kami percaya bahwa kasihMu jauh lebih kuat daripada 
+keinginan manusiawi kami. Kami mohon berkat belaskasihan-Mu 
+kepada \namaalm , janganlah Engkau serahkan dia 
+kepada kekuasaan maut, tetapi bebaskanlah dia demi jasa Kristus, 
+Putera-Mu. Biarkanlah darah dan air yang tercurah dari lambung 
+Kristus, PuteraMu itu membersihkan dia dari segala dosa dan 
+kesalahannya sehingga ia, dengan jiwa yang bersih dapat menghadap 
+Engkau, Penciptanya, Bapanya dan juga Bapa kami bersama. Tuhan, 
+dalam kehidupan di dunia ini, ia telah dikuatkan dan disegarkan 
+dengan santapan Tubuh dan Darah Kristus Putera-Mu. Maka kami 
+mohon, perkenankanlah ia kini mengambil bagian dalam perjamuan 
+surgawi-Mu. Disanalah kami semua akan dipertemukan kembali 
+untuk memuji dan memuliakan Dikau dalam keabadian. Demi 
+Kristus Tuhan dan Pengantara kami. }
+
+\BU{Amin.}
+\BI{\namaalm , terima kasih atas segala kebaikan, jasa dan 
+pengorbanan hidupmu yang telah engkau perbuat selagi masih hidup 
+bersama dengan kami. Atas segala tanda kasihmu itu, kami hanya 
+sanggup mengucapkan terima kasih dan selamat jalan, bawalah selalu 
+tanda kemenangan Kristus: Bapa dan (+) Putera Roh 
+Kudus.}
+\BU{Amin.} 
+
+
+\keterangan{(Lalu jenazah direciki dengan air suci dan didupai. Keluarga 
+diperkenankan untuk menyirami jenazah dengan minyak wangi yang 
+sudah diberkati. Sebaiknya diiringi dengan lagu yang sesuai)}
+
+
+\section*{RITUS PENUTUP} 
+
+\BI{Marilah berdoa: 
+
+Allah dan Bapa kami yang Maha baik, kami mempercayakan 
+\namaalm yang kami kasihi ini kepada kerahimanMu. Kami 
+percaya, bahwa semua orang yang meninggal dalam Kristus akan 
+hidup bersama Kristus. Kepercayaan ini memberi kami harapan dan 
+menabahkan hati kami dalam kesusahan. Dengarkanlah doa umatMu 
+ini dan bukalah pintu surga bagi dia yang sudah Engkau panggil. 
+Semoga kami yang masih berziarah di bumi ini, terutama semua 
+anggota keluarga yang ditinggalkannya selalu saling membantu 
+dalam segala tantangan hidup ini; dan semoga kami tetap menaruh 
+kepercayaan yang teguh akan sabda-Mu, bahwa kami juga akan 
+menyongsong Kristus untuk bersatu dengan Dia selama-lamanya. 
+Sebab Dialah PuteraMu, Tuhan dan Pengantara kami kini dan 
+sepanjang segala masa.}
+
+\BU{Amin}
+
+\subsection*{Berkat} 
+
+\BI{Tuhan sertamu}
+\BU{Dan sertamu juga} 
+\BI{Semoga kita sekalian, semua yang kita doakan dan perjalanan kita 
+menghantar \namaalm ke tempat peristirahatannya yang 
+terakhir, senantiasa dilindungi, dibimbing dan diberkati oleh Allah 
+yang Mahakuasa: Bapa dan (+) Putera dan Roh Kudus} 
+\BU{Amin.}
+\BI{Saudara-saudariku sekalian, marilah kita berangkat ke pekuburan 
+untuk menghantar \namaalm yang kita kasihi ini ke tempat 
+istirahatnya yang terakhir. Semoga damai Tuhan menyertai kita.} 
+\BU{Sekarang dan selama-lamanya}
+
+\subsection*{Lagu Penutup} 
+
+
+\begin{center}
+TERIMA KASIH ATAS DUKUNGAN DOA DARI\\
+BAPAK, IBU, DAN SAUDARA\\
+SEMOGA KEBAIKAN BAPAK, IBU, DAN SAUDARA\\
+TUHAN BERKENAN MEMBERKATI
+\end{center}
+\end{document}

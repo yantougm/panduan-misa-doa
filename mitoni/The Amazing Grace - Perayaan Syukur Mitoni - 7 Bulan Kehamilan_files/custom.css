@@ -1,0 +1,366 @@
+div.contentwrapper {
+background: transparent;
+}
+div.bodywrap {
+background: transparent;
+}
+/*Flipping Green Theme
+based on sandskirt theme
+design by http://othersides.multiply.com
+2009*/
+div.header {
+opacity: 0;
+}
+div.header:hover {
+opacity: 100;
+}
+div.header ul.gnopt li.gnopt a, div.header ul.gnopt li.gnoptsel a,
+span.signoutid a, span.signoutid a:link, span.signoutid a:visited {
+color: #27b020;
+display: block;
+}
+a.signout, a:link.signout, a:visited.signout {
+color: #27b020;
+}
+div.header ul.gnopt li.gnopt a:hover, div.header ul.gnopt li.gnoptsel a:hover,
+span.signoutid a:hover, a:hover.signout {
+color: #8bf786;
+}
+div.contentwrapper {
+background: transparent;
+}
+div.bodywrap {
+background: transparent;
+}
+body {
+background :url(http://images.othersides.multiply.com/image/1:customizedthemes/photos/17209/1200x1200/12/background-1.jpg?et=usOowGmo8iILR9wh63JwuA&nmid=211250523) repeat-x fixed;
+color: #27b020;
+font-family: trebuchet ms;
+background-color: #fff;
+}
+body {
+cursor:url(http://images.othersides.multiply.com/image/1:customizedthemes/photos/17209/500x500/6/cursoractive.png?et=dpQLZFap%2BNGA6MOWM8FEkg&nmid=211250523),default;
+}
+a,a:link,a:visited,a:active,a:hover {
+cursor:url(http://images.othersides.multiply.com/image/1:customizedthemes/photos/17209/500x500/7/cursorhover.png?et=Cg2Jysh7flVFzOjxMr1SHQ&nmid=211250523),default;
+}
+a, a:visited, a:link { 
+color: #03290e;
+}
+.rail {
+width: 138px;
+}
+div#subnav div.topt a {
+width: auto;
+height: auto;
+margin: 32px 1px;
+padding: 5px 10px;
+line-height: 1em;
+display: block;
+float: left;
+text-align: center;
+font-size: 11px;
+font-weight: normal;
+background-color: #fff;
+border: 1px solid #cffcc0;
+-moz-border-radius: 5px;
+color: #03290e;
+}
+div#subnav div.topt a:hover.topt { 
+color: #0c8107;
+}
+a.toptsel, a:visited.toptsel {
+line-height: 2.2em;
+display: block;
+float: right;
+height: 32px;
+width: 85px;
+padding: 0px;
+margin: 0px;
+text-align: center;
+font-size: 15px;
+font-weight: bold;
+color: #03290e;
+border: none;
+font-family: trebuchet ms;
+text-transform: none;
+text-decoration: none;
+letter-spacing: 1px;
+}
+a:hover.toptsel, a:link:hover.toptsel, a:visited:hover.toptsel {
+text-decoration: none;
+font-weight: bold;
+color: #03290e;
+letter-spacing: 1px;
+border: none;
+height: 32px;
+width: 85px;
+}
+a:hover.topt, a:link:hover.topt, a:visited:hover.topt {
+text-decoration: none;
+color: #03290e;
+font-weight: bold;
+letter-spacing: 1px;
+border: none;
+height: 32px;
+width: 85px;
+}
+h1#page_owner_title {
+width: 655px;
+margin: 0 auto;
+padding: 16px 0px 0px 80px;
+background-color: none;
+background: none;
+color: #26df40;
+border: none;
+font-size: 20px;
+text-align: left;
+}
+.itemboxsub {
+color: #03290e;
+font-size: 20px;
+width: auto;
+max-: 500px;
+height: 20px
+border: none;
+padding: 1px;
+margin: auto;
+background:transparent;
+background:url(http://images.othersides.multiply.com/image/1:customizedthemes/photos/17209/500x500/9/subsubbox.gif?et=%2CQ7PcAuugcDDiXjK6pobWw&nmid=211250523) repeat;
+border :#cbfecf 1px dashed;
+-moz-border-radius: 8px;
+margin-bottom: 2px;
+}
+.itembox {
+background: url(http://images.othersides.multiply.com/image/1:customizedthemes/photos/17209/500x500/3/bottom.png?et=8H%2B5%2B300I4xXjdHuQ8l5gw&nmid=211250523) no-repeat bottom right;
+background-color: #7dba56;
+color: #0f2302;
+border :#cbfecf 1px dashed;
+-moz-border-radius: 8px;
+margin-left: auto;
+max-:500px;
+padding: 5px 5px;
+}
+/*page_video_and_photo_album*/
+.videothumbnails, .albumthumbnails {
+background: url(http://images.othersides.multiply.com/image/1:customizedthemes/photos/17209/500x500/3/bottom.png?et=8H%2B5%2B300I4xXjdHuQ8l5gw&nmid=211250523) no-repeat bottom right;
+background-color: #7dba56;
+color: #1c3f06;
+overflow-x: visible;
+-moz-border-radius: 8px;
+border :#cbfecf 1px dashed;
+padding: 5px 5px;
+}
+div.owner_nav {
+background-color: #0a2002;
+border: none;
+margin: 0px;
+-moz-border-radius: 0px;
+background: none;
+width: 793px;
+height: 293px;
+background: url(http://images.othersides.multiply.com/image/1:customizedthemes/photos/17209/1200x1200/2/banner-1.png?et=AF0K8JM5KRd9lqhaGO%2Bvxg&nmid=211250523) no-repeat left;
+margin: 0 auto;
+}
+div#page_start {
+width: 733px;
+margin: 0 auto;
+background: url(http://images.othersides.multiply.com/image/1:customizedthemes/photos/17209/1200x1200/11/wrapping.png?et=ubJVdGkKur4O9h4hm2WedQ&nmid=211250523) repeat-y;
+}
+div#ownedfooter {
+margin: 0;
+width: 790px;
+height: 241px;
+padding: 0px 0 0 0px;
+line-height: 180px;
+border: none;
+color: #c6faa2;
+text-align: center;
+font-size: 10px;
+background: url(http://images.othersides.multiply.com/image/1:customizedthemes/photos/17209/1200x1200/8/footer.png?et=xu%2CnspMfvgCuipKtRJw1Zg&nmid=211250523) no-repeat bottom center;
+}
+td.rail {
+background-color: transparent;
+width: 135px;
+padding: 0;
+margin-right: -8px;
+color: #1e4a0d;
+}
+.railstart {
+width: 125px;
+height: 38px;
+background-color: transparent;
+background:url(http://images.othersides.multiply.com/image/1:customizedthemes/photos/17209/500x500/10/titletheme.png?et=%2BrQZjmCFdsjTJKyRAAv7LA&nmid=211250523) no-repeat;
+border: none;
+margin-top: 0px;
+}
+.railbody {
+width: 115px;
+background-color: transparent;
+background: url(none) repeat;
+border: none;
+font-size: 12px;
+z-index: 1000;
+position: relative;
+}
+.railsep {
+height: 1px;
+margin: 12px 0 12px 0;
+background: none;
+background-color: transparent;
+}
+.railend {
+display: none;
+}
+div.infobox .boxbody {
+border: none;
+background-color: transparent;
+color: #0a2002;
+}
+/*box_quote*/
+table#table_reply textarea {
+background: url(http://i346.photobucket.com/albums/p412/othersides/hijaukata/cursorhover.png) no-repeat bottom right;
+background-color: #bff59d;
+border: 1px dashed #bdfdb9;
+-moz-border-radius: 5px;
+color: #234d08;
+filter: alpha(opacity=50);
+opacity: 0.50;
+-moz-opacity: 0.50;
+-khtml-opacity: 0.50;
+max-: 500px;
+}
+.replybox, .replyboxodd, .quotet, .quotea,
+.homwrapper {
+background: transparent;
+color: #3b7416;
+overflow-x: auto;
+max-width: 500px;
+}
+.replybox {
+background-color: #a0d47e;
+margin: 5px 5px;
+border: 1px dashed #bdfdb9;
+max-width: 500px;
+-moz-border-radius: 5px;
+}
+/*box_form_gb*/
+div#itemreplyform {
+border :none;
+max-width: 500px;
+}
+/*box_quote*/
+.quotet {
+background-color: #c1e6a9;
+border :#bdfdb9 1px dashed;
+-moz-border-radius: 5px;
+color: #0b3b08;
+}
+.replyboxread {
+background-color: #a0d47e;
+border :#bdfdb9 1px dashed;
+-moz-border-radius: 5px;
+color: #3b7416;
+}
+.replydeleted {
+color: #3b7416;
+}
+ul {
+list-style: square;
+color: #0b3b08;
+}
+li {
+list-style: square;
+color: #0b3b08;
+}
+.railbody ul li {
+list-style-image: url(http://images.othersides.multiply.com/image/1:customizedthemes/photos/17209/500x500/4/cursor.png?et=Il8zeMFxIGJTFlSuGBqdkw&nmid=211250523);
+}
+.railbody ul li:hover { 
+list-style-image: url(http://images.othersides.multiply.com/image/1:customizedthemes/photos/17209/500x500/5/cursor2.png?et=sSm5NYmlR%2B057365njBdkg&nmid=211250523);
+}
+li { 
+list-style-image: url(http://images.othersides.multiply.com/image/1:customizedthemes/photos/17209/500x500/4/cursor.png?et=Il8zeMFxIGJTFlSuGBqdkw&nmid=211250523);
+padding: 0px;
+}
+li:hover { 
+list-style-image: url(http://images.othersides.multiply.com/image/1:customizedthemes/photos/17209/500x500/5/cursor2.png?et=sSm5NYmlR%2B057365njBdkg&nmid=211250523);
+padding: 0px;
+}
+/*user_view*/
+div#viewing_history_holder, div#viewing_history , div.stats div.infobox,
+div.stats div.infobox .boxbody, div.infobox .boxbody{
+background: transparent;
+border: none;
+color: #d7fccf;
+}
+div.stats div.infobox {
+background: url(http://images.othersides.multiply.com/image/1:customizedthemes/photos/17209/500x500/3/bottom.png?et=8H%2B5%2B300I4xXjdHuQ8l5gw&nmid=211250523) no-repeat bottom right;
+background-color: #7dba56;
+border :1px dashed #d7fccf;
+-moz-border-radius: 8px;
+color: #d7fccf;
+}
+div.infobox b.cn, div.sidebox b.cn { 
+display: none;
+}
+div.infobox, div.sidebox, div.box,
+div.sidebox div.boxhead, div.sidebox div.boxbody {
+background: transparent;
+}
+div.sidebox, div.sidebox div.boxhead, div.sidebox div.boxbody,
+div.box, div.box div.boxbody { 
+border: none;
+background: transparent;
+}
+div.infobox .boxbody h1, div.boxhead h2, h1.page_subtitle {
+color: #0d3503;
+}
+a:hover img {
+filter:Alpha(Opacity=50,FinishOpacity=0,Style=0);
+-khtml-opacity: 0.50;
+-moz-opacity: 0.50;
+opacity: 0.50;
+}
+/*box_calender_all*/
+.calendarwrapper, .tablediv1 {
+width: 500px;
+color: #03290e;
+border : none;
+}
+/*hover calender*/
+.calendarwrapper, .caldiv1, .caldiv1 table, td.calday,
+.caldiv1 td.calday, .caldiv1 td:hover.calday, .cald, .caldate,
+.calevent, .caldiv1 td, .caldiv1 td:hover {
+background-color: transparent;
+color: #104a07;
+}
+/*box_all_date*/
+.caldiv1 {
+background: url(http://images.othersides.multiply.com/image/1:customizedthemes/photos/17209/500x500/3/bottom.png?et=8H%2B5%2B300I4xXjdHuQ8l5gw&nmid=211250523) no-repeat bottom right;
+background-color: #7dba56;
+border: #dbfcce 1px dashed;
+-moz-border-radius: 5px;
+color: #03290e;
+padding: 5px 5px 15px 15px;
+}
+.cald { 
+border: #dbfcce 1px dotted;
+background-color: #c5fabd;
+-moz-border-radius: 5px;
+margin-top: -3px;
+margin-right: -3px;
+}
+/*days*/
+.caldiv1 th {
+background-color: transparent;
+color: #1a6e0d;
+}
+.caldiv1 td.calday, .caldiv1 td:hover.calday, .caldiv1 td, .caldiv1 td:hover {
+background: none;
+}
+.calevent {
+color: #000;
+border: #dbfcce 1px solid;
+-moz-border-radius: 5px;
+}

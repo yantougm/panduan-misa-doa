@@ -1,0 +1,108 @@
+<?php
+// pujian.php
+
+$nfile='pujian.txt';
+$lines=file($nfile);
+$ALTVERSE=1;
+$ALTVERSESPACE=2;
+$VERSE=3;
+$VERSESPACE=4;
+$PARENTHESIS=5;
+$SPACE=6;
+$TEXT=7;
+$state=0;
+foreach($lines as $ln){
+	$state=nextState($state,$ln);	
+}
+
+function nextState($state, $ln){
+global $ALTVERSE, $ALTVERSESPACE, $VERSE, $VERSESPACE, $PARENTHESIS, $SPACE, $TEXT;
+	$ln=trim($ln);
+	if(preg_match('/\(.*\)(.*)/',$ln,$match))
+		$input=$PARENTHESIS;
+	elseif ((trim($ln)=='') or (preg_match('/[0-9]+/',$ln,$match2)))
+	    $input=$SPACE;
+	else
+		$input=$TEXT;
+		
+	switch ($state){
+		case 0:
+			switch ($input){
+				case $PARENTHESIS:
+					echo '0-\subsection{'.$match[1].'}'."\n";
+					echo "0-\begin{altverse}\n";
+					$nextState=$ALTVERSE;
+					break;
+				}
+			break;
+		case $ALTVERSE:
+			switch ($input){
+				case $PARENTHESIS:
+					$nextState=$ALTVERSE;
+					break;
+				case $SPACE:
+					echo 'AV-\end{altverse}'."\n";
+					$nextState=$ALTVERSESPACE;
+					break;
+				case $TEXT:
+					$nextState=$ALTVERSE;
+					echo 'AV-'.$ln.'\\\\'."\n";
+					break;
+			}
+			break;
+		case $ALTVERSESPACE:
+			switch ($input){
+				case $PARENTHESIS:
+					echo 'AVS-\subsection{'.$match[1].'}'."\n";
+					echo "AVS-\begin{altverse}\n";
+					$nextState=$ALTVERSE;
+					break;
+				case $SPACE:
+					$nextState=$ALTVERSESPACE;
+					break;
+				case $TEXT:
+					echo "AVS-\n";
+					echo "AVS-\begin{verse}\n";
+					echo 'AVS-'.$ln.'\\\\'."\n";
+					$nextState=$VERSE;
+					break;
+			}
+			break;
+		case $VERSE:
+			switch ($input){
+				case $PARENTHESIS:
+					echo 'V-\subsection{'.$match[1].'}'."\n";
+					echo "V-\begin{altverse}\n";
+					$nextState=$ALTVERSE;
+					break;
+				case $SPACE:
+					echo 'V-\end{verse}'."\n";
+					$nextState=$VERSESPACE;
+					break;
+				case $TEXT:
+					$nextState=$VERSE;
+					echo 'V-'.$ln.'\\\\'."\n";
+					break;
+			}
+			break;
+		case $VERSESPACE:
+			switch ($input){
+				case $PARENTHESIS:
+					echo 'VS-\subsection{'.$match[1].'}'."\n";
+					echo "VS-\begin{altverse}\n";
+					$nextState=$ALTVERSE;
+					break;
+				case $SPACE:
+					$nextState=$ALTVERSESPACE;
+					break;
+				case $TEXT:
+					$nextState=$ALTVERSE;
+					echo "\n";
+					echo "VS-\begin{altverse}\n";
+					echo 'VS-'.$ln.'\\\\'."\n";
+					break;
+			}
+			break;
+	}
+	return $nextState;
+}

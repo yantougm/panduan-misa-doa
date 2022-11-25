@@ -1,0 +1,505 @@
+\makeatletter
+\newcommand\arraybslash{\let\\\@arraycr}
+\makeatother
+\setlength\tabcolsep{1mm}
+\renewcommand\arraystretch{1.3}
+
+\newpage
+\section{Jadwal Kegiatan}
+\begin{center}
+JADWAL KEGIATAN DOA LINGKUNGAN SANTO PETRUS 2010
+\end{center}
+\scriptsize
+\begin{longtable}{|p{1.2cm}|p{0.4cm}|p{0.8cm}|p{2.5cm}|p{3cm}|p{3cm}|}
+\hline
+\multicolumn{1}{|p{1.2cm}|}{\centering Bulan} &
+\centering Tgl &
+\centering Hari &
+\centering Acara &
+\centering Tempat &
+\centering\arraybslash Petugas\\\hline
+\endfirsthead
+\hline
+\multicolumn{1}{|p{1.2cm}|}{\centering Bulan} &
+\centering Tgl &
+\centering Hari &
+\centering Acara &
+\centering Tempat &
+\centering\arraybslash Petugas\\\hline
+\endhead
+\hline
+\endfoot
+\hline
+\endlastfoot
+
+\multicolumn{1}{|p{0.9cm}|}{Januari} &
+28 &
+Kamis &
+Doa Lingkungan &
+Bp. Aloysius Lamakey
+
+Pugeran &
+Ibu C. Supartini S.
+
+Ibu VRA Sukiyanto\\\hline
+\multicolumn{1}{|p{0.9cm}|}{Februari} &
+11 &
+Kamis &
+Doa Lingkungan &
+Bp. Y. Lasiman 
+
+Sanggrahan &
+Bp. Neo Suradi
+
+Ibu. M. Th. Nanik I.\\\hhline{~-----}
+ &
+18 &
+Kamis &
+Doa Lingkungan &
+Bp. Andreas Winarso
+
+Nanggulan &
+Bp. Yoh. Eko Hananto
+
+Ibu Maria Sode\\\hhline{~-----}
+ &
+25 &
+Kamis &
+Pra Paskah I &
+Bp. FX. Sularto
+
+Pugeran &
+Bp. Y. Lasiman
+
+Ibu M. Susiati S.\\\hline
+\multicolumn{1}{|p{0.9cm}|}{Maret} &
+4 &
+Kamis &
+Pra Paskah II &
+Bp.Yos Sugiyatno
+
+Karangnongko &
+Ibu A. Sukiratnasari
+
+Ibu Christiana Dwi W.\\\hhline{~-----}
+ &
+11 &
+Kamis &
+Pra Paskah III &
+Bp. R. Abas Suhardjo
+
+Nanggulan &
+Mudika
+
+Mudika\\\hhline{~-----}
+ &
+18 &
+Kamis &
+Pra Paskah IV &
+Bp. Neo Suradi
+
+Pugeran &
+Bp. Ig.Ludy Indra P.
+
+Ibu Th. Widya R.\\\hhline{~-----}
+ &
+25 &
+Kamis &
+Pra Paskah V &
+Bp. Yoh. Eko Hananto
+
+Nanggulan &
+Bp. Y. Suyanto
+
+Ibu MOS Padmini\\\hline
+\multicolumn{1}{|p{0.9cm}|}{April} &
+8 &
+Kamis &
+Perayaan Paskah Bersama &
+Bp. Yohanes Suripto
+
+Pugeran &
+Ibu2 Lingkungan
+
+Sie Koor  Lingkungan\\\hhline{~-----}
+ &
+22 &
+Kamis &
+Doa Lingkungan &
+Ibu Th. Sri Budiati
+
+Karangnongko &
+Ibu YF. Lina S.
+
+Bp. Y. Lasiman\\\hline
+\multicolumn{1}{|p{0.9cm}|}{Mei} &
+6 &
+Kamis &
+Doa Rosario I &
+Bp. Ig. Adi Subardi
+
+Nanggulan &
+Bp. Th. Totok S
+
+Ibu Nunik A.D.W.\\\hhline{~-----}
+ &
+12 &
+Rabu &
+Doa Rosario II &
+Bp. Samino
+
+Pugeran &
+Bp. Ig. Saman
+
+Ibu Ning Hery P.\\\hhline{~-----}
+ &
+14 &
+Jumat &
+Doa Rosario III + Doa Novena Roh Kudus I &
+Ibu Ig. Darmini Titus
+
+Karangnongko &
+Ibu M.G. Budiartuti
+
+Ibu. M. Th. Nanik I.\\\hhline{~-----}
+ &
+15 &
+Sabtu &
+Doa Rosario IV + Doa Novena Roh Kudus II &
+Bp. Ign.Mulyono
+
+Nanggulan &
+Ibu Maria Sode
+
+Ibu VRA Sukiyanto\\\hhline{~-----}
+ &
+16 &
+Minggu &
+Doa Rosario V + Doa Novena Roh Kudus III &
+Bp. Thomas Baharudin
+
+Pugeran &
+Ibu Sri Wuryaningtyas
+
+Ibu M.Th.Herlinawati/Ibu Eko Lukito\\\hhline{~-----}
+ &
+17 &
+Senin &
+Doa Rosario VI + Doa Novena Roh Kudus IV &
+Bp. Hieronimus Subagyo
+
+Karangnongko &
+Bp. Agung D.
+
+Ibu C. Supartini S.\\\hhline{~-----}
+ &
+18 &
+Selasa &
+Doa rosario VII + Doa Novena Roh Kudus V &
+Ibu YF. Lina Setyaningsih
+
+Nanggulan &
+Ibu C. Supartiyah
+
+Ibu R. Zeli P\\\hhline{~-----}
+ &
+19 &
+Rabu &
+Doa Roasario VIII + Doa Novena Roh Kudus VI &
+Bp. Yoh. Sudarmadi 
+
+Pugeran &
+Ibu C. S. Sudarto
+
+ Bp. Y. Lasiman\\\hhline{~-----}
+ &
+20 &
+Kamis &
+Doa Rosario IX + Doa Novena Roh Kudus VII &
+Bp. BN. Sami Raharjo
+
+Pugeran &
+Ibu Ch. Dwi Winarni
+
+Ibu YF. Lina S\\\hhline{~-----}
+ &
+21 &
+Jumat &
+Doa Rosario X + Doa Novena Roh Kudus VIII &
+Bp. Ig. Saman
+
+Sanggrahan &
+Ibu VRA Sukiyanto
+
+Bp. Andreas K.M.\\\hhline{~-----}
+ &
+22 &
+Sabtu &
+Doa Rosario XI + Doa Novena Roh Kudus IX &
+Ibu S.Sukarjono
+
+Nanggulan &
+Ibu Th. Widya R.
+
+Ibu M. Susiati S.\\\hhline{~-----}
+ &
+27 &
+Kamis &
+Doa Rosario XII &
+Ibu M.Th. Nanik I.
+
+Sombomerten &
+Bp. Yoh. Eko Hananto
+
+Ibu YF. Lina S.\\\hline
+\multicolumn{1}{|p{0.9cm}|}{Juni} &
+3 &
+Kamis &
+Doa Lingkungan &
+Bp. Th. Totok S.
+
+Karangnongko &
+Bp. FX. Sularto
+
+Ibu Maria Sode\\\hhline{~-----}
+ &
+29 &
+Selasa &
+Pesta Nama 
+
+St. Petrus &
+Bp. Y.B. Sudibyo
+
+Pugeran &
+Ibu2 Lingkungan
+
+Sie koor Lingkungan\\\hhline{------}
+\multicolumn{1}{|p{0.9cm}|}{Juli} &
+8 &
+Kamis &
+Doa Lingkungan &
+Bp. C. Supriyadi
+
+Pugeran &
+Ibu R. Zeli P.
+
+Ibu VRA Sukiyanto\\\hhline{~-----}
+ &
+22 &
+Kamis &
+Doa Lingkungan &
+Ibu S. Rumiyati S.
+
+Nanggulan &
+Bp. BN. Sami Raharjo
+
+Ibu YF. Lina S.\\\hline
+\multicolumn{1}{|p{0.9cm}|}{Agustus} &
+12 &
+Kamis &
+Doa Lingkungan &
+Bp. Andreas K.M.
+
+Pugeran &
+Bp. Y. Lasiman
+
+Ibu Th. Prima S.\\\hhline{~-----}
+ &
+26 &
+Kamis &
+Doa Lingkungan &
+Bp. C. Srimurhariyani S.
+
+Nanggulan &
+Bp. R. Abas Suhardjo
+
+Ibu Th. Widya Risilawati\\\hline
+\multicolumn{1}{|p{0.9cm}|}{September} &
+9 &
+Kamis &
+BKSN I &
+Bp. M. Supangat
+
+Nanggulan &
+Ibu C. Supartini S.
+
+Bp. V. Agung D.\\\hhline{~-----}
+ &
+16 &
+Kamis &
+BKSN II &
+Bp. YZ. Budiman S.
+
+Karangnongko &
+Mudika
+
+Mudika\\\hhline{~-----}
+ &
+23 &
+Kamis &
+BKSN III &
+Bp. Al. Purwoto
+
+Nanggulan &
+Ibu Th. Prima S.
+
+Ibu Maria sode\\\hhline{~-----}
+ &
+30 &
+Kamis &
+BKSN IV &
+Bp. Y. Suyanto
+
+Sombomerten &
+Bp.Andreas K. M.
+
+Ibu Ning Hery P.\\\hline
+\multicolumn{1}{|p{0.9cm}|}{Oktober} &
+7 &
+Kamis &
+Doa Rosario I &
+Bp. F. Nur Susilo
+
+Karangnongko &
+Ibu MOS Padmini
+
+Ibu Sri Wuryaningtyas\\\hhline{~-----}
+ &
+14 &
+Kamis &
+Doa Rosario II &
+Bp. Stef. Subagyo
+
+Karangnongko &
+Ibu M.G. Budiartuti
+
+Ibu C. Supartini S.\\\hhline{~-----}
+ &
+21 &
+Kamis &
+Doa Rosario III &
+Ibu C. Supartyah/buTris
+
+Nanggulan &
+Ibu Ning Hery P.
+
+Ibu Ch. Dwi Winarni\\\hhline{~-----}
+ &
+31 &
+Minggu &
+Ziarah ke Goa Maria &
+Akan ditentukan oleh Ibu2 Lingkungan &
+Panitia 
+
+(Dibentuk oleh Pengurus Lingkungan dlm rapat pengurus berikutnya)\\\hline
+\multicolumn{1}{|p{0.9cm}|}{November} &
+2 &
+Selasa &
+Doa  ARWAH &
+Bp. AY. Hery Purnama
+
+Karangnongko &
+Bp. Y. Suyanto
+
+Ibu YF. Lina S.\\\hhline{~-----}
+ &
+11 &
+Kamis &
+Doa Lingkungan &
+Bp. Mateus Daryanto
+
+Karangnongko &
+Bp. Al. Purworo
+
+Ibu MOS Padmini\\\hhline{~-----}
+ &
+25 &
+Kamis &
+Doa Lingkungan &
+Bp. Sukijo
+
+Nanggulan &
+Ibu M.Th. Nanik I.
+
+Ibu M. Susiati S.\\\hline
+\multicolumn{1}{|p{0.9cm}|}{Desember} &
+2 &
+Kamis &
+ADVEN I &
+Bp. Ig. Ludy Indra
+
+Maguwo &
+Bp. Y. Lasiman
+
+Ibu A. Sukiratnasari\\\hhline{~-----}
+ &
+9 &
+Kamis &
+ADVEN II &
+Bp. Yos Sugiyatno
+
+Karangnongko &
+Mudika
+
+Mudika\\\hhline{~-----}
+ &
+16 &
+Kamis &
+ADVEN III &
+Bp. FX. Sularto
+
+Pugeran &
+Bp. Neo Suradi
+
+Ibu Sri Wuryaningtyas\\\hhline{~-----}
+ &
+23 &
+Kamis &
+ADVEN IV &
+Ibu VRA Sukiyanto
+
+Kembang &
+Bp. Y. Suyanto
+
+Ibu R. Zeli P.\\\hhline{~-----}
+\multicolumn{1}{|p{0.9cm}|}{} &
+30 &
+Kamis &
+NATAL BERSAMA &
+Bp. Anton
+
+Pugeran &
+Mudika St. Petrus
+
+Ibu2 Lingk. (konsumsi)\\\hline
+\multicolumn{1}{|p{0.9cm}|}{Januari
+
+2010} &
+6 &
+Kamis &
+Doa Lingkungan &
+Bp.Y.  Lasiman
+
+Sanggrahan &
+Bp. Al. Lamakey
+
+Ibu Nunik A.D.W.\\\hhline{~-----}
+ &
+20 &
+Kamis &
+Doa Lingkungan &
+Ibu M.Th.Herlinawati/Ibu Eko
+
+Karangnongko &
+Ibu MOS Padmini
+
+Bp. YZ. Budiman S.\\\hhline{------}
+\end{longtable}
+CATATAN: 
+
+\begin{enumerate}
+\item Dalam kolom petugas, urutan pertama sebagai pendoa dan urutan kedua bertugas menyiapkan lagu-lagu
+\item Tempat untuk Latihan koor dan Novena Pengembangan Kawasan akan ditentukan kemudian
+\item Jadwal pertemuan ibu-ibu Lingkungan ditentukan oleh para ibu Lingkungan.
+\end{enumerate}
+\normalsize

@@ -1,0 +1,1284 @@
+function insertFlash(src,duration,numericid,owner,splash) {
+    getEl('flashmovie').innerHTML = "<object classid='clsid:d27cdb6e-ae6d-11cf-96b8-444553540000' codebase='http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0' width='480' height='395' id='multiply_flash'><param name='allowScriptAccess' value='sameDomain'/><param name='movie' value='http://images.multiply.com/multiply/player.swf'/><param name='quality' value='high'/><param name='bgcolor' value=''/><param name='WMode' value='Transparent'/><param name='FlashVars' value='vidurl=" + src + "&vidlength=" + duration + "&numericid=" + numericid + "&userid=" + owner + "&baseurl=" + splash + "'/><embed src='http://images.multiply.com/multiply/player.swf' quality='high' bgcolor='' width='480' height='395' name='multiply_flash' allowScriptAccess='sameDomain' type='application/x-shockwave-flash' wmode='transparent' pluginspage='http://www.macromedia.com/go/getflashplayer' flashvars='vidurl=" + src + "&vidlength=" + duration + "&numericid=" + numericid + "&userid=" + owner + "&baseurl=" + splash + "'/></object>";
+}
+
+function insertSlideshow(album,divid) {
+    var width = 500;
+    var height = 500;
+    getEl(divid).innerHTML =
+	"<object classid='clsid:d27cdb6e-ae6d-11cf-96b8-444553540000' " +
+	"codebase='http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0' " +
+        "width='" + width + "' height='" + height + "' id='multiply_slideshow'>" +
+        "<param name='allowScriptAccess' value='always'>" +
+        "<param name='movie' value='http://images.multiply.com/multiply/slide-show.swf'/>" +
+        "<param name='quality' value='high'/>" +
+	"<param name='bgcolor' value='#000000'/>" +
+	"<param name='allowFullScreen' value='true'/>" +  
+        "<param name='FlashVars' value='album_id=" + album + "&base_uri=multiply.com'/>" +
+        "<embed src='http://images.multiply.com/multiply/slide-show.swf' " +
+        "allowscriptaccess='always' " +
+        "quality='high' " +
+        "bgcolor=#000000 " +
+        "width='" + width + "' height='" + height + "' " +
+        "name='multiply_audio_player' " +
+	"allowFullScreen='true' " +
+        "id='multiply_audio_player' " +
+        "type='application/x-shockwave-flash' " +
+        "pluginspage='http://www.macromedia.com/go/getflashplayer' " +
+        "flashvars='album_id=" + album + "&base_uri=multiply.com'/>" +
+        "</object>";
+}
+
+function insertAudioPlayer(music_item_id) {
+    var width = 500;
+    var is_linux = '1';
+    var height = 54; // is_linux ? 37 : 150;
+    var player_url = "http://images.multiply.com/multiply/MusicPlayer.swf"; // is_linux ? "http://images.multiply.com/multiply/audio-player-linux.swf" : "http://images.multiply.com/multiply/audio-player.swf";
+    getEl(music_item_id).innerHTML = 
+	"<object classid='clsid:d27cdb6e-ae6d-11cf-96b8-444553540000' " +
+        "codebase='http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0' " +
+	"width='" + width + "' height='" + height + "' id='multiply_audio_player_object'>" +
+	"<param name='allowScriptAccess' value='always'>" + 
+        "<param name='movie' value='" + player_url + "'/>" +
+        "<param name='quality' value='high'/>" +
+        "<param name='bgcolor' value=''/>" +
+        "<param name='WMode' value='Transparent'/>" +
+        "<param name='FlashVars' value='music_item_id=" + music_item_id + "&base_uri=multiply.com&is_linux=1'/>" +
+        "<embed src='" + player_url + "' " +
+	"allowscriptaccess='always' " +
+        "quality='high' " +
+        "bgcolor='' " +
+        "width='" + width + "' height='" + height + "' " +
+        "name='multiply_audio_player' " +
+        "id='multiply_audio_player' " +
+        "type='application/x-shockwave-flash' " +
+        "wmode='transparent' " +
+        "pluginspage='http://www.macromedia.com/go/getflashplayer' " +
+        "flashvars='music_item_id=" + music_item_id + "&base_uri=multiply.com&is_linux=1'/>" +
+        "</object>";
+}
+
+var Hiding_Audio_List = new Array;
+function hide_audio_player_list(music_item_id) {
+    Hiding_Audio_List[music_item_id] = true;
+    setTimeout("maybe_really_hide_audio_player_list('" + music_item_id + "');", 2000);
+}
+
+function maybe_really_hide_audio_player_list(music_item_id) {
+    if (Hiding_Audio_List[music_item_id]) {
+	getEl(music_item_id + '_overflowdiv').style.height = '37px';
+    }
+}
+
+function show_audio_player_list(music_item_id) {
+    Hiding_Audio_List[music_item_id] = false;
+    getEl(music_item_id + '_overflowdiv').style.height = '150px';
+}
+
+function insertMusicPlayer(mp3s) {
+    getEl('flashmusic').innerHTML = "<object classid='clsid:d27cdb6e-ae6d-11cf-96b8-444553540000' codebase='http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0'width='350' height='25'><param name='movie' value='http://images.multiply.com/multiply/mp3player.swf'></param><param name='WMode' value='Transparent'></param><param name='FlashVars' value='randomplay=true&listofmp3s="+mp3s+"'></param><embed wmode='transparent' src='http://images.multiply.com/multiply/mp3player.swf' type='application/x-shockwave-flash' width='350' height='25' name='multiply_music' allowScriptAccess='sameDomain'  quality=high FLASHVARS='randomplay=true&listofmp3s=" + mp3s + "' pluginspage='http://www.macromedia.com/go/getflashplayer'></embed></object>";
+}
+
+function docwrite(thevar) {
+    document.write(thevar);
+}
+
+function insertFlashnl(src,duration,numericid,owner,splash) {
+    getEl('flashmovie').innerHTML = "<object classid='clsid:d27cdb6e-ae6d-11cf-96b8-444553540000' codebase='http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0' width='480' height='395' id='multiply_flash'><param name='allowScriptAccess' value='sameDomain'/><param name='movie' value='http://images.multiply.com/multiply/player2.swf'/><param name='quality' value='high'/><param name='bgcolor' value=''/><param name='WMode' value='Transparent'/><param name='FlashVars' value='nl=1&vidurl=" + src + "&vidlength=" + duration + "&numericid=" + numericid + "&userid=" + owner + "&baseurl=" + splash + "'/><embed src='http://images.multiply.com/multiply/player2.swf' quality='high' bgcolor='' width='480' height='395' name='multiply_flash' allowScriptAccess='sameDomain' type='application/x-shockwave-flash' wmode='transparent' pluginspage='http://www.macromedia.com/go/getflashplayer' flashvars='nl=1&vidurl=" + src + "&vidlength=" + duration + "&numericid=" + numericid + "&userid=" + owner + "&baseurl=" + splash + "'/></object>";
+}
+
+
+function insertAudioReply(item_id,element_id,reply_id) {
+    var width = 300;
+    var height = 34;
+    var is_linux = '1';
+    var player_url = "http://images.multiply.com/multiply/audio-reply-player.swf";
+    getEl(element_id).innerHTML = 
+        "<div style='height: " + height + "px; width: " + width + "px; position: relative;'>" + 
+	"<div style='position: absolute; z-index: 5; height: " + height + "px; width: " + width + "px; overflow: hidden;'>" + 
+	"<object classid='clsid:d27cdb6e-ae6d-11cf-96b8-444553540000' " +
+        "codebase='http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0' " +
+        "width='" + width + "' height='" + height + "' id='multiply_multv_object'>" +
+        "<param name='allowScriptAccess' value='always'/>" +
+        "<param name='movie' value='" + player_url + "'/>" +
+        "<param name='quality' value='high'/>" +
+        "<param name='bgcolor' value=''/>" +
+        "<param name='WMode' value='Transparent'/>" +
+        "<param name='FlashVars' value='item_id=" + item_id + "&reply_id=" + reply_id + "&base_uri=multiply.com&is_linux=" + is_linux + "'/>" +
+        "<embed src='" + player_url + "' " +
+        "quality='high' " +
+        "bgcolor='' " +
+        "width='" + width +"' height='" + height + "' " +
+        "name='multiply_multv' " +
+        "id='multiply_multv' " +
+        "allowScriptAccess='always' " +
+        "type='application/x-shockwave-flash' " +
+        "wmode='transparent' " +
+        "pluginspage='http://www.macromedia.com/go/getflashplayer' " +
+        "flashvars='item_id=" + item_id + "&reply_id=" + reply_id + "&base_uri=multiply.com&is_linux=" + is_linux + "'/>" +
+        "</object></div></div>";
+}
+
+function insertMulTV(item_id,element_id,reply_id,is_owned,is_reply) {
+    var additional_vars = '';
+    var width = 480;
+    var height = 409;
+    var swf_file = "multv";
+    if (reply_id != '') { 
+	additional_vars += '&reply_id=' + reply_id;
+    }
+    if (is_owned) {
+	additional_vars += '&is_owned=1'; // hide channel guide button
+    }
+    if (is_reply) {
+	additional_vars += '&is_reply=1'; // hide channel guide, menu, prev/next buttons 
+	width = 300;
+	height = 256;
+	swf_file = "multv300";
+    }
+    getEl(element_id).innerHTML = 
+	"<object classid='clsid:d27cdb6e-ae6d-11cf-96b8-444553540000' " +
+	"codebase='http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0' " +
+	"width='" + width + "' height='" + height + "' id='multiply_multv_object'>" +
+	"<param name='allowScriptAccess' value='always'/>" +
+	"<param name='movie' value='http://images.multiply.com/multiply/" + swf_file + ".swf'/>" +
+	"<param name='quality' value='high'/>" + 
+	"<param name='bgcolor' value=''/>" +
+	"<param name='allowFullScreen' value='true'/>" +
+	"<param name='FlashVars' value='first_video_id=" + item_id + "&base_uri=multiply.com" + additional_vars +"'/>" +
+	"<embed src='http://images.multiply.com/multiply/" + swf_file + ".swf' " +
+	"quality='high' " +
+	"bgcolor='' " + 
+	"width='" + width + "' height='" + height + "' " +
+	"name='multiply_multv' " +
+	"id='multiply_multv' " +
+	"allowScriptAccess='always' " +
+	"type='application/x-shockwave-flash' " + 
+	"allowFullScreen='true' " +
+	"pluginspage='http://www.macromedia.com/go/getflashplayer' " +
+	"flashvars='first_video_id=" + item_id + "&base_uri=multiply.com" + additional_vars + "'/>" +
+	"</object>";
+}
+
+function insertVideoRecorder(element_id, oid, uid, sec, env, base_uri, reply_id) {
+    getEl(element_id).innerHTML = 
+	"<object classid='clsid:d27cdb6e-ae6d-11cf-96b8-444553540000' " +
+	"codebase='http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0' " +
+	"width=480 height=395 id='multiply_video_recorder'>" +
+	"<param name='movie' value='http://images.multiply.com/multiply/recorder.swf'/>" +
+	"<param name='quality' value='high'/>" +
+	"<param name='allowFullScreen' value='true'/>" +
+	"<param name='allowScriptAccess' value='always'/>" +
+	"<param name='allowNetworking' value='external'/>" +
+	"<param name='wmode' value='transparent'/>" +
+	"<param name='FlashVars' value='oid=" + oid + "&uid=" + uid + "&sec=" + sec + "&env=" + env + "&base_uri=" + base_uri + "&reply_id=" + reply_id + "'/>" +
+	"<embed src='http://images.multiply.com/multiply/recorder.swf' allowscriptaccess='always' allownetworking='external' wmode='transparent' quality='high' bgcolor='' width=480 height=395 name='multiply_video_recorder' id='multiply_video_recorder' type='application/x-shockwave-flash' allowFullScreen='true' pluginspage='http://www.macromedia.com/go/getflashplayer' flashvars='oid=" + oid + "&uid=" + uid + "&sec=" + sec + "&env=" + env + "&base_uri=" + base_uri + "&reply_id=" + reply_id + "'/>";
+}
+function insertAudioRecorder(element_id, oid, uid, sec, env, base_uri, reply_id) {
+    getEl(element_id).innerHTML =
+        "<object classid='clsid:d27cdb6e-ae6d-11cf-96b8-444553540000' " +
+        "codebase='http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0' " +
+        "width=350 height=215 id='multiply_video_recorder'>" +
+        "<param name='movie' value='http://images.multiply.com/multiply/audiorecorder.swf'/>" +
+        "<param name='quality' value='high'/>" +
+        "<param name='allowFullScreen' value='true'/>" +
+        "<param name='allowScriptAccess' value='always'>" +
+	"<param name='allowNetworking' value='external'/>" +
+	"<param name='wmode' value='transparent'/>" +
+        "<param name='FlashVars' value='oid=" + oid + "&uid=" + uid + "&sec=" + sec + "&env=" + env + "&base_uri=" + base_uri + "&reply_id=" + reply_id + "'/>" +
+        "<embed src='http://images.multiply.com/multiply/audiorecorder.swf' wmode='transparent' quality='high' bgcolor='' width=350 height=215 name='multiply_video_recorder' id='multiply_video_recorder' type='application/x-shockwave-flash' allowScriptAccess='always' allowNetworking='external' allowFullScreen='true' pluginspage='http://www.macromedia.com/go/getflashplayer' flashvars='oid=" + oid + "&uid=" + uid + "&sec=" + sec + "&env=" + env + "&base_uri=" + base_uri + "&reply_id=" + reply_id + "'/>";
+}
+
+if (!window.Multiply) Multiply = {};	// prevent multiple definitions
+
+if (!Multiply.Browser) {
+    var user_agent = navigator.userAgent.toLowerCase();
+    Multiply.Browser = {
+	is_firefox	: /firefox/.test(user_agent),
+	is_safari	: /safari/.test(user_agent),
+	is_opera	: /opera/.test(user_agent),
+	is_msie		: /msie/.test(user_agent) && !/opera/.test(user_agent)
+    };
+
+    Multiply.Browser.version = (user_agent.match(/.+(?:ox|it|ra|ie)[\/: ]([\d.]+)/) || [])[1];
+
+    // define variables to make this compatible with existing code
+    var isie = Multiply.Browser.is_msie;
+    var isie7 = Multiply.Browser.is_msie && Multiply.Browser.version >= 7.0;
+    var is_firefox = Multiply.Browser.is_firefox;
+    var is_safari = Multiply.Browser.is_safari;
+    var is_opera = Multiply.Browser.is_opera;
+}
+// -*- mode: javascript; -*-
+
+var xml_reqs = new Array();
+
+function new_ajax_request(name) {
+    var req = window.ActiveXObject ? new ActiveXObject("Microsoft.XMLHTTP") : new XMLHttpRequest();
+    if (req) {
+	if (!name)
+	    name = 'req' + xml_reqs.length;
+	xml_reqs[name] = req;
+
+	return req;
+    }
+
+    return null;
+}
+
+function make_param_string(params) {
+    if (params == null)
+	return null;
+
+    var type = typeof params;
+
+    if (type == 'undefined')
+	return null;
+
+    if (type == 'string')
+	return params;
+
+    var p = [];
+    // if params is an array, assume that the array elements are form elements
+    if (params.constructor == Array) {
+	for (var i in params)
+	    p.push(encodeURIComponent(params[i].name) + "=" + encodeURIComponent(params[i].value));
+    }
+    else {	// assume params is an object of key/value pairs
+	for (var key in params) {
+	    // if the value is an array, the key names are repeated
+	    var value = params[key];
+	    if (value && value.constructor == Array) {
+		for (var i in value)
+		    p.push(encodeURIComponent(key) + "=" + encodeURIComponent(value[i]));
+	    }
+	    else {
+		p.push(encodeURIComponent(key) + "=" + encodeURIComponent(value));
+	    }
+	}
+    }
+
+    if (p.length > 0)
+	return p.join('&').replace(/%20/g, "+");
+    else
+	return null;
+}
+
+function is_string(thing) {
+    var thing_type = typeof thing;
+    return (thing_type == "string" || (thing_type == 'object' && thing instanceof String));
+}
+
+// return form params as a hash object
+// input 'frm' is either the form name or the form element object itself
+
+function get_form_params(frm) {
+    if (is_string(frm)) {
+        frm = document.forms[frm];
+    }
+
+    var params = {};
+    for (var i in frm.elements) {
+	var field = frm.elements[i];
+	if (field.type == 'radio') {
+	    if (field.checked)
+		params[field.name] = field.value;
+	}
+	else {
+	    params[field.name] = field.value;
+	}
+    }
+
+    return params;
+}
+
+function ajax_form_load(frm, element_id) {
+	if (is_string(frm)) {
+		frm = document.forms[frm];
+	}
+	var url = frm.action;
+	var params = get_form_params(frm);
+	var callback = function(req) { getEl(element_id).innerHTML = req.responseText; run_embedded_scripts(req.responseText); };
+	ajax(url, callback, {params: params});
+}
+
+// sends ajax requests (both GET and POST)
+// callback is called upon successful response.
+// callbacks don't need to check response status.
+// suitable default is used for req_name if not specified.
+
+function ajax(url, callback, options) {
+//     console.log('ajax: url |' + url + '|');
+    var method = 'POST';
+    if (options && options.method != null) {
+	method = options.method;
+    }
+
+    var data = options && options.params ? make_param_string(options.params) : null;
+
+    var new_callback;
+    if (callback) {
+// 	console.log('ajax: setting up callback ...');
+	new_callback = function(req) {
+	    if (req.readyState != 4) return null;
+	    if (req.status != 200) return null;
+	    return callback(req);
+	};
+    }
+
+    var req = new_ajax_request(options ? options.name : null);
+    var async = true;
+    if (options && options.async != null)
+	async = options.async;
+//     console.log('ajax: async = |' + async + '|');
+
+    if (req) {
+	if (new_callback)
+	    req.onreadystatechange = function() { new_callback(req); };
+	req.open(method, url, async);
+
+	if (method == 'POST') {
+	    req.setRequestHeader('Content-type','application/x-www-form-urlencoded');
+	    req.setRequestHeader('Content-length', data ? data.length : 0);
+	    req.setRequestHeader('Connection', 'close');
+	}
+
+// 	console.log('ajax: sending ' + method + ' |' + url + '|');
+	req.send(data);
+    }
+
+    return req;
+}
+
+// convenience function to perform an ajax GET request
+// callback is called upon successful response.
+// callbacks don't need to check response status.
+// suitable default is used for req_name if not specified.
+
+function ajax_get(url, callback, req_name) {
+//     console.log('ajax_get: url |' + url + '|');
+    return ajax(url, callback,
+		{
+		    method: 'GET',
+		    params: null,
+		    name: req_name
+		});
+}
+
+// convenience function to perform an ajax POST request
+
+function ajax_post(url, params, callback, req_name) {
+    return ajax(url, callback,
+		{
+		    method: 'POST',
+		    params: params,
+		    name: req_name
+		});
+}
+
+// compatibility wrapper function for load_xml_document
+
+function load_xml_document(req_name, url, callback) {
+    return ajax(url, callback,
+		{
+		    method: 'GET',
+		    params: null,
+		    name: req_name
+		});
+}
+
+// compatibility wrapper function for post_xml_document
+
+function post_xml_document(req_name, url, callback, params) {
+    return ajax(url, callback,
+		{
+		    method: 'POST',
+		    params: params,
+		    name: req_name
+		});
+}
+
+
+// convenience function to perform an ajax GET request,
+// load the response text in element with id specified by 'elem'.
+// Optional third arg 'show_elem' specifies the id of an element
+// to be made visible.  if 'show_elem' is not specified, 'elem'
+// is made visible.
+
+function ajax_load(url, elem, show_elem, post_load_callback) {
+    var callback = function(req) {
+	getEl(elem).innerHTML = req.responseText;
+        
+        // run any embedded scripts
+        run_embedded_scripts(req.responseText);
+
+	display(show_elem || elem, true);
+	if (post_load_callback != null) {
+	    post_load_callback();
+	}
+    };
+
+    return ajax(url, callback,
+		{
+		    method: 'POST',
+		    params: null,
+		    name: 'req_' + elem
+		});
+}
+
+function run_embedded_scripts(html) {
+    var re = new RegExp('<scr' + 'ipt>(.*?)</sc' + 'ript>', 'gm');
+    var scripts = html.replace(/\n/g, "").match(re);
+    if (scripts && scripts.length > 0) {
+        for (var i = 0; i < scripts.length; i++) {
+            var script = scripts[i].replace('<scr' + 'ipt>', '').replace('</sc' + 'ript>', '');
+            eval(script);
+        }
+    }
+}
+function show_item_details(key) {
+    var div = getEl('gm_item_details');
+    if (!div) {
+        div = document.createElement('div');
+        div.style.position = 'absolute';
+        div.style.left = '100px';
+        div.style.width = '700px';
+        div.style.height = '400px';
+        div.style.backgroundColor = '#eeeeee';
+        div.style.border = '1px solid #111111;'
+        div.style.color = '#000000';
+        div.style.zIndex = '9999999';
+        div.id = 'gm_item_details';
+        document.body.appendChild(div);
+    }
+    div.style.top = (window.pageYOffset + 100) + 'px';
+    div.style.display = '';
+    div.innerHTML = '<center>Loading...</center>';
+    ajax('/gm-tools/show-item-details/' + key, handle_item_details);
+}
+
+function handle_item_details(req) {
+    var parts = req.responseText.split('<pairsplit>');
+    var html = '<div style="width: 700px; height: 20px;">' +
+        '<table width=100% cellpadding=0 cellspacing=0 border=0><tr>' +
+        '<td align=left><span style="font-size: 20px; font-weight: bold;">Item Details</td>' +
+        '<td align=right><div style="cursor: pointer; text-align: center; width: 25px; height: 25px; background-color: #ccc; color: #000; font-weight: bold" onclick="javascript:close_item_details();">X</div></td></tr></table></div>' +
+        '<div style="width: 700px; height: 400px; overflow: auto;"><table border=0 cellpadding=2 cellspacing=0 width=100%>';
+    var colors = new Array('efefef','fefefe');
+    for(x=0; x<parts.length; x++) {
+        var tmp = parts[x].split('=');
+        var key = tmp.shift();
+        var value = tmp.join('=');
+        var color = x % 2 == 1 ? colors[0] : colors[1];
+        html += '<tr style="background-color: #' + color + '"><td width=25% align=left style="background-color: #' + color + '">' + key + ':</td><td width=75% align=left style="background-color: #' + color + '">' + value + '</td></tr>';
+    }
+    html += '</table></div>';
+    getEl('gm_item_details').innerHTML = html;
+}
+
+function close_item_details() {
+    getEl('gm_item_details').style.display = 'none';
+}
+
+function recreate_montage(key) {
+    ajax('/gm-tools/recreate-montage/' + key, handle_recreate_montage);
+}
+
+function handle_recreate_montage(req) {
+    alert('montage recreated');
+}
+
+function delete_zero_size_photos(key) {
+    ajax('/gm-tools/delete-zero-size-photos/' + key, handle_delete_zero_size_photos);
+}
+
+function handle_delete_zero_size_photos(req) {
+    alert('zero size files eliminated');
+}
+
+function recreate_factory_indexes(key) {
+    ajax('/gm-tools/recreate-factory-indexes/' + key, handle_recreate_factory_indexes);
+}
+
+function handle_recreate_factory_indexes(req) {
+    alert('factory indexes recreated');
+}
+
+var live_replies = 0;
+
+var global_page_key;
+var global_page_desc;
+var Maybe_Unpad_Div;
+var Page_Load_Count = 0;
+
+function load_viewing_history_for(key,desc) {
+	global_page_key = key;
+	global_page_desc = desc;
+	var url = '/show-viewing-history/' + key + '?item_desc=' + escape(desc);
+	var req = window.XMLHttpRequest ? new XMLHttpRequest : window.ActiveXObject ? new ActiveXObject('Microsoft.XMLHTTP') : '';
+	req.onreadystatechange = function () {
+		if (req.readyState == 4 && req.status == 200) {
+			getEl('viewing_history_holder').innerHTML = req.responseText;
+		}
+	}
+	req.open('GET',url,true);
+	req.send(null); 
+}
+
+function refresh_viewing_history() {
+	if (!global_page_key) { return; }
+	load_viewing_history_for(global_page_key,global_page_desc);
+}
+
+function set_disabled(id, on_off) {
+	var el = document.all ? document.all[id] : document.getElementById(id);
+	if(el) el.disabled = on_off;
+}
+function set_visible(id, on_off) {
+	var el = document.all ? document.all[id] : document.getElementById(id);
+	if(el && el.style) el.style.visibility = on_off ? 'visible' : 'hidden';
+}
+function set_classname(id, new_name) {
+	var el = document.all ? document.all[id] : document.getElementById(id);
+	if(el) el.className = new_name;
+}
+function display(id, on_off) {
+	var el = document.all ? document.all[id] : document.getElementById(id);
+	if(el && el.style) el.style.display = on_off ? '' : 'none';
+}
+function toggle_display(id) {
+	var el = document.all ? document.all[id] : document.getElementById(id);
+	if(el && el.style) el.style.display = el.style.display ? '' : 'none';
+}
+function set_opacity(el, amount) {
+	if (typeof el == 'string')
+	el = getEl(el);
+	if (!el || typeof el == 'undefined')
+	return;
+
+	el.style.opacity = amount/100;
+	el.style.MozOpacity = amount/100;
+	el.style.filter = 'alpha(opacity=' + amount + ')';
+}
+function toggle_dropdown(id) {
+	display('new_dropdown', false);
+	display('explore_dropdown', false);
+	display('group_post_table', false);
+	var el = getEl(id);
+	el.style.display = el.style.display ? '' : 'none';
+	el.style.zIndex = 199;
+	if((id == 'go_dropdown' || id == 'new_dropdown' || id == 'explore_dropdown') && hide_owner_title) {
+		var ot = getEl('owner_nav');
+set_visible('owner_nav', el.style.display);
+set_visible('page_start', el.style.display);
+		if(ot) ot.style.marginTop = el.style.display ? '0' : '1200px';
+	}
+	if(getEl('page-start')) {
+		getEl('page-start').style.opacity = el.style.display ? 1 : .4;
+		getEl('page-start').style.filter = el.style.display ? "" : "alpha(opacity=40)";
+	}
+}
+var default_group_id;
+var default_group_name;
+var post_new_check_leave_page;
+function post_new() {
+	if (post_new_check_leave_page) {
+		var msg = 'Confirm\n\nAre you sure you want to navigate away from this page?\n\nYour unsaved Blog Entry will be lost.\n\nPress OK to continue, or Cancel to stay on the current page.';
+		if (! confirm(msg)) return;
+	}
+	
+	window.skip_unload_check = 1;
+	display('post_new', 1);
+	display('post_new_link', 0);
+	reset_groups_div(default_group_id, default_group_name);
+}
+function toggle_submenu(id) {
+	toggle_display(id);
+}
+var hide_owner_title;
+function hide_dropdown_delay(id) {
+	display(id, false);
+	var slider = getEl('slider-1');
+	if(slider) slider.style.visibility = 'visible';
+	if(hide_owner_title) {
+		var ot = getEl('owner_nav');
+		if(ot) ot.style.marginTop = '0';
+	}
+	if(getEl('page-start')) {
+		getEl('page-start').style.opacity = 1;
+		getEl('page-start').style.filter = "";
+	}
+}
+var hide_timeout;
+function hide_delay(id) {
+	var func = "hide_dropdown_delay('" + id + "')";
+	if(!hide_timeout) hide_timeout = window.setTimeout(func, 500);
+}
+function no_hide_delay() {
+	window.clearTimeout(hide_timeout)
+	hide_timeout = 0;
+}
+var dropdown_group_id;
+var group_name;
+function set_group_for_posting(group_id, grp_name) {
+	dropdown_group_id = group_id;
+	group_name = grp_name;
+	display('pickgroup', 0);
+	display('postgrouplist0', 0);
+	display('postgrouplist1', 0);
+	display('postgrouplist2', 1);
+	display('postgrouplist3', 0);
+	var url = '/group-post/' + group_id;
+	load_xml_document('group_post', url, popup_group_post_callback);
+}
+
+function popup_group_post_callback() {
+	if (xml_reqs['group_post'].readyState != 4) return;
+	if (xml_reqs['group_post'].status != 200) return;
+		
+	display('postgrouplist2', 0);
+	var div = getEl('group_post_response');
+	div.innerHTML = xml_reqs['group_post'].responseText;
+
+	var gname = getEl('group_name_label');
+	if(gname) gname.innerHTML = '<div class=subtitle>Post to the group site to share with fellow group members, or <a href="javascript:reset_groups_div()">pick another group</a></div>';
+	var gname2 = getEl('group_name_title');
+	if(gname2) gname2.innerHTML = 'Add to ' + group_name;
+
+	display('postgrouplist3', 1);
+}
+
+function toggle_group_dropdown(div_id, group_id, group_name) {
+	var gname = getEl(div_id + '_name');
+	if(gname) gname.innerHTML = '<h4>Add to ' + group_name + '</h4>';
+	if(dropdown_group_id == group_id) {
+		toggle_display(div_id);
+	}
+	else {
+		dropdown_group_id = group_id;
+		display(div_id, 1);
+	}
+}
+function go_group(url) {
+	if(dropdown_group_id)
+		window.location.href = 'http://' + dropdown_group_id + '.multiply.com' + url;
+	else
+		alert("Please select a group first.");
+}
+
+function submit_this(url, params, target_window) {
+    var frm = createEl('form');
+    frm.method = 'POST';
+    frm.action = url;
+    if (target_window) {
+	frm.target = target_window;
+    }
+    if (params) {
+        for (var name in params) {
+            var param = createEl('input');
+            param.type = 'hidden';
+            param.setAttribute('name', name);
+            param.setAttribute('value', params[name]);
+
+            frm.appendChild(param);
+        }
+    }
+
+    document.body.appendChild(frm);
+    frm.submit();
+    return true;
+}
+
+function track_url(url) {
+    if (window.pageTracker) {
+	pageTracker._trackPageview(url + '?' + segmentation_variables);
+    }
+}
+
+function confirmLink(message, url) {
+    if(confirm(message)) submit_this(url);
+}
+
+function confirmSubmit(message, form_name) {
+	if(confirm(message)) getEl(form_name).submit();
+}
+function confirmBlock(url) {
+	return confirmLink("Removing a message means you will not see the message nor its future replies. Please note that this is a message board, where unlike e-mail, it is not necessary to remove messages from this page. They will simply scroll off as they get old.\nAre you sure you want to remove this message and any replies?", url);
+}
+function setBlocked(id, nmid) {
+	display('mrow_' + id, false);
+	var ael = getEl('blocklink_' + id);
+	if (ael) ael.parentNode.parentNode.parentNode.style.display = 'none';
+	post_xml_document('delete_' + id, '/item/set-blocked/' + nmid + '/true', do_nothing, "no_redirect=1");
+}
+function getEl(el) {
+	return document.all ? document.all[el] : document.getElementById(el);
+}
+
+function createEl(type, id, theClass) {
+	var el = document.createElement(type);
+	if (el) {
+		if (id && id.length > 0)
+			el.id = id;
+		if (theClass && theClass.length > 0)
+			el.className = theClass;
+	}
+
+	return el;
+
+}
+
+function getElementsByClassName(classname, node, tag)
+{
+	var a = new Array();
+	if (!node) node = document;
+	if (!tag) tag = '*';
+	var els = node.getElementsByTagName(tag);
+	var re = new RegExp('\\b' + classname + '\\b');
+	for (var i = 0; i < els.length; i++) {
+		if (re.test(els[i].className))
+			a.push(els[i]);
+	}
+	return a;
+}
+
+function getElementsByClassNameExact(classname, node, tag)
+{
+	var a = new Array();
+	if (!node) node = document;
+	if (!tag) tag = '*';
+	var els = node.getElementsByTagName(tag);
+	for (var i = 0; i < els.length; i++) {
+		if (els[i].className == classname)
+			a.push(els[i]);
+	}
+	return a;
+}
+
+function readCookie(name) {
+	if(document.cookie == '') return false;
+
+	var firstChar, lastChar;
+	var theBigCookie = document.cookie;
+	name = name + '=';
+	firstChar = theBigCookie.indexOf(name);
+	if (firstChar != -1) {
+		firstChar += name.length;
+		lastChar = theBigCookie.indexOf(';', firstChar);
+		if(lastChar == -1) lastChar = theBigCookie.length;
+		return unescape(theBigCookie.substring(firstChar, lastChar));
+	}
+	else {
+		return false;
+	}
+}
+function setCookie (name,value,expires,path,domain,secure) {
+  document.cookie = name + "=" + escape (value) +
+    ((expires) ? "; expires=" + expires.toGMTString() : "") +
+    ((path) ? "; path=" + path : "") +
+    ((domain) ? "; domain=" + domain : "") +
+    ((secure) ? "; secure" : "");
+}
+function setImgSrc(id, src, width, height) {
+	var img = getEl(id);
+	img.width = width;
+	img.height = height;
+	img.src = src;
+}
+function window_height() {
+	var myHeight = 0;
+	if(typeof(window.innerHeight) == 'number') {
+		myHeight = window.innerHeight;
+	}
+	else if(document.documentElement && document.documentElement.clientHeight) {
+		myHeight = document.documentElement.clientHeight;
+	}
+	else if(document.body && document.body.clientHeight) {
+		myHeight = document.body.clientHeight;
+	}
+	return myHeight;
+}
+function containsDOM (container, containee) {
+	var isParent = false;
+	do {
+		if ((isParent = container == containee))
+			break;
+		containee = containee.parentNode;
+	}
+	while (containee != null);
+	return isParent;
+}
+function checkMouseEnter (element, evt) {
+	if (!evt) {
+	    evt = window.event;
+	}
+	if (element.contains && evt.fromElement) {
+		return !element.contains(evt.fromElement);
+	}
+	else if (evt.relatedTarget) {
+		return !containsDOM(element, evt.relatedTarget);
+	}
+}
+function doesContain(elThis, elThat) {
+	if (elThat == elThis) return true;
+	if (elThat == null) return false;
+	return doesContain(elThis, elThat.parentNode);
+}
+function checkMouseLeave (element, evt) {
+	if (evt.toElement) {
+		return !doesContain(element, evt.toElement);
+	}
+	else if (evt.relatedTarget) {
+		return !containsDOM(element, evt.relatedTarget);
+	}
+}
+function selectAll() {
+}
+var OverrideSelectAll = 0;
+function hotKeys (event) {
+        if (window.local_hotKeys) {
+                if (!window.local_hotKeys(event))
+                        return false;
+        }
+	event = (event) ? event : ((window.event) ? event : null);
+	if (event && event.ctrlKey) {
+		var charCode = (event.charCode) ? event.charCode : ((event.which) ? event.which : event.keyCode);
+		var myChar = String.fromCharCode (charCode).toLowerCase();
+		if (window.submitReply &&
+		    ((myChar == "m" && charCode == 77) || myChar == "\n" || myChar == "\r")) {
+		    if (submitReply())
+			getEl('replyform').submit();
+		}
+		if (OverrideSelectAll && myChar == "a") { cancelEvent(event); return selectAll();}
+	}
+}
+function cancelEvent(e) { 
+	// try to prevent side effects (browser defaults) 
+	e = e || window.event; 
+	e.cancelBubble = true; 
+	e.returnValue = false; 
+	if (e.stopPropagation) e.stopPropagation(); 
+	if (e.preventDefault) e.preventDefault();     
+	return false; 
+} 
+
+function addEvent(obj, evType, fn, useCapture) {
+	if (obj.addEventListener) {
+		obj.addEventListener(evType, fn, useCapture);
+		return true;
+	}
+	else if (obj.attachEvent) {
+		var r = obj.attachEvent("on"+evType, fn);
+		return r;
+	};
+};
+function quicksearch_setup() {
+	var input = getEl('quicksearchinput');
+	if(input) {
+		ph = input.getAttribute("placeholder")
+		if(ph && ph != "") {
+			input.value = ph;
+			input.style.color = 'gray';
+			input.onfocus = quicksearch_focus;
+			input.onblur = quicksearch_blur;
+		}
+	}
+}
+
+function quicksearch_focus() {
+	if(this.style.color == 'gray') {
+		this.value = '';
+		this.style.color = 'black';
+	}
+}
+function quicksearch_blur() {
+	ph = this.getAttribute("placeholder")
+	if(ph && this.value == "") {
+		this.value = ph;
+		this.style.color = 'gray';
+	}
+}
+var guideboxheight;
+function do_nothing () {
+	return;
+}
+function collapse_guidebox(id, nonvirgin) {
+	display(id, false);
+	display('openbox' + id, true);
+	load_xml_document('setpref', '/user/set-pref/no_guidebox:' + id + '/1', do_nothing);
+}
+function open_guidebox(id, nonvirgin) {
+	display(id, true);
+	display('openbox' + id, false);
+	load_xml_document('setpref', '/user/set-pref/no_guidebox:' + id + '/0', do_nothing);
+}
+
+function show_advanced() {
+	display('display_options', 1);
+	display('belowlinefloatright', 0);
+	display('item_table', 0);
+	display('item_table_bottom', 0);
+	display('mail_tabs', 0);
+	display('mail_tab_wrap', 0);
+	display('mail_label', 0);
+	display('advancedlinks', 0);
+	display('next_page_links', 0);
+	display('included_display_options', 0);
+}
+
+function hide_advanced() {
+	display('display_options', 0);
+	display('belowlinefloatright', 1);
+	display('item_table', 1);
+	display('item_table_bottom', 1);
+	display('mail_tabs', 1);
+	display('mail_tab_wrap', 1);
+	display('mail_label', 1);
+	display('advancedlinks', 1);
+	display('next_page_links', 1);
+	display('included_display_options', 1);
+}
+
+function pick_post_group() {
+	display('pickgroup', 0);
+	display('postgrouplist1', 1);
+}
+function reset_groups_div(default_group_id, default_group_name) {
+	if(default_group_id) {
+		set_group_for_posting(default_group_id, default_group_name);
+	}
+	else {
+		display('pickgroup', 1);
+		display('postgrouplist0', 1);
+		display('postgrouplist1', 0);
+		display('postgrouplist2', 0);
+		display('postgrouplist3', 0);
+		var gname2 = getEl('group_name_title');
+		if(gname2) gname2.innerHTML = 'Add to a Group Site';
+	}
+}
+function maybe_unpad_div() {
+	if (Maybe_Unpad_Div && getEl(Maybe_Unpad_Div)) {
+		getEl(Maybe_Unpad_Div).style.paddingTop = '0px';
+	}
+}
+
+function popup_miniprofile(element, user_id, offset_x, offset_y, maybe_pad) {
+	var div = getEl('miniprofile_div');
+	var pos = getPos(element);
+	// maybe_pad is used for moving multv down in replies so that it doesnt overlap the mini profile and we still have fullscreen functionality.
+	if (getEl(maybe_pad)) {
+		getEl(maybe_pad).style.paddingTop = '120px';
+		Maybe_Unpad_Div = maybe_pad;
+	}
+	if (offset_x || offset_y) {
+		div.style.left = (pos.x + offset_x) + 'px';
+		div.style.top = (pos.y + offset_y) + 'px';
+	}
+	else {
+		div.style.left = pos.x + 'px';
+		div.style.top = pos.y + 'px';
+	}
+	div.style.position = 'absolute';
+	div.innerHTML = "<table onmouseout='if (checkMouseLeave(this, event)) { maybe_unpad_div(); display(\"miniprofile_div\", 0); }' class=miniprofiletable cellpadding=0 cellspacing=0><tr><td><div class=miniprofilediv><img src='http://images.multiply.com/common/misc/indicator-medium.gif' class='indicator' /></div></td></tr></table>";
+	div.style.display = '';
+	var url = '/miniprofile/' + user_id;
+	load_xml_document('miniprofile', url, popup_miniprofile_callback);
+}
+
+function popup_miniprofile_callback() {
+	if (xml_reqs['miniprofile'].readyState != 4) return;
+	if (xml_reqs['miniprofile'].status != 200) return;
+
+	var div = getEl('miniprofile_div');
+	div.style.width = '300px';
+	div.style.height = '150px';
+
+	div.innerHTML = xml_reqs['miniprofile'].responseText;
+}
+
+function getPos(inputElement) {
+	var coords =  new Object();
+	coords.x = 0;
+	coords.y = 0;
+	try {
+		targetElement = inputElement;
+		if(targetElement.x && targetElement.y) {
+			coords.x = targetElement.x;
+			coords.y = targetElement.y;
+		}
+		else {
+			if(targetElement.offsetParent) {
+				coords.x += targetElement.offsetLeft;
+				coords.y += targetElement.offsetTop;
+				while(targetElement = targetElement.offsetParent) {
+					coords.x += targetElement.offsetLeft;
+					coords.y += targetElement.offsetTop;
+				}
+			}
+		}
+		return coords;
+	}
+	catch(error) {
+		return coords;
+	}
+}
+
+var PageStyle;
+function show_big_blank_div() {
+	if (PageStyle == 'oasis') { return; }
+	if (getEl('big_blank_div')) { 
+		getEl('big_blank_div').style.display = '';
+		return; 
+	}
+	var new_div = document.createElement('div');
+	new_div.style.backgroundColor = '#fff';
+	height = document.body.offsetHeight ?  document.body.offsetHeight : document.body.document.height;
+	width = getWidth();
+	new_div.style.height = height + 'px';
+	new_div.style.width= width + 'px';
+	new_div.style.position = 'absolute';
+	new_div.style.top = '0px';
+	new_div.style.left = '0px';
+	new_div.style.zIndex = '100001';
+	new_div.id = 'big_blank_div';
+	set_opacity(new_div,60);
+	document.body.appendChild(new_div);
+}
+function show_modal_big_blank_div() {
+	if (PageStyle == 'oasis') { return; }
+	var mbbd = getEl('modal_big_blank_div');
+	if (mbbd) { 
+		var height = getHeight();
+		var width = getWidth();
+		document.body.parentNode.style.height = height + 'px';
+		document.body.parentNode.style.overflow = 'hidden';
+		document.body.style.height = height + 'px';
+		document.body.style.overflow = 'hidden';
+		mbbd.style.backgroundColor = '#fff';
+		mbbd.style.height = height + 'px';
+		mbbd.style.width= width + 'px';
+		mbbd.style.position = 'absolute';
+	        var top = getViewport().y;
+		mbbd.style.top = (top - 54) + 'px';
+		mbbd.style.left = '0px';
+		mbbd.style.zIndex = '10000003';
+		mbbd.style.display = '';
+		// window.scrollTo(0, 0);
+		set_opacity(mbbd,60);
+	}
+}
+function hide_modal_big_blank_div() {
+	document.body.style.height = '100%';
+	document.body.style.overflow = '';
+	document.body.parentNode.style.height = '100%';
+	document.body.parentNode.style.overflow = '';
+	getEl('modal_big_blank_div').style.width = '0px';
+	display('modal_big_blank_div', 0);
+}
+function getWidth() {
+	if(typeof(window.innerWidth) == 'number') {
+		myWidth = window.innerWidth;
+	}
+	else if(document.documentElement && (document.documentElement.clientWidth || document.documentElement.clientHeight)) {
+		myWidth = document.documentElement.clientWidth;
+	}
+	else if(document.body && (document.body.clientWidth || document.body.clientHeight)) {
+		myWidth = document.body.clientWidth;
+	}
+	return myWidth;
+}
+function getHeight() {
+	if(typeof(window.innerWidth) == 'number') {
+		myHeight = window.innerHeight;
+	}
+	else if(document.documentElement && (document.documentElement.clientWidth || document.documentElement.clientHeight)) {
+		myHeight = document.documentElement.clientHeight;
+	}
+	else if(document.body && (document.body.clientWidth || document.body.clientHeight)) {
+		myHeight = document.body.clientHeight;
+	}
+	return myHeight;
+}
+
+function getMousePosition(e) {
+	var posx = 0;
+	var posy = 0;
+	if (e.pageX || e.pageY) {
+		posx = e.pageX;
+		posy = e.pageY;
+	}
+	else if (e.clientX || e.clientY) {
+		posx = e.clientX + document.body.scrollLeft + document.documentElement.scrollLeft;
+		posy = e.clientY + document.body.scrollTop + document.documentElement.scrollTop;
+	}
+	return {x:posx, y:posy};
+}
+
+function getPosition(e) {
+	var left = 0;
+	var top  = 0;
+	var ctr = 0;
+	while (e.offsetParent) {
+		left += e.offsetLeft;
+		top += e.offsetTop;
+		e = e.offsetParent;
+	}
+
+	left += e.offsetLeft;
+	top += e.offsetTop;
+
+	return {x:left, y:top};
+}
+
+function getViewport() {
+        if (Multiply.Browser.is_msie) {
+                return {x: document.documentElement.scrollLeft, y: document.documentElement.scrollTop};
+        }
+        else {
+                return { x: window.pageXOffset, y: window.pageYOffset};
+        }
+}
+
+var select_list;
+function filter_list(event, text_id, select_id, notfound_func, found_func) {
+	setTimeout("filter_list_now('" + text_id + "', '" + select_id + "', '" + notfound_func + "', '" + found_func + "')", 10);
+}
+
+function filter_list_now(text_id, select_id, notfound_func, found_func) {
+	var el = getEl(select_id);
+	if (!el) return;
+
+	var filter_text = getEl(text_id).value;
+	if (!select_list) {
+		select_list = new Array();
+		for (var i = 0; i < el.options.length; i++) {
+			select_list.push(el.options[i]);
+		}
+	}
+
+	var filter_regexp = new RegExp(filter_text, "i");
+	el.options.length = 0;
+	var j = 0;
+	for (var i = 0; i < select_list.length; i++) {
+		var label = select_list[i].text;
+		var val = select_list[i].value;
+		if (filter_text == '') {
+			el.options[j] = new Option(label, val, false, false);
+			j++;
+		}
+		else if (label.match(filter_regexp)) {
+			el.options[j] = new Option(label, val, false, false);
+			j++;
+		}
+		else if (val.match(filter_regexp)) {
+			el.options[j] = new Option(label, val, false, false);
+			j++;
+		}
+	}
+
+	if (j == 0) eval(notfound_func) 
+	else eval(found_func);
+}
+
+function getResponseTag(response, tag) {
+	var tagel = response.getElementsByTagName(tag);
+	if (tagel && tagel[0] && tagel[0].firstChild)
+		return tagel[0].firstChild.data;
+}
+
+function decode_html_entities(text) {
+	var ta = document.createElement('textarea');
+	ta.innerHTML = text;
+	return ta.value;
+}
+
+function toggle_set_subscribed(id, size) {
+	var el = getEl('subscribed_' + id);
+	var value;
+	if (el.className == 'unsubscribed') {
+		if (size == '12x12')
+			el.src = 'http://images.multiply.com//multiply/icons/clean/12x12/mail.gif';
+		else
+			el.src = 'http://images.multiply.com//multiply/icons/clean/24x24/mail.gif';
+		el.className = 'subscribed';
+		el.title = 'You are subscribed to this message.  Click to turn off e-mail alerts.';
+		value = true;
+	}
+	else {
+		if (size == '12x12')
+			el.src = 'http://images.multiply.com//multiply/icons/clean/12x12/mail-off.gif';
+		else
+			el.src = 'http://images.multiply.com//multiply/icons/clean/24x24/mail-off.gif';
+		el.className = 'unsubscribed';
+		el.title = 'Subscribe to e-mail alerts for this message.';
+		value = false;
+	}
+	var url = '/item/set-subscribed/' + id + '/' + value;
+	load_xml_document('subscribe_' + id, url, do_nothing);
+}
+
+function add_class(el, class_name) {
+	if (el && typeof el == 'string') el = getEl(el);
+	if (!el) return;
+
+	if (el.className && el.className.match(new RegExp('\\b' + class_name + '\\b'))) return;
+	el.className += (el.className ? ' ' : '') + class_name;
+}
+
+function remove_class(el, class_name) {
+	if (el && typeof el == 'string') el = getEl(el);
+	if (!el) return;
+	if (!el.className) return;
+	el.className = el.className.replace(new RegExp('\\b' + class_name + '\\b'), '');
+}
+
+// return the filename part of a path
+function basename(path) {
+	var rex;
+	if (navigator.platform.indexOf("Win") >= 0) {
+		rex = /^((?:[a-zA-Z]:)?.*\\)?(.*)/;
+	}
+	else {
+		rex = /^(.*\/)?(.*)/;
+	}
+	var matches = path.match(rex);
+	return matches ? matches[2] : path;
+}
+
+function insertAfter(node, referenceNode) {
+    referenceNode.parentNode.insertBefore(node, referenceNode.nextSibling);
+}
+function make_user_agent() {
+	var agent = {};
+	var ua = navigator.userAgent.toLowerCase();
+	var is_major = parseInt(navigator.appVersion);
+	agent.is_ie = ((ua.indexOf("msie") != -1) && (ua.indexOf("opera") == -1) && (ua.indexOf("webtv") == -1));
+	agent.is_ie5_5 = (agent.is_ie && (is_major == 4) && (ua.indexOf("msie 5.5") !=-1));
+	agent.is_ie6 = (agent.is_ie && (is_major == 4) && (ua.indexOf("msie 6.")!=-1) );
+	return agent;
+}
+function addCss(cssCode) {
+	var styleElement = document.createElement("style");
+	styleElement.type = "text/css";
+	if (styleElement.styleSheet)
+		styleElement.styleSheet.cssText = cssCode;
+	else
+		styleElement.appendChild(document.createTextNode(cssCode));
+	document.getElementsByTagName("head")[0].appendChild(styleElement);
+}
+function set_help_text() { }
+function bookmark_us(url, title){
+    if (window.sidebar) // firefox
+	window.sidebar.addPanel(title, url, "");
+    if(window.opera && window.print){ // opera
+	var elem = document.createElement('a');
+	elem.setAttribute('href',url);
+	elem.setAttribute('title',title);
+//	elem.setAttribute('rel','sidebar');
+	elem.click();
+    }
+    else if(document.all)// ie
+	window.external.AddFavorite(url, title);
+}
+

@@ -1,0 +1,10 @@
+\select@language {bahasa}
+\contentsline {chapter}{Daftar Isi}{2}
+\contentsline {chapter}{\chapternumberline {1}IBADAT PERINGATAN ARWAH HARI KE-40}{3}
+\contentsline {chapter}{Lagu-lagu Pujian}{9}
+\contentsline {subsection}{\numberline {1.}TETAP CINTA YESUS}{9}
+\contentsline {subsection}{\numberline {2.}KASIH DARI SURGA}{9}
+\contentsline {subsection}{\numberline {3.}KINI SAATNYA}{9}
+\contentsline {subsection}{\numberline {4.}SEJAUH TIMUR DARI BARAT}{10}
+\contentsline {subsection}{\numberline {5.}BERI PENGAMPUNAN}{10}
+\contentsline {subsection}{\numberline {6.}KUSIAPKAN HATIKU TUHAN}{10}

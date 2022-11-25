@@ -1,0 +1,30 @@
+python3 parse-kalit.py -t 2018 -b 1  -d 11
+python3 parse-kalit.py -t 2018 -b 1  -d 25
+python3 parse-kalit.py -t 2018 -b 2  -d 8
+python3 parse-kalit.py -t 2018 -b 2  -d 22
+python3 parse-kalit.py -t 2018 -b 3  -d 1
+python3 parse-kalit.py -t 2018 -b 3  -d 8
+python3 parse-kalit.py -t 2018 -b 3  -d 15
+python3 parse-kalit.py -t 2018 -b 3  -d 22
+python3 parse-kalit.py -t 2018 -b 3  -d 29
+python3 parse-kalit.py -t 2018 -b 4  -d 12
+python3 parse-kalit.py -t 2018 -b 4  -d 26
+python3 parse-kalit.py -t 2018 -b 5
+python3 parse-kalit.py -t 2018 -b 6  -d 14
+python3 parse-kalit.py -t 2018 -b 6  -d 28
+python3 parse-kalit.py -t 2018 -b 7  -d 12
+python3 parse-kalit.py -t 2018 -b 7  -d 26
+python3 parse-kalit.py -t 2018 -b 8  -d 9
+python3 parse-kalit.py -t 2018 -b 8  -d 23
+python3 parse-kalit.py -t 2018 -b 9  -d 6
+python3 parse-kalit.py -t 2018 -b 9  -d 13
+python3 parse-kalit.py -t 2018 -b 9  -d 20
+python3 parse-kalit.py -t 2018 -b 9  -d 27
+python3 parse-kalit.py -t 2018 -b 10
+python3 parse-kalit.py -t 2018 -b 11  -d 8
+python3 parse-kalit.py -t 2018 -b 11  -d 22
+python3 parse-kalit.py -t 2018 -b 12  -d 6
+python3 parse-kalit.py -t 2018 -b 12  -d 13
+python3 parse-kalit.py -t 2018 -b 12  -d 17
+python3 parse-kalit.py -t 2018 -b 12  -d 20
+python3 parse-kalit.py -t 2018 -b 12  -d 27

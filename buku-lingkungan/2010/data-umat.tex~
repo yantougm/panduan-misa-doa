@@ -1,0 +1,110 @@
+\newpage
+\section{Data Umat}
+\begin{center}
+DATA UMAT LINGKUNGAN SANTO PETRUS\\
+\end{center}
+\scriptsize
+\begin{longtable}{|r|l|l|p{1.7cm}|r|r|r|p{0.7cm}|}
+99	&Y.B Sudibyo Martopangarso	&Sombomerten	&1234567890123&8	&8	&22	&AB/A\\ \kill
+\hline
+NO	&Nama Kepala	&A l a m a t / Blok	&Telephone	&\multicolumn{3}{|c|}{Aggt Kel.}&Gol\\ \cline{5-7}
+	&Keluarga	&	&H.P	&L	&P	&Jml	&Drh\\
+\hline
+\endfirsthead
+\hline
+NO	&Nama Kepala	&A l a m a t	&Telephone	&\multicolumn{3}{|c|}{Aggt Kel.}&Gol\\ \cline{5-7}
+	&Keluarga	&	&H.P	&L	&P	&Jml	&Drh\\
+\hline
+\endhead
+1	&Yakobus Lasiman	&Sanggrahan	&08170426162	&3	&2	&5	&B/-\\
+2	&Ignatius Saman	&Sanggrahan	&081578085478	&2	&2	&4	&A/O\\
+3	&F.Noer Susilo Hartono	&Sanggrahan	&0274-7483220	&2	&2	&4	&O/O\\
+4	&Yohanes Kamari	&Sanggrahan	&081342612992	&2	&3	&5	&O/O\\
+5	&Th. Sri Budiati	&Kr. Nongko	&7480130	&	&1	&1	&\\
+6	&A. Sudarmini (Bu Titus)	&Kr. Nongko	&0811267658, 4333604	&1	&1	&2	&\\
+7	&Yosaphat Sugiyatno	&Kr. Nongko	&0811256059	&4	&2	&6	&AB/A\\
+8	&A.M.Z. Sidhi Hastjarjo	&Kr. Nongko	&4333630	&1	&	&1	&A\\
+9	&A.Y.Hery Purnomo	&Kr. Nongko	&4333515, 081328200141	&2	&2	&4	&AB/B\\
+10	&Y.Z.Budiman Susanto	&Kr. Nongko	&4333578, 7471197, 08122942583	&3	&1	&4	&O/O\\
+11	&R.F.H. Soegijono	&Kr. Nongko	&4333825	&3	&2	&5	&B/A\\
+12	&Mateus Daryanto	&Kr. Nongko	&7892789	&1	&	&1	&\\
+13	&Ibu Eko/ Th. Herlinawati	&Kr. Nongko	&7435255	&	&2	&2	&\\
+14	&Robertus Susilo	&Kr. Nongko	&0274-7483220&1&1&2&O/O\\
+15	&Hieronimous Subagyo	&Kr. Nongko	&4333584	&2	&2	&	&\\
+16 &Stefanus Subagyo &Kr. Nongko &081328080811& & & &\\
+17	&Theodorus Totok Suyanto	&Kr. Nongko	&081392025525	&	&	&	&\\
+18	&B.N.Sami Raharja	&Pugeran	&4333807, 081578778777	&2	&3	&5	&A/O\\
+19	&M.M. Sri Pramuwati	&Pugeran	&4333807	&1	&1	&2	&\\
+20	&Y.B Sudibyo Martopangarso	&Pugeran	&7496866, 08164229555, 4333829	&1	&1	&2	&\\
+21	&Y.Sudarmadi/Serly	&Pugeran	&4333545, 081578898484	&2	&2	&4	&O/O\\
+22 & FX Aris Wibowo S & Pugeran &085867335678 & 1 & 1 & 2 & O/B\\
+23	&Aloysius Lamakey	&Pugeran	&4333684, 085643173281	&2	&3	&5	&A/AB\\
+24	&Yakobus Nina Lamakey	&Pugeran	&7839098	&2	&1	&3	&\\
+25	&Yohanes Suripto	&Pugeran	&4333820, 0817889303	&4	&1	&5	&\\
+26	&Neo Suradi	&Pugeran	&556180, 081578115615	&1	&2	&3	&B/O\\
+27	&A.Waldiman	&Pugeran	&	&3	&2	&5	&A/O\\
+28	&A.Sujarwanto	&Pugeran	&4333577, 085643430434	&2	&3	&5	&AB/O\\
+29	&C.S. Prihatiningtyas Purwadi	&Pugeran	&7440441, 7400625, 08122940457	&1	&2	&3	&O/A\\
+30	&C.Supriyadi	&Pugeran	&4333884, 081328450101	&2	&2	&4	&A/-\\
+31	&Thomas Baharudin (Mia)	&Pugeran	&085253890448	&1	&2	&3	&A/\\
+32	&Andreas Keso Muda	&Pugeran	&081328692102	&1	&3	&4	&A/B\\
+33	&Paulus Suroyo	&Pugeran	&4333667, 08122752803	&2	&2	&4	&\\
+34	&Fx Sularto	&Pugeran	&081314190698	&1	&1	&2	&\\
+35	&Petrus Samino	&Pugeran	&	&1	&1	&2	&\\
+36 &Domi Sukanto &Pugeran & & & & &\\
+37 &Agustinus Sumaryono&Maguwo Asri&1&0&1&\\
+38	&Yohanes Suyanto	&Sombomerten	&4333886, 08562869037	&4	&2	&6	&B/A\\
+39	&M.Theresia Nanik Ismarjiati	&Sombomerten	&4333892, 08156861272	&2	&1	&3	&O/O\\
+40	&Ign. Luddy Indra P.	&Maguwo	&4333648, 08122700806	&2	&2	&4	&O/O\\
+41	&Y.B. Kandari	&Nanggulan 	&	&1	&	&1	&O\\
+42	&Y.F.Lina Setyaningsih	&Nanggulan 	&08157966006	&1	&2	&3	&B/O\\
+43	&N. Putut Andoko	&Nanggulan 	&085221610549	&1	&3	&4	&\\
+44	&S.Rumiyati Siswanto	&Nanggulan 	&081328217018	&	&2	&2	&\\
+45	&A.Dwi Wahyuni (Nunik)	&Nanggulan 	&081392704876	&1	&2	&3	&O/A\\
+46	&C. Srimurhariyani Sudarto	&Nanggulan 	&486955, 081328000523	&1	&3	&4	&A\\
+47	&Ign. Mulyono	&Nanggulan 	&484617	&1	&1	&2	&O\\
+48	&V. Sugiyati	&Nanggulan 	&488074	&1	&1	&2	&B\\
+49	&R.Abbas Suhardjo	&Nanggulan 	&485671, 081328564524	&1	&1	&2	&AB/A\\
+50	&Y. Laba Atawolo	&Nanggulan 	&08122745350	&1	&1	&2	&B/B\\
+51	&Ch.Sri Supartiningsih	&Nanggulan 	&08122983365	&1	&	&1	&O\\
+52	&Agung Danan Jaya	&Nanggulan 	&085228245479	&2	&1	&3	&\\
+53	&Ign. Ardi Subardi	&Nanggulan 	&4333865	&2	&1	&3	&B/A\\
+54	&Thomas Sukijo	&Nanggulan 	&487164, 0817267423	&1	&1	&2	&B\\
+55	&Agus/Wiwid	&Nanggulan 	&487164	&1	&3	&4	&B\\
+56	&A. Winarso	&Nanggulan 	&0816675362	&3	&2	&5	&\\
+57	&Albertus Purwoto	&Nanggulan 	&0818468374	&1	&3	&4	&\\
+58	&M.Supangat	&Nanggulan 	&081578043761, 081802794742	&2	&3	&5	&O/B\\
+59	&C.Hendro Muryanto	&Nanggulan 	&081328032468	&2	&1	&3	&\\
+60	&C.Supartiyah (Bu Tris)	&Nanggulan 	&085228928010	&1	&1	&2	&O\\
+61	&Y.Eko Hananto	&Nanggulan 	&081392258790	&2	&1	&3	&\\
+62	&V.Ratnasih A. Sukiyanto	&Kembang	&488326, 08562907933	&1	&1	&2	&O\\
+63	&D.Damar Dwi Nugroho	&Kembang	&488326, 08132836667	&2	&1	&3	&O/O\\ \hline
+	&	&	&	&94	&96	&186	&\\ \hline
+	\multicolumn{7}{l}{NB: Revisi data harap hubungi ketua/sekretaris lingkungan}\\
+%% 	&	&	&	&	&	&	&\\
+%% 	&	&	&	&	&	&	&\\
+%% 	&	&	&	&	&	&	&\\
+%% 	&PINDAH	&	&	&	&	&	&\\
+%% 1	&Y. Bejo Praptohardjono	&Nanggulan 	&Bergabung dg KK Bu Nunik	&2	&	&	&\\
+%% 2	&Suranto	&Nanggulan 	&Bergabung dg KK Bu Lina	&1	&	&	&\\
+%% 3	&Kunto	&Maguwo	&Pindah bulan April 2007	&	&	&0	&\\
+%% 4	&H. Endro Cahyono	&Nanggulan 	&08164221960	&2	&1	&3	&\\
+%% 	&	&	&	&	&	&	&\\
+%% 	&Penambahan	&	&	&	&	&	&\\
+%% 1	&C.Hendro Muryanto	&Nanggulan 	&Pemecahan KK dg Bu Tris	&2	&1	&3	&\\
+%% 2	&Sutrino	&Pugeran	&Umat Baru 03/01/2007	&	&	&4	&\\
+%% 3	&M.M. Sri Pramuwati	&Pugeran	&Pecah KK dg bpk. Sami Rahardjo	&1	&1	&2	&\\
+%% 4	&Robertus Susilo	&Sanggrahan	&Pecah KK dg bpk. F.Noer Susilo	&1	&1	&2	&\\
+%% 5	&Mateus Daryanto	&Karang Nongko	&Umat Baru 22/02/2007	&2	&	&2	&\\
+%% 6	&Ibu Christina Dina	&Sanggrahan	&Calon ybs belum ketemu	&	&1	&1	&\\
+%% 7	&Ibu Eko	&Karang Nongko	&ybs ok 22/02/07	&	&2	&2	&\\
+%% 8	&Tri Mastoyo Jati Kesuma	&Pugeran	&4333590 (Isteri belum mau gabung)	&	&	&0	&\\
+%% 9	&Theresia Sri Budiarti	&Karang Nongko	&Warga baru 30/06/07	&	&1	&1	&\\
+%% 10	&Yoseph Hary	&Kembang	&Warga baru 16/06/07, telp.487667	&2	&1	&3	&\\
+%% 11	&Ida	&Pugeran	&Warga baru 01/05/07	&1	&1	&2	&\\
+%% 12	&Y.Eko Hananto	&Nanggulan 	&Warga lama pindah kembali	&2	&1	&3	&\\
+%% 13	&Y. Djoko Marsito	&Pugeran	&Warga baru 27/10/06	&2	&1	&3	&\\
+%% 14	&Kaldinus Benedictus Diler	&Sanggrahan	&Warga baru 14/05/07	&1	&1	&2	&\\
+
+\end{longtable}
+\normalsize

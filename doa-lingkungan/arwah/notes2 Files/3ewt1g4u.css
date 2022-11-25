@@ -1,0 +1,74 @@
+/*    HTTP Host:  b.static.ak.fbcdn.net                                        */
+/*    Generated:  October 20th 2009 9:42:09 AM PDT                             */
+/*      Machine:  10.16.140.104                                                */
+/*       Source:  Local Cache                                                  */
+/*     Location:  rsrc:4:3ewt1g4u                                              */
+/*       Locale:  nu_ll                                                        */
+/*         Path:  css/6cn9rmfoe98o4s00.pkg.css                                 */
+
+.syndication_feed a,
+.syndication_mobile a{display:block;padding:3px 0 4px 20px}
+.syndication_feed a{background:url(/rsrc.php/z7VSQ/hash/5ox2gwd7.gif) no-repeat left .3em}
+.syndication_mobile a{background:url(/rsrc.php/z982P/hash/er4hcsxs.gif) no-repeat left .3em}
+.syndication_right{background:url(/rsrc.php/z7VSQ/hash/5ox2gwd7.gif) no-repeat center right;padding-right:20px}
+#syndication_sidebar{padding-left:5px}
+#syndication_sidebar .learn_more{font-size:9px;padding:0 0 2px 20px}
+#syndication_sidebar p{padding:0;margin:0}
+.syndication_divider{border-top:1px solid #ccc}
+#syndication_sidebar h2{margin:0;padding:0 0 5px 0;font-size:11px}
+.notifications{border-bottom:solid 1px #ccc}
+.notifications h4{padding:14px 5px 0 10px}
+.notifications h5{padding:7px 0 0 0;font-weight:normal;border-top:1px solid #ccc;margin:8px 10px 0 10px}
+.notifications .main_column{width:550px}
+.notifications .main_column .empty{color:#777;padding:50px 0;margin:20px 0 0 12px;text-align:center}
+#notifications{padding:0 20px 15px 10px}
+.notifications_inbox #notifications{padding:5px 20px 15px 10px}
+.notifications .status{margin:10px 0 0 12px}
+.notifications .actions{float:right;padding-left:15px;padding-bottom:11px}
+.notifications .side_column{width:208px;background-color:#f7f7f7;border:1px solid #ccc}
+.notifications_inbox .side_column{border-top:none}
+.notifications .side_column .sidecolumn_module{padding:10px}
+.notifications .syndication_divider{margin:6px 0 0 0}
+.notifications .side_column ul{padding:5px 5px 0 7px;overflow:hidden}
+.notifications .side_column li{margin-left:4px;display:block;background-repeat:no-repeat;background-position:left center;padding:2px 0 2px 23px}
+.notifications .side_column li.msg_icn{margin-left:7px;padding-left:20px}
+.notifications .start_bumper{height:0;visibility:hidden;overflow:hidden;margin:0 0 12px}
+.notifications .close_bumper{height:0;visibility:hidden;overflow:hidden;margin:15px 0 0}
+.notifications .date_divider{text-align:left;color:#777;font-size:9px;font-weight:bold;margin:10px 0 0 10px;padding:2px 0 2px 0;border-bottom:solid 1px #ccc}
+.notifications .story{padding:0 0 0 12px}
+.notifications .unread{background:url(/rsrc.php/zBSUE/hash/e4r1cayc.gif) no-repeat left 9px}
+.notifications .icon{line-height:1px;font-size:1px;float:left;width:16px;padding:4px 0 0}
+.notifications .body{border-top:1px solid #d8dfea;float:right;padding:0 0 1px 0;width:484px}
+.notifications .no_border .body{border-top:none}
+.notifications .headline{padding:4px 0 3px 0}
+.notifications .headline .title{display:inline;font-size:11px;font-weight:normal;margin:0;width:390px}
+.notifications .headline h2{display:inline;font-size:11px;font-weight:normal;margin:0;padding:0 .30em 0 0}
+.notifications .headline h2 a{color:#3b5998;font-weight:normal}
+.notifications .headline h2.has_media{font-weight:bold}
+.notifications .headline h2.has_media span{font-weight:normal}
+.notifications .headline h2.has_media a{font-weight:bold;color:#333}
+.notifications .headline h2.has_media a:hover{font-weight:bold;color:#3b5998}
+.notifications .date{color:#999;font-size:9px;line-height:11px;padding:0}
+.notifications .extra_media{width:395px;padding:2px 0 3px}
+.notifications .share_and_hide{margin:0 0 -1px 0;float:right}
+.notifications .information{margin:0;padding:5px 0 0}
+.notifications .sent_header{padding-bottom:3px}
+.notifications .record_sent{background:url(/rsrc.php/z3TBI/hash/2ycjve42.gif) no-repeat left 7px}
+.notifications .record_sent .extra_media{padding:0 0 5px 18px;background:transparent url(/rsrc.php/z7325/hash/e6scjvwz.gif) no-repeat scroll left top;margin-left:5px;width:355px}
+.notifications .story_type_record_sent .sent_message{background:transparent url(/rsrc.php/z219A/hash/7eag4qdy.gif) no-repeat scroll right bottom;padding:0 16px 2px 0}
+.report_sent_notification label{font-weight:normal;color:#000}
+.report_sent_notification .notification_options{padding:10px 0 0 15px}
+.notifications .report_icon .share_and_hide a.x_to_hide{background-image:url(/rsrc.php/zMWRX/hash/dxic6e3d.gif)}
+.notifications .report_icon .share_and_hide a.x_to_hide:hover{background-image:url(/rsrc.php/zDR5I/hash/ah6kjjxk.gif);background-color:#fff}
+.notifications .new_user_action{padding:1px 0 2px 0}
+.notifications .new_user_action a{font-weight:bold;display:inline-block;padding:2px 0 4px 20px}
+.notifications .new_user_action .wall{background:url(/rsrc.php/z7CG7/hash/8n0fsut0.gif) no-repeat left center}
+.notifications .new_user_action .message{background:url(/rsrc.php/z6B2N/hash/4u9hluqh.gif) no-repeat left center}
+.notifications .new_user_action .view_profile{background:url(/rsrc.php/z4P8L/hash/b3kb4rdk.gif) no-repeat left center}
+.notifications .new_user_action .suggest{background:url(/rsrc.php/zEIVW/hash/2j7dkpgj.gif) no-repeat left center}
+.notifications #friend_suggestion_main .whatsthis{margin:0 0 3px 7px;padding:0 3px 0 3px;font-size:9px}
+.notifications .new_user_intro{color:#808080;font-weight:bold;padding-bottom:5px}
+.notifications .new_user_list{padding-left:10px;float:left}
+.notifications .new_user_thumb{float:left;padding-top:3px}
+
+#bootloader_css_6cn9rmfoe98o4s00_pkg_css { height: 42px; }

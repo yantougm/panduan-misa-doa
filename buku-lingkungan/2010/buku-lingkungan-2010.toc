@@ -1,0 +1,12 @@
+\select@language {bahasa}
+\contentsline {section}{\numberline {1.}Pengurus}{5}{section.0.1}
+\contentsline {section}{\numberline {2.}Jadwal Kegiatan}{8}{section.0.2}
+\contentsline {section}{\numberline {3.}Jaringan SMS}{13}{section.0.3}
+\contentsline {section}{\numberline {4.}DOA ANGELUS}{15}{section.0.4}
+\contentsline {section}{\numberline {5.}DOA RATU SURGA (dalam Masa Paskah)}{15}{section.0.5}
+\contentsline {section}{\numberline {6.}Doa masa Advent}{17}{section.0.6}
+\contentsline {section}{\numberline {7.}Doa masa Natal}{17}{section.0.7}
+\contentsline {section}{\numberline {8.}Doa masa PraPaskah}{17}{section.0.8}
+\contentsline {section}{\numberline {9.}Doa Paskah}{18}{section.0.9}
+\contentsline {section}{\numberline {10.}Doa NOVENA Roh Kudus}{18}{section.0.10}
+\contentsline {section}{\numberline {11.}ROSARIO ROH KUDUS}{20}{section.0.11}

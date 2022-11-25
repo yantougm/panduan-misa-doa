@@ -1,0 +1,19 @@
+# ignore ALL .log files
+*.log
+*.aux
+*.gummi  
+*.idx  
+*.ilg  
+*.ind  
+*.log  
+*.out  
+*.err  
+*.out
+*.nnt
+*.nnx
+*.gz
+
+# ignore ALL files in ANY directory named temp
+temp/
+nnt-nnx/
+madah-bakti/

@@ -1,0 +1,91 @@
+/*    HTTP Host:  b.static.ak.fbcdn.net                                        */
+/*    Generated:  October 13th 2009 9:04:42 AM PDT                             */
+/*      Machine:  10.16.139.108                                                */
+/*       Source:  Global Cache                                                 */
+/*     Location:  css/ak0dwuisli8ks84k.pkg.css h:9l6lyb0r                      */
+/*       Locale:  nu_ll                                                        */
+/*         Path:  css/ak0dwuisli8ks84k.pkg.css                                 */
+
+.profile_box .reviews{padding-bottom:15px}
+.invisible{filter:alpha(opacity=50);opacity:.5}
+.reviews_header{clear:both;color:#444;padding:2px 8px 2px 8px;border-top:solid 1px #ccc;overflow:hidden;background:#eee}
+.reviews_header .reviews_header_text{float:left}
+table.review_display{float:left;padding:10px 10px 0 10px;margin-bottom:0;margin:0}
+.review_display td{padding:0 0 3px 5px;vertical-align:top}
+.review_display .review_pic_column{text-align:left;width:55px}
+.review_display .review_pic img{width:50px;padding:2px;margin:0;margin-right:5px;border:1px solid #ddd;padding-top:2px;margin-top:2px}
+.review_display .review_header{margin:0}
+.review_display .review_header .review_header_title{color:#444;font-weight:bold;font-size:13px;float:left}
+.review_display .review_header .review_header_rating{float:left;padding-right:5px;padding-top:2px}
+.review_display .review_header .review_header_rating img{height:12px;width:12px:}
+.review_display .review_header .review_header_subtitle_line{clear:both;padding:0;margin:0;padding-top:2px;padding-left:0;color:#666}
+.review_display .review_body{margin-top:5px;line-height:15px}
+.review_display .review_actions{border-bottom:solid 1px #d8dfea;border-top:none;clear:right;padding:3px 5px}
+.review_display .review_actions a:hover{text-decoration:underline}
+.reviews_section_separator{border-bottom:solid 1px darkgray;clear:both;margin-left:8px;margin-right:8px;padding-top:10px}
+.aggregate_review{padding-top:10px}
+.aggregate_review .review_header_rating{float:left;width:65px}
+.aggregate_review .average_rating_desc{float:left;width:100px}
+.aggregate_review .aggregate_review_title{color:#808080}
+.reviews_edit .reviews_settings{padding:20px 131px}
+.reviews_edit .reviews_settings .reviews_settings_table{margin:10px 6px}
+reviews_edit .reviews_settings .reviews_settings_table.label{color:#000;font-weight:normal}
+.reviews_dialog_editor #reviews_editor{margin-left:15px;margin-right:15px}
+.reviews_dialog_editor #reviews_editor input{width:319px}
+.reviews_dialog_editor #reviews_editor textarea{width:370px}
+.reviews_inline_editor{background:#F7F7F7 none repeat scroll 0;border-bottom:1px solid #ccc;padding:8px 8px 7px 8px;margin:0}
+#box_app_6261817190 .inside{margin:0;padding:0;width:416px}
+.nile_profile .app_content_6261817190 .reviews_inline_editor{padding-bottom:7px}
+.reviews_inline_editor #reviews_editor{margin:0;padding:0;padding-bottom:7px;margin-bottom:7px}
+.reviews_inline_editor .review_title{padding:0;margin:0;padding-top:0}
+.reviews_inline_editor .field_title{font-weight:bold;padding:0;margin:0;padding-bottom:3px;color:#666}
+.reviews_inline_editor .field_content{padding:0;margin:0}
+.reviews_inline_editor .review_rating_editor{color:#666}
+.reviews_inline_editor .review_rating_editor .field_title{float:left;width:130px;padding:0;color:#666;margin:0;font-weight:bold}
+.reviews_inline_editor .review_rating_editor .stars{padding:0;margin:0;padding-top:0;width:150px;clear:right;float:left}
+.reviews_inline_editor .review_rating_editor .stars img:hover{}
+.reviews_inline_editor .review_rating_editor img{padding:0;margin:0;padding-right:3px}
+.reviews_inline_editor .review_blurb_editor{padding-top:8px;padding-bottom:8px}
+.reviews_inline_editor #reviews_editor table{margin:0}
+.reviews_inline_editor #reviews_editor .inputtext{width:370px}
+.reviews_inline_editor #reviews_editor textarea{height:50px;width:370px}
+.see_all_reviews #reviews_editor textarea{width:618px}
+.see_all_reviews{border-top:none;border-bottom:none;padding:0}
+.see_all_reviews #reviews_editor .inputtext{width:618px}
+.reviews_inline_editor .review_editor_post_button{clear:left;float:left}
+.reviews_inline_editor .review_editor_post_button input{height:21px}
+.reviews_inline_editor .review_editor_delete_link{clear:right;float:right}
+#review_editor_error{padding:10px;background-color:#ffebe8;border:1px solid #dd3c10;margin:0 0 8px 0}
+#review_editor_status{padding:10px;background-color:#fff9d7;border:1px solid #e2c822;margin:0 0 8px 0}
+.embedded_review span.leave_rating_label{float:left;line-height:1.2}
+.embedded_review div.stars{display:inline;margin-left:2px}
+.embedded_review textarea#review_blurb{display:block,
+height:60px;width:350px;margin-top:10px}
+.embedded_review .hidden{display:none}
+div.appreview{padding:10px}
+a.appreview_close{float:right}
+.tabs{padding:0;border-bottom:1px solid #898989}
+.ff2 .tabs{padding:3px 0}
+.tabs.top{background:#f7f7f7}
+.tabs .left_tabs{padding-left:10px;float:left}
+.tabs .right_tabs{padding-right:10px;float:right}
+.tabs .back_links{padding-right:20px;float:right}
+.toggle_tabs{text-align:center;margin-bottom:-1px}
+.ff2 .toggle_tabs{margin-bottom:0}
+.toggle_tabs li{display:inline;padding:2px 0 3px;background:#f1f1f1 url(/rsrc.php/z3HLG/hash/4x24xq7f.gif) top left repeat-x}
+.ie6 .toggle_tabs li,
+.ie7 .toggle_tabs li{background-position:left 3px}
+.toggle_tabs li a{border:1px solid #898989;border-left:0;color:#333;font-weight:bold;padding:2px 8px 3px 9px;display:inline-block}
+.toggle_tabs li a small{font-size:11px;font-weight:normal}
+.toggle_tabs li a:focus{outline:0}
+.toggle_tabs li.first a{border:1px solid #898989}
+.toggle_tabs li a.selected{margin-left:-1px;background:#6d84b4;border:1px solid #3b5998;border-left:1px solid #5973a9;border-right:1px solid #5973a9;color:#fff}
+.toggle_tabs li.last a.selected{margin-left:-1px;border-left:1px solid #5973a9;border-right:1px solid #36538f}
+.toggle_tabs li.first a.selected{margin:0;border-left:1px solid #36538f;border-right:1px solid #5973a9}
+.toggle_tabs li.first.last a.selected{border:1px solid #36538f}
+.toggle_tabs li a.selected:hover{text-decoration:none}
+.toggle_tabs li a.disabled{color:#999;cursor:default}
+.toggle_tabs li a.disabled:hover{text-decoration:none}
+.toggle_tabs .hidden{display:none}
+
+#bootloader_css_ak0dwuisli8ks84k_pkg_css { height: 42px; }

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<FictionBook xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.gribuser.ru/xml/fictionbook/2.0">
+
+<title-inf>
+ <genre match="100">nonfiction</genre>
+ <author>
+   <first-name>Yohanes</first-name>
+   <last-name>Suyanto</last-name>
+ </author>
+ <book-title>Panduan Aksi Puasa Pembangungan 2011</book-title>
+ <annotation><p>Minggu Prapaskah V
+Ibadat Tobat Lingkungan</p>
+  </annotation>
+ <date value="2011-04-08">8 April 2011</date>
+ <lang>id</lang>
+</title-info>
+
+<document-info>
+ <author>
+   <nickname>person</nickname>
+ </author>
+ <program-used>Book Designer 5.0</program-used>
+ <date>11/29/2008</date>
+ <src-url></src-url>
+ <src-ocr></src-ocr>
+ <id>BD-36A225-16FB-4841-14AE-6218-8022-529F8D</id>
+ <version>1.0</version>
+</document-info>
+
+<body>
+<section>
+<title>
+Minggu Prapaskah VI
+Ibadat Tobat Lingkungan
+</title>
+</section>
+ 
+<section>
+<p>Membangun semangat Tobat  dan menghayati pertobatan bersama umat di Lingkungan masing-masing</p>
+</section>
+
+<section>
+<p>Catatan: Ibadat Tobat di Lingkungan dipimpin oleh Prodiakon atau sesuai dengan kebiasaan setempat.</p>
+</section>
+
+</body>
+</FictionBook>

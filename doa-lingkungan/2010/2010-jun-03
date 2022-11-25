@@ -1,0 +1,177 @@
+\documentclass[a5paper,headsepline,titlepage,11pt,nnormalheadings,DIVcalc]{scrbook}
+\usepackage[a5paper,backref]{hyperref}
+\usepackage[papersize={165mm,215mm},twoside,bindingoffset=0.5cm,hmargin={2cm,2cm},
+				vmargin={2cm,2cm},footskip=1.1cm,driver=dvipdfm]{geometry}
+\usepackage[latin1]{inputenc} 
+\usepackage{calc}
+\usepackage{setspace} 
+\usepackage{fixltx2e} 
+\usepackage{graphicx}
+\usepackage{multicol} 
+\usepackage[normalem]{ulem} 
+\usepackage[bahasa]{babel} 
+\usepackage{color}
+\usepackage{hyperref} 
+\usepackage{pstricks}
+\usepackage{fancyhdr}
+\usepackage{pst-node}
+
+\setlength{\parindent}{0mm}
+\makeatletter
+\newcommand{\lagu}[1]{%
+  {\parindent \z@ 
+    \interlinepenalty\@M \slshape \mdseries \large \textit{#1}\par\nobreak \vskip 10\p@ }}
+\newcommand{\keterangan}[1]{%
+  {\parindent \z@ 
+    \interlinepenalty\@M \slshape \mdseries \textit{#1}\par\nobreak \vskip 10\p@ }}
+\makeatother
+
+\renewcommand{\footrulewidth}{0.5pt}
+\lhead[\fancyplain{}{\thepage}]%
+      {\fancyplain{}{~}}
+\rhead[\fancyplain{}{~}]%
+      {\fancyplain{}{\thepage}}
+\pagestyle{fancy}
+\lfoot[\emph{Doa Lingkungan}]{}
+\rfoot[]{\emph{3 Juni 2010}}
+\cfoot{}
+\usepackage{palatino}
+\usepackage{enumerate}
+\input{../indohyp.tex}
+
+\setlength{\parindent}{0mm}
+\setlength{\parskip}{2mm}
+
+\newcommand{\BU}[1]{\begin{itemize} \item[U:] #1 \end{itemize}}
+\newcommand{\BI}[1]{\begin{itemize} \item[I:] #1 \end{itemize}}
+\newcommand{\BIU}[1]{\begin{itemize} \item[I+U:] #1 \end{itemize}}
+\newcommand{\BP}[1]{\begin{itemize} \item[P:] #1 \end{itemize}}
+\newcommand{\inputlagu}[1]{\begin{textit} \input{#1} \end{textit}}
+
+\begin{document}
+
+
+\Large{\emph{Jika kita tidak setia, Dia tetap setia, karena Dia tidak dapat menyangkal
+diriNya. [2 Timotius 2:13]}}
+
+
+\section*{Ibadat Sabda}
+
+\subsection*{BACAAN PERTAMA - 2 Timotius 2:8-15}
+
+Ingatlah ini: Yesus Kristus, yang telah bangkit dari antara orang mati, yang telah dilahirkan sebagai keturunan Daud, itulah yang kuberitakan dalam Injilku.
+Karena pemberitaan Injil inilah aku menderita, malah dibelenggu seperti seorang penjahat, tetapi firman Allah tidak terbelenggu.
+Karena itu aku sabar menanggung semuanya itu bagi orang-orang pilihan Allah, supaya mereka juga mendapat keselamatan dalam Kristus Yesus dengan kemuliaan yang kekal.
+
+Benarlah perkataan ini: "Jika kita mati dengan Dia, kitapun akan hidup dengan Dia;
+jika kita bertekun, kitapun akan ikut memerintah dengan Dia; jika kita menyangkal Dia, Diapun akan menyangkal kita;
+jika kita tidak setia, Dia tetap setia, karena Dia tidak dapat menyangkal diri-Nya."
+
+Ingatkanlah dan pesankanlah semuanya itu dengan sungguh-sungguh kepada mereka di hadapan Allah, agar jangan mereka bersilat kata, karena hal itu sama sekali tidak berguna, malah mengacaukan orang yang mendengarnya.
+Usahakanlah supaya engkau layak di hadapan Allah sebagai seorang pekerja yang tidak usah malu, yang berterus terang memberitakan perkataan kebenaran itu.
+
+
+\subsection*{BACAAN INJIL - Markus 12:28b-34}
+
+
+Lalu seorang ahli Taurat, yang mendengar Yesus dan orang-orang Saduki
+bersoal jawab dan tahu, bahwa Yesus memberi jawab yang tepat kepada
+orang-orang itu, datang kepada-Nya dan bertanya: "Hukum manakah yang paling
+utama?" Jawab Yesus: "Hukum yang terutama ialah: Dengarlah, hai orang
+Israel, Tuhan Allah kita, Tuhan itu esa. Kasihilah Tuhan, Allahmu, dengan
+segenap hatimu dan dengan segenap jiwamu dan dengan segenap akal budimu dan
+dengan segenap kekuatanmu. Dan hukum yang kedua ialah: Kasihilah sesamamu
+manusia seperti dirimu sendiri. Tidak ada hukum lain yang lebih utama dari
+pada kedua hukum ini." Lalu kata ahli Taurat itu kepada Yesus: "Tepat
+sekali, Guru, benar kata-Mu itu, bahwa Dia esa, dan bahwa tidak ada yang
+lain kecuali Dia. Memang mengasihi Dia dengan segenap hati dan dengan
+segenap pengertian dan dengan segenap kekuatan, dan juga mengasihi sesama
+manusia seperti diri sendiri adalah jauh lebih utama dari pada semua korban
+bakaran dan korban sembelihan." Yesus melihat, bagaimana bijaksananya jawab
+orang itu, dan Ia berkata kepadanya: "Engkau tidak jauh dari Kerajaan
+Allah!" Dan seorangpun tidak berani lagi menanyakan sesuatu kepada Yesus.
+
+\subsection*{Mediatio}
+       Mutiara Iman hari ini, menunjukkan keberadaan Allah yang kekal, Alfa
+dan Omega, Keabadian yang utuh sehingga Dia tidak mungkin menyangkal
+keberadaanNya, kesetiaanNya, janjiNya, karena Dia tidak bisa menyangkal
+DiriNya sendiri. Dalam cerita anak yang hilang, sang ayah tetap menanti
+penuh kesetiaan agar si anak kembali dalam rumahnya, dalam pelukannya, dalam
+kasihnya. ALLAH adalah KASIH, dan Dia ingin kita merasakan kasihNya secara
+penuh. Kedosaan, ketidaksetiaan kita tidak diperhitungkanNya, karena yang
+ada dalam kehendakNya adalah kecemerlangan jiwa kita dalam lumuran KasihNYA.
+
+       Pengalaman akan kasih Allah yang tanpa syarat itu hendaknya membuat
+kita PD=Percaya Diri dan mampu mencintai sesama. "Nemo dat quod non habet",
+orang yang tidak memiliki, dia tidak akan bisa memberi, dan orang yang
+pernah merasakan kepenuhan cinta, dia juga mampu mencintai, itulah roh
+kehidupan yang mengalir dari Sang Sumber Hidup, Sumber Cinta itu sendiri.
+Hari ini gereja merayakan Pesta St. Karolus Lwanga dan kawan-kawan yang mati
+sebagai Martir Kristus. Kesetiaan mereka adalah perwujudan cinta Allah
+sendiri. Kesetiaan yang tak tergoncangkan oleh ancaman yang bisa membunuh
+tubuh, melainkan takut akan Dia yang berkuasa atas jiwa yang bernilai
+keabadian.
+
+Mudah dikatakan atau dikotbahkan tetapi sulit dilaksanakan itulah 'kasih' atau 'cintakasih'. Dan banyak orang mudah terjerat oleh kata 'cintakasih' karena penampilannya : wajah cantik atau tampan, suara merdu merayu menyentuh kalbu, sarana prasarana yang dipakai (hiasan, kendaraan dst..), ijasah atau gelar dst. Dan ketika semuanya itu mulai berkurang atau pudar, maka habislah yang disebut 'cintakasih' itu. Yesus mengajarkan kepada kita agar mengasihi dengan 'segenap hati, segenap jiwa, segenap akal budi dan segenap kekuatan atau tenaga'. Yang dimaksud dengan 'genap' adalah utuh atau total, maka tidak utuh atau tidak genap berarti berkurang, tidak lengkap alias sakit. Jadi jika hatinya tidak utuh berarti sakit hati, jiwanya tidak utuh berarti sakit jiwa alias gila, akal budinya tidak utuh berarti kurang berpengetahuan atau bodoh, kekuatan/tenaga tidak utuh berarti sakit-sakitan tubuhnya. Sakit hati sering dibawa sampai mati. Jika ada orang sakit jiwa (100\% sakit jiwa) ada kemungkinan ditampung di 'Rumah Sakit Jiwa', tetapi orang sakit jiwa 10\%, 25\%, 50\% sering masih berkeliaran di rumah tangga, tempat kerja maupun biara. Sementara jika akal budi sungguh tidak utuh yang bersangkutan dapat menjadi 'telmi' (telah mikir = terlambat berpikir), sedangkan sakit tubuh ada kemungkinan yang bersangkutan manja atau malas-malasan saja. Maka marilah kita mawas diri dalam hal 'kasih-mengasihi' ini, lebih-lebih bertanya pada diri sendiri: apakah aku masih sakit hati, sakit jiwa, sakit akal budi atau sakit tubuh? Jika masih ada penyakit kronis baik di hati, jiwa, akal budi maupun tubuh rasanya akan sulit bagi kita untuk mengasihi dengan sungguh-sungguh, paling-paling sandiwara, formalitas atau liturgis melulu. Jika kita masih sakit, dan sejujurnya pasti kita semua masih sakit, marilah dengan segala kerendahan hati mohon rahmat kasih pengampunan dari Allah melalui sesama kita, dan mungkin kasih-mengasihi bagi kita menjadi saling mengampuni.
+
+Dalam pemahaman ini kiranya dapat dimengerti bahwa orang Saduki, yang menekankan kebenaran dan keadilan bertanya kepada Yesus: "Hukum manakah yang paling utama?". Pemahaman orang Saduki lebih berdasar pada akal/logika, maka juga sulit bagi mereka memahami ajaran/hukum kasih yang disampaikan oleh Yesus. Hukum yang pertama dan utama adalah "mengasihi Tuhan dan sesama dengan segenap hati, segenap jiwa, segenap akal budi dan segenap kekuatan". Maka marilah kita mawas diri: sejauh mana dalam mengasihi kita sungguh dihayati oleh ajaran ini. "Segenap" berarti seutuhnya, tidak genap atau tidak utuh berarti sakit, maka orang yang sakit hati (pemarah, pembenci, penggerutu dst.), sakit jiwa (gila, tidak waras jiwanya), sakit akal budi (bodoh) atau sakit kekuatan/tubuh tidak mampu mengaihi sebagaimana diajarkan oleh Yesus. Mungkin saja orang mengasihi dengan segenap tubuh alias bersetubuh, tetapi mereka tidak sehati, sejiwa atau seakal budi, sehingga persetubuhan mereka menyakitkan; sebaliknya hemat saya mereka yang mengasihi dengan segenap hati, jiwa dan akal budi namun tidak sampai setubuh/persetubuhan dapat hidup bahagia, damai sejahtera, sebagaimana dihayati oleh yang tidak menikah karena Kerajaan Allah atau panggilan menjadi imam, bruder, suster dst.. 
+
+Orang bijak atau bijaksana senantiasa menelusuri 'jalan-jalan Tuhan yang lurus', sehingga tidak pernah tergelincir hidupnya. "Jalan-jalan Tuhan yang lurus" bagi kita masing-masing adalah peraturan yang terkait dengan tugas pekerjaan dan panggilan kita atau janji-janji yang pernah kita ikhrarkan, misalnya janji baptis dimana kita berjanji untuk mengabdi Tuhan saja serta menolak semua bentuk godaan setan. Baptisan merupakan dasar hidup beriman dan terpanggil lainnya, jika orang setia menghayati janji baptis kiranya janji-janji yang lain seperti janji perkawinan, kaul, janji imamat, janji kepegawaian, janji pelajar dst..dapat dihayati dengan memadai atau baik dalam hidup sehari-hari. Maka baiklah kita bersama-sama saling membantu dalam mawas diri perihal janji baptis kita: jika ada saudara atau sahabat kita, entah itu imam/pastor, bruder, suster, suami-isteri, muda-mudi dst.., bertindak kurang baik marilah kita ingatkan dan tegor perihal janji baptis Jika janji baptis dihayati sepenuhnya kiranya perjalanan penghayatan hidup berkeluarga, imamat, membiara, bekerja atau belajar tidak akan tergelincir; sebaliknya jika orang mengesampingkan atau melupakan janji baptis maka hidup terpanggil sebagai suami-isteri, imam, bruder, suster, pegawai/pejabat atau pelajar akan menjadi pendorong menuju ke kesombongan alias perilaku dosa atau jahat. Marilah mawas diri secara mendalam dan penuh perihal janji baptis kita, agar di malam Paskah, malam kemenangan nanti ketika kita diajak untuk memperbaharui janji baptis bukan hanya sekedar basa-basi, lupada liturgis belaka, melainkan sungguh terjadi pembaharuan hidup dan panggilan, bangkit dan menang atas segala macam bentuk kejahatan. 
+
+"Engkau tidak jauh dari Kerajaan Allah"
+
+\begin{enumerate}[(a)]
+\item Haruskah kita diperintah untuk mengasihi Tuhan?
+
+
+Harus, sebab jika dibiarkan, kita tidak akan mengambil langkah pertama untuk mengasihi Tuhan. Kita harus sadar bahwa karena dosa, kita akan memilih untuk mengasihi segala sesuatu kecuali Tuhan. Alkitab mengajar kita bahwa kasih kita terhadap Tuhan dapat tumbuh jika kita semakin mengenal Dia. Kita tidak mengasihi Tuhan karena kita tidak cukup mengenal Dia. Apakah engkau mengenal Tuhan? Apakah engkau mengenal Yesus yang sangat mengasihimu sehingga Dia rela menderita dan mati untuk menyelamatkan engkau dari dosamu?
+
+
+Tuhan telah mengambil langkah pertama untuk mengasihi kita. Kasih kita bagi Tuhan hanyalah merupakan respon kita atas kasih-Nya. Kita tidak mampu mengasihi Tuhan dengan kekuatan sendiri. Kita mengasihi Dia karena Dia terlebih dahulu mengasihi kita. Ketika kita berada dalam keadaan sangat berdosa, sangat jahat, sangat bodoh dan sangat tidak layak dikasihi, Tuhan mengasihi kita.
+
+
+\item Kita harus memprioritaskan Tuhan
+
+
+Kita harus menempatkan Tuhan di tempat pertama dalam hidup kita. Tetapi memberi prioritas utama bagi Tuhan tidaklah mudah. Begitu banyak orang dan hal di sekitar kita yang terus berusaha merebut posisi itu. Untuk selalu menempatkan Tuhan sebagai prioritas utama kita, sungguh suatu perjuangan yang berat. Jika kita ingin tahu apakah Tuhan sungguh-sungguh nomor satu dalam hidup kita, lihatlah kalender dan rencana tahunan kita, akan menjadi jelas apakah prioritas kita sesungguhnya. Di manakah Tuhan dalam daftar prioritas kita? Apakah Tuhan mendapatkan waktu terbaik kita? Mengapa tidak? Tidak mengasihi Dia? Apakah kita sungguh-sungguh mengasihi-Nya?
+\end{enumerate}
+
+Literatur Yahudi bercerita tentang seseorang yang pada suatu hari bertanya kepada Rabbi Hillel untuk meringkas 613 peraturan Perjanjian Lama selagi dia berdiri atas satu kakinya, artinya secara singkat saja! Hillel menjawab: "Apa yang kamu benci bagi dirimu sendiri, janganlah lakukan kepada sesamamu. Ini adalah keseluruhan hukum; selebihnya adalah tafsir/ komentar" (lihat Tob 4:15a; bdk. Mat 7:12).
+
+Rupanya ahli Taurat yang bertanya kepada Yesus dalam bacaan Injil kali ini tidak tergolong mayoritas para pemuka agama Yahudi yang ingin mencelakakan dan menghabiskan Yesus. Ia melontarkan pertanyaan yang sama (baca Luk 10:25 dsj.), namun terkesan tulus: "Perintah manakah yang paling utama?" (12:28). Kebanyakan ahli Taurat memandang Yesus sebagai sebagai seorang rabbi yang merupakan saingan, \dots ~sebagai ancaman! Lain dengan ahli Taurat yang satu ini: dia memandang Yesus sebagai suatu kesempatan untuk belajar. Oleh karena itu secara sopan dia mengajukan sebuah pertanyaan sederhana yang mencerminkan suatu keprihatinan yang tertanam dalam-dalam di setiap hati anak manusia.
+
+Pertanyaan ahli Taurat ini mencerminkan sebuah hati yang mencari -- kalau mungkin, untuk memahaminya -- suatu prinsip tunggal sederhana yang mendasari kompleksitas hukum yang berlaku. Perintah mendasar mana yang dapat memberikan arti kepada berbagai ketetapan dan peraturan tentang hidup keagamaan yang lebih kecil? Apakah ada kunci yang dapat membongkar teka-teki kehidupan kita dan membimbing kita melalui kompleksitas, baik di sekeliling kita maupun di dalam diri kita sendiri? Kita semua merindukan jawaban-jawaban terhadap pertanyaan-pertanyaan di atas.
+
+Perintah untuk mengasihi Allah dan sesama bukan sekadar suatu perintah atau tugas. Bagaimana pun juga tidak ada orang yang dapat mengasihi hanya karena dia diperintahkan untuk melakukan begitu! Akhirnya, mengasihi Allah adalah suatu privilese, suatu relasi yang dimulai oleh Allah sendiri pada saat kita dibaptis dan yang bertumbuh sementara kita menerima sabda Allah dan membuka hati kita untuk mengalami kasih-Nya. Hal ini bertumbuh sementara kita berupaya terus untuk menyelaraskan kehendak-kehendak kita dengan perintah Allah yang paling utama ini, membuat keputusan- keputusan harian untuk meminta Allah mengajarkan kepada kita bagaimana mengasihi dan taat kepada-Nya.
+
+Allah selalu mau berada dekat dengan kita, dan setiap kali kita berpaling kepada-Nya, kita dapat menerima kasih-Nya dengan lebih mendalam lagi. Pengalaman akan kasih-Nya kemudian  mendorong kita untuk mengasihi-Nya dan untuk membagikan kasih ini dengan sesama kita. Benar kita harus memutuskan mencari Allah dan menanggapi-Nya, tetapi keputusan- keputusan ini dimaksudkan mengalir dari relasi penuh cintakasih yang dikehendaki Allah dengan kita, suatu relasi yang bertumbuh seiring dengan cintakasih yang disyeringkan.
+
+
+Kita harus mengevaluasi hidup kita dan membuat penyesuaian untuk memberi prioritas bagi Tuhan. Maukah engkau melakukannya? Semoga Tuhan menolong kita. Amin.
+
+
+
+\subsection*{CONTEMPLATIO}
+Dalam hening di pagi hari rasakan bias semburat mentari pagi, sebening doa
+terucap dalam kediaman batin. Karunia Kasih mekar di fajar terang,
+menghantar bumi bergita \dots ~diiring seruling, bayu semilir \dots ~Sambutlah cinta
+Tuhan dengan tatapan hati penuh harapan. Betapa setianya Dia pada janjiNya,
+betapa menggetarkan Dia dalam segala keajaibanNya. Betapa mempesonanya Dia.
+
+\subsection*{ORATIO}
+Puji Tuhan untuk segala kemurahan berkat-berkatMu yang selalu tersedia
+bagiku. ?
+
+Bapa Surgawi, tolong saya untuk mengerti bahwa semakin saya mengasihi Engkau, semakin saya dapat mengasihi orang lain dan mengasihi semua hal lain yang telah Tuhan berikan sebagai berkat bagi saya.
+
+Bapa surgawi, gerakkanlah aku dengan kasih-Mu untuk mengasihi-Mu dan sesamaku dengan kasih-Mu. Tolonglah aku agar dapat melihat hidup imanku sebagai suatu relasi, bukan sekadar suatu tugas. Amin.
+
+Amin.
+
+\subsection*{MISSIO}
+Hari ini aku akan setia berdoa dan berbuat baik, agar nama Tuhan semakin
+dimuliakan, dan banyak jiwa terselamatkan.
+
+Tuhan memberkati!
+
+\end{document}

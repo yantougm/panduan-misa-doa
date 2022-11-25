@@ -1,0 +1,264 @@
+\documentclass[titlepage,10pt,openany]{scrbook}
+\usepackage[papersize={107.5mm,148.5mm},twoside,bindingoffset=0.5cm,hmargin={1cm,1cm},
+				vmargin={1.5cm,1.5cm},footskip=0.5cm,driver=dvipdfm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage[bahasa]{babel}
+\usepackage{fancyhdr}
+\usepackage{microtype}
+\usepackage{pst-text}
+\usepackage{palatino}
+\usepackage{marvosym}
+\usepackage{pdfpages}
+\usepackage{hyphenat}
+
+\renewcommand{\footrulewidth}{0.5pt}
+\lhead[\fancyplain{}{\thepage}]%
+      {\fancyplain{}{\rightmark}}
+\rhead[\fancyplain{}{\leftmark}]%
+      {\fancyplain{}{\thepage}}
+\pagestyle{fancy}
+
+\lfoot[\emph{\footnotesize Doa syukur pembaptisan \namaanak}]{}
+\rfoot[]{\emph{\footnotesize Doa syukur pembaptisan \namaanak}}
+\cfoot{}
+
+\makeatletter
+\newcommand{\judul}[1]{%
+  {\parindent \z@ \centering 
+    \interlinepenalty\@M \Large \bfseries #1\par\nobreak \vskip 20\p@ }}
+\newcommand{\subjudul}[1]{%
+  {\parindent \z@ 
+    \interlinepenalty\@M \bfseries #1\par\nobreak \vskip 10\p@ }}
+\newcommand{\lagu}[1]{%
+  {\parindent \z@ 
+    \interlinepenalty\@M \slshape \bfseries \normalsize \textit{#1}\par\nobreak \vskip 10\p@ }}
+\newcommand{\keterangan}[1]{%
+  {\parindent \z@  \slshape 
+    \interlinepenalty\@M \textsl{#1}\par\nobreak  \vskip 5\p@}}
+
+\renewenvironment{description}
+               {\list{}{\labelwidth\z@ \itemindent-\leftmargin
+                        \let\makelabel\descriptionlabel}}
+               {\endlist}
+\renewcommand*\descriptionlabel[1]{\hspace\labelsep 
+                                \normalfont\bfseries #1 }
+
+
+\makeatother
+
+\newcommand{\BU}[1]{\begin{itemize} \item[U:] #1 \end{itemize}}
+\newcommand{\BI}[1]{\begin{itemize} \item[I:] #1 \end{itemize}}
+\newcommand{\BIU}[1]{\begin{itemize} \item[I+U:] #1 \end{itemize}}
+\newcommand{\BPU}[1]{\begin{itemize} \item[P+U:] #1 \end{itemize}}
+\newcommand{\BP}[1]{\begin{itemize} \item[P:] #1 \end{itemize}}
+\newcommand{\inputlagu}[1]{\itshape{\input{#1}}}
+\newcommand{\namaanak}{Athanasia Yashna Diasputri}
+\newcommand{\namaromo}{Sardju}
+
+\title{Ibadat Baptisan}
+\author{\namaaanak}
+\date{oleh \\  \namaromo\\26 Juni 2016}
+\input{../indohyp}
+\DeclareFixedFont{\PT}{T1}{ppl}{b}{it}{0.5in}
+\DeclareFixedFont{\PTsmall}{T1}{ppl}{b}{it}{0.2in}
+\DeclareFixedFont{\PTsmallest}{T1}{ppl}{b}{it}{0.15in}
+\DeclareFixedFont{\PTtext}{T1}{ppl}{b}{it}{11pt}
+\DeclareFixedFont{\Logo}{T1}{pbk}{m}{n}{0.3in}
+
+\hyphenation{me-nyi-ap-kan pan-jat-kan se-jah-te-ra Par-lan o-rang bang-kit}
+\begin{document}
+%\maketitle
+\thispagestyle{empty}
+
+%\includepdf{baptis-ashna-cover}
+
+\lagu{Lagu Pembuka}  
+\input{../lagu/bahagia-manusia} 
+
+\subjudul{Tanda Salib} 
+
+\BP{Dalam nama  Bapa dan Putera dan Roh Kudus}
+
+\BU{Amin}
+
+ 
+
+\subjudul{Salam}
+\BP{Semoga Allah dan Bapa Tuhan kita Yesus Kristus menganugerahkan damai dan 
+sejahtera kepada kita sekalian.}
+\BU{Sekarang dan selama-lamanya.}
+
+\subjudul{Kata pengantar}
+ \BP{Bapak, Ibu, Saudara dan Saudari yang terkasih dalam Kristus pada saat ini, kita bersama-sama berkumpul di tempat ini, kita akan mengucapkan syukur dan terima kasih kepada Allah Tuhan kita Yesus Kristus, atas berbagai anugrah dan kemurahanNya. Kita semua bersyukur karena beberapa waktu yang lalu telah lahir seorang anak perempuan dari keluarga ini dan diberi nama \textbf{\namaanak{}} dan beberapa saat lalu telah menerima sakramen baptis. 
+ 
+ Keluarga bersyukur pula karena selama dalam menjalani hidup berkeluarga berkat dan kemurahan Tuhan, dirasakan selalu mengalir di dalam keluarga ini. Sebelum mendengarkan sabda Tuhan, marilah kita menyadari kelemahan dan kerapuhan kita dengan mohon belas kasihan Tuhan.} 
+
+\subjudul{Pernyataan Tobat}
+\BP{Saya mengaku \ldots\ldots\ldots
+
+Semoga Allah yang Mahakuasa dan Maharahim mengasihi kita, mengampuni dosa-dosa kita, dan menghantar kita ke hidup yang kekal.}
+
+\BU{Amin.}
+
+
+\subjudul{Doa Pembuka}
+\BP{Ya Allah, Bapa kami yang maha kasih.
+Syukur dan terima kasih kami haturkan kepada-Mu, atas perlindungan-Mu yang kudus terhadap anak \textbf{\namaanak{}} yang telah menerima pembaptisan. Dengan bertambahnya usia, semoga anak tersebut semakin bertambah besar, bertambah pandai, setia, dan taat kepada orang tuanya, menjadi anak yang tekun berdoa, jujur dan rendah hati. Dengan iman, kami yakin bahwa Engkau berkenan terhadap anak-anak yang hatinya masih suci, ceria, namun bersahaja. 
+Berkatilah anak \textbf{\namaanak{}}. Curahkanlah Roh-Mu atas anak ini, jagalah pula kesehatan jiwa raganya, agar senantiasa dapat memenuhi panggilan hidupnya. Demi Yesus Kristus, Putra-Mu, Tuhan dan Pengantara kami 
+Amin.}
+
+\subjudul{Bacaan Kitab Suci}
+
+\keterangan{Bacaan (Ef 6 : 1 – 9)}
+
+\BP{Hai anak-anak, taatilah orang tuamu di dalam Tuhan, karena haruslah demikian.
+
+Hormatilah ayahmu dan ibumu?ini adalah suatu perintah yang penting, seperti yang nyata dari janji ini:
+supaya kamu berbahagia dan panjang umurmu di bumi.
+
+Dan kamu, bapa-bapa, janganlah bangkitkan amarah di dalam hati anak-anakmu, tetapi didiklah mereka di dalam ajaran dan nasihat Tuhan.
+
+Hai hamba-hamba, taatilah tuanmu yang di dunia dengan takut dan gentar, dan dengan tulus hati, sama seperti kamu taat kepada Kristus,
+jangan hanya di hadapan mereka saja untuk menyenangkan hati orang, tetapi sebagai hamba-hamba Kristus yang dengan segenap hati melakukan kehendak Allah, dan yang dengan rela menjalankan pelayanannya seperti orang-orang yang melayani Tuhan dan bukan manusia.
+
+Kamu tahu, bahwa setiap orang, baik hamba, maupun orang merdeka, kalau ia telah berbuat sesuatu yang baik, ia akan menerima balasannya dari Tuhan.
+
+Dan kamu tuan-tuan, perbuatlah demikian juga terhadap mereka dan jauhkanlah ancaman. Ingatlah, bahwa Tuhan mereka dan Tuhan kamu ada di sorga dan Ia tidak memandang muka.
+
+Demikian sabda Tuhan
+}
+
+\BU{Syukur kepada Allah} 
+
+\keterangan{Lagu tanggapan sabda}
+\input{../lagu/kumohon-ya-tuhan} 
+
+\subjudul{Injil}
+
+\BP{Tuhan sertamu}
+
+\BU{dan sertamu juga} 
+
+\BI{Inilah Injil Yesus Kristus menurut Lukas (1:57-66)}
+
+\BU{Dimuliakanlah Tuhan}
+
+\BI{
+Kemudian genaplah bulannya bagi Elisabet untuk bersalin dan iapun melahirkan seorang anak laki-laki.
+
+Ketika tetangga-tetangganya serta sanak saudaranya mendengar, bahwa Tuhan telah menunjukkan rahmat-Nya yang begitu besar kepadanya, bersukacitalah mereka bersama-sama dengan dia.
+
+Maka datanglah mereka pada hari yang kedelapan untuk menyunatkan anak itu dan mereka hendak menamai dia Zakharia menurut nama bapanya,
+tetapi ibunya berkata: "Jangan, ia harus dinamai Yohanes."
+
+Kata mereka kepadanya: "Tidak ada di antara sanak saudaramu yang bernama demikian."
+
+Lalu mereka memberi isyarat kepada bapanya untuk bertanya nama apa yang hendak diberikannya kepada anaknya itu.
+
+Ia meminta batu tulis, lalu menuliskan kata-kata ini: "Namanya adalah Yohanes." Dan merekapun heran semuanya.
+
+Dan seketika itu juga terbukalah mulutnya dan terlepaslah lidahnya, lalu ia berkata-kata dan memuji Allah.
+
+Maka ketakutanlah semua orang yang tinggal di sekitarnya, dan segala peristiwa itu menjadi buah tutur di seluruh pegunungan Yudea.
+
+Dan semua orang, yang mendengarnya, merenungkannya dan berkata: "Menjadi apakah anak ini nanti?" Sebab tangan Tuhan menyertai dia.}
+
+
+\BI{Demikianlah Injil Tuhan}
+
+\BU{Terpujilah Kristus}
+
+ 
+
+\subjudul{Homili}
+
+\subjudul{Syahadat} 
+
+\subjudul{Doa Umat}
+\BP{Saudara-saudari, kehadiran kita bersama di sini adalah untuk mengungkapkan iman kita akan Allah sumber sukacita sejati. Marilah dengan rendah hati kita ungkapkan doa dan permohonan kita kepada Bapa:}
+
+\BP{Semoga karena sakramen baptis yang sudah diterimanya, \namaanak{} menyatu dengan semua warga Persekutuan Kudus
+
+Marilah kita mohon \ldots\ldots
+}
+
+\BU{Kabulkanlah doa kami ya Tuhan}
+
+\BU{Semoga ayah dan ibunya dapat menjaga dan mengasuh anak ini dengan penuh tanggung jawab
+
+Marilah kita mohon \ldots\ldots
+}
+
+\BU{Kabulkanlah doa kami ya Tuhan}
+
+\BP{Semoga anak ini nantinya menjadi warga gereja yang tangguh, waspada, rajin, dan tanggap terhadap kebutuhan sesama.
+
+Marilah kita mohon \ldots\ldots
+}
+
+\BU{Kabulkanlah doa kami ya Tuhan}
+
+\BP{Semoga orang tua anak ini Kauberi kebijaksanaan dan kasih sayang yang lestari
+
+Marilah kita mohon \ldots\ldots
+}
+
+\BU{Kabulkanlah doa kami ya Tuhan}
+
+
+\BP{Bagi kita semua yang berkumpul disini.
+Semoga rahmat Tuhan meneguhkan iman kita sehingga kita yang berkumpul di sini senantiasa kuat imannya dan ringan tangan membantu sesama. 
+
+Marilah kita mohon \ldots\ldots
+}
+
+\BU{Kabulkanlah doa kami ya Tuhan}
+
+
+\BP{Marilah kita satukan doa dan dan ungkapan syukur kita dengan doa yang telah diajarkan oleh Tuhan Yesus sendiri: 
+
+Bapa Kami \ldots\ldots
+}
+
+
+\subjudul{Doa Penutup}
+
+\BP{Ya Allah, Bapa kami yang maha kasih. Semoga peristiwa pembaptisan ini selalu mengingatkan kami untuk semakin menyadari arti hidup ini dan setiap kali berusaha menghayatinya dengan lebih baik dari hari sebelumnya. Kami percaya, walaupun banyak rintangan yang menghadang, Engkau tidak akan merelakan hamba-Mu ini jatuh ke dalam lembah nista. Oleh karena itu, berkatilah kami, terutama anak kami \namaanak{} agar tetap tegar dalam membela kebenaran sebagai saksi Putramu, Yesus Kristus, Tuhan dan Pengantara kami.} 
+
+\subjudul{Berkat dan Pengutusan}
+\BP{Bapak, Ibu, Saudara, Saudari yang terkasih, sebelum kita akhiri ibadat kita malam ini, marilah kita mohon berkat Tuhan.
+
+Tuhan Beserta kita
+}
+
+\BU{Sekarang dan selamanya.}
+
+\BP{Semoga kita semua yang hadir disini dibimbing dan dilindungi oleh berkat Alah Yang Maha Kuasa: Dalam Nama Bapa dan Putera dan Roh Kudus.
+}
+
+\BU{Amin.}
+ 
+\BP{Dengan demikian ibadat kita malam hari ini sudah selesai.}
+
+\BU{Syukur kepada Allah.}
+
+\subjudul{Lagu Penutup}
+\input{../lagu/ndherek-dewi-mariyah-1-2} 
+
+
+\newpage
+\itshape
+\section*{Santo Athanasius Agung, Uskup dan Pujangga Gereja}
+
+Pembela terbesar ajaran Gereja Katolik tentang Tritunggal MahaKudus dan misteri Penjelmaan Sabda menjadi Manusia ialah santo Athanasius, Uskup Aleksandria, Mesir. Athanasius lahir di Aleksandria, kurang lebih pada tahun 297 dan meninggal dunia pada tanggal 2 Mei 373. Beliau dikenal sebagai ‘Bapak Ortodoksi’ karena perjuangannya yang besar dalam menentang ajaran-ajaran sesat yang berkembang pada masa itu.
+
+Pada tahun 318, Athanasius ditabhiskan menjadi diakon, dan ditunjuk sebagai sekretaris Uskup Aleksandria. Dalam kurun waktu singkat setelah tabhisan diakon itu, ia menerbitkan karangannya tentang rahasia Penjelmaan. Sebagai sekretaris Uskup, ia berhubungan erat dengan para rahib padang gurun, seperti santo Antonius, sang pertapa dari Mesir. Athanasius sendiri sangat tertarik sekali dengan kehidupan para rahib itu. Akhirnya dia sendiri pun meneladani cara hidup para pertapa itu dan menjadi seorang pendoa besar.
+
+Menanggapi ajaran sesat Arianisme, Athanasius bersama uskupnya pergi menghadiri Konsili Nicea (sekarang: Iznik, Turki) yang diprakarsai oleh kaisar Konstantianus. Dalam konsili itu, Athanasius terlibat aktif dalam diskusi-diskusi mengenai Ke-Allah-an Yesus Kristus,Pribadi kedua dalam Tritunggal MahaKudus. Sekembali dari konsili itu, peranan Athanasius semakin terasa penting, terutama setelah meninggalnya uskup Aleksandria enam bulan kemudian. Sebagai pengganti Uskup Aleksandria, Athanasius dipilih menjadi uskup Aleksandria. Dalam tugasnya sebagai uskup, Athanasius mengunjungi seluruh wilayah keuskupannya, termasuk pertapaan-pertapaan para rahib. Ia mengangkat seorang uskup untuk wilayah Ethiopia. Ia memimpin keuskupannya selama 45 tahun.
+
+Pada masa kepemimpinannya Arianisme mulai timbul lagi di Mesir. Dengan tegas Athanasius menentang Arianisme itu. Ia banyak menghadapi tantangan. Sebanyak lima kali ia terpaksa melarikan diri untuk menyelamatkan diri dari kepungan musuhnya. Athanasius dikenal sebagai seorang uskup yang banyak menulis. Dengan tulisan-tulisannya ia berusaha menerapkan dan membela ajaran iman yang benar. Ia meninggal dunia pada tanggal 2 Mei 373. 
+
+\end{document} 
+

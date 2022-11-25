@@ -1,0 +1,213 @@
+\documentclass[10pt,landscape]{article}
+\usepackage[papersize={330mm,215mm},twoside,bindingoffset=0.5cm,hmargin={2cm,1cm},
+				vmargin={2cm,1cm},footskip=1.1cm,driver=dvipdfm]{geometry}
+\usepackage[latin1]{inputenc} 
+\usepackage{calc}
+\usepackage{setspace} 
+\usepackage{fixltx2e} 
+\usepackage{graphicx}
+\usepackage{multicol} 
+\usepackage[normalem]{ulem} 
+\usepackage[bahasa]{babel} 
+\usepackage{color}
+\usepackage{hyperref} 
+\usepackage{pstricks}
+%\usepackage{landscape}
+
+\setlength{\parindent}{0mm}
+\makeatletter
+\newcommand{\lagu}[1]{%
+  {\parindent \z@ 
+    \interlinepenalty\@M \slshape \mdseries \large \textit{#1}\par\nobreak \vskip 10\p@ }}
+\newcommand{\keterangan}[1]{%
+  {\parindent \z@ 
+    \interlinepenalty\@M \slshape \mdseries \textit{#1}\par\nobreak \vskip 10\p@ }}
+\makeatother
+
+\newcommand{\BU}[1]{\begin{itemize} \item[U:] #1 \end{itemize}}
+\newcommand{\BI}[1]{\begin{itemize} \item[I:] #1 \end{itemize}}
+\newcommand{\BIU}[1]{\begin{itemize} \item[I+U:] #1 \end{itemize}}
+\newcommand{\BP}[1]{\begin{itemize} \item[P:] #1 \end{itemize}}
+\newcommand{\inputlagu}[1]{\begin{textit} \input{#1} \end{textit}}
+\newcommand{\namaalm}{Bapak Yohanes Markus Gegono Purwadi}
+\newcommand{\namaromo}{Ign Yulianto, OMI}
+
+\begin{document}
+\pagestyle{empty}
+\newcounter{nomor} \setcounter{nomor}{1}
+\rput(4.5,-18.75){\arabic{nomor}}\addtocounter{nomor}{1}
+\rput(15,-18.75){\arabic{nomor}} \addtocounter{nomor}{1}
+\rput(24.5,-18.75){\arabic{nomor}} \addtocounter{nomor}{1}
+%\setlength{\oddsidemargin}{1.0000in-1in}
+%\setlength{\textwidth}{\paperwidth - 1.0000in-1.0000in}
+\setlength{\columnsep}{48pt}
+\begin{multicols}{3} 
+\begin{center} Romo \namaromo\\
+"ALLAH SUMBER SUKACITA SEJATI"\\
+MISA KUDUS PERINGATAN 1 TAHUN\\
+Bp Yohanes Markus Gegono Purwadi\\
+14 Maret 2010\\
+\end{center} 
+
+\section*{RITUS PEMBUKA}
+
+\lagu{Lagu pembukaan Hai Pra umat (MB 163)}
+
+\subsection*{Seruan tobat}
+
+\lagu{Tuhan Kasihanilah Kami}
+
+\subsection*{Doa Pembuka}
+\BI{Marilah berdoa\\
+	Allah Bapa sumber sukacita, kami telah menerima jaminan kebahagiaan abadi dalam Diri Yesus Kristus Putera-Mu. Kami serahkan hamba-Mu, Bp. Yohanes Markus Gegono Purwadi yang telah Engkau panggil satu tahun yang lalu dalam sukacita surgawi. Persatukanlah kami dalam pengharapan akan kebahagiaan kekal di surga, kendati masih harus berjuang di dunia ini. Bantulah kami agar memiliki sukacita sejati dan saling menghibur satu sama lain. Dengan pengantaraan Yesus Kristus PuteraMu Tuhan kami yang bersama dengan Dikau dalam persekutuan Roh Kudus hidup dan berkuasa, Allah sepanjang segala masa.}
+
+\BU{Amin}
+
+\section*{LITURGI SABDA}
+
+\subsection*{Bacaan I}
+
+\BP{\emph{Allah menghibur kita, sehingga kita sanggup menghibur semua orang yang berada dalam macam-macam penderitaan"}
+
+Pembacaan dari Surat kedua Rasul Paulus kepada Jemaat di Korintus (2 Kor 1:3-7)
+
+Terpujilah Allah, Bapa Tuhan kita Yesus Kristus, Bapa yang penuh belas kasihan dan Allah sumber segala penghiburan,
+yang menghibur kami dalam segala penderitaan kami, sehingga kami sanggup menghibur mereka, yang berada dalam bermacam-macam penderitaan dengan penghiburan yang kami terima sendiri dari Allah.
+Sebab sama seperti kami mendapat bagian berlimpah-limpah dalam kesengsaraan Kristus, demikian pula oleh Kristus kami menerima penghiburan berlimpah-limpah.
+Jika kami menderita, hal itu menjadi penghiburan dan keselamatan kamu; jika kami dihibur, maka hal itu adalah untuk penghiburan kamu, sehingga kamu beroleh kekuatan untuk dengan sabar menderita kesengsaraan yang sama seperti yang kami derita juga.
+Dan pengharapan kami akan kamu adalah teguh, karena kami tahu, bahwa sama seperti kamu turut mengambil bagian dalam kesengsaraan kami, kamu juga turut mengambil bagian dalam penghiburan kami.}
+
+\BP{Demikianlah Sabda Tuhan}
+
+\BU{Syukur kepada Allah}
+
+\lagu{Antar bacaan MB 211}
+
+\subsection*{Bacaan Injil}
+
+\BI{Tuhan sertamu}
+\BU{dan sertamu juga}
+\BI{Inilah Injil Yesus Kristus menurut Yohanes (15:9-12)}
+\BU{Dimuliakanlah Tuhan}
+
+\BI{\emph{Tiggallah di dalam kasihKu, supaya sukacitamu menjadi penuh}
+
+Dalam amanat perpisahanNya, Yesus berkata kepada murid-muridNya,
+"Seperti Bapa telah mengasihi Aku, demikianlah juga Aku telah mengasihi kamu; tinggallah di dalam kasih-Ku itu.
+Jikalau kamu menuruti perintah-Ku, kamu akan tinggal di dalam kasih-Ku, seperti Aku menuruti perintah Bapa-Ku dan tinggal di dalam kasih-Nya.
+Semuanya itu Kukatakan kepadamu, supaya sukacita-Ku ada di dalam kamu dan sukacitamu menjadi penuh.
+Inilah perintah-Ku, yaitu supaya kamu saling mengasihi, seperti Aku telah mengasihi kamu.}
+
+\subsection*{Homili}
+\subsection*{Doa Umat}
+
+\BI{Saudara-saudari, kehadiran kita bersama ini mengungkapkan iman kita akan Allah sumber sukacita sejati. Marilah dengan rendah hati kita ungkapkan doa dan permohonan kita kepada Bapa:}
+
+\BP{Ya Bapa, kedatangan Yesus Kristus di tengah-tengah kami menghadirkan tahun rahmat Tuhan kepada manusia. Semoga peringatan satu tahun meninggalnya \namaalm inipun menghadirkan tahun rahmat bagi kita semua yang mengikuti Perayaan Ekaristi ini.
+
+Kami mohon \dots}
+
+\BP{(\emph{doa oleh Rina})}
+
+\BP{(\emph{doa oleh Wulan})}
+
+\BP{(\emph{doa oleh Eyang})}
+
+\BI{Bapa kasihMu tiada batas, kesabaranMu begitu besar. Semoga dalam pengharapan iman yang benar, kami senantiasa dalam limpahan rahmatMu, dengan pengantaraan Kristus Tuhan kami.}
+
+\section*{LITURGI EKARISTI}
+
+\lagu{Kususun Jari di AltarMu - MB 232}
+\newpage
+\rput(4.5,-18.75){\arabic{nomor}}\addtocounter{nomor}{1}
+\rput(15,-18.75){\arabic{nomor}} \addtocounter{nomor}{1}
+\rput(24.5,-18.75){\arabic{nomor}} \addtocounter{nomor}{1}
+\subsection*{Persiapan Persembahan}
+
+\BI{Terpujilah Engkau ya Tuhan, Allah semesta alam, sebab dari kemurahanMu, kami menerima roti yang kami siapkan ini. Inilah hasil dari bumi dan dari usaha manusia yang bagi kami akan menjadi roti kehidupan.}
+
+\BU{Terpujilah Allah selama-lamanya}
+
+\BI{Terpujilah Engkau ya Tuhan, Allah semesta alam, sebab dari kemurahanMu, kami menerima anggur yang kami siapkan ini. Inilah hasil dari pohon anggur dan dari usaha manusia yang bagi kami akan menjadi minuman rohani.}
+
+\BU{Terpujilah Allah selama-lamanya}
+
+\BI{Berdoalah saudara-saudari, supaya persembahanku dan persembahanmu berkenan pada Allah Bapa yang Mahakuasa.}
+
+\BU{Semoga persembahan ini diterima demi kemuliaan Tuhan dan keselamatan kita serta seluruh umat Allah yang kudus.}
+
+\subsection*{Doa Persiapan Persembahan}
+
+\BI{Allah Bapa sumber kekudusan, terimalah bahan persembahan roti dan anggur yang kami hunjukkan untuk keselamatan hamaMu \namaalm. Perkenankanlah dia memasuki rumahMu di surga, dan anugerahkan kami semua ketekunan dalam penghapran. Demi Kristus Tuhan dan pengantara kami.}
+
+\BU{Amin.}
+
+
+\subsection*{Doa Syukur Agung III}
+
+\lagu{Kudus - MB 250}
+
+\lagu{Anak Domba Allah - MB 271}
+
+\subsection*{Ajakan menyambut komuni}
+
+\BI{Saudara-saudari terkasih, Tuhan Yesus bersabda; "Datanglah kepadaKu, kalian yang telah memikul beban berat, maka Aku akan memberikan rasa lega kepadamu." Beban dosa kitapun akan dihapus. Maka berbahagialah kita yang diundang ke perjamuan Tuhan.}
+
+\BU{Ya Tuhan, saya tidak pantas Tuhan datang pada saya, tetapi bersabdalah saja, maka saya akan sembuh.}
+
+\lagu{Tuhan Semayam di Hatiku - MB 294}
+
+\subsection*{Doa sesudah komuni}
+
+\BI{Marilah berdoa,
+
+Allah Bapa sumber kehidupan, kami telah Engkau segarkan dengan santapan kehidupan, Tubuh dan Darah Yesus PutraMu. KehadiranNya memberi keteguhan bagi hidup kami sehari-haru dalam berusaha memenuhi kehendakMu melalui pelayanan da  pekerjaan kami. Semoga hambaMu \namaalm yang telah satu tahun menghadapMu kini berbahagia bersamaMu dan persatukanlah kami kelak dengannya serta para kudus di surga. Dengan perantaraan Kristus Tuhan kami,}
+
+\BU{Amin.}
+
+\section*{RITUS PENUTUP}
+
+\keterangan{Pengumuman dan ucapan terima kasih dari wakil keluarga.}
+
+\subsection*{Berkat Penutup}
+
+\BI{Saudara-saudari yang terkasih, marilah kita mengakhiri perayaan ekaristi dan doa kita untuk \namaalm, dengan mohon berkat Tuhan.}
+
+\BI{Tuhan sertamu}
+
+\BU{Dan sertamu juga}
+
+\BI{Semoga Allah Bapa, yang telah menciptakan dan mengasihi saudara, memelihara saudara dalam cinta kasihNya}
+
+\BU{Amin.}
+
+\BI{Semoga Allah Putra yang telah memberikan harapan sejati kepada saudara, meneguhkan saudara dalam menghayati iman, harapan dan kasih sejati}
+
+\BU{Amin.}  
+
+\BI{Semoga Allah Roh Kudus, yang telah menyalakan api cinta kasih dalam hati para murid Kristus memberikan ketabahan dan kekuatan hati dalam hidup saudara}
+
+\BU{Amin.}
+
+\BI{Semoga saudara-saudari sekalian yang hadir di sini, dilindungi dan dibimbing oleh berkat Allah yang Mahakuasa Bapa, Putera, dan Roh Kudus}
+
+\BU{Amin.}
+
+\BI{Saudara sekalian, dengan ini perayaan ekaristi dan doa arwah \namaalm sdah selesai}
+
+\BU{Syukur kepada Allah}
+
+\BI{Marilah kita pergi, kita diutus untuk mewartakan damai Tuhan}
+
+\BU{Amin.}
+
+\lagu{Lagu penutup : nDherek Dewi Mariyah}
+
+\begin{center}
+TERIMA KASIH ATAS DUKUNGAN DOA DARI\\
+BAPAK, IBU, DAN SAUDARA\\
+SEMOGA KEBAIKAN BAPAK, IBU, DAN SAUDARA\\
+TUHAN BERKENAN MEMBERKATI
+\end{center}
+\end{multicols}
+\end{document}

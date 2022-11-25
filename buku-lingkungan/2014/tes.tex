@@ -1,0 +1,70 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[width=210.00mm, height=285.00mm, left=20.00mm, right=20.00mm, top=20.00mm, bottom=20.00mm]{geometry}
+\usepackage{supertabular}
+\author{Yohanes Suyanto}
+\begin{document}
+
+\begin{center}
+\tablefirsthead{%
+\hline
+\multicolumn{1}{|c}{\tbsp Number} &
+\multicolumn{1}{c}{Number$^2$} &
+Number$^4$ &
+\multicolumn{1}{c|}{Number!} \\
+\hline}
+\tablehead{%
+\hline
+\multicolumn{4}{|l|}{\small\sl continued from previous page}\\
+\hline
+\multicolumn{1}{|c}{\tbsp Number} &
+\multicolumn{1}{c}{Number$^2$} &
+Number$^4$ &
+\multicolumn{1}{c|}{Number!} \\
+\hline}
+\tabletail{%
+\hline
+\multicolumn{4}{|r|}{\small\sl continued on next page}\\
+\hline}
+\tablelasttail{\hline}
+\bottomcaption{This table is split across pages}
+
+\begin{supertabular}{|r@{\hspace{6.5mm}}|r@{\hspace{5.5mm}}|r|r|}
+1
+&
+1 &
+1 &
+1
+\\
+2
+&
+4 &
+16 &
+2
+\\
+3
+&
+9 &
+81 &
+6
+\\
+4
+&
+16 &
+256 &
+24
+\\[5mm]
+...
+19 &
+361 &
+130321 & 1.21645100E+17\\
+20 &
+400 &
+160000 & 2.43290200E+18\\
+\end{supertabular}
+\end{center}
+\end{document}

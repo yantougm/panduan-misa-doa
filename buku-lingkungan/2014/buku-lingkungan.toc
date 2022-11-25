@@ -1,0 +1,26 @@
+\select@language {bahasa}
+\contentsline {chapter}{\numberline {1}Sejarah Lingkungan}{3}{chapter.1}
+\contentsline {section}{\numberline {1.1}Sejarah Lingkungan St. Petrus}{3}{section.1.1}
+\contentsline {section}{\numberline {1.2}Lingkungan St. Theresia Kanak-kanak Yesus}{4}{section.1.2}
+\contentsline {section}{\numberline {1.3}Riwayat St. Theresia Kanak-kanak Yesus}{5}{section.1.3}
+\contentsline {chapter}{\numberline {2}Informasi Umat}{9}{chapter.2}
+\contentsline {section}{\numberline {2.1}Pengurus}{9}{section.2.1}
+\contentsline {section}{\numberline {2.2}Data Umat}{11}{section.2.2}
+\contentsline {section}{\numberline {2.3}Remaja dan Mudika}{12}{section.2.3}
+\contentsline {section}{\numberline {2.4}Jadwal Kegiatan}{15}{section.2.4}
+\contentsline {section}{\numberline {2.5}Aturan dan Kebijakan Lingkungan St. Theresia 2014}{23}{section.2.5}
+\contentsline {section}{\numberline {2.6}Tata Urutan Ibadat Lingkungan}{24}{section.2.6}
+\contentsline {section}{\numberline {2.7}Tata urutan Doa Rosario}{25}{section.2.7}
+\contentsline {section}{\numberline {2.8}Tata cara persiapan dan pelaksanaan ujud misa/ibadat pribadi}{27}{section.2.8}
+\contentsline {chapter}{\numberline {3}Doa-Doa}{29}{chapter.3}
+\contentsline {section}{\numberline {3.1}Doa Angelus dan Ratu Surga}{29}{section.3.1}
+\contentsline {subsubsection}{Arti}{30}{section*.7}
+\contentsline {subsubsection}{Mengapa dinamakan Doa Angelus?}{30}{section*.8}
+\contentsline {subsubsection}{Tujuan Doa Angelus}{30}{section*.9}
+\contentsline {section}{\numberline {3.2}Doa masa Advent}{31}{section.3.2}
+\contentsline {section}{\numberline {3.3}Doa masa Natal}{31}{section.3.3}
+\contentsline {section}{\numberline {3.4}Doa masa PraPaskah}{32}{section.3.4}
+\contentsline {section}{\numberline {3.5}Doa Paskah}{32}{section.3.5}
+\contentsline {section}{\numberline {3.6}Doa NOVENA Roh Kudus}{33}{section.3.6}
+\contentsline {section}{\numberline {3.7}Rosario Roh Kudus}{35}{section.3.7}
+\contentsline {section}{\numberline {3.8}Jaringan SMS}{39}{section.3.8}

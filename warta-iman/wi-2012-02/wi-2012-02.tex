@@ -1,0 +1,113 @@
+\documentclass[a5paper,titlepage,10pt,openany]{scrbook}
+\usepackage[a5paper,backref]{hyperref}
+\usepackage[papersize={148.5mm,215mm},twoside,bindingoffset=0.5cm,hmargin={2cm,2cm},
+				vmargin={2cm,2cm},footskip=1.1cm,driver=dvipdfm]{geometry}
+\usepackage{palatino}
+\usepackage{pstricks}
+\usepackage{graphicx}
+\usepackage[bahasa]{babel} 
+%\usepackage[pdftex]{dropping}
+\usepackage{lettrine}
+\usepackage{pifont}
+\usepackage{enumitem}
+\usepackage{wrapfig}
+\usepackage{indentfirst}
+\usepackage{parcolumns}
+\usepackage[titles]{tocloft}
+\usepackage{longtable}
+%\usepackage[raggedright]{titlesec}
+%\usepackage{titletoc}
+
+
+\renewcommand{\cftchapfont}{%
+  \fontsize{9}{8}\selectfont
+}
+
+\makeatletter
+\renewcommand{\@pnumwidth}{1em} 
+\renewcommand{\@tocrmarg}{1em}
+\makeatother
+
+\author{Lingkungan St. Petrus Maguwo}
+\title{Warta Iman}
+\setlength{\parindent}{1cm}
+\psset{unit=1mm}
+
+\makeatletter
+\renewcommand{\@makeschapterhead}[1]{%
+  {\parindent \z@ \centering \normalfont
+    \interlinepenalty\@M \Large \bfseries #1\par\nobreak \vskip 20\p@ }}
+\renewcommand{\section}{\@startsection {section}{1}{\z@}%
+                                   {-3.5ex \@plus -1ex \@minus -.2ex}%
+                                   {2.3ex \@plus.2ex}%
+%                                   {\normalfont\normalsize\bfseries\centering}}
+                                   {\normalfont\normalsize\bfseries}}
+\renewcommand\subsection{\@startsection{subsection}{2}{\z@}%
+                                     {-3.25ex\@plus -1ex \@minus -.2ex}%
+                                     {1.5ex \@plus .2ex}%
+                                     {\normalfont\normalsize\bfseries}}
+\renewcommand\subsubsection{\@startsection{subsubsection}{3}{\parindent}%
+                                    {3.25ex \@plus1ex \@minus.2ex}%
+                                    {-1em}%
+                                    {\normalfont\normalsize\bfseries}}
+
+\makeatother
+
+\makeatletter  % Allow the use of @ in command names
+\long\def\@makecaption#1#2{%
+  \vskip\abovecaptionskip
+  \sbox\@tempboxa{{#1#2}}%
+  \ifdim \wd\@tempboxa >\hsize
+    {#1#2\par}
+  \else
+    \hbox to\hsize{\hfil\box\@tempboxa\hfil}%
+  \fi
+  \vskip\belowcaptionskip}
+\makeatother   % Cancel the effect of \makeatletter
+
+\newcommand{\chap}[1]{%
+    \chapter*{#1}
+	\addcontentsline{toc}{chapter}{#1}
+    }
+
+\newcommand{\sumber}[1]{%    
+	\begin{flushright}
+	{\emph{#1}}
+	\end{flushright}
+}
+\newcommand{\qti}[1]{%    
+	\begin{quote}
+	{\emph{#1}}
+	\end{quote}
+}
+
+\input{../indohyp}
+\renewcommand{\figurename}{~}
+\renewcommand\thefigure{~}
+
+\setlist{noitemsep}
+\renewcommand{\thesection}{\Alph{section}}
+
+\begin{document}
+\thispagestyle{empty}
+\input{cover}
+\setlength{\parindent}{1cm}
+\pagestyle{plain}
+%\input{pemahaman-perkawinan}
+\input{sakramen-perkawinan}
+\input{prosedur-pernikahan}
+\input{kebijakan-paroki}
+\input{halangan-perkawinan}
+\input{ciri-ciri-perkawinan-katolik}
+\input{antara-permohonan-dan-pilihan}
+\begin{center}
+\bigskip
+\includegraphics[scale=0.5]{gambar/wedding-4.jpg}
+\end{center}
+\input{warling}
+\input{ultah}
+\begin{center}
+\includegraphics[scale=0.25]{gambar/just-married.jpg}
+\end{center}
+\input{kgk-026-029}
+\end{document}

@@ -1,0 +1,466 @@
+\documentclass[titlepage,10pt,openany]{scrbook}
+\usepackage[papersize={107.5mm,148.5mm},twoside,bindingoffset=0.5cm,hmargin={1cm,1cm},				vmargin={1.5cm,1.5cm},footskip=0.5cm,driver=dvipdfm]{geometry}
+
+%\usepackage[papersize={148.5mm,215mm},twoside,bindingoffset=0.5cm,hmargin={1cm,1cm},				vmargin={1.5cm,1.5cm},footskip=0.5cm,driver=dvipdfm]{geometry}
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{url}
+\usepackage[svgnames]{xcolor}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage[bahasa]{babel}
+\usepackage{fancyhdr}
+\usepackage{pifont}
+\usepackage{microtype}
+\usepackage{pst-text}
+\usepackage{palatino}
+\usepackage{marvosym}
+\usepackage{pdfpages}
+\usepackage{hyphenat}
+\usepackage{tikz}
+\usepackage{pdfcolmk}
+\usepackage{xspace}
+
+\makeatletter
+%%%% light series
+%% e.g., kernel doc, section s: line 12 or thereabouts
+\DeclareRobustCommand\ltseries
+{\not@math@alphabet\ltseries\relax
+	\fontseries\ltdefault\selectfont}
+%% e.g., kernel doc, section t: line 32 or thereabouts
+\newcommand{\ltdefault}{l}
+%% e.g., kernel doc, section v: line 19 or thereabouts
+
+\DeclareTextFontCommand{\textlt}{\ltseries}
+% heavy(bold) series
+\DeclareRobustCommand\hbseries
+{\not@math@alphabet\hbseries\relax
+	\fontseries\hbdefault\selectfont}
+\newcommand{\hbdefault}{hb}
+\DeclareTextFontCommand{\texthb}{\hbseries}
+\makeatother
+
+
+\renewcommand{\footrulewidth}{0.5pt}
+\lhead[\fancyplain{}{\thepage}]%
+      {\fancyplain{}{\rightmark}}
+\rhead[\fancyplain{}{\leftmark}]%
+      {\fancyplain{}{\thepage}}
+\pagestyle{fancy}
+
+\lfoot[\emph{\scriptsize Misa Peringatan 1000 hari \namaalm}]{}
+\rfoot[]{\emph{\scriptsize Misa Peringatan 1000 hari \namaalm}}
+\cfoot{}
+
+\makeatletter
+\newcommand{\judul}[1]{%
+  {\parindent \z@ \centering 
+    \interlinepenalty\@M \Large \bfseries #1\par\nobreak \vskip 20\p@ }}
+\newcommand{\subjudul}[1]{%
+  {\parindent \z@ 
+    \interlinepenalty\@M \bfseries #1\par\nobreak \vskip 10\p@ }}
+\newcommand{\lagu}[1]{%
+  {\parindent \z@ 
+    \interlinepenalty\@M \slshape \bfseries \normalsize \textit{#1}\par\nobreak \vskip 10\p@ }}
+\newcommand{\keterangan}[1]{%
+  {\parindent \z@  \slshape 
+    \interlinepenalty\@M \textsl{#1}\par\nobreak  \vskip 5\p@}}
+
+\renewenvironment{description}
+               {\list{}{\labelwidth\z@ \itemindent-\leftmargin
+                        \let\makelabel\descriptionlabel}}
+               {\endlist}
+\renewcommand*\descriptionlabel[1]{\hspace\labelsep 
+                                \normalfont\bfseries #1 }
+
+
+\makeatother
+
+\newcommand{\BU}[1]{\begin{itemize} \item[U:] #1 \end{itemize}}
+\newcommand{\BI}[1]{\begin{itemize} \item[I:] #1 \end{itemize}}
+\newcommand{\BIU}[1]{\begin{itemize} \item[I+U:] #1 \end{itemize}}
+\newcommand{\BPU}[1]{\begin{itemize} \item[P+U:] #1 \end{itemize}}
+\newcommand{\BP}[1]{\begin{itemize} \item[P:] #1 \end{itemize}}
+\newcommand{\inputlagu}[1]{\itshape{\input{#1}}}
+\newcommand{\namaalm}{Bapak Vincentius Fererius Parlan\xspace}
+\newcommand{\namaromo}{Basilius Edy Wiyanto Pr.\xspace}
+
+\title{Misa Peringatan 1000 hari}
+\author{\namaalm}
+\date{oleh \\ Rm \namaromo\\10 Maret 2018}
+\input{../../indohyp}
+\DeclareFixedFont{\PT}{T1}{ppl}{b}{it}{0.5in}
+\DeclareFixedFont{\PTsmall}{T1}{ppl}{b}{it}{0.2in}
+\DeclareFixedFont{\PTsmallest}{T1}{ppl}{b}{it}{0.15in}
+\DeclareFixedFont{\PTtext}{T1}{ppl}{b}{it}{11pt}
+\DeclareFixedFont{\Logo}{T1}{pbk}{m}{n}{0.3in}
+
+\hyphenation{me-nyi-ap-kan pan-jat-kan se-jah-te-ra Par-lan o-rang bang-kit me-ma-suki me-nga-sih-ani}
+\begin{document}
+%\maketitle
+\thispagestyle{empty}
+%\begin{pspicture}(8cm,10cm)
+%\psset{unit=1cm}
+%\rput[cb](4,10){\PTsmall {EKARISTI}}
+%\rput[cb](4,9){\PTsmall {PERINGATAN 100 HARI}}
+%\rput[cb](4,8){\PTsmall {\namaalm}}
+%\rput[cb](4,3){\PTsmallest {oleh}} 
+%\rput[cb](4,2.5){\PTsmallest {Rm \namaromo}}
+%\rput[cb](4,1){\PTsmallest {27 September 2015}}
+%\end{pspicture}
+
+%\begin{center}
+%\includegraphics[scale=0.8]{cover-1000-hari.pdf}
+\includepdf{cover-1000-hari.pdf}
+%\end{center}
+
+\newpage
+{~}
+\thispagestyle{empty}
+\newpage
+
+\section*{RITUS PEMBUKA} 
+
+ 
+
+\lagu{Lagu Pembuka}  
+\input{../../lagu/bila-kau-pergi} 
+
+\subjudul{Tanda Salib} 
+
+\BI{Demi nama  Bapa dan Putera dan Roh Kudus}
+
+\BU{Amin}
+
+ 
+
+\subjudul{Salam}
+
+\BI{Semoga kasih karunia, rahmat dan damai sejahtera dari 
+Allah Bapa dan dari PuteraNya Yesus Kristus beserta 
+saudara.} 
+
+\BU{Sekarang dan selama-lamanya.}
+
+ 
+
+\subjudul{Pengantar}
+
+\BI{Saudara-saudari terkasih, 
+	Kematian tidak memutuskan hubungan kita dengan 
+	orang-orang yang sudah meninggal. Tuhan Allah tetap 
+	mempersatukan kita dengan saudara kita \namaalm yang 
+	dipanggil Bapa 1000 hari yang lalu. Karena kesatuan hati 
+	itulah kita pada hari ini berkumpul bersama untuk 
+	mendoakan arwah saudara kita. Hal ini kita lakukan 
+	sebagai bentuk kasih dan kesatuan hati kita dengan 
+	almarhum. Semoga doa kita semua akan mendatangkan 
+	keselamatan kekal bagi saudara kita \namaalm.}
+
+
+\subjudul{Tobat}
+
+\BI{Saudara-saudari sekalian, 
+	Marilah kita mempersiapkan diri, dengan memeriksa 
+	batin dan hidup harian kita masing-masing. Mengingat 
+	kita orang yang berdosa maka marilah kita memohon ampun dan belas kasihan dari Allah Bapa yang 
+	Maharahim. Secara khusus kita juga memohonkan ampun 
+	bagi dosa-dosa saudara kita \namaalm.yang dipanggil Allah 
+	1000 hari yang lalu. 
+	
+	\textit{Hening sejenak }
+	
+	
+
+Saya mengaku, \ldots \ldots
+} 
+
+
+
+\BI{Semoga Allah Bapa yang Maha Kuasa, mengasihani kita, 
+mengampuni dosa kita dan mengantar kita ke dalam 
+kehidupan kekal.}
+
+\BU{Amin}
+
+\lagu{Tuhan Kasihanilah Kami} 
+
+\subjudul{Doa Pembuka}
+
+\BI{Marilah berdoa\\
+Allah Bapa yang mahamurah, Engkau telah menebus dosa 
+kami dengan wafat dan kebangkitan Putra-Mu terkasih. 
+Kasihanilah kiranya hambaMu, saudara kami \namaalm yang sudah Engkau panggil 1000 hari yang lalu. Saudara kami \namaalm percaya 
+bahwa setelah kematian ada kebangkitan dan kehidupan abadi 
+di surga. Semoga saudara kami ini juga Engkau perkenankan 
+untuk menikmati kebahagiaan kekal abadi di surga. Demi 
+Yesus Kristus, Putra-Mu, Tuhan dan pengantara kami, yang 
+bersatu dengan Dikau dan Roh Kudus hidup dan berkuasa kini 
+dan sepanjang masa. }
+
+\BU{Amin}
+
+ 
+
+\section*{LITURGI SABDA} 
+
+\keterangan{Pembacaan dari Surat Paulus kepada umat di
+Kolese (Kol 1:12-20)}
+
+\BP{Saudara-saudari, 
+	
+	Marilah kita mengucap syukur dengan suka cita kepada 
+	Bapa, yang melayakkan kamu untuk mendapat bagian dalam 
+	apa yang ditentukan untuk orang orang kudus di dalam kerajaan 
+	terang. Ia telah melepaskan kita dari kuasa kegelapan dan 
+	memindahkan kita ke dalam Kerajaan Anak-Nya yang kekasih; 
+	didalam Dia kita memiliki penebusan kita, yaitu pengampunan 
+	dosa. Ia adalah gambar Allah yang tidak kelihatan, yang 
+	sulung, lebih utama dari segala yang diciptakan, karena di 
+	dalam Dialah telah diciptakan segala sesuatu, yang ada di sorga 
+	dan yang ada di bumi, yang kelihatan dan yang tidak kelihatan, 
+	baik singgasana, maupun kerajaan, baik pemerintah, maupun 
+	penguasa; segala sesuatu diciptakan oleh Dia dan untuk Dia. Ia 
+	ada terlebih dahulu dari segala sesuatu dan segala sesuatu ada 
+	di dalam Dia. Ialah kepada tubuh, yaitu jemaat. Ialah kepala 
+	tubuh, yaitu jemaat. Ialah yang sulung, yang pertama bangkit 
+	dari antara orang mati, sehingga Ia yang lebih utama dalam 
+	segala sesuatu. Karena seluruh kepenuhan Allah berkenan diam 
+	di dalam Dia, dan oleh Dialah Ia memperdamaikan segala 
+	sesuatu dengan diri-Nya, baik yang ada di bumi, maupun yang 
+	ada di sorga, sesudah Ia mengadakan pendamaian oleh darah 
+	salib Kristus.
+	
+	
+Demikianlah Sabda Tuhan.}
+
+\BU{Syukur kepada Allah}
+
+\lagu{Lagu tanggapan sabda}
+\input{../../lagu/sabdamu-bagai-air-segar} 
+
+\subjudul{Injil}
+
+\BI{Tuhan sertamu}
+
+\BU{dan sertamu juga} 
+
+\BI{Inilah Injil Yesus Kristus menurut Lukas (18:9-14)}
+
+\BU{Dimuliakanlah Tuhan}
+
+\BI{\textit{Pemungut cukai ini pulang ke rumahnya,  
+sebagai orang yang dibenarkan Allah.}
+
+Sekali peristiwa, 
+Yesus menyatakan perumpamaan ini 
+kepada beberapa orang yang menganggap dirinya benar  
+dan memandang rendah semua orang lain: 
+"Ada dua orang pergi ke Bait Allah untuk berdoa;  
+yang satu adalah orang Farisi dan yang lain pemungut cukai. 
+Orang Farisi itu berdiri dan berdoa dalam hatinya begini:  
+Ya Allah, aku mengucap syukur kepada-Mu,  
+karena aku tidak sama seperti semua orang lain,  
+aku bukan perampok, bukan orang lalim, bukan pezinah, 
+dan bukan juga seperti pemungut cukai ini. 
+Aku berpuasa dua kali seminggu,  
+aku memberikan sepersepuluh dari segala penghasilanku. 
+
+Tetapi pemungut cukai itu berdiri jauh-jauh,  
+bahkan ia tidak berani menengadah ke langit,  
+melainkan ia memukul diri dan berkata,  
+Ya Allah, kasihanilah aku orang berdosa ini. 
+
+Aku berkata kepadamu:  
+Orang ini pulang ke rumahnya  
+sebagai orang yang dibenarkan Allah,  
+sedang orang lain itu tidak.  
+Sebab barangsiapa meninggikan diri akan direndahkan,  
+dan barangsiapa merendahkan diri akan ditinggikan." }
+
+
+\BI{Demikianlah Injil Tuhan}
+
+\BU{Terpujilah Kristus}
+
+ 
+
+\subjudul{Homili}
+
+\subjudul{Syahadat} 
+
+\subjudul{Doa Umat}
+%---to do
+\BI{Saudara-saudari, kehadiran kita bersama di sini adalah untuk mengungkapkan iman kita akan Allah sumber sukacita sejati. Marilah dengan rendah hati kita ungkapkan doa dan permohonan kita kepada Bapa:}
+% % %
+
+\BP{Bagi keselamatan saudara kita \namaalm, semoga karena kesetiaannya kepada Yesus sang Penebus 
+	dan Penyelamat kita, saudara kita  \namaalm{} dihantar dan 
+	dianugerahi masuk ke dalam kerajaan-Nya untuk 
+	menikmati kedamaian abadi.
+	
+\textit{Hening sejenak \ldots\ldots} 
+
+Marilah kita mohon :}
+
+\BP{Ya Bapa, kedatangan Yesus Kristus di tengah-tengah kami menghadirkan tahun rahmat Tuhan kepada umat manusia. Semoga, peringatan 1000 hari meninggalnya saudara kami \namaalm ini pun, menghadirkan rahmat bagi saudara-saudari yang ditinggalkan dan kami semua yang hadir di sini.
+
+\textit{Hening sejenak \ldots\ldots} 
+
+Marilah kita mohon :}
+
+\BU{Kabulkanlah doa kami ya Tuhan}
+
+
+\BP{Ajarkanlah kepada kami iman, harapan, dan kasih yang sejati, agar kami mampu mengalami sukacita sejati baik di dunia ini maupun dalam persekutuan para kudus sebagaimana telah dialami oleh saudara kami \namaalm ini. 
+
+\textit{Hening sejenak \ldots\ldots} 
+
+Marilah kita mohon :}
+
+\BU{Kabulkanlah doa kami ya Tuhan.}
+
+\BP{Bantulah kami untuk meyakini bahwa hidup bukanlah berakhir di dunia ini, namun tetap berlanjut dalam kehidupan abadi bersamaMu. Semoga dalam peziarahan yang penuh tantangan ini kami tetap mampu memancarkan kegembiraan dan sukacita sejati. 
+
+\textit{Hening sejenak \ldots\ldots} 
+
+Marilah kita mohon :}
+
+\BU{Kabulkanlah doa kami ya Tuhan.}
+
+\BP{Ya Bapa, bantulah kami yang masih berjuang ini untuk meneruskan teladan dan ajaran kasih Putra-Mu, Yesus Kristus di tengah-tengah dunia yang penuh tantangan ini.
+
+\textit{Hening sejenak \ldots\ldots} 
+
+Marilah kita mohon :}
+
+\BU{Kabulkanlah doa kami ya Tuhan.}
+
+\BP{Bagi semua orang yang meninggal terutama Bapak dan Ibu Karsodinomo, Bapak dan Ibu Parjosuwito, Bapak dan Ibu Siswosudarmo, Bapak Ignatius Subiyatmo, Bapak Petrus Slamet Handoko dan Ibu Monica Soehartati, serta Bapak Atun Hudori, semoga karena kerahiman Tuhan mereka diijinkan memandang
+	kemuliaan wajah Allah.
+	
+	\textit{Hening sejenak \ldots\ldots} 
+	
+	Marilah kita mohon :}
+
+\BU{Kabulkanlah doa kami ya Tuhan.}
+
+\BI{Bapa, kasih-Mu tiada batas. Kesabaran-Mu begitu besar. Semoga dalam pengharapan iman yang benar, kami mampu mewujudkan permohonan kami ini dalam limpahan rahmat-Mu. Dengan pengantaraan Kristus, Tuhan kami.}
+
+\BU{Amin}
+
+\section*{LITURGI EKARISTI}
+
+\lagu{Lagu pengantar persembahan}
+\input{../../lagu/persembahan-hidup}
+
+\BI{Kami memuji Engkau ya Bapa, Allah semesta alam, sebab 
+dari kemurahanMu kami menerima roti dan anggur yang 
+kami persembahkan ini. Inilah hasil dari bumi dan usaha 
+manusia yang bagi kami akan menjadi santapan rohani.}
+
+\BU{Terpujilah Allah selama-lamanya}
+
+\BI{Berdoalah saudara-saudara supaya persembahan kita ini 
+diterima oleh Allah Bapa yang mahakuasa.}
+
+\BU{Semoga persembahan ini diterima demi kemuliaan Tuhan 
+dan keselamatan kita serta seluruh umat Allah yang kudus.}
+
+\BI{Allah Bapa sumber kekudusan, terimalah bahan persembahan roti dananggur yang kami unjukkan untuk keselamatan hamba-Mu \namaalm. Bersama dengan keteguhan hati kami yang percaya akan belas kasihan-Mu. Kami percayakan arwah sanak-saudara kami yang telah  berpulang,  juga   hamba-Mu  \namaalm,  yang  telah 1000 hari   menghadap-Mu   ke   dalam     pangkuan   kasih-Mu   di   surga. Dengan pengantaraan Kristus, Tuhan kami.}
+
+\BU{Amin} 
+
+\subjudul{DOA SYUKUR AGUNG}
+
+
+\subjudul{Kudus}
+
+\subjudul{Bapa Kami}
+
+\subjudul{Anak Domba Allah}
+
+\subjudul{Komuni}
+\newpage
+\subjudul{Lagu Komuni}
+\input{../../lagu/ndherek-gusti} 
+\input{../../lagu/ave-maria} 
+
+\subjudul{Doa sesudah komuni}
+
+\BI{Marilah berdoa: 
+	
+	Allah Bapa yang Mahabaik, kami telah menyambut rejeki surgawi pada peringatan   seribu   hari   hamba-Mu  \namaalm   berada  dalamrumah-Mu yang abadi.  Semoga berkat Ekaristi Suci ini kami bertekun dalam iman, harapan, dan kasih, dan saudara kami \namaalm itu   menjadi   pendoa   bagi   kami   yang   masih   melanjutkan   pengabdian kami. Semoga  kami  siap  siaga  selalu  menyambut kehadiranMu  yang menyelamatkan. Dengan pengantaraan Kristus, Tuhan kami.}
+
+\BU{Amin.}
+
+\section*{RITUS PENUTUP}
+
+\BI{Tuhan beserta kita}
+
+\BU{Sekarang dan selama-lamanya}
+
+\BI{Semoga saudara sekalian diberkati oleh Allah Yang 
+Mahakuasa \Cross ~Bapa dan Putera dan Roh Kudus.}
+
+\BU{Amin}
+
+ 
+
+\subjudul{Pengutusan}
+
+\BI{Saudara sekalian, Perayaan Ekaristi untuk memohon 
+berkat Allah Bapa bagi arwah \namaalm telah selesai.}
+
+\BU{Syukur kepada Allah}
+
+\BI{Kita diutus untuk mewartakan bahwa Tuhan Yesus adalah 
+jalan, kebangkitan dan hidup.}
+
+\BU{Amin.}
+
+ 
+
+\lagu{Lagu Penutup}
+
+\input{pemberkatan-bunga-nisan} 
+
+\input{../../lagu/sakjege-aku-ndherek-gusti} 
+
+\newpage
+\begin{flushright}
+{\Large Ucapan terima kasih}\\
+\noindent Dengan penuh syukur dalam kasih Tuhan, kami mengucapkan banyak
+terima kasih kepada:
+\large
+
+\textbf{Romo \namaromo}\\
+yang telah berkenan memimpin perayaan ekaristi peringatan 1000 hari meninggalnya\\ \namaalm
+ini.
+
+\textbf{Koor Calista}\\
+yang telah menyemarakkan perayaan ekaristi ini.
+
+\textbf{Umat lingkungan St. Yustinus, lingkungan St. Antonius, dan lingkungan St. Theresia, para undangan, segenap keluarga, dan orang-orang terkasih}\\
+yang telah berkenan hadir memberikan cinta dan doa dalam perayaan
+ekaristi ini.
+
+Semoga Tuhan memberkati dan memelihara ikatan kasih\\ di antara kita semua.
+
+Amin.
+
+\bigskip 
+
+\textit{Ibu MG Waldjijah\\
+dan segenap keluarga}
+\end{flushright}
+
+\end{document} 
+
+[07:09, 5/24/2016] +62 813-2829-0020: 
+Pembk hatiku percaya, antar bacaan keheningan hati, persembahan terimalah syukur kami, Kom bagaikan rusa rindukan sungaimu, penutup Asmo Dalem Maria.
+[07:09, 5/24/2016] +62 813-2829-0020: Lagu misa tgl 4 Juni, ordinarium Lauda sion
+
+Undefined control sequence. Marilah kita mohon :}

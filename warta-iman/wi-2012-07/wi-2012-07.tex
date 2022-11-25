@@ -1,0 +1,56 @@
+\documentclass[a5paper,titlepage,11pt,openany]{scrbook}
+\usepackage[a5paper,backref]{hyperref}
+\usepackage[papersize={148.5mm,215mm},twoside,bindingoffset=0.5cm,hmargin={2cm,2cm},
+				vmargin={2cm,2cm},footskip=1.1cm,driver=dvipdfm]{geometry}
+\usepackage{palatino}
+\usepackage[utf8]{inputenc}
+
+\usepackage{pstricks}
+\usepackage{graphicx}
+\usepackage[bahasa]{babel} 
+\usepackage{lettrine}
+\usepackage{pifont}
+\usepackage{enumitem}
+\usepackage{wrapfig}
+\usepackage{indentfirst}
+\usepackage{parcolumns}
+\usepackage[titles]{tocloft}
+\usepackage{longtable}
+\usepackage{microtype}
+\usepackage{hyphenat}
+%\usepackage[raggedright]{titlesec}
+%\usepackage{titletoc}
+
+
+\renewcommand{\cftchapfont}{%
+  \fontsize{9}{8}\selectfont
+}
+
+\makeatletter
+\renewcommand{\@pnumwidth}{1em} 
+\renewcommand{\@tocrmarg}{1em}
+\makeatother
+
+\author{Lingkungan St. Petrus Maguwo}
+\title{Warta Iman}
+\setlength{\parindent}{1cm}
+\psset{unit=1mm}
+
+
+\begin{document}
+\thispagestyle{empty}
+\input{cover}
+\setlength{\parindent}{1cm}
+\pagestyle{plain}
+\input{omk-st-petrus-siap}
+\begin{center}
+%\includegraphics[scale=0.5]{gambar/communion-in-church-coloring-page.jpg}
+\end{center}
+\include{liturgi-dan-omk}
+\input{apa-perbedaan-mudika-dan-omk}
+\input{senyum}
+\input{warling}
+\input{ultah}
+\input{../filler/agar-hidup-kekal}
+\include{kgk-046-049}
+\end{document}

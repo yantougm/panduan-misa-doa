@@ -1,0 +1,94 @@
+\newcommand{\edisi}[1]{%
+\DeclareFixedFont{\PT}{T1}{ppl}{b}{}{0.7in}
+\DeclareFixedFont{\PTit}{T1}{ppl}{b}{it}{0.7in}
+\DeclareFixedFont{\PTsmall}{T1}{ppl}{b}{it}{0.25in}
+\DeclareFixedFont{\PTsmaller}{T1}{ppl}{b}{it}{0.175in}
+\DeclareFixedFont{\PTsmallest}{T1}{ppl}{b}{it}{0.15in}
+
+\begin{pspicture}(14cm,2cm)
+\rput[rb](10.35cm,3cm){\PTsmallest {#1}}
+\rput[lb](-0.5cm,1.5cm){\PT {WARTA IMAN}}
+\rput[lb](1cm,0.5cm){\PTsmall {Lingkungan St. Petrus Maguwo}}
+\end{pspicture}%
+}
+
+\newcounter{kgkcounter}[chapter]
+\renewcommand{\thekgkcounter}{\arabic{kgkcounter}. }
+
+\NewDocumentCommand\kgk{ s m } {\refstepcounter{kgkcounter}\textbf{\flushleft %
+   \IfBooleanTF{#1}{%
+	%
+   }{% 
+   \thekgkcounter%  
+   }%
+ #2}\\}
+
+\newcommand{\kutipan}[1]{%
+\noindent{\framebox{\parbox{10cm}{\centering\emph{#1}}}}}
+
+\makeatletter
+\renewcommand{\@makeschapterhead}[1]{%
+  {\parindent \z@ \centering \normalfont
+    \interlinepenalty\@M \Large \bfseries #1\par\nobreak \vskip 20\p@ }}
+\renewcommand{\section}{\@startsection {section}{1}{\z@}%
+                                   {-3.5ex \@plus -1ex \@minus -.2ex}%
+                                   {1ex \@plus.2ex}%
+%                                   {\normalfont\normalsize\bfseries\centering}}
+                                   {\normalfont\normalsize\bfseries}}
+\renewcommand\subsection{\@startsection{subsection}{2}{\z@}%
+                                     {-3.25ex\@plus -1ex \@minus -.2ex}%
+                                     {1ex \@plus .2ex}%
+                                     {\normalfont\normalsize\bfseries}}
+\renewcommand\subsubsection{\@startsection{subsubsection}{3}{\parindent}%
+                                    {3.25ex \@plus1ex \@minus.2ex}%
+                                    {-1em}%
+                                    {\normalfont\normalsize\bfseries}}
+
+\makeatother
+
+\makeatletter  % Allow the use of @ in command names
+\long\def\@makecaption#1#2{%
+  \vskip\abovecaptionskip
+  \sbox\@tempboxa{{#1#2}}%
+  \ifdim \wd\@tempboxa >\hsize
+    {#1#2\par}
+  \else
+    \hbox to\hsize{\hfil\box\@tempboxa\hfil}%
+  \fi
+  \vskip\belowcaptionskip}
+\makeatother   % Cancel the effect of \makeatletter
+
+\newcommand{\chap}[1]{%
+    \chapter*{#1}
+	\addcontentsline{toc}{chapter}{#1}
+    }
+
+\newcommand{\sumber}[1]{%    
+	\begin{flushright}
+	{\emph{#1}}
+	\end{flushright}
+}
+\newcommand{\qti}[1]{%    
+	\begin{quote}
+	{\emph{#1}}
+	\end{quote}
+}
+
+\input{../indohyp}
+\renewcommand{\figurename}{~}
+\renewcommand\thefigure{~}
+
+\setlist{noitemsep}
+\renewcommand{\thesection}{\Alph{section}}
+
+\newcommand{\executeiffilenewer}[3]{%
+	\ifnum\pdfstrcmp{\pdffilemoddate{#1}}%
+	{\pdffilemoddate{#2}}>0%
+	{\immediate\write18{#3}}\fi%
+	}
+\newcommand{\includesvg}[1]{%
+	\executeiffilenewer{#1.svg}{#1.pdf}%
+	{inkscape -z -D --file=#1.svg %
+	--export-pdf=#1.pdf --export-latex}%
+	\input{#1.pdf_tex}%
+	}

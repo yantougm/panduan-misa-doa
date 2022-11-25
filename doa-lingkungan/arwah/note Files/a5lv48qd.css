@@ -1,0 +1,207 @@
+/*    HTTP Host:  b.static.ak.fbcdn.net                                        */
+/*    Generated:  October 20th 2009 10:16:00 AM PDT                            */
+/*      Machine:  10.16.139.103                                                */
+/*       Source:  Global Cache                                                 */
+/*     Location:  css/e3u5ketl0v4kg0os.pkg.css h:a5lv48qd                      */
+/*       Locale:  nu_ll                                                        */
+/*         Path:  css/e3u5ketl0v4kg0os.pkg.css                                 */
+
+.note_permalink .notes_error{padding:0 10px}
+.note_permalink .note{padding:10px 0 0 20px;margin:0}
+.note_permalink .note .profile_thumb{float:left;padding-right:15px;width:50px}
+.note_permalink .note .note_body{width:475px;float:left}
+.note_permalink .note_content{}
+#notes_content{padding-top:17px}
+.notes .summary_bar{background:white;border-bottom:0;border-top:1px solid #ddd;margin-top:20px;padding:0 0 4px}
+.view_switch{color:#888;float:right;padding-right:2px;padding-top:2px}
+.view_switch .current{color:#444;border-bottom:2px solid #3b5998;padding-bottom:2px}
+.pagerpro a{text-transform:none}
+.column{float:left}
+.notes .status{margin:0 0 10px}
+.notes_error{padding:10px 10px 0 10px}
+.notes_error #error{margin:0}
+.footer_bar{background:white;clear:both}
+#notes_settings ul{color:#000;margin:0 0 6px 0}
+.notes .tabs{margin:20px 0 0}
+.main_column{overflow:hidden;padding:0 20px 10px 0;position:relative;width:540px}
+.notes .main_column .note,
+.notes .notes_main_column .note{padding:0 0 20px}
+.note .profile_thumb{float:left;padding:0 10px 0 0;width:50px}
+.note .note_body{float:left;width:480px}
+.note_header{background:#f7f7f7;border-bottom:solid 1px #d8dfea;border-top:solid 1px #3b5998;padding:4px 6px 5px 6px}
+.note_title{font-size:13px;font-weight:bold;line-height:15px;float:left;margin:0;padding:0 0 1px 0;width:400px}
+.note .share_and_hide{float:right}
+.note .byline{clear:both;padding:2px 0 0 0}
+.note .byline span{color:#666}
+.mobile_note{border-top:1px solid #ccc;clear:both;font-size:9px;margin:5px 0 0 0;padding:5px 0 0 1px;width:210px}
+.mobile_note img{display:block;float:left}
+.note_content{clear:both;margin-left:6px;padding:10px 0 0 0;word-wrap:break-word;width:460px}
+.note .tagged{clear:both;float:left;padding:4px 6px 4px 6px}
+.note .tagged span{color:#000}
+.note .tagged .user_name{}
+.note_footer{border-top:1px solid #ddd;clear:both;margin-top:10px;padding:5px 2px 5px 6px}
+.wide_note{padding:10px 10px 25px 20px}
+.wide_note .note_body,
+.note_permalink .wide_note .note_body{width:540px}
+.wide_note .note_title{width:440px}
+.wide_note .note_footer{font-size:11px}
+#notes_introduction{padding:20px 20px 25px 20px}
+#notes_welcome{padding:0 20px 15px 10px}
+#notes_welcome h2{color:#3b5998;font-size:11px;font-weight:bold;margin:0}
+#notes_welcome .lede{}
+#notes_welcome .lede h2{font-size:13px;margin:0;padding:0 0 0 0}
+#notes_welcome .lede p{margin:0;padding:2px 0 15px 0}
+#notes_welcome #intro_columns{clear:both}
+#notes_welcome .intro_column{float:left;padding:5px 15px 10px 0;width:108px}
+#notes_welcome .center_column{border-left:1px solid #ddd;border-right:1px solid #ddd;padding-left:12px;padding-right:12px}
+#notes_welcome .right_column{padding-left:12px;padding-right:0}
+#notes_welcome .intro_column h2{}
+#notes_welcome .intro_column p{line-height:14px;margin:0;padding:2px 0 0 0}
+#mobile_notes_announcement{background:#fff;border:1px solid #ccc;clear:both;margin:0 0 8px 8px;padding:8px 4px;width:148px}
+#mobile_notes_announcement a{float:left}
+#mobile_notes_announcement .message{float:right;width:94px}
+#mobile_notes_announcement .message a{float:none}
+#no_notes{color:#666;font-size:12px;padding:40px 20px 0 40px;text-align:center}
+.note_list{width:100%}
+.note_list thead tr th{text-align:right;font-size:15px;padding-bottom:5px;padding-right:8px}
+.note_list tbody tr .date_column{text-align:right;padding:4px 8px 4px 0;font-size:11px;font-weight:bold;color:#777;width:60px}
+.note_list tbody tr .title_column{padding:5px 0;margin-right:20px;border-bottom:1px solid #e7e7e7}
+.note_list tbody tr .year_column{width:100%;padding-top:1ex;padding-bottom:.5ex}
+.note_list tbody tr .year_column .year_column_div{font-size:13px}
+.side_column{background:#f7f7f7;border:1px solid #ccc;padding:0 0 10px 0;width:198px;overflow:hidden}
+.side_column h2,
+.notes_side_column h2{font-size:11px}
+.notes_side_column .set{padding:0 10px}
+.set h2{font-weight:bold;padding:8px 0 4px 0}
+.set h2 .set_label{display:block;float:left}
+.set h2 a{display:block;float:right;font-size:11px;font-weight:normal;padding-top:0}
+.set .friend_select select{width:179px;margin-bottom:10px}
+.set .set_filters{padding:0 0 6px 0}
+.set .rss_sidebar{padding:10px 0 6px 0}
+.set dl{margin:0;padding:2px 0 0 0}
+.set dt{margin:0;padding:2px 0 0 0}
+.set dt a{font-weight:bold}
+.set dd{font-size:11px;margin:1px 0 5px 0;padding:0}
+.set .see_all{padding:0 4px;text-align:right}
+.set .no_notes{color:#808080;display:block;padding:0 0 4px 4px}
+.set .see_all_notes{color:#666;padding:2px 4px 4px 4px}
+.set_divider{border-top:solid 1px #ccc;border-bottom:solid 1px #fff;margin:0 10px}
+.set_divider hr{display:none}
+#create_note{border-top:0;border-bottom:1px solid white}
+#create_note .set_filters{border-bottom:1px solid #ccc;padding:12px 0 11px 0;text-align:center}
+#create_note input{margin:0;width:120px}
+#create_note a{background:white;border:1px solid #d8dfea;display:block;margin:0 4px;padding:5px;text-align:center;width:auto}
+#create_note a:hover{border-color:#6d84b4;text-decoration:none}
+#action_buttons{border-top:0;border-bottom:1px solid #ccc;padding:8px 0 3px 0;text-align:center}
+#action_buttons input{display:block;margin:5px auto;width:120px}
+#edit_button,
+#preview_button,
+#delete_button,
+#draft_button,
+#discard_button,
+#cancel_button{border-style:solid;border-width:1px;border-top-color:#fff;border-left-color:#fff;border-bottom-color:#848484;border-right-color:#848484;background-color:#f0f0f0;color:#111;font-size:11px;font-family:"lucida grande", tahoma, verdana, arial, sans-serif}
+#viewer{border-top:0}
+#viewer h2{border-top:0}
+#viewer .set_filters{padding:2px 0 6px 0}
+#viewer li a{display:block;padding:4px 0 5px 10px;width:auto}
+#viewer li.active{margin:0 -1px}
+#viewer li.active a{background:#3b5998 url(/rsrc.php/zEVDA/hash/3pkrpi7b.gif) no-repeat 0 center;border-right:1px solid #5e7197;color:#fff;font-weight:bold}
+#viewer li.active a:hover{background-color:#3b5998;text-decoration:none}
+#note_length .set_filters{padding:0 0 8px 10px}
+#note_length input{margin-left:0}
+#note_length label{color:#000;font-weight:normal;padding-right:5px}
+#notes_about dt a{font-weight:bold}
+#notes_about .note_author{margin:0;padding:0}
+#notes_about .note_timestamp{font-size:9px}
+#notes_about .set_filters dl dt{overflow:hidden}
+#notes_tagged_by dt a{font-weight:bold}
+#notes_tagged_by dd{color:#666}
+#recently_tagged_friends dt a{font-weight:bold}
+#recently_tagged_friends .note_author{color:#666;margin:0;padding:0 0 5px}
+#recently_tagged_friends .note_timestamp{font-size:9px}
+#notes_settings ul,
+#import_info ul{color:#000;padding:0 8px 6px 0}
+#notes_settings li,
+#import_info li{clear:both;margin:0;padding:2px 0}
+#notes_settings li a,
+#import_info li a{display:inline;padding:0}
+#notes_settings .edit_settings{display:block;float:left;padding:0 0 4px 0;text-align:left}
+#import_info{border-top:none}
+#tag_this_note{border-bottom:1px solid #ccc;border-top:0}
+.editnote #tag_this_note{padding-left:0;padding-right;0px}
+#tag_this_note label{display:block;font-weight:normal;padding:2px 0 4px 0}
+#tag_this_note #label_recommend{color:#000;padding:6px 0 2px 0}
+#tag_this_note .inputtext{margin:0;width:150px}
+#tag_this_note .recommendation{padding:3px 0}
+#tag_this_note .recommendation input{margin:0 2px}
+#tag_this_note .recommendation label{color:#000;display:inline;font-weight:normal;padding:0 0 0 2px}
+#tag_this_note #tag_all{border-top:1px solid #ccc;margin:5px 60px 0 0;padding-top:6px}
+#in_this_note{border-top:0}
+.editnote #in_this_note{padding:0}
+#in_this_note .set_filters{padding:0 0 5px 0}
+#in_this_note .tagged_user{clear:both;padding:5px 0}
+#in_this_note .tagged_user_pic{float:left;width:50px}
+#in_this_note .tagged_user_info{float:left;text-align:left;margin-left:10px;width:100px}
+#in_this_note .tagged_user_name{font-weight:bold}
+#in_this_note .tagged_user_network{padding-bottom:6px}
+#in_this_note .tagged_user_notes{font-size:9px}
+#in_this_note .tagged_user_remove{font-size:9px}
+#in_this_note .no_tags{color:#808080;padding:0 0 4px 0}
+.notes_preview .status span{font-weight:normal}
+.notes_preview .status .inputbutton{margin:0 0 0 5px}
+.notes_preview form{display:inline;font-weight:normal}
+.notes_preview input{margin:0}
+.import_column{padding-bottom:400px}
+.delete_note #content{padding:20px 100px}
+.delete_note wbr{display:block}
+.note_content h1,
+.note_content h2,
+.note_content h3,
+.note_content h4,
+.note_content h5,
+.note_content h6{clear:both;color:#333;font-weight:bold;margin:0}
+.note_content h1{color:#111;font-size:13px}
+.note_content h2{font-size:13px}
+.note_content h3,
+.note_content h4{font-size:11px}
+.note_content h5,
+.note_content h6{color:#666;font-size:11px}
+.note_content div{clear:none;line-height:14px;padding:0 0 10px 0}
+.note_content div div{border:0;padding:0}
+.note_content p{margin-top:0 }
+.note_content blockquote{border-left:5px solid #ddd;margin:0;padding:0 15px}
+.note_content ul{list-style-type:square;margin:10px 0;padding:0 10px 0 20px}
+.note_content ol{padding:0 10px 0 20px}
+.note_content img{display:block;margin:0 0 10px 0}
+.note_content pre br{display:none}
+.note_content code{color:#666}
+.note_content samp{font-family:monaco, "andale mono", courier, monospace;font-size:10px}
+.note_content i,
+.note_content em{font-family:"lucida sans", "lucida grande", tahoma, verdana, arial, sans-serif}
+.note_content tt{font-family:courier, monospace;font-size:10px}
+.notes_dashboard .note_content{font-size:13px}
+.note_feedback{border-bottom:1px solid #ccc;padding-bottom:10px}
+.notes_dashboard .note_content{padding-bottom:6px;border-bottom:1px solid #eee}
+.notes_content .byline{font-weight:normal}
+.note_feedback,
+.notes_dashboard .note_content{margin:0 0 10px 0;width:510px}
+.note_content .photo{padding:0}
+.note_content .photo_img{margin:0;padding:0}
+.note_content .photo img{margin:0}
+.note_content .photo .caption{border:0;color:#333;font-size:9px;line-height:12px;padding:2px 0 0 0;text-align:left}
+.note_content .photo_none{clear:both}
+.note_content .photo_none .caption{color:#666;font-size:11px;padding:2px 0 10px 0}
+.note_content .photo_center{clear:both;padding:0 0 10px 0;text-align:center}
+.note_content .photo_center .photo_img{margin:0 auto;text-align:center;width:180px}
+.note_content .photo_center .caption{font-size:9px;margin:0 auto;padding:0;text-align:center;width:180px}
+.note_content .photo_left{clear:left;float:left;padding:2px 10px 5px 0;width:180px}
+.wide_note .note_comment .photo_left{padding:2px 15px 5px 0}
+.note_content .photo_right{clear:right;float:right;padding:2px 0 5px 10px;width:180px}
+.wide_note .note_content .photo_right{padding:2px 0 5px 15px}
+.note_content .clear_left{clear:right}
+.note_content .clear_center{clear:both}
+.note_content .clear_right{clear:left}
+.note_content .audioplayer{margin:0;padding:5px 0;text-align:left}
+.note_content .audioplayer object{margin:0}
+
+#bootloader_css_e3u5ketl0v4kg0os_pkg_css { height: 42px; }

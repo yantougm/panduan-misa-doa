@@ -1,0 +1,27 @@
+\newif\ifimagen\imagentrue
+\documentclass[a5paper,headsepline,titlepage,11pt,nnormalheadings,DIVcalc,openany]{scrbook}
+\usepackage[a5paper,backref]{hyperref}\usepackage[papersize={165mm,215mm},twoside,bindingoffset=0.5cm,hmargin={2cm,2cm},
+				vmargin={2cm,2cm},footskip=1.1cm,driver=dvipdfm]{geometry}\usepackage[latin1]{inputenc}\usepackage[T1]{fontenc}\usepackage[bahasa]{babel}\usepackage{microtype}\usepackage{palatino}\usepackage{amssymb,amsfonts,textcomp}\usepackage{array}\usepackage{longtable}\usepackage{hhline}\usepackage[pdftex]{graphicx}\usepackage{graphvizzz}\usepackage{multirow}\usepackage{enumitem}\usepackage{marvosym}\usepackage{pstricks}\usepackage{floatflt}\usepackage{fancyhdr}\newcommand\arraybslash{\let\\\@arraycr}
+\renewcommand\arraystretch{1.3}
+\newcounter{nourut}
+\newcommand{\nexturut}{%
+\stepcounter{nourut}
+\arabic{nourut}}
+
+\pagestyle{empty}
+\thispagestyle{empty}
+\begin{document}
+\includegraphics[scale=5]{./theresia-bw.png}
+\clearpage% page: 0
+\includegraphics[scale=1]{./theresia-logo.png}
+\clearpage% page: 1
+\includegraphics[scale=0.5]{./theresia-1.jpg}
+\clearpage% page: 2
+\includegraphics[scale=0.35]{./theresia-2.jpg}
+\clearpage% page: 3
+\includegraphics[scale=0.275]{./theresia-3.jpg}
+\clearpage% page: 4
+\setcounter{nourut}{0}
+\setcounter{nourut}{0}
+%Options: 
+\end{document}

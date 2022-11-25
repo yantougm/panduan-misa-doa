@@ -1,0 +1,117 @@
+\documentclass[a5paper,headsepline,titlepage,10pt,nnormalheadings,DIVcalc]{scrbook}
+\usepackage[a5paper,backref]{hyperref}
+\usepackage[papersize={107.5mm,148.5mm},twoside,bindingoffset=0.5cm,hmargin={1cm,1cm},
+				vmargin={1.5cm,1.5cm},footskip=1.1cm,driver=dvipdfm]{geometry}
+%\usepackage{palatino}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage[bahasa]{babel}
+\usepackage{fancyhdr}
+\usepackage{marvosym}
+\usepackage{indentfirst}
+
+\renewcommand{\footrulewidth}{0.5pt}
+\lhead[\fancyplain{}{\thepage}]%
+      {\fancyplain{}{\rightmark}}
+\rhead[\fancyplain{}{\leftmark}]%
+      {\fancyplain{}{\thepage}}
+\pagestyle{fancy}
+\cfoot{}
+
+\makeatletter
+\newcommand{\judul}[1]{%
+  {\parindent \z@ \centering 
+    \interlinepenalty\@M \Large \bfseries #1\par\nobreak \vskip 20\p@ }}
+\newcommand{\subjudul}[1]{%
+  {\parindent \z@ 
+    \interlinepenalty\@M \bfseries #1\par\nobreak \vskip 5\p@ }}
+\newcommand{\lagu}[1]{%
+  {\parindent \z@ 
+    \interlinepenalty\@M \slshape \mdseries \Large \textit{#1}\par\nobreak \vskip 10\p@ }}
+\newcommand{\keterangan}[1]{%
+  {\parindent \z@  \slshape 
+    \interlinepenalty\@M \vskip -7\p@ \scriptsize \textsl{#1}\par\nobreak  \vskip 5\p@}}
+
+\renewenvironment{description}
+               {\list{}{\labelwidth\z@ \itemindent-\leftmargin
+                        \let\makelabel\descriptionlabel}}
+               {\endlist}
+\renewcommand*\descriptionlabel[1]{\hspace\labelsep 
+                                \normalfont\bfseries #1 }
+
+
+\makeatother
+
+\newcommand{\BU}[1]{\begin{itemize} \item[U:] #1 \end{itemize}}
+\newcommand{\BI}[1]{\begin{itemize} \item[I:] #1 \end{itemize}}
+\newcommand{\BIU}[1]{\begin{itemize} \item[I+U:] #1 \end{itemize}}
+\newcommand{\BP}[1]{\begin{itemize} \item[P:] #1 \end{itemize}}
+\newcommand{\inputlagu}[1]{\begin{textit} \input{#1} \end{textit}}
+
+\input{../indohyp}
+\setlength{\parindent}{0cm}
+
+\begin{document}
+
+\judul{Doa sebelum dan sesudah Komuni}
+\subjudul{Doa sebelum Komuni}
+\keterangan{disusun oleh St. Thomas Aquinas,\\ Pujangga Gereja (1225- 1274)}
+
+Tuhan yang Mahabesar dan kekal,\\
+aku menghadap sakramen Putera Tunggal-Mu, Tuhan kami Yesus Kristus.\\
+Aku datang sebagai orang yang sakit kepada Sang Tabib Kehidupan,\\
+sebagai orang yang berdosa ke hadapan mata air belas kasih,\\
+sebagai orang buta ke hadapan Terang yang kekal,\\
+sebagai orang miskin dan papa kepada Tuhan langit dan bumi.
+
+Karena itu, aku memohon kelimpahan rahmat-Mu yang tak terbatas\\
+agar Engkau berkenan memulihkan penyakitku, mencuci noda dosaku, menerangi kebutaanku, memperkaya kemiskinanku,\\
+sehingga aku dapat menerima Roti para malaikat, Raja dari segala raja,\\
+dengan segala penghormatan dan kerendahan hati, dengan kasih yang besar,\\
+dengan kemurnian dan iman, dengan tujuan dan maksud\\
+yang dapat berguna bagi keselamatan jiwaku.
+
+Berikankah kepadaku, kumohon,\\
+rahmat untuk menerima tidak saja sakramen Tubuh dan Darah Tuhan kami,\\
+tetapi juga rahmat dan kuasa dari sakramen ini.\\
+O, Tuhan yang Maha Pemurah, dengan menerima Tubuh Putera-Mu yang Tunggal,\\
+Tuhan kami Yesus Kristus yang dilahirkan oleh Perawan Maria,\\
+karuniakanlah kepadaku rahmat untuk boleh digabungkan dengan Tubuh Mistik-Nya dan terhitung sebagai anggota- anggota Tubuh-Nya.
+
+O Tuhan yang Maha Pengasih, berikanlah kepadaku rahmat untuk memandang wajah sesungguhnya dari Putera-Mu terkasih selamanya di surga, yang kini akan kuterima dalam rupa yang terselubung.
+
+Amin.
+
+\subjudul{Doa sesudah Komuni\\ANIMA CHRISTI}
+\keterangan{doa Gereja yang populer di abad 14, yang dikutip oleh St. Ignatius Loyola dalam bukunya Spiritual Exercises.}
+
+Jiwa Kristus, kuduskanlah aku\\
+Tubuh Kristus, selamatkanlah aku\\
+Darah Kristus, tahirkanlah aku\\
+Air dari lambung Kristus, cucilah aku\\
+
+Sengsara Kristus, kuatkanlah aku\\
+O Yesus yang baik, dengarkanlah aku\\
+Ke dalam luka- luka-Mu sembunyikanlah aku.\\
+Buatlah agar aku tidak terpisah dengan-Mu.\\
+Dari si Jahat yang berbahaya, bela-lah aku.\\
+Di saat ajalku, panggillah aku.\\
+Dan perintahkanlah aku untuk datang kepada-Mu.\\
+Sehingga dengan para kudus-Mu aku dapat memuji Engkau.\\
+Selamanya.
+
+\subjudul{Doa sesudah Komuni}
+\keterangan{disusun oleh St. Thomas Aquinas, \\Pujangga Gereja (1225-1274)}
+
+Aku berterima kasih kepada-Mu, Bapa yang kekal,\\
+karena oleh belas kasihan-Mu yang murni\\
+Engkau telah berkenan memberi makan jiwaku dengan Tubuh dan Darah Putera Tunggal-Mu, Tuhan kami Yesus Kristus.\\
+
+Kumohon kepada-Mu agar Komuni kudus ini tidak menjadi kutukan bagiku,\\
+tetapi menjadi penghapusan yang berdayaguna untuk semua dosaku.\\
+Semoga Komuni ini menguatkan imanku, membangkitkan di dalamku semua yang baik,\\ membebaskan aku dari kebiasaan- kebiasaan buruk, menghapuskan semua kecondongan terhadap dosa, menyempurnakan aku di dalam kasih, kesabaran, kerendahan hati, baik yang kelihatan dan tak kelihatan, menjadikankanku bersahaja dalam segala hal, mempersatukanku dengan-Mu dengan erat, Sang Kebaikan sejati, dan tempatkanlah aku dalam kebahagiaan yang tak dapat berubah.
+
+Kini aku memohon dengan sungguh agar suatu hari nanti Engkau akan menerima aku, meskipun aku orang berdosa dan tidak layak, untuk menjadi seorang tamu pada Perjamuan Ilahi di mana Engkau, dengan Putera-Mu dan Roh Kudus, adalah Terang Ilahi, kesempurnaan kekal, sukacita yang tak berkesudahan dan kebahagiaan sempurna dari semua orang Kudus, melalui Kristus Tuhan kami.
+
+Amin.
+\end{document}

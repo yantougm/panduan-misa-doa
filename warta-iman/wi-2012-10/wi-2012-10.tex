@@ -1,0 +1,56 @@
+\documentclass[a5paper,titlepage,11pt,openany]{scrbook}
+\usepackage[a5paper,backref]{hyperref}
+\usepackage[papersize={148.5mm,215mm},twoside,bindingoffset=0.5cm,hmargin={1cm,1cm},
+				vmargin={2cm,2cm},footskip=1.1cm,driver=dvipdfm]{geometry}
+\usepackage{palatino}
+\usepackage[utf8]{inputenc}
+
+\usepackage{pstricks}
+\usepackage{graphicx}
+\usepackage[bahasa]{babel} 
+\usepackage{lettrine}
+\usepackage{pifont}
+\usepackage{enumitem}
+\usepackage{wrapfig}
+\usepackage{indentfirst}
+\usepackage{parcolumns}
+\usepackage[titles]{tocloft}
+\usepackage{longtable}
+\usepackage{microtype}
+\usepackage{hyphenat}
+
+
+\renewcommand{\cftchapfont}{%
+  \fontsize{9}{8}\selectfont
+}
+
+\makeatletter
+\renewcommand{\@pnumwidth}{1em} 
+\renewcommand{\@tocrmarg}{1em}
+\makeatother
+
+\author{Lingkungan St. Petrus Maguwo}
+\title{Warta Iman}
+\setlength{\parindent}{1cm}
+\psset{unit=1mm}
+
+
+\begin{document}
+\thispagestyle{empty}
+\input{cover}
+\setlength{\parindent}{1cm}
+\pagestyle{plain}
+\begin{center}
+%\includegraphics[scale=0.25]{gambar/Mary-Coloring-5.jpg}
+\end{center}
+\input{maria-sebagai-pola-hidup}
+\input{kuasa-doa-satu-salam-maria}
+\input{meneladani-maria}
+\input{perjalanan-menuju-iman-katolik}
+%\input{warling}
+\hrule
+
+\hrule
+\input{ultah}
+\include{kgk-058-061}
+\end{document}

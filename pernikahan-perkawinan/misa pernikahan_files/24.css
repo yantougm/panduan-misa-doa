@@ -1,0 +1,328 @@
+body {
+	background: url(http://images.multiply.com/multiply/style/avlack/bg_main.png);
+}
+
+a, a:visited, a:link { color: #859515; }
+.rail {
+	width: 159px;
+	padding-right: 10px;
+}
+.railstart {
+	margin-top: 10px;
+	height: 27px;
+	width: 159px;
+	background: url(http://images.multiply.com/multiply/style/avlack/search.png) no-repeat top left;
+	background-position: -30px 0;
+	z-index: 1000;
+	position: relative;
+}
+.railbody iframe {
+	margin-left: 5px; 
+}
+.railbody {
+	padding: 15px;
+	width: 129px;
+	font-size: 12px;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	background: none;
+	border: none;
+	z-index: 1000;
+	position: relative;
+	background-color: #eee;
+}
+.railsep {
+	height: 1px;
+	margin: 12px 0 12px 0;
+	background: none;
+	background-color: #abd;
+}
+.railend {
+	height: 2px;
+	width: 159px;
+	background: none;
+	background-color: #8da217;
+}
+td.rail {
+	background-color: #fff;
+	padding: 0;
+	margin: 0;
+}
+div.owner_nav {
+	border: none;
+	margin: 0 auto;
+	margin-top: 20px;
+	height: 310px;
+	height: 130px;
+	width: 760px;
+	border: 10px solid #fff;
+	border-bottom: none;
+	padding: 113px 0 0 0;
+	background: url(http://images.multiply.com/multiply/style/avlack/top.png) no-repeat top left;
+	background-color: #fff;
+	background-position: 0 -10px;
+}
+div#subnavc {
+	width: auto;
+	height: 20px;
+	background-color: #3f3f3f;
+	border-top: 6px solid #fff;
+	padding: 4px;
+}
+div#subnav {
+	padding: 1px;
+	padding-left: 5px;
+	background: none;
+	border: none;
+	height: auto;
+}
+a.topt, a:visited.topt {
+	line-height: 1.2em;
+	display: block;
+	float: left;
+	height: auto;
+	text-align: center;
+	background: none;
+	font-size: 13px;
+	color: #fff;
+	width: auto;
+	padding: 2px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+a.toptsel, a:visited.toptsel {
+	line-height: 1.2em;
+	display: block;
+	float: left;
+	height: auto;
+	text-align: center;
+	background: none;
+	font-size: 13px;
+	font-weight: bold;
+	color: #fff;
+	width: auto;
+	padding: 2px;
+	margin-left: 5px;
+	margin-right: 5px;
+	background: none;
+}
+li.gnopt a, li.gnopt a:visited, li.gnopt a:link {
+	color: #0b5eb4;
+}
+li.gnoptsel {
+	border-color: #abd;
+	border-color: #ccc;
+}
+h1#page_owner_title {
+	font-size: 35px;
+	background-color: none;
+	background: none;
+	color: #fff;
+	font-weight: bold;
+	height: 68px;
+	padding-left: 12px;
+}
+div#page_start {
+	padding: 0;
+	
+	width: 760px;
+	border: 10px solid #fff;
+	border-top: none;
+	border-bottom: none;
+	margin: 0 auto;
+}
+div#rail {
+	text-align: left;
+	width: 159px;
+}
+a.gnoptsel, a:visited.gnoptsel {
+	margin: -2px 0 0 0;
+	width: 84px;
+}
+div#ownedfooter {
+	margin: 0 auto;
+	padding: 10px 0 10px 0;
+	width: 780px;
+	border: none;
+	border-top: 1px solid #999;
+	font-size: 10px;
+	color: #666;
+	background-color: #ddd;
+}
+div.stats {
+	border-bottom: none;
+}
+.itemboxsub {
+	color: #7c9606;
+	color: #666;
+	font-weight: normal;
+	font-size: 24px;
+	font-family: serif;
+	border: none; 
+	padding: 0;
+	background: none;
+	max-width: 550px;
+}
+
+.rolloverfordnd {
+        color: #7c9606;
+        color: #666;
+        font-weight: normal;
+        font-size: 24px;
+        font-family: serif;
+        border: none;
+        padding: 0;
+        background: none;
+	background-color: #e4f77c;
+	max-width: 550px;
+}
+
+.itemshadow {
+    max-width: 550px;
+}
+
+.itemsubsub {
+	font-size: 10px;
+	font-weight: normal;
+	line-height: 10px;
+	text-align: right;
+	color: #8da217;
+	color: #666;
+}
+.itemstamp {
+	float: right;
+	font-size: 10px;
+	font-weight: normal;
+	margin: -5px 0 5px 0;
+	margin: 0;
+	color: #8da217;
+}
+.itembox {
+	border: none;
+	padding: 5px;
+	margin: 0px;
+	
+	overflow: visible;
+	
+	background: none;
+	background-color: #fff;
+	color: #666;
+	border-top: 1px dotted #c7dc4e;
+}
+.itemboxalbum {
+	border: none;
+	padding: 5px;
+	margin: 0px;
+	
+	overflow: visible;
+	
+	background: none;
+	background-color: #fff;
+	color: #666;
+	border-top: 1px dotted #c7dc4e;
+}
+.itemactionspacer {
+	height: 30px;
+}
+a.mine, a.mine:link, a:visited.mine {
+	color: #b40b0b; border: none; background: none;
+}
+div.ritemactions a, div.ritemactions a:link, div.ritemactions a:visited {
+	color: #0b5eb4; border: none; background: none;
+}
+a.go, .go {
+	color: #090; border: none; background: none;
+}
+.rail .userlogo {
+	border: 1px solid #999;
+}
+.caldiv1 { background-color: #ccc; }
+.caldiv1 td { font-size: 10px; }
+.caldate { font-size: 13px; font-weight: bold;}
+.cald {
+	float: right;
+	text-align: center;
+	background-color: #fff;
+	padding: 0px 4px 0px 4px;
+	margin: -3px -3px 3px 3px;
+	border: 1px solid #ccc;
+	width: 20px;
+}
+.calevent { margin: 0px 0px 8px 0px; }
+.caldiv1 td:hover { background-color: #fff; }
+.caldiv1 th {
+	background-color: #ccc;
+	color: #000;
+	font-size: 10px;
+	font-weight: normal;
+	text-align: center;
+}
+.caldiv1 th a, .caldiv1 th a:visited { color: #fff; }
+table.globalnav {
+	border: none;
+	background: none;
+}
+.header .globalnav ul.gnopt a, div.header table.globalnav a.select { color: #fff; }
+div.header table.globalnav h3 { color: #ceee15 }
+.navinput {
+	border: none;
+	color: #666;
+}
+table.indextitle {display: none;}
+td#maincontent { padding: 0 25px 0 0; margin: 0; background-color: #fff; }
+div.header {
+	width: 780px;
+	margin: 0 auto;
+	background: none;
+}
+.infobox { background-color: #dced7e; }
+div.infobox .boxbody {
+	border: 1px solid #8da217;
+}
+div.gndd {
+	color: #ccc;
+	background-color: #333;
+	border: 1px solid #ccc;
+}
+div.ddsep { background-color: #ccc; }
+div.gndd a {
+	font-weight: bold;
+	border: 1px solid #333;
+}
+div.gndd a:hover {
+	background-color: #999;
+}
+ul li { list-style-image: url(http://images.multiply.com/multiply/style/avlack/arrow.png); }
+div.guidebox {
+	background: none;
+	background-color: #fff;
+	color: #666;
+	border: 1px dotted #c7dc4e;
+}
+div.add_sublabel a:hover {
+	color: #859515;
+}
+span.signoutid a, span.signoutid a:visited, span.signoutid a:link, span.signoutid:hover, a.signoutid, a.signout, a.signout:visited, a.signout:link {
+	color: #ffffff;
+}
+div.prevnextphoto {
+	-moz-border-radius: 0;
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px dotted #c7dc4e;
+	padding: 0 5px 5px 5px;
+	margin-bottom: 0 -5px 10px -5px;
+	color: #000;
+        font-family: serif;
+}
+
+div.prevnextphoto a, div.prevnextphoto a:link, div.prevnextphoto a:visited {
+	font-weight: normal;
+	font-size: 14px;
+	color: #859515;
+}
+div.prevnextphoto table td {
+	font-weight: bold;
+	font-size: 14px;
+	color: #8da217;
+}

@@ -1,0 +1,84 @@
+%% draw an oval using tikz
+\providecommand{\HUGE}{\Huge}% if not using memoir
+\newlength{\drop}% for my convenience
+%% specify the Webomints family
+\newcommand*{\wb}[2]
+{\fontsize{#1}{#2}
+%	\usefont{U}{times}{xl}{n}
+}
+
+%% select a (FontSite) font by its font family ID
+\newcommand*{\FSfont}[1]{\fontencoding{T1}\fontfamily{#1}\selectfont}
+%% if you don’t have the FontSite fonts either \renewcommand*{\FSfont}[1]{}
+%% or use your own choice of family.
+%% select a (TeX Font) font by its font family ID
+\newcommand*{\TXfont}[1]{\fontencoding{T1}\fontfamily{#1}\selectfont}
+%% Generic publisher’s logo
+\newcommand*{\plogo}{\fbox{$\mathcal{PL}$}}
+
+%% Some shades
+\definecolor{Dark}{gray}{0.2}
+\definecolor{MedDark}{gray}{0.4}
+\definecolor{Medium}{gray}{0.6}
+\definecolor{Light}{gray}{0.8}
+%%%% Additional font series macros
+
+
+\newcommand*{\anoval}[2]{%
+	\begin{tikzpicture}
+	\draw[very thick] (0,0) ellipse (#1 and #2);
+	\end{tikzpicture}}
+%% a zero-sized picture of an oval
+\newcommand*{\putoval}{\begingroup
+	\setlength{\unitlength}{1in}
+	\begin{picture}(0,0)
+	\put(-1.25,0){\anoval{1.25in}{1.75in}}
+	\end{picture}
+	\endgroup}
+
+%% rectangular ornamental frame
+\newcommand*{\fframe}{\begingroup
+	\wb{10pt}{10pt}
+	\setlength{\unitlength}{1pt}
+	\begin{picture}(0,0)
+	\multiput(11,0)(24,0){10}{e}% bottom
+	\multiput(23,0)(24,0){9}{f}% bottom
+	\multiput(11,358)(24,0){10}{e}% top
+	\multiput(23,358)(24,0){9}{f}% top
+	\put(-0.5,0){O}% bl
+	\put(-0.5,358){R}% tl
+	\put(238.5,0){M}% br
+	\put(238.5,358){P}% tr
+	\multiput(-0.5,11)(0,24){15}{i}% left
+	\multiput(-0.5,23)(0,24){14}{j}% left
+	\multiput(238.5,11)(0,24){15}{i}% right
+	\multiput(238.5,23)(0,24){14}{j}% right
+	\end{picture}
+	\endgroup}
+
+\newcommand*{\titleRMMH}{
+	\begingroup
+%	\FSfont{5ve}% FontSite Vendome
+	\large
+%	\vspace*{0.1\textheight}
+	\begin{center}
+		\sffamily
+		Ekaristi \\
+		Peringatan 2 Tahun \\
+		meninggalnya \\[2\baselineskip]
+		BPK. VINCENTIUS FERERIUS PARLAN\\
+		(10 Maret 1940 - 21 Juni 2015) \\
+		[3\baselineskip]
+		\plogo\\[2\baselineskip]
+		\vspace{2\baselineskip}
+		oleh \\
+		\namaromo \\
+		{\normalsize 27 Mei 2017}
+		\rmfamily
+	\end{center}
+	\vspace{\baselineskip}
+	{\centering\begin{picture}(0,0)
+	\put(-132,-12){\fframe}
+	\end{picture}
+	\par}
+\endgroup}

@@ -1,0 +1,43 @@
+//DO NOT EDIT : GATEKEEPER AUTO-GENERATED FILE.
+// add rules
+LOTCC.addTrigger({act: ["Multiply - ABC Family"], location: "aisubeki87\.multiply\.com/video/item/149/ABC\_Family\_Sneak\_Peek\_The\_Story\ "});
+LOTCC.addTrigger({act: ["Multiply - ABC Family"], location: "afemaleguest\.multiply\.com/reviews/item/33"});
+LOTCC.addTrigger({act: ["Tresemme: Forum Post"], location: "jamiec777\.multiply\.com/reviews/item/1"});
+LOTCC.addTrigger({int: ["Moms Mothers - Multiply"], location: "mommysrus\.multiply\.com"});
+LOTCC.addTrigger({int: ["Moms Mothers - Multiply"], location: "breastfeeding\.multiply\.com"});
+LOTCC.addTrigger({int: ["Moms Mothers - Multiply"], location: "parentingasia\.multiply\.com"});
+LOTCC.addTrigger({int: ["Moms Mothers - Multiply"], location: "workathomemoms\.multiply\.com"});
+LOTCC.addTrigger({int: ["Moms Mothers - Multiply"], location: "workingmoms\.multiply\.com"});
+LOTCC.addTrigger({int: ["Multiply - ABC Family"], location: "aisubeki87\.multiply\.com/video/item/150"});
+LOTCC.addTrigger({int: ["Multiply - ABC Family"], location: "redrushbytes\.multiply\.com/video/item/24/Fallen\_ABC\_Family\_Mini\-Series\ "});
+LOTCC.addTrigger({int: ["Multiply - ABC Family"], location: "kylexyonmultiply\.multiply\.com/photos/album/2/Kyle\_XY\_The\_Series"});
+LOTCC.addTrigger({int: ["Multiply - ABC Family"], location: "kooki\.multiply\.com/"});
+LOTCC.addTrigger({int: ["Multiply - ABC Family"], location: "tokey96\.multiply\.com/photos/album/3/Matt\_Dallas"});
+LOTCC.addTrigger({int: ["Multiply - ABC Family"], location: "kylexyonmultiply\.multiply\.com/"});
+LOTCC.addTrigger({int: ["Multiply - ABC Family"], location: "studio23\.multiply\.com/video/item/22/The\_Final\_Episode\_of\_7th\_Heaven\_promo"});
+LOTCC.addTrigger({int: ["Multiply - ABC Family"], location: "silumpit\.multiply\.com/reviews/item/4"});
+LOTCC.addTrigger({int: ["Multiply - ABC Family"], location: "stuff4d\.multiply\.com/journal/item/204/Music\_OST\_Gilmore\_Girls"});
+LOTCC.addTrigger({int: ["ABC Family Fan"], location: "multiply\.com(.*)ABCFamily(.*)"});
+LOTCC.addTrigger({int: ["ABC Family Fan"], location: "multiply\.com(.*)ABC(.*)Family(.*)"});
+LOTCC.addTrigger({int: ["ABC Family Fan"], location: "multiply\.com(.*)SecretLifeoftheamericanteenager(.*)"});
+LOTCC.addTrigger({int: ["ABC Family Fan"], location: "multiply\.com(.*)slotat(.*)"});
+LOTCC.addTrigger({int: ["ABC Family Fan"], location: "multiply\.com(.*)secret(.*)life(.*)of(.*)the(.*)american(.*)teenager(.*)"});
+LOTCC.addTrigger({int: ["ABC Family Fan"], location: "multiply\.com(.*)kylexy(.*)"});
+LOTCC.addTrigger({int: ["ABC Family Fan"], location: "multiply\.com(.*)kyle(.*)xy(.*)"});
+LOTCC.addTrigger({int: ["ABC Family Fan"], location: "multiply\.com(.*)greek(.*)"});
+LOTCC.addTrigger({int: ["ABC Family Fan"], location: "multiply\.com(.*)lincolnheights(.*)"});
+LOTCC.addTrigger({int: ["ABC Family Fan"], location: "multiply\.com(.*)lincoln(.*)heights(.*)"});
+LOTCC.addTrigger({int: ["ABC Family Fan"], location: "multiply\.com(.*)7thheaven(.*)"});
+LOTCC.addTrigger({int: ["ABC Family Fan"], location: "multiply\.com(.*)7th(.*)heaven(.*)"});
+LOTCC.addTrigger({int: ["ABC Family Fan"], location: "multiply\.com(.*)seventhheaven(.*)"});
+LOTCC.addTrigger({int: ["ABC Family Fan"], location: "multiply\.com(.*)seventh(.*)heaven(.*)"});
+LOTCC.addTrigger({int: ["ABC Family Fan"], location: "multiply\.com(.*)gilmoregirls(.*)"});
+LOTCC.addTrigger({int: ["ABC Family Fan"], location: "multiply\.com(.*)gilmore(.*)girls(.*)"});
+LOTCC.addTrigger({int: ["ABC Family Fan"], location: "multiply\.com(.*)smallville(.*)"});
+LOTCC.addTrigger({int: ["ABC Family Fan"], location: "multiply\.com(.*)brigittedale(.*)"});
+LOTCC.addTrigger({int: ["ABC Family Fan"], location: "multiply\.com(.*)brigitte(.*)dale(.*)"});
+LOTCC.addTrigger({int: ["ABC Family Fan"], location: "multiply\.com(.*)everwood(.*)"});
+LOTCC.addTrigger({int: ["ABC Family Fan"], location: "multiply\.com(.*)whatilikeaboutyou(.*)"});
+LOTCC.addTrigger({int: ["ABC Family Fan"], location: "multiply\.com(.*)what(.*)i(.*)like(.*)about(.*)you(.*)"});
+LOTCC.bindTriggers();
+

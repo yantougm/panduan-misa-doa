@@ -1,0 +1,92 @@
+\documentclass[a5paper,headsepline,titlepage,11pt,nnormalheadings,DIVcalc]{scrbook}
+\usepackage[a5paper,backref]{hyperref}
+\usepackage[papersize={148.5mm,215mm},twoside,bindingoffset=0.5cm,hmargin={2cm,2cm},
+				vmargin={2cm,2cm},footskip=1.1cm,driver=dvipdfm]{geometry}
+%\usepackage{palatino}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage[bahasa]{babel}
+\usepackage{fancyhdr}
+\usepackage{marvosym}
+\usepackage{amsmath}
+
+\renewcommand{\footrulewidth}{0.5pt}
+\lhead[\fancyplain{}{\thepage}]%
+      {\fancyplain{}{\rightmark}}
+\rhead[\fancyplain{}{\leftmark}]%
+      {\fancyplain{}{\thepage}}
+\pagestyle{fancy}
+\lfoot[\emph{Doa keluarga}]{}
+\rfoot[]{\emph{Doa keluarga}}
+\cfoot{}
+
+\makeatletter
+\newcommand{\judul}[1]{%
+  {\parindent \z@ \centering 
+    \interlinepenalty\@M \Large \bfseries #1\par\nobreak \vskip 20\p@ }}
+\newcommand{\subjudul}[1]{%
+  {\parindent \z@ 
+    \interlinepenalty\@M \bfseries #1\par\nobreak \vskip 10\p@ }}
+\newcommand{\lagu}[1]{%
+  {\parindent \z@ 
+    \interlinepenalty\@M \slshape \mdseries \Large \textit{#1}\par\nobreak \vskip 10\p@ }}
+\newcommand{\keterangan}[1]{%
+  {\parindent \z@  \slshape 
+    \interlinepenalty\@M \textsl{#1}\par\nobreak  \vskip 5\p@}}
+
+\renewenvironment{description}
+               {\list{}{\labelwidth\z@ \itemindent-\leftmargin
+                        \let\makelabel\descriptionlabel}}
+               {\endlist}
+\renewcommand*\descriptionlabel[1]{\hspace\labelsep 
+                                \normalfont\bfseries #1 }
+
+
+\makeatother
+
+\newcommand{\BU}[1]{\begin{itemize} \item[U:] #1 \end{itemize}}
+\newcommand{\BI}[1]{\begin{itemize} \item[I:] #1 \end{itemize}}
+\newcommand{\BIU}[1]{\begin{itemize} \item[I+U:] #1 \end{itemize}}
+\newcommand{\BP}[1]{\begin{itemize} \item[P:] #1 \end{itemize}}
+\newcommand{\inputlagu}[1]{\begin{textit} \input{#1} \end{textit}}
+
+\input{../indohyp}
+\setlength{\parindent}{0pt}
+\begin{document}
+
+\chapter*{\ensuremath{\mathbb{Doa~keluarga}}} 
+
+\section*{Diucapkan bersama- sama: bapak, ibu dan anak- anak}
+
+Allah Bapa di surga, puji syukur kami panjatkan ke hadirat-Mu, atas kesempatan kami bersama- sama menaikkan doa sebagai satu keluarga. Kami percaya bahwa Tuhan Yesus hadir di tengah kami saat ini, sesuai dengan sabda-Nya, “Sebab di mana dua atau tiga orang berkumpul dalam nama-Ku, di situ Aku ada di tengah- tengah mereka”. Kami percaya ya Yesus, Engkau mendengarkan doa- doa yang kami panjatkan kepada-Mu.
+
+Tuhan Yesus, Engkau adalah pusat Keluarga Kudus, bukan hanya karena Engkau adalah Tuhan dan manusia, tetapi karena sampai akhir hidup-Mu Engkau adalah anak Maria dan Yusuf. Bantulah kami untuk memahami bahwa di dalam keluarga Kristiani, kami membutuhkan kasih-Mu. Berilah kami rahmat kasih yang sejati di dalam keluarga kami sehingga kami rela berkorban satu sama lain, sebab Engkau mengajarkan kasih yang sedemikian kepada kami.
+
+\section*{Doa Bapak (oleh bapak/ papa)}
+Tuhan Yesus, aku bersyukur atas keluarga yang Engkau berikan kepadaku. Aku mohon agar aku dapat mencintai keluargaku dengan sepenuh hati. Dalam kesibukanku sehari- hari, bantulah aku agar dapat memberikan waktuku kepada mereka. Berikanlah kepadaku kasih yang berasal daripada-Mu, yaitu kasih sebagaimana Engkau mencintai Gereja-Mu.
+Kami mohon, kabulkanlah doa kami, ya Tuhan
+
+\section*{Doa Ibu (oleh ibu/ mama)}
+Tuhan Yesus, aku bersyukur atas keluarga yang Engkau berikan kepadaku. Aku mohon agar dapat melayani suami dan anak- anakku dengan kasih yang berasal dari-Mu. Berikanlah aku kerendahan hati dan bantulah aku untuk menjadi pembawa damai bagi keluarga kami, sehingga selalu ada suka cita dan damai sejahtera di dalamnya.
+Kami mohon, kabulkanlah doa kami, ya Tuhan
+
+\section*{Doa Bapak dan Ibu}
+Ya Tuhan, kami mohon agar Engkau membimbing kami dalam mendidik dan membesarkan anak- anak kami, agar kami dapat mengarahkan mereka kepada-Mu. Berkatilah usaha mereka dalam menuntut ilmu, dalam pergaulan yang baik dan kuatkanlah mereka dalam menghadapi godaan di sekeliling mereka.
+Kami mohon, kabulkanlah doa kami, ya Tuhan
+
+\section*{Doa Anak- anak}
+O Tuhan, kami bersyukur atas orang tua yang Engkau berikan kepada kami. Kami mohon agar Engkau membimbing mereka dalam menuntun kami menuju hari depan kami. Lindungilah mereka dari bahaya dan segala yang jahat, serta berikanlah kepada mereka kesehatan dan rejeki yang cukup, serta kebijaksanaan sesuai dengan kehendak-Mu. Bantulah kami untuk hidup sesuai dengan perintah- perintah-Mu, taat kepada orang tua dan mengasihi mereka dan saudara- saudari kami.
+Kami mohon, kabulkanlah doa kami, ya Tuhan.
+
+\section*{Diucapkan bersama- sama: bapak, ibu dan anak- anak}
+Bunda Maria yang terkasih, Bunda Kristus dan Bunda kami, tolonglah kami untuk belajar menimba kekuatan dari devosi kepada Keluarga Kudus yang telah diberikan Allah sebagai teladan bagi kami. Baik di Betlehem, di pengungsian ke Mesir, di Nazaret maupun di Yerusalem, Keluarga Kudusmu selalu merupakan tempat berlindung yang penuh kedamaian. Doakanlah kami, O Bunda, agar damai sejahtera yang datang dari ketaatan untuk melaksanakan perintah- perintah Tuhan, selalu ada di dalam keluarga kami. Doakanlah kami agar kami dapat dengan siap sedia selalu taat kepada kehendak Allah sehingga di dalam hidup kami bersama, kami tidak mementingkan diri sendiri, tetapi menjaga dan memelihara sebagai kepunyaan-Mu segala harta milik yang Tuhan percayakan kepada kami, sebab suatu hari nanti kami akan ditanyai oleh-Nya tentang pertanggungan jawab kami mempergunakan semua itu.
+
+Tuhan segala rahmat dan kebijaksanaan, berikanlah kepada kami rahmat untuk hidup bersama di dalam damai yang kudus dan kebahagiaan. Tunjukkanlah kepada kami bagaimana untuk hidup sabar dan baik, tak mudah berkata- kata kasar dan cepat untuk memaafkan satu sama lain. Semoga kami menjadi seperti Keluarga Kudus di Nazaret- sederhana dan cinta damai, senantiasa rajin membantu sesama kami, dengan suka cita mengemban tugas di dalam Gereja maupun di lingkungan masyarakat kami.
+Doa syukur dan permohonan ini kami panjatkan demi Kristus Tuhan kami. Amin.
+
+Bapa Kami \ldots 
+
+Salam Maria \ldots 
+
+Kemuliaan \ldots
+\end{document}

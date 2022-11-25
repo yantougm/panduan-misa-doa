@@ -1,0 +1,164 @@
+\documentclass[12pt,a4paper,openany]{scrbook}
+\usepackage[left=3.00cm, right=2.00cm, top=2.00cm, bottom=3.00cm]{geometry}
+\usepackage[latin1]{inputenc}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage[bahasa]{babel}
+\usepackage{indentfirst}
+\usepackage{palatino}
+\usepackage{microtype}
+\usepackage{floatflt}
+\usepackage{graphicx}
+\usepackage{multirow}
+
+\makeatletter
+%==========redefine chapter and section
+\def\ps@chapterheading{%
+	\let\@evenhead\@empty\let\@oddhead\@empty
+	\def\@oddfoot{\hfil\thepage\hfil}%
+	\def\@evenfoot{\hfil\thepage\hfil}
+}
+\setcounter{secnumdepth}{2}
+\renewcommand \thepart {\@Roman\c@part}
+\renewcommand \thechapter {\@Roman\c@chapter}
+%\renewcommand \thesection {\@arabic\c@section.}
+\renewcommand \thesection {\@arabic\c@chapter.\@arabic\c@section}
+%\renewcommand\thesubsection {\@alph\c@subsection.}
+\renewcommand\thesubsection {\@arabic\c@chapter.\@arabic\c@section.\@arabic\c@subsection}
+%\renewcommand\thesubsubsection{\@roman\c@subsubsection.}
+%\renewcommand\thesubsubsection{}
+\renewcommand\appendix{\par
+	\setcounter{chapter}{0}%
+	\setcounter{section}{0}%
+	\gdef\@chapapp{\appendixname}%
+	\gdef\thechapter{\@Alph\c@chapter}}
+\renewcommand{\chapter}{\clearpage\thispagestyle{chapterheading}%
+	\global\@topnum\z@ %Prevents figures from going at top of page
+	\@afterindenttrue %Indent the 1st paragraph
+	\secdef\@chapter\@schapter}
+\renewcommand{\@makechapterhead}[1]{%
+	{\parindent \z@ \centering \normalfont
+		\ifnum \c@secnumdepth >\m@ne
+		\large\bfseries \@chapapp\space \thechapter
+		\par\nobreak
+		\vskip 5\p@
+		\fi
+		\interlinepenalty\@M
+		\large \bfseries #1\par\nobreak
+		\vskip 20\p@
+}}
+\renewcommand{\@makeschapterhead}[1]{%
+	{\parindent \z@ \centering \normalfont
+		\interlinepenalty\@M \large \bfseries #1\par\nobreak \vskip 20\p@ }}
+%\renewcommand{\section}{\@startsection {section}{1}{\z@}%
+%                                   {-3.5ex \@plus -1ex \@minus -.2ex}%
+%                                   {2.3ex \@plus.2ex}%
+%                                   {\normalfont\normalsize\bfseries\centering}}
+\renewcommand{\section}{\@startsection {section}{1}{\z@}%
+	{-3.5ex \@plus -1ex \@minus -.2ex}%
+	{2.3ex \@plus.2ex}%
+	{\normalfont\normalsize\bfseries}}
+\renewcommand{\subsection}{\@startsection{subsection}{2}{\z@}%
+	{-3.25ex\@plus -1ex \@minus -.2ex}%
+	{1.5ex \@plus .2ex}%
+	{\normalfont\normalsize\bfseries}}
+%\renewcommand{\subsubsection}{\@startsection{subsubsection}{3}{\parindent}%
+%                                    {3.25ex \@plus1ex \@minus.2ex}%
+%                                    {-1em}%
+%                                    {\normalfont\normalsize\bfseries}}
+\renewcommand{\subsubsection}{\@startsection{subsubsection}{3}{\z@}%
+	{3.25ex \@plus1ex \@minus.2ex}%
+	{-1em}%
+	{\normalfont\normalsize\bfseries}}
+\renewcommand{\paragraph}{\subparagraph}
+
+\@addtoreset {equation}{chapter}
+\renewcommand\theequation
+{\ifnum \c@chapter>\z@ \@arabic\c@chapter.\fi \@arabic\c@equation}
+\renewcommand \thefigure
+{\ifnum \c@chapter>\z@ \@arabic\c@chapter.\fi \@arabic\c@figure}
+\renewcommand \thetable
+{\ifnum \c@chapter>\z@ \@arabic\c@chapter.\fi \@arabic\c@table}
+
+%------------------------------------------------------------
+%Redefine caption names
+%------------------------------------------------------------
+\def\captionsbahasa{%
+	\def\prefacename{PRAKATA}%
+	\def\contentsname{DAFTAR ISI}%
+	\def\listfigurename{DAFTAR GAMBAR}%
+	\def\listtablename{DAFTAR TABEL}%
+	\def\listappendixname{DAFTAR LAMPIRAN}%
+	\def\nomenclaturename{DAFTAR LAMBANG DAN SINGKATAN}%
+	\def\abstractname{INTISARI}%
+	\def\partname{BAGIAN}%
+	\def\chaptername{BAB}%
+	\def\appendixname{LAMPIRAN}%
+	\def\refname{DAFTAR PUSTAKA}%
+	\def\bibname{DAFTAR PUSTAKA}%
+	\def\indexname{Indek}%
+	\def\figurename{Gambar}%
+	\def\tablename{Tabel}%
+	\def\pagename{Halaman}%
+}
+
+\makeatother
+
+\newcounter{nourut}
+\newcommand{\nexturut}{%
+	\stepcounter{nourut}
+	\arabic{nourut}}
+
+
+%=========== identity==============
+\newcommand{\lingkungan}{St. Theresia Pugeran}
+\newcommand{\wilayah}{St. Yohanes Don Bosco}
+\newcommand{\tahun}{2016}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\arraybackslash}p{#1}}
+\uchyph=1
+\hyphenation{YOG-YA-KAR-TA Sle-man}
+
+\title{STATISTIK LINGKUNGAN\\\lingkungan\\WILAYAH \wilayah\\~\\~ STASI BUNDA MARIA MAGUWO}
+\author{Dewan Stasi Maguwo}
+\date{\tahun}
+
+\begin{document}
+\maketitle
+
+\chapter{Sejarah Lingkungan}
+\input{sejarah}
+\input{pengurus}
+
+\chapter{Riwayat Hidup dan Karya Pelindung Lingkungan}
+%\input{alasan}
+\input{riwayat}
+\chapter{Data Umat Lingkungan}
+\section{Daftar Umat pada tahun \tahun}
+%\input{head-data-umat}
+\input{data-umat}
+
+\section[Daftar keluarga]{Daftar Keluarga yang senyatanya berdomisili di lingkungan pada tahun \tahun}
+%\input{head-data-keluarga}
+\input{data-keluarga}
+
+\chapter{Penambahan Umat Tahun \tahun}
+\section{Penambahan umat melalui sakramen inisiasi dan pengukuhan}
+\input{tambah-umat-sakramen}
+
+\section[Penambahan umat \dots]{Penambahan umat melalui mutasi dari lingkungan/wilayah/stasi/paroki/keuskupan lain}
+\input{tambah-umat-mutasi}
+
+\chapter{Pengurangan Umat}
+\input{pengurangan-umat}
+
+\chapter{Calon Biarawan/Biarawati}
+\input{calon-biarawan}
+
+\chapter{Penerimaan Sakramen}
+\input{sakramen}
+
+\chapter{Peristiwa-peristiwa Penting}
+\input{peristiwa-penting}
+\end{document}

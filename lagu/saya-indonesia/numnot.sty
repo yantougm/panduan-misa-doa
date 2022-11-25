@@ -1,0 +1,165 @@
+%% This program is free software; you can redistribute it and/or
+%% modify it under the terms of the GNU General Public License
+%% as published by the Free Software Foundation; either version 2
+%% of the License, or (at your option) any later version.
+%%
+%% This program is distributed in the hope that it will be useful,
+%% but WITHOUT ANY WARRANTY; without even the implied warranty of
+%% MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+%% GNU General Public License for more details.
+%%
+%% You should have received a copy of the GNU General Public License
+%% along with this program; if not, write to the Free Software
+%% Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
+%%
+%% Author: Yohanes Suyanto, yanto@ugm.ac.id.
+%%
+%% You can find an online copy of the GPL at
+%% http://www.gnu.org/copyleft/gpl.html .
+%% 
+%% Note: shell-escape needs to be activated for this to work.
+%% This can either be done by passing -shell-escape as an option to
+%% latex or by adding/changing "shell_escape = t" in your texmf.cnf .
+
+
+\NeedsTeXFormat{LaTeX2e}[1994/12/01]
+\ProvidesPackage{numnot}[2017/06/07 v0.21 Numbered Notation in LaTeX]
+
+\RequirePackage{slashed}
+\RequirePackage{ifthen}
+\RequirePackage{tikz}
+\RequirePackage{booktabs}
+
+\RequirePackage{fancyhdr}
+
+\usetikzlibrary{calc, positioning, chains}
+\usetikzlibrary{decorations.pathreplacing}
+
+\tikzstyle{every picture}+=[remember picture, overlay]
+
+% the get macro using pgfmathparse
+\def\get#1{\pgfmathparse{#1}\pgfmathresult}
+
+\newcommand{\mol}[1]{{%
+\declareslashed{}{\backslash}{0.0}{0}{#1}$\boldsymbol{\slashed{#1}}$}}
+
+\newcommand{\kruis}[1]{$\boldsymbol{\slashed{#1}}$}
+
+\newwrite\@out
+\newwrite\@module
+
+\begingroup \catcode `|=0 \catcode `[=1
+\catcode`]=2 \catcode `\{=12 \catcode `\}=12
+\catcode`\\=12 |gdef|@xnumnot#1\end{numnot}[|immediate|write|@out[#1]|end[numnot]]
+|endgroup
+
+\def\numnot{\kernel@ifnextchar [{\@numnot}{\@numnot[]}}
+
+\def\@numnot[#1]#2{%
+\gdef\@numnotinclude{#2}
+\gdef\@numnotBar{#1}
+\immediate\openout\@out=\@numnotinclude.nnt
+\newlinechar='15
+\begingroup \catcode`\^^M=12 %
+\let\do\@makeother\dospecials\obeyspaces%
+\@xnumnot}
+
+\def\endnumnot{%
+\endgroup
+\immediate\closeout\@out
+\@writemodule
+\immediate\write18{numnot -i \@numnotinclude.nnt -o \@numnotinclude.nnx -b \@numnotBar 1> \jobname.py.out 2> \jobname.py.err}
+\immediate\input{\@numnotinclude.nnx}}
+
+\def\@writemodule{%
+\immediate\openout\@module=latex.py
+\immediate\write\@module{jobname="\jobname"}
+\immediate\closeout\@module}
+
+
+\gdef\ofsH{-0.5mm}
+\gdef\ofsL{-1mm}
+\gdef\ofsCur{0.5mm}
+\gdef\ofsCurH{1.25mm}
+\gdef\ofsNL{15mm}
+\gdef\numnotBar{0}
+
+\gdef\setNumnotBar[#1]{
+   \gdef\numnotBar{#1}
+}
+
+\gdef\isNumnotCline{%
+\ifthenelse{\numnotBar>0}{\\}{~}
+}
+
+\gdef\isNumnotBar{%
+\ifthenelse{\numnotBar > 0}{%
+\begin{tabular}{||p{1mm}*{200}{c}}\multicolumn{1}{c}{~}\\\cline{1-1}
+			\tikz\coordinate(n0); 
+  }{
+\begin{tabular}{p{1mm}*{200}{c}}\\ 
+			\tikz\coordinate(n0);
+  }
+}
+
+
+\newcommand{\numnotDrawAttr}{%
+%slur
+\begin{tikzpicture}[thick]
+\ifthenelse{\nSlur > 0}{
+\foreach \i in {1,...,\nSlur}{
+\draw ($(bs\i.south west)+(0,-0.01)$)  
+.. controls +(0,-0.1) and +(0,-0.1) .. 
+ ($(es\i.south east)+(0,-0.01)$);
+}
+}{~}
+
+%over bar 1
+\ifthenelse{\nOvrBar > 0}{
+\foreach \i in {1,...,\nOvrBar}{
+\draw ($(bol\i.north west)+(0,\ofsCur)$)  
+-- 
+ ($(eol\i.north east)+(0,\ofsCur)$);
+}
+}{~}
+
+%over bar 2
+\ifthenelse{\nOvrBarH > 0}{:q
+\foreach \i in {1,...,\nOvrBarH}{
+\draw ($(bolh\i.north west)+(0,\ofsCurH)$)  
+-- 
+ ($(eolh\i.north east)+(0,\ofsCurH)$);
+}
+}{~}
+
+\end{tikzpicture}
+
+}
+
+% BUGS:
+% 1. If anything gets send to stderr then it should be included
+% in \begin{verbatim}...\end{verbatim} to be properly displayed
+%
+% \immediate\write18{cat \@numnotinclude\space\jobname.py | numnot 
+% > \jobname.py.out 2>\jobname.py.err}
+%
+% 2. Watch out for indentation done by aucTeX in Emacs
+%
+% 3. Let the package accept a "final version" option, such
+% that the output of each numnot run is saved such that it can be
+% inserted into the document by hand 
+% (conference, journals are not likely to compile with
+% shell_escape or have numnot).
+%
+% 4. Somehow cache the output for each \begin{numnot}...\end{numnot}
+% and reuse the cached version if it has not changed.
+% Perhaps dangerous if the included numnot script has changed
+% but we would check for that as well.
+%
+%
+% \gdef\@prenumnot{}
+% \def\prenumnot#1{%
+% \gdef\@prenumnot{#1}
+% }
+% sed -e 's/^  //g' cluster.py
+% \immediate\write18{\@prenumnot\space\jobname.py > \

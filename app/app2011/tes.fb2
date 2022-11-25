@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<FictionBook xmlns="http://www.gribuser.ru/xml/fictionbook/2.0" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <description>
+    <title-info>
+      <genre></genre>
+      <author>
+	<first-name></first-name>
+	<middle-name></middle-name>
+	<last-name></last-name>
+      </author>
+      <book-title>Tes penggunaan html</book-title>
+      <annotation>
+	<p/>
+      </annotation>
+    </title-info>
+  </description>
+  <body>
+   <section>
+    <p>Pada waktu yang lalu ...Pada waktu yang lalu ...Pada waktu yang lalu ...Pada waktu yang lalu ...Pada waktu yang lalu ...Pada waktu yang lalu ...Pada waktu yang lalu ...</p>
+    <p>satuduatiga</p>
+   </section>
+  </body>
+</FictionBook>

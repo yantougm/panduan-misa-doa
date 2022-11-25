@@ -1,0 +1,456 @@
+\documentclass[a5paper,headsepline,titlepage,10pt,nnormalheadings,DIVcalc,twoside]{scrbook}
+\usepackage[a5paper,backref]{hyperref}
+%\usepackage{palatino}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage[bahasa]{babel}
+\usepackage{fancyhdr}
+\usepackage{pst-text}
+\usepackage{pst-grad}
+
+%\setlength{\voffset}{0.5in}
+%\setlength{\oddsidemargin}{28pt}
+%\setlength{\evensidemargin}{0pt}
+\renewcommand{\footrulewidth}{0.5pt}
+\lhead[\fancyplain{}{\thepage}]%
+      {\fancyplain{}{\rightmark}}
+\rhead[\fancyplain{}{\leftmark}]%
+      {\fancyplain{}{\thepage}}
+\pagestyle{fancy}
+\lfoot[\emph{Ibadat mitoni \namaibu}]{}
+\rfoot[]{\emph{Ibadat mitoni \namaibu}}
+\cfoot{}
+
+\makeatletter
+\newcommand{\judul}[1]{%
+  {\parindent \z@ \centering 
+    \interlinepenalty\@M \Large \bfseries #1\par\nobreak \vskip 20\p@ }}
+\newcommand{\subjudul}[1]{%
+  {\parindent \z@ 
+    \interlinepenalty\@M \bfseries #1\par\nobreak \vskip 10\p@ }}
+\newcommand{\lagu}[1]{%
+  {\parindent \z@ 
+    \interlinepenalty\@M \slshape \mdseries \Large \textit{#1}\par\nobreak \vskip 10\p@ }}
+\newcommand{\keterangan}[1]{%
+  {\parindent \z@  \slshape 
+    \interlinepenalty\@M \textsl{#1}\par\nobreak  \vskip 5\p@}}
+
+\renewenvironment{description}
+               {\list{}{\labelwidth\z@ \itemindent-\leftmargin
+                        \let\makelabel\descriptionlabel}}
+               {\endlist}
+\renewcommand*\descriptionlabel[1]{\hspace\labelsep 
+                                \normalfont\bfseries #1 }
+
+
+\makeatother
+
+\newcommand{\BU}[1]{\begin{itemize} \item[U:] #1 \end{itemize}}
+\newcommand{\BI}[1]{\begin{itemize} \item[I:] #1 \end{itemize}}
+\newcommand{\BIU}[1]{\begin{itemize} \item[I+U:] #1 \end{itemize}}
+\newcommand{\BP}[1]{\begin{itemize} \item[P:] #1 \end{itemize}}
+\newcommand{\inputlagu}[1]{\begin{textit} \input{#1} \end{textit}}
+\newcommand{\namaibu}{$<$nama ibu$>$ }
+\newcommand{\namabapak}{$<$nama bapak$>$ }
+
+\title{Ibadat Mitoni}
+\author{\namaibu}
+\date{30 Januari 2011}
+\input{../indohyp}
+
+
+\begin{document}
+%\maketitle
+\thispagestyle{empty}
+% set up the picture environment
+\psset{unit=1in}
+\begin{pspicture}(4in,5in)
+% set up the fonts we use
+\DeclareFixedFont{\PT}{T1}{ppl}{b}{it}{0.5in}
+\DeclareFixedFont{\PTsmall}{T1}{ppl}{b}{it}{0.4in}
+\DeclareFixedFont{\PTsmallest}{T1}{ppl}{b}{it}{0.2in}
+\DeclareFixedFont{\PTtext}{T1}{ppl}{b}{it}{11pt}
+\DeclareFixedFont{\Logo}{T1}{pbk}{m}{n}{0.3in}
+% put the text on the front cover
+\rput[cb](2.3,4.5){\PTsmall {IBADAT}}
+\rput[cb](2.3,4.1){\PTsmallest {MITONI (7 BULAN KEHAMILAN)}}
+\rput[cb](2.3,3.0){\PTsmall {\namaibu}}
+\rput[cb](2.3,-0.4){\PTsmallest {30 Januari 2011}}
+
+%\rput[cb](3,-1){\PTsmallest {\namagereja}} 
+
+\end{pspicture}
+
+\newpage
+\thispagestyle{empty}
+{~}
+\newpage
+
+\section*{RITUS PEMBUKA} 
+
+ 
+
+\lagu{Lagu Pembukaan}  
+ 
+
+\subjudul{Tanda Salib} 
+
+\BI{Demi nama  Bapa dan Putera dan Roh Kudus}
+
+\BU{Amin}
+
+ 
+
+\subjudul{Salam}
+
+\BP{Puji syukur kepada Allah! Semoga rahmatNya melimpah ke atas keluarga ini, dan atas kita semua yang berkumpul demi nama Tuhan.}
+
+\BU{Sekarang dan selama-lamanya.}
+
+ 
+
+\subjudul{Pengantar}
+
+\BP{Malam ini kita kembali berkumpul untuk melaksanakan Ibadat MITONI. Dalam masyarakat kita, Mitoni diartikan sebagai ucapan syukur atas usia kehamilan pertama yang memasuki usia ke tujuh bulan. Malam ini, Keluarga Bapak \namabapak dan Ibu \namaibu mengajak kita untuk berdoa bersama mensyukuri buah cinta yang dikaruniakan Tuhan dan mendoakan Ibu \namaibu agar selamat sampai melahirkan, dan supaya bayi dalam kandungannya sehat walafiat. Sekarang, pahala cinta kasih yang dibina keluarga ini dari hari ke hari telah diwujudkan Allah dalam diri seorang bayi yang akan semakin memadukan cinta kasih orang tuanya.
+
+Marilah kita hening sejenak, mengarahkan hati ke hadapan Tuhan, supaya kita dapat melaksanakan ibadat ini dengan sepenuh hati.}
+
+ 
+
+\subjudul{Tobat}
+
+\BP{Tuhan Yesus Kristus, 
+Kehadiran-Mu ditengah keluarga menampakkan Allah beserta kami dan Berkat rahmat melimpah
+
+Tuhan kasihanilah kami}
+\BU{Tuhan kasihanilah kami}
+
+\BP{Tuhan Yesus Kristus
+Kehadiran-Mu ditengah keluarga menampakkan Cinta Kasih, hiburan, dan tanggung jawab tiap-tiap anggota
+
+Kristus kasihanilah kami}
+\BU{Kristus kasihanilah kami}
+
+\BP{Tuhan Yesus Kristus
+Kehadiran-Mu ditengah keluarga menampakkan kedamaian dan kebahagiaan
+
+Tuhan kasihanilah kami}
+\BU{Tuhan kasihanilah kami}
+
+\BP{Semoga Allah Bapa yang Maha Kuasa, mengasihani kita, 
+mengampuni dosa kita dan mengantar kita ke dalam 
+kehidupan kekal.}
+
+\BU{Amin}
+
+ 
+
+\subjudul{Doa Pembuka}
+
+\BP{Marilah kita berdoa 
+
+Bapa yang maha pengasih dan penyayang, kami bersyukur kepada-Mu, karena Engkau berkenan mengikutsertakan \namaibu dan \namabapak dalam karya penciptaanMu. Makhluk baru sudah Kauciptakan dengan perantaraan mereka berdua. Maka kami mohon, dampingilah selalu suami istri ini, supaya dapat menjaga dan merawat ciptaanMu yang suci ini dengan baik, sampai kelak lahir dengan selamat, dan memberikan kegembiraan besar bagi kami semua. Demi Yesus Kristus PutraMu, Tuhan dan Pengantara kami, yang bersatu dengan Dikau dan Roh Kudus, hidup dan berkuasa, kini dan sepanjang masa.}
+
+\BU{Amin}
+
+ 
+
+\section*{LITURGI SABDA} 
+
+\keterangan{Bacaan dari Kejadian 21 : 1 - 8}
+
+\BP{TUHAN memperhatikan Sara, seperti yang difirmankan-Nya, dan TUHAN melakukan kepada Sara seperti yang dijanjikan-Nya.
+Maka mengandunglah Sara, lalu ia melahirkan seorang anak laki-laki bagi Abraham dalam masa tuanya, pada waktu yang telah ditetapkan, sesuai dengan firman Allah kepadanya.
+Abraham menamai anaknya yang baru lahir itu Ishak, yang dilahirkan Sara baginya.
+Kemudian Abraham menyunat Ishak, anaknya itu, ketika berumur delapan hari, seperti yang diperintahkan Allah kepadanya.
+
+Adapun Abraham berumur seratus tahun, ketika Ishak, anaknya, lahir baginya.
+Berkatalah Sara: "Allah telah membuat aku tertawa; setiap orang yang mendengarnya akan tertawa karena aku."
+Lagi katanya: "Siapakah tadinya yang dapat mengatakan kepada Abraham: Sara menyusui anak? Namun aku telah melahirkan seorang anak laki-laki baginya pada masa tuanya."
+
+Bertambah besarlah anak itu dan ia disapih, lalu Abraham mengadakan perjamuan besar pada hari Ishak disapih itu.
+
+Demikianlah Sabda Tuhan.}
+
+\BU{Syukur kepada Allah}
+
+ 
+
+\lagu{Lagu Antar Bacaan}
+
+
+\subjudul{Injil Lukas 1:39-45}
+
+\BI{Tuhan beserta kita}
+
+\BU{Sekarang dan selama-lamanya} 
+
+\BI{Inilah Injil Yesus Kristus menurut Lukas}
+
+\BU{Dimuliakanlah Tuhan}
+
+\BP{Beberapa waktu kemudian berangkatlah Maria dan langsung berjalan ke pegunungan menuju sebuah kota di Yehuda.
+Di situ ia masuk ke rumah Zakharia dan memberi salam kepada Elisabet.
+Dan ketika Elisabet mendengar salam Maria, melonjaklah anak yang di dalam rahimnya dan Elisabetpun penuh dengan Roh Kudus,
+lalu berseru dengan suara nyaring: "Diberkatilah engkau di antara semua perempuan dan diberkatilah buah rahimmu.
+Siapakah aku ini sampai ibu Tuhanku datang mengunjungi aku?
+
+Sebab sesungguhnya, ketika salammu sampai kepada telingaku, anak yang di dalam rahimku melonjak kegirangan.
+Dan berbahagialah ia, yang telah percaya, sebab apa yang dikatakan kepadanya dari Tuhan, akan terlaksana."
+
+Demikianlah Injil Tuhan}
+
+\BU{Terpujilah Kristus}
+
+ 
+
+\subjudul{Homili}
+\BP{ 
+Bapak/Ibu dan Saudara/Saudari yang terkasih dalam Kristus, dalam Budaya Jawa, angka 7 adalah “angka kesempurnaan”. Gereja mengacu pada tradisi Kitab Suci Perjanjian lama dan Perjanjian Baru, menempatkan angka 7 sebagai “angka kegenapan”. Misalnya saja: tradisi Kitab Kejadian yang melukiskan Allah menciptakan alam semesta dalam 7 hari. Selain itu, Gereja-pun menyaripatikan karunia Roh Kudus bagi umat Tuhan, sebagai “Sapta Karunia Roh Kudus” atau 7 karunia Roh Kudus yaitu Roh kebijaksanaan, Roh pengertian, Roh penasihat, Roh kekuatan, Roh kesederhanaan, Roh kesalehan dan Roh ketulusan.
+
+ 
+Arti kata “Mitoni”, berasal dari kata Jawa: “Am” yang artinya melaksanakan dan “Pitu” yang artinya tujuh. Maka “Amitoni” yang kemudian disingkat “Mitoni” adalah tradisi dalam budaya Jawa yang artinya melaksanakan upacara 7 bulan kehamilan.
+ 
+Seperti yang telah diuraikan dalam Ibadah Syukur yang baru saja berakhir, bahwa dalam Budaya Jawa, angka 7 adalah “angka kesempurnaan”, dan bila kita lihat dalam falsafah Gereja memang menempatkan angka 7 sebagai “angka kegenapan”. Berkaitan dengan hal itu, dipercaya bahwa usia kandungan 7 bulan adalah usia yang sudah sempurna, tinggal bertumbuh dan berkembang sampai pada saat kelahiran nanti.
+ 
+{\bf Upacara Sungkeman}
+ 
+Mohon doa restu atau sungkem adalah tradisi yang mulia, sebagai ungkapan kesadaran bahwa adanya tugas yang besar yaitu melahirkan anak, mendidik dan membesarkannya. Semua itu akan mustahil dilakukan jika tanpa doa restu Orang tua dan kerja sama yang serasi dengan Suami. Permohonan doa restu ini, juga ungkapan kesatuan doa dan harapan akan berlangsungnya persalinan yang lancar dan kasih dari Orang tua dan Suami yang menjadi belahan jiwa Istri.
+ 
+{\bf Upacara Siraman}
+
+Kata “Nyirami” adalah kata dalam bahasa Jawa yang artinya “membasahi dengan menyeluruh, intensif dan berdaya menumbuhkan”. Kata ini bukan sekedar menguyurkan air, namun juga mengandung makna mencuci, membersihkan diri dan menyegarkan. Air yang digunakanpun berasal dari 7 sumber, yang keseluruhannya akan dicampur menjadi satu.
+ 
+Dengan upacara ini, diharapkan calon Ibu memiliki kebersihan jiwa-raga, lahir-batin, dan pada saatnya nanti diharapkan dapat melahirkan anak yang bersih dan sehat, jauh dari pengaruh-pengaruh yang mengotori jiwa dan raganya.
+ 
+Dalam tradisi Gereja, air juga dipakai sebagai tanda pembersihan dan kehidupan. Air dipakai dalam upacara permandian, yang melambangkan pembersihan dari dosa agar menjadi manusia baru dalam Tuhan. Maka marilah kita mohon berkat Tuhan atas air siraman ini.
+ 
+{\bf Upacara Brojolan}
+
+Dalam bahasa Jawa “Brojol” artinya keluar dengan sendirinya, dengan cepat dan lancar. Makna dari upacara ini adalah pengharapan agar pada saatnya nanti, bayi yang sekarang masih dalam kandungan, bisa “m’brojol” dengan baik, lahir dengan mudah, lancar, selamat, sehat dan lengkap. Upacara ini terdiri dari beberapa bagian:
+ 
+\textit{Meluncurkan Telur}
+
+Makna yang terkandung didalamnya yaitu harapan agar calon Ibu dapat melahirkan dengan normal tanpa adanya halangan yang merintang.
+ 
+\textit{Membuka Janur}
+
+Janur ini akan dililitkan pada perut calon Ibu dan kemudian akan dibuang jauh-jauh. Makna yang terkandung didalamnya menjauhkan calon Ibu dari marabahaya, yaitu dengan membuang segala rintangan yang akan menghalangi persalinannya kelak.
+ 
+\textit{Cengkir Gading}
+
+Bayi yang akan dilahirkan dilambangkan dengan kehadiran sepasang “cengkir gading”, yaitu kelapa yang berwarna kuning gading. Pada cengkir tersebut terdapat lukisan, yaitu Dewi Kamaratih atau Sembadra, lambang seorang wanita, dan lukisan Dewa Kamajaya atau Arjuna, lambang seorang pria. Maknanya jika kelak bayi yang lahir adalah laki-laki maka diharapkan akan tampan, bijaksana, pintar dan mempunyai sifat luhur seperti Dewa Kamajaya, dan jika kelak bayi yang lahir adalah perempuan, diharapkan cantik lahir dan batin, cerdas dan mempunyai sifat-sifat luhur seperti Dewi Kamaratih.
+ 
+{\bf Upacara Ganti 7 Busana}
+
+Dalam upacara mitoni tradisi Jawa, calon Ibu harus berbusana 7 macam kain, hal itu melambangkan 7 macam keutamaan hidup yang harus dimiliki setiap manusia baru yang akan lahir di dunia ini dengan perantaraan ibunya. Ke-7 keutamaan hidup, yang akan menjadi “busana” anak yang akan lahir nanti, diungkapkan dengan 7 macam kain batik tradisionil jawa dan 7 warna kebaya yang menyertainya. Ke-7 kain itu, masing masing memiliki makna dan keseluruhannya melambangkan cita-cita dan tuntunan hidup yang harus diberikan oleh setiap orang tua dalam mendidik anak-anaknya.
+ 
+Sesuai tradisi, setiap kali sang calon Ibu mengenakan kain dan baju, akan ditanyakan pada para hadirin apakah busana yang sedang dikenakan sudah pantas atau tidak. Atas pertanyaan tersebut, mohon dapat dijawab bersama-sama. Tradisi ini sebagai ungkapan bahwa untuk mencapai kesempurnaan hidup, kita, sebagai manusia yang lahir dari seorang ibu, harus tidak pernah puas mengenakan busana yang pantas, yaitu busana “nilai etika dan nilai pribadi”.
+ 
+\textit{Busana 1: Kain Sido Mukti}
+ 
+Jenis kain ini melambangkan “kamuktèn” atau kesejahteraan yang diharapkan akan dimiliki oleh anak yang akan lahir ini. Kain ini biasanya diapakai dalam upacara resmi yang melambangkan kebesaran pangkat dan karir seseorang. Kain ini juga sebagai ungkapan akan harapan yang mendalam, agar kehadiran anak ini akan membawa kesejahteraan dan kemakmuran bagi orang tua, keluarga dan sesamanya.
+ 
+\textit{Busana 2: Kain Wahyu Temurun}
+ 
+Jenis kain ini melambangkan turunnya benih kehidupan, yaitu anugerah Tuhan atas benih seorang anak dalam kandungan seorang Ibu. Hal ini juga mengandung harapan agar dalam kehidupan anak tersebut akan selalu dipenuhi berkat melimpah.
+
+\textit{Busana 3: Kain Sido Asih}
+ 
+Jenis kain ini melambangkan cinta suami istri sebagai dasar utama dalam menghadapi suka duka perjalanan hidup. “Asih” berarti cinta dan belas kasih. Kain ini melambangkan pengharapan orang tua bagi anak-anaknya, agar menjadi manusia yang memiliki kasih terhadap sesama. Hal ini juga menyiratkan akan ajaran iman Kristiani yang mengajarkan untuk saling mengasihi kepada sesama manusia.
+
+\textit{Busana 4: Kain Sido Drajat}
+ 
+Jenis kain ini mengandung harapan agar anak yang akan lahir nanti, akan mempunyai derajat yang tinggi dan dihormati dalam masyarakatnya.
+ 
+\textit{Busana 5: Kain Sido Dadi}
+ 
+Jenis kain ini mengandung harapan agar anak yang akan dilahirkan menjadi orang yang sukses.
+ 
+\textit{Busana 6: Kain Babon Angrem}
+ 
+Jenis kain ini melambangkan sesuatu yang berjalan dengan normal. Hal ini mengandung harapan agar proses persalinan yang akan dihadapi nanti dapat berlangsung secara alamiah.
+ 
+\textit{Busana 7: Kain Tumbar Pecah}
+ 
+Seperti “ketumbar” yang ditumpahkan dari tempatnya, demikianlah pralambang dari jenis kain ini. Makna di dalamnya mengandung harapan bahwa persalinan akan berjalan dengan lancar dan tanpa adanya suatu halangan.
+ 
+\textbf{Upacara Makan Bersama}
+ 
+Dalam tradisi Jawa, upacara makan bersama juga menjadi bagian yang penting dari rangkaian Upacara Mitoni yang diselenggarakan hari ini. Dengan makan bersama, kita diajak mensyukuri rejeki dan anugerah Tuhan, dan kita semua dipersatukan sebagai saudara dengan menyantap hidangan yang sama.
+ 
+Atas segala hidangan yang telah disediakan, baiklah kita semua mengucap syukur dengan berdoa bersama.
+ 
+ 
+Dalam upacara ini, berbagai hidangan telah disediakan dan ada beberapa diantaranya yang melambangkan nilai-nilai etika dan tradisi budaya Jawa, selain itu di dalamnya juga terkandung akan doa dan harapan. Beberapa hidangan tersebut antara lain:
+ 
+\textit{Tumpeng Sapta Nugraha}
+
+Tumpeng ini terdiri dari 7 tumpeng dalam 1 tempat yang besar. Tumpeng ini sebagai pralambang bahwa usia kandungan sudah mendekati persalinan. Selain itu dengan menyantap tumpeng ini kita berharap semoga Tuhan senantiasa mencurahkan kepada kita semua, khususnya kepada bayi yang akan lahir nantinya, 7 karunia Roh Kudus yang merupakanb anugerah keutamaan hidup yaitu kebijaksanaan, pengertian, penasihat, kekuatan, kesederhanaan, kesalehan dan ketulusan. 
+
+\textit{Air bunga telon}
+
+Mohon berkah Allah tritunggal maha kudus.
+ 
+\textit{Bubur 7 macam}
+
+Terdiri dari jenang procot-jongkong inthil, bubur candil, bubur mutiara, bubur sunsum, bubur kacang hijau, bubur ketan hitam dan bubur jagung. Ketujuh macam ini mengandung makna pengharapan akan proses persalinan yang “licin” atau lancar.
+ 
+\textit{Ketan/Jadah 7 warna}
+
+Melambangkan kebahagiaan keluarga calon bapak dan ibu bayi, dan juga keluarga besarnya, menunggu hadirnya anak yang telah diharapkan.
+ 
+\textit{Rujak}
+
+Pada bagian ini calon Ibu, akan “berjualan” rujak kepada para hadirin. Tradisi jualan rujak melambangkan harapan agar anak yang dilahirkan nanti dapat meneladani ketekunan orang tua, khususnya sang Ibu, dalam memberikan kesegaran kepada sesama, yang dilambangkan dengan segarnya rujak yang telah dibuat dari 7 macam buah-buahan.
+ 
+Para hadirin “membeli” rujak yang dijual tersebut dengan “uang-uangan” dari genteng atau dalam bahasa Jawa dinamakan “kreweng”. Hal ini mengandung makna bahwa jika kita melayani dan memberikan kebaikan kepada sesama adalah suatu nilai kehidupan yang luhur dan yang tidak bisa dibeli dengan uang.
+
+Akhirnya, semoga Ibu Maria berkenan mengunjungi keluarga ini sehingga bayi dalam kandungan \namaibu girang hatinya dan keluarga ini bisa meneladan keluarga kudus Nasareth dalam mendidik anak.
+
+Kemuliaan \dots 
+}
+
+
+\subjudul{Syahadat} 
+\BP{Saudara sekalian, kita percaya bahwa kandungan Saudara kita ini adalah anugrah Allah sebagai balasan atas cinta kasih mereka. Semoga keyakinan ini membawa kita kepada sikap takwa sejati kepada Allah. Dan marilah sekarang kita saling meneguhkan iman dan mendoakan bersama-sama Syahadat Para Rasul.}
+\BU{Aku percaya \dots}
+
+\lagu{Lagu pengantar doa Umat}
+
+
+\subjudul{DOA MOHON KARUNIA ROH KUDUS}
+\BP{Pertolongan kita pada nama Tuhan}
+\BU{Yang menjadikan langit dan bumi}
+\BP{Berharaplah hanya kepada Nya}
+\BU{Dengan penuh iman dan bakti}
+
+\BP{Marilah Berdoa
+
+Saudari kami, Ibu \namaibu Dengan penuh iman menyerahkan diri seutuhnya kepadaMu dengan menyerahkan seluruh hidupnya kepada penyelenggaraanMu. Maka dari itu, sudilah menguatkan hatinya supaya sanggup menghadapi liku-liku hidup berkeluarga dengan tabah. Lebih-lebih pada saat ini, dikala mereka menantikan kedatangan anaknya yang pertama, sudilah Engkau selalu mendampingi mereka dengan rahmatMu, demi Kristus Yesus, Tuhan kami}
+
+\BU{Amin}
+
+\BP{Ya Bapa, Santo Yohanes Pembaptis Kau penuhi Roh Kudus sejak ia dikandung ibunya. Kami mohon, sudilah pula mencurahkan Roh-Mu ke atas anak yang dikandung Ibu \namaibu ini}
+
+\BU{Amin}
+
+\BP{Datanglah ya Roh Kebijaksanaan, ajarilah hati kami agar dapat memahami, mencintai dan mengutamakan ulah kerohanian. Tolonglah kami membina sikap takwa kepadaMu, agar kelak pantas menikmati bahagia disurga selama-lamanya}
+
+\BU{Amin}
+
+\BP{Datanglah ya Roh Pengertian, Terangilah budi kami agar dapat mengerti dan menghayati amanat-Mu yang Kausampaikan lewat gereja. Tolonglah kami mengamalkannya pula kepada sesama, agar dimanapun juga Engkau dihormati dan dipuji kini dan sepanjang masa.}
+
+\BU{Amin}
+
+\BP{Datanglah ya Roh Penasihat, Dampingilah tingkah laku kami setiap hari. Semoga hati kami selalu tertuju pada kebaikan. Bebaskan kami dari yang jahat, agar akhirnya selamat sampai ke pangkuan Bapa untuk kebahagiaan selamanya.}
+
+\BU{Amin}
+
+\BP{Datanglah ya Roh Kekuatan, Teguhkanlah hati kami, supaya tetap tabah bila menghadapi cobaan. Lindungi kami dari maksud jahat dan serangan musuh. Jagalah jangan sampai kami binasa karena terpisah daripada Mu, sebab hanya Engkaulah harapan hidup kami kini dan sepanjang masa}
+
+\BU{Amin}
+
+\BP{Datanglah ya roh Kesederhanaan. Tanamkanlah kesadaran dalam hati kami, bahwa harta dunia ini akan musna. Jauhkan kami dari nafsu memburu barang duniawi. Jangan Kau biarkan kami tenggelam dalam kemewahan sampai kami melupakan Dikau, harta kami yang paling berharga di dunia kini dan akherat nanti.}
+
+\BU{Amin}
+
+\BP{Datanglah ya roh Kesalehan. Penuhilah hati kami dengan semangat hormat bakti kepada Allah. Tolonglah supaya selama hidup didunia ini kami selalu patuh kepadaNya sehingga kelak diperkenankan bersukaria dalam kebahagiaan abadi.}
+
+\BU{Amin}
+
+\BP{Datanglah ya roh Ketulusan. Jauhkanlah kami dari tingkah laku munafik atau penuh tipu daya. Semoga kami selalu bersikap jujur, karena menyadari bahwa Engkau selalu ada disamping kami, dengan demikian kami akan jauh dari tingkah laku yang tidak berkenan dihatimu}
+
+\BU{Amin}
+
+\BP{Datanglah ya roh Ketulusan. Jauhkanlah kami dari tingkah laku munafik atau penuh tipu daya. Semoga kami selalu bersikap jujur, karena menyadari bahwa Engkau selalu ada disamping kami, dengan demikian kami akan jauh dari tingkah laku yang tidak berkenan dihatimu}
+
+\BU{Amin}
+
+\BP{Marilah Berdoa, Ya Allah kami mohon dengan rendah hati, utuslah Roh Kudus memenuhi hati kami, supaya seluruh hidup kami selalu dijiwai dan digerakkan oleh-Nya, demi Kristus pengantara kami,}
+
+\BU{Amin}
+
+\subjudul{DOA MOHON BERKAT BAGI IBU HAMIL}
+\BP{Saudara-saudara, kita akan memohon berkat bagi Saudara kita yang sedang hamil ini.
+
+Umat menjawab : Suami istri yang takwa akan diberkati}
+
+\BP{Berbahagialah orang yang takwa-yang hidup sesuai dengan bimbingan Tuhan-Engkau akan menikmati hasil jerih payahmu-hidupmu akan bahagia dan sejahtera}
+
+\BU{Suami istri yang takwa akan diberkati}
+
+\BP{Istrimu subur didalam rumahmu-bagaikan pokok anggur-Anak-anakmu mengelilingi mejamu-bagaikan tunas zaitun}
+
+\BU{Suami istri yang takwa akan diberkati}
+
+\BP{Semoga Tuhan memberkati engkau dari surga-Semoga engkau menikmati kemakmuran seumur hidup dan melihat anak cucumu turun temurun}
+
+\BU{Suami istri yang takwa akan diberkati}
+
+
+\subjudul{DOA UMAT}
+\BP{Bapak, Ibu, dan Saudara semuanya, marilah kita panjatkan puji syukur dan permohonan kita kepada Allah yang mahabaik karena telah mencurahkan berkatnya bagi kita semua,}
+
+\begin{description}
+
+\item[Oleh Calon Ibu]{~
+
+Bagi Anakku yang sedang ku kandung,
+Ya Bapa berilah kesehatan dan keutuhan kepada bayiku. Sudilah memberkati agar pada saatnya nanti, proses kelahiran dapat berjalan dengan lancar, selamat, tanpa mengalami hambatan dan sesuai dengan kehendakmu.
+
+Kami Mohon \dots}
+
+
+\item[Oleh Calon Bapak]{~
+
+Bagi anak dan istriku, 
+Sudilah Bunda Maria melindungi mereka dari hari ke hari, berilah mereka selalu keselamatan dan kesehatan. Ya Bunda, tumbuhkanlah rasa tanggung jawabku agar aku kelak mampu dan dapat mendidik dan membesarkannya. Mampukan agar keluarga kami menjadi keluarga yang rukun, bersatu padu dan saling mengasihi. Berkati pekerjaanku pula agar aku dapat memberikan penghidupan yang layak bagi keluargaku
+Kami Mohon \dots}
+
+\item[Oleh Calon Bapak dan Ibu]{~
+
+Bagi anak kami,
+Semoga anak kami kelak menjadi anak yang berguna bagi masa depan gereja dan negara.
+Kami Mohon \dots}
+
+\end{description}
+
+\BP{Untuk orang yang merindukan keselamatan melalui Yesus
+Ya Bapa … bukalah jalan bagi setiap orang yang merindukan kasih Yesus namun menghadapi berbagai tantangan sudilah kiranya tuntun mereka untuk menemukan jalan mengikuti Yesus.
+
+Kami mohon \dots}
+
+\BP{Demikian Ya Bapa yang mahabaik, untaian doa dari anak-anakMU. Sudilah Engkau mengabulkan doa kami sebab hanya Engkaulah yang pantas dipuji dan dimuliakan bersama Putra dan Roh Kudus, hidup dan bertakhta, sepanjang segala masa.}
+
+\BU{Amien}
+
+\BP{Marilah kita satukan doa kita dengan doa yang diajarkan oleh Yesus sendiri
+
+Bapa kami \dots}
+
+
+
+\subjudul{DOA dan BERKAT PENUTUP}
+\BP{Marilah kita akhiri ibadat ini dengan Doa Penutup
+
+Marilah berdoa
+
+Ya Bapa yang maha baik, kami bersyukur kepada Mu atas sabda dan karunia yang sudah Kau nyatakan dalam ibadat ini, khususnya kepada Saudari \namaibu dan kandungannya. Tabahkanlah hati mereka selama menghadapi persalinan. Semoga semua berjalan lancar, tanpa hambatan apapun, karena Engkau selalu mendampingi mereka. Demi Yesus Kristus Tuhan dan pengantara kami, yang hidup dan berkuasa kini dan sepanjang masa.}
+
+\BU{Amin}
+
+\BP{Marilah kita bersama-sama memohon berkat Tuhan}
+
+\BP{Tuhan beserta kita}
+\BU{Sekarang dan selama lamanya}
+\BP{Sudilah Tuhan menguatkan, mendampingi dan memberkati Saudari …………. Dan kita semua yang hadir disini, dalam nama Bapa dan Putera dan Roh Kudus}
+\BU{Amin}
+\BP{Saudara sekalian Ibadat kita sudah selesai.}
+\BU{Syukur kepada Allah}
+
+
+
+\lagu{Lagu Penutup}
+
+\end{document} 

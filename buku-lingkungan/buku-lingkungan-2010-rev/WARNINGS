@@ -1,0 +1,19 @@
+No implementation found for style `hyperref'
+No implementation found for style `geometry'
+No implementation found for style `graphicx'
+No implementation found for style `fancyhdr'
+No implementation found for style `hhline'
+No implementation found for style `multirow'
+No implementation found for style `pst-node'
+
+*** wrap_cmd_ not defined, cannot wrap \ 
+
+? brace missing for \newedcommand
+
+? brace missing for \setlength
+
+? brace missing for \
+
+? brace missing for \multirow
+
+Failed to convert image /tmp/l2h6368/image001.ps

@@ -1,0 +1,382 @@
+\documentclass[a5paper,headsepline,titlepage,10pt,nnormalheadings,DIVcalc]{scrbook}
+\usepackage[a5paper,backref]{hyperref}
+%\usepackage{palatino}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage[bahasa]{babel}
+\usepackage{fancyhdr}
+
+%\setlength{\voffset}{0.5in}
+%\setlength{\oddsidemargin}{28pt}
+%\setlength{\evensidemargin}{0pt}
+\renewcommand{\footrulewidth}{0.5pt}
+\lhead[\fancyplain{}{\thepage}]%
+      {\fancyplain{}{\rightmark}}
+\rhead[\fancyplain{}{\leftmark}]%
+      {\fancyplain{}{\thepage}}
+\pagestyle{fancy}
+\lfoot[\emph{Ziarah Gua Maria Tritis Gunung Kidul}]{}
+\rfoot[]{\emph{Lingkungan St Petrus Maguwo}}
+\cfoot{}
+
+\newcommand{\BU}[1]{\begin{itemize} \item[U:] #1 \end{itemize}}
+\newcommand{\BI}[1]{\begin{itemize} \item[I:] #1 \end{itemize}}
+\newcommand{\BP}[1]{\begin{itemize} \item[P:] #1 \end{itemize}}
+\newcommand{\BL}[1]{\begin{itemize} \item[L:] #1 \end{itemize}}
+\title{Jalan Salib Antikorupsi}
+\author{Ziarah Gua Maria Tritis\\Lingkungan St. Petrus Maguwo}
+\date{Oktober 2009}
+\include{indohyp}
+\include{indohyp}
+
+\begin{document}
+\maketitle
+
+
+\begin{enumerate}
+\item \it{Doa Jalan Salib ini dapat dijalankan secara terpisah dengan Perayaan Ekaristi karena Doa ini merupakan salah satu olah kesalehan kristiani. Karena itu, tidak ada keharusan bahwa Jalan Salib mesti digabungkan dengan Ekaristi.}
+\item \it{Kalau Jalan Salib ini akan digabungkan dalam Perayaan Ekaristi, alangkah lebih tepat untuk menggunakan doa Jalan Salib ini sebagai salah satu alternatif untuk mengganti Pernyataan Tobat tetapi tidak dimaksudkan untuk mengganti Liturgi Sabda. Dengan demikian setelah Jalan Salib selesai dapat dilanjutkan dengan Doa Pembukaan, Liturgi Sabda, Liturgi Ekaristi dan seterusnya.}
+\item \it{Doa Bapa Kami, Salam Maria dan Kemuliaan pada setiap akhir Perhentian tidak harus didaraskan atau fakultatif..}
+\end{enumerate}
+
+
+
+
+
+Lagu Pembuka
+
+Tanda Salib dan Salam
+
+\BP{Dalam nama Bapa, dan Putera, dan Roh Kudus}
+\BU{Amin}
+\BP{Tuhan Yesus Kristus, yang telah bangkit dari alam maut menganugerah-kan rahmat pengharapan kepada kita.}
+\BU{Sekarang dan selama-lamanya}
+
+Kata Pengantar
+
+\BP{Saudara-saudari yang terkasih dalam Kristus, masihkah kita bergembira dan berbangga untuk mengikuti Kristus yang setia memanggul salib-Nya sam-pai wafat? Bisa jadi kita tidak merasa bangga lagi akan salib Tuhan. Apa yang terjadi dalam diri kita, sampai kita sendiri yang mengaku diri sebagai pengikut Kristus tidak lagi bangga, bahkan merasa terbebani bila mendengarkan sabdaNya: â€œBarangsiapa mau mengikuti Aku, Ia harus menyangkal diri dan memikul salibnya?â€ Kalau ke-gembiraan dan kebanggaan akan salib Tuhan mulai luntur, muncul tanda tanya, apakah kita sungguh-sungguh mau menjadi pengikut Kristus? Melalui doa jalan salib ini, kita akan mencoba mengubah gaya hidup kita yang lama dengan mengolah tema Aksi Puasa Pembangunan 2006 ini, \it{Budaya Bebas Korupsi}. Semoga dengan jalan salib ini, kita semakin sadar bahwa arah hidup kita di dunia bukanlah bergerak serba â€œmenanjakâ€, yakni ambisi untuk berkuasa, menjadi populer, dan ber-ambisi mengubah segala-galanya, melainkan bergerak serba \it{menurun}, yakni menjadi orang yang siap untuk melayani. Kita mau rendah hati, rela untuk berkanjang bersama orang yang berada dalam penderitaan. Itulah gaya hidup yang akan kita wujudkan seba-gaimana dihayati Yesus Kristus dalam hidupNya di tengah dunia ini. Oleh karena itu, marilah kita mengikuti Jalan salib Tuhan Yesus Kristus dengan penuh rasa syukur.}
+
+Doa Pembuka
+
+\BP{Allah Bapa yang maharahim, kami bersyukur atas kebangkitan mulia, PuteraMu Yesus Kristus dari alam maut. KebangkitanNya telah membenarkan seluruh kata dan perbuatanNya untuk mewartakan Kerajaan Allah yang penuh kasih. Oleh karena itu, kebangkitan-Nya juga meneguhkan kami supaya tidak lagi ragu-ragu menyangkal diri dan memanggul salib.}
+\BU{Kami mohon, curahkanlah Roh KudusMu ke dalam hati kami untuk menghayati misteri salib Putera-Mu, agar kami tergerak, selalu setia pada jalan salib PuteraMu. Semoga terwujudlah niat dan usaha kami untuk menjadi pelopor dalam menghadirkan kerajaanMu di tengah dunia. Demi Kristus PuteraMu Tuhan dan pengantara kami, yang hidup dan berkuasa kini dan se-panjang segala masa. Amin.}
+
+Mari kita merenungkan
+Yesus yang menjadi kurban
+karena cinta kasihNya
+
+
+
+\subsection*{Perhentian I\\
+Yesus dijatuhi hukuman mati}
+
+\BP{Kami menyembah Dikau, ya Tuhan dan bersyukur kepadaMu}
+\BU{Sebab dengan salib suciMu Engkau telah menebus dunia}
+\BL{Mengapa orang begitu cepat untuk menghakimi dan mengadili sesamanya? Yesus dihukum mati oleh para ahli Taurat, para imam kepala dan orang Yahudi, karena dinilai menghojat Allah, dan melanggar adat istiadat masyarakat dan agama Yahudi. Yesus menjadi ancaman bagi orang yang mempertahankan kemapanan dan ke-kuasaan.}
+
+--\begin{center}\dots hening sejenak \dots\end{center}-
+
+\BP{Tuhan Yesus Kristus, bisa jadi tanpa sadar kami pun memperlakukan Engkau bukan sebagai sahabat, melainkan sebagai â€œorang asingâ€ yang harus dicurigai. Akibatnya kami seringkali cepat menghakimi orang lain menurut jalan pikiran kami.}
+\BU{Ubahlah kami dengan RohMu, agar kami mampu menjadi orang yang rendah hati, berani mengakui kesalahan dan tidak suka membela diri.}
+\BP{Kasihanilah kami ya Tuhan kasihanilah kami!}
+\BU{Ya Allah, kasihanilah kami orang ber-dosa ini.}
+\BP{Bapa Kami \dots -- Salam Maria \dots}
+\BP{Kemuliaan \dots}
+
+Anak domba tak bersalah
+Ajar kami pun berpasrah
+Taat pada Bapa-Mu
+
+
+\subsection*{Perhentian II
+\\Yesus memanggul salib}
+
+\BP{Kami menyembah Dikau, ya Tuhan dan bersyukur kepadaMu}
+\BU{Sebab dengan salib suciMu Engkau telah menebus dunia}
+\BL{Mengapa Yesus memanggul salib? Tidak adakah jalan lain untuk membebaskan manusia dari kuasa dosa, kecuali jalan salibMu? Yesus yang tidak bersalah, tidak membela diri ketika dijatuhi hukuman mati dengan disalib. Maka Yesus berkata: â€œTerjadilah kehendak Bapa, bukan kehendak-Ku.â€ Kita sulit menerima salib. Kita cenderung mencari sesuatu yang menyenangkan daripada menghayati hidup dengan kerja keras yang kadang-kadang membosankan dan menyakitkan.}
+
+\begin{center}\dots hening sejenak \dots\end{center}
+
+\BP{Tuhan Yesus Kristus, salib yang Engkau pikul bukanlah sebuah nasib melainkan sebuah pilihan hidup yang dihayati dalam melaksanakan kehendak BapaMu,}
+\BU{Semoga dengan bantuan Roh KudusMu, kami mampu menyalibkan segala ambisi kami untuk menguasai, meng-atur dan mengubah orang lain serta mencari harga diri dan perlakuan yang diistimewakan}
+\BP{Kasihanilah kami ya Tuhan kasihanilah kami!}
+\BU{Ya Allah, kasihanilah kami orang ber-dosa ini.}
+\BP{Bapa Kami \dots -- Salam Maria \dots}
+\BP{Kemuliaan \dots}
+
+Kayu salib Dia panggul
+Mari kita pun memikul
+Salib kita di dunia
+
+
+\subsection*{Perhentian III
+\\Yesus jatuh untuk pertama kali}
+
+\BP{Kami menyembah Dikau, ya Tuhan dan bersyukur kepadaMu}
+\BU{Sebab dengan salib suciMu Engkau telah menebus dunia}
+\BL{Yesus jatuh karena beban salib yang dipikul sungguh berat. Beratnya salib itu akibat dosa yang kami lakukan terus menerus, tanpa ada kemauan untuk bertobat. Ketidakmauan kami bertobat itulah yang memprihatinkan Tuhan. Mengapa kita seringkali keras kepala sampai sulit untuk menyesali dosa kita dan bertobat dengan sungguh-sungguh?}
+
+\begin{center}\dots hening sejenak \dots\end{center}
+
+\BP{Tuhan Yesus Kristus, jalan menuju Golgota berbatuan dan menanjak, namun kami diam saja melihat Engkau menderita, karena dosa-dosa kami.}
+\BU{Kami mohon, utuslah Roh KudusMu agar kami peka dan mengenal diri sebagai orang berdosa yang membutuhkan pertobatan. Semoga pertobatan itu semakin mendorong kami untuk tergantung kepada Mu agar hidup kami berbuahkan kasih kepada sesama yang menderita.}
+\BP{Kasihanilah kami ya Tuhan kasihanilah kami!}
+\BU{Ya Allah, kasihanilah kami orang ber-dosa ini.}
+\BP{Bapa Kami \dots -- Salam Maria \dots}
+\BP{Kemuliaan \dots}
+
+Tuhan Yesus tolong kami
+Bila kami jatuh lagi
+Karna salib yang berat
+
+
+\subsection*{Perhentian IV
+\\Yesus berjumpa dengan IbuNya}
+
+\BP{Kami menyembah Dikau, ya Tuhan dan bersyukur kepadaMu}
+\BU{Sebab dengan salib suciMu Engkau telah menebus dunia}
+\BL{Betapa sakit dan tersayat hati Maria, menyaksikan Puteranya yang sedang menjalani hukuman mati. Padahal Ia tidak bersalah. Dalam hati Maria bertanya tanya, â€œMengapa Puteraku tidak membela diri? Takutkah Ia? Mengapa aku sebagai ibuNya tidak mampu memperjuangkan hak hidup-Nya?â€ Maria tidak berhenti pada pertanyaan itu, tetapi ia setia pada imannya, â€œTerjadilah kehendakMu menurut perkataanMu.â€ Dengan iman itulah, Bunda Maria menemani Yesus, agar tetap bertahan dan berharap kepada BapaNya dalam penderitaanNya.}
+
+\begin{center}\dots hening sejenak \dots\end{center}
+
+\BP{Tuhan Yesus Kristus, Engkau merasakan secercah harapan saat BundaMu setia hadir menemaniMu dalam perjalanan memanggul salib yang sungguh berat.}
+\BU{Kami mohon curahkanlah Roh pengharapan, agar mampu menjadi tanda pengharapan bagi sesama yang menderita, sehingga kami tidak hanya dapat membuat niat yang baik dan luhur, melainkan mewujudkannya dalam tindakan kasih.}
+\BP{Kasihanilah kami ya Tuhan kasihanilah kami!}
+\BU{Ya Allah, kasihanilah kami orang ber-dosa ini.}
+\BP{Bapa Kami \dots -- Salam Maria \dots}
+\BP{Kemuliaan \dots}
+
+O Maria Bunda kudus,
+Yang setia ikut Yesus
+Kau teladan hidupku
+
+
+\subsection*{Perhentian V
+\\Yesus ditolong Simon dari Kirene}
+
+\BP{Kami menyembah Dikau, ya Tuhan dan bersyukur kepadaMu}
+\BU{Sebab dengan salib suciMu Engkau telah menebus dunia}
+\BL{Yesus, siapakah yang peduli dengan penderitaan-Mu untuk memanggul salib, karena dosa-dosa kami? Para ahli Taurat, para imam kepala yang katanya lebih menghayati hidup keagamaannya ternyata hanya sampai di bibir saja. Meskipun demikian, masih ada orang yang bernama Simon dari Kirene berinisiatif untuk meringankan bebanMu. Sikap penuh inisiatif itu jarang ditemukan dalam diri orang jaman sekarang karena orang takut menanggung resiko dan tidak mau direpotkan dengan urusan orang miskin.}
+
+\begin{center}\dots hening sejenak \dots\end{center}
+
+\BP{Tuhan Yesus Kristus, hati dan budi kami lama kelamaan kerap kali tumpul, sehingga tidak tergerak untuk berbela rasa dengan orang yang miskin dan menderita.}
+\BU{Semoga Engkau ya Tuhan, berkenan mengutus Roh Kudus-Mu agar hati kami Kauubah menjadi hati yang lemah lembut dan peka, sehingga banyak orang yang menderita memiliki harapan baru untuk menyongsong hari esok.}
+\BP{Kasihanilah kami ya Tuhan kasihanilah kami!}
+\BU{Ya Allah, kasihanilah kami orang ber-dosa ini.}
+\BP{Bapa Kami \dots -- Salam Maria \dots}
+\BP{Kemuliaan \dots}
+
+Apapun yang kaulakukan
+Bagi para penderita
+Pada Tuhan berkenan
+
+
+\subsection*{Perhentian VI
+\\Wajah Yesus diusap oleh Veronika}
+
+\BP{Kami menyembah Dikau, ya Tuhan dan bersyukur kepadaMu}
+\BU{Sebab dengan salib suciMu Engkau telah menebus dunia}
+\BL{Sekarang ini relasi antar manusia amat sering hanya berdasarkan kepentingan dan manfaat yang sama. Itulah model relasi manusia yang dibongkar oleh Veronica dengan menunjukkan sikapnya yang lembut terhadap Yesus yang dimusuhi para imam, ahli Taurat dan orang Yahudi. Veronica menyapa Yesus dengan mengusap wajah-Nya yang terluka dan berdarah karena mahkota duri yang menancap di kepalanya.}
+
+\begin{center}\dots hening sejenak \dots\end{center}
+
+\BP{Tuhan Yesus Kristus, banyak orang menjauh dan melarikan diri, karena tidak tahan menemaniMu. Itulah gambaran jiwa kami yang menolak penderitaan, sehingga kami kurang menumbuhkembangkan sikap aktif dan terlibat untuk mengikuti jalan salibMu menuju puncak Golgota.}
+\BU{Tuhan, anugerahkanlah RohMu agar kami mau berubah menjadi orang yang mau berkanjang dengan segenap hati, budi dan jiwa kami bersama dengan sesama yang hidup nya miskin dan menderita.}
+\BP{Kasihanilah kami ya Tuhan kasihanilah kami!}
+\BU{Ya Allah, kasihanilah kami orang ber-dosa ini.}
+\BP{Bapa Kami \dots -- Salam Maria \dots}
+\BP{Kemuliaan \dots}
+
+Bila kita meringankan
+Duka orang yang sengsara
+Tuhan Allah berkenan
+
+
+\subsection*{Perhentian VII
+\\Yesus jatuh untuk kedua kalinya}
+
+\BP{Kami menyembah Dikau, ya Tuhan dan bersyukur kepadaMu}
+\BU{Sebab dengan salib suciMu Engkau telah menebus dunia}
+\BL{Yesus, aku tidak bisa membayangkan betapa perih dan pedih, pegal dan nyeri, kaki kakiMu terantuk pada batu batuan dan tanah menuju Golgota. Jalan menaik berbatuan menunjukkan jalan hidup kami yang diwarnai jatuh bangun dalam dosa yang satu dan sama. Mengapa kita terlalu yakin pada niat dan kehendak baik kita, namun rupa rupanya itu semua kerap kali tinggal kenangan di bibir saja. Mengapa kita justru malah berbuat apa yang tidak kita kehendaki?}
+\BP{Yesus, kami tidak mampu setia pada niat dan kehendak baik karena kuasa dosa yang ada dalam diri kami. Itulah beban yang Engkau pikul dalam perjuanganMu untuk menyelamatkan kami orang berdosa ini.}
+\BU{Semoga berkat Roh Kudus yang Engkau curahkan, hati kami tergerak untuk mewujudkan niat dan kehendak, yakni bersikap solider dengan mereka yang tertindas, miskin, kecil, lemah dan tersingkir.}
+\BP{Kasihanilah kami ya Tuhan kasihanilah kami!}
+\BU{Ya Allah, kasihanilah kami orang ber-dosa ini.}
+\BP{Bapa Kami \dots -- Salam Maria \dots}
+\BP{Kemuliaan \dots}
+
+Bilamana kami goyah
+Dan tercampak karna salah
+Ya Tuhan tegakkanlah
+
+
+\subsection*{Perhentian VIII
+\\Yesus menghibur perempuan-
+perempuan yang menangisinya}
+
+\BP{Kami menyembah Dikau, ya Tuhan dan bersyukur kepadaMu}
+\BU{Sebab dengan salib suciMu Engkau telah menebus dunia}
+\BP{Wajarlah bila dalam kehidupan kita muncul rasa kasihan saat melihat sesamanya atau orang yang dikagumi-nya berada dalam derita yang memilukan. Karena itu perempuan-perempuan yang menjumpai Yesus menangisi-Nya karena kasihan. Namun mengapa Yesus justru mengatakan kepada mereka supaya menangisi diri mereka sendiri saja?}
+
+\begin{center}\dots hening sejenak \dots\end{center}
+
+\BP{Yesus, Engkau tidak mengharapkan tangisan karena kasihan, melainkan menantikan sikap hati yang peduli dan mau berkanjang dengan penderitaan-Mu. Rasa kasihan bukanlah cinta yang sejati melainkan sebuah sikap hati yang seolah-olah peduli padahal dengan sikap seperti itu mereka hanya mau menutupi kelemahannya dan mencari pengakuan bahwa dirinya adalah orang yang baik.}
+\BU{Tuhan, semoga Engkau berkenan menganugerahkan RohMu, agar kami mampu menatap kelemahan kami sehingga dengan segala kekurangan kami mau solider dengan sesama yang menderita.}
+\BP{Kasihanilah kami ya Tuhan kasihanilah kami!}
+\BU{Ya Allah, kasihanilah kami orang ber-dosa ini.}
+\BP{Bapa Kami \dots -- Salam Maria \dots}
+\BP{Kemuliaan \dots}
+
+Dalam tobat yang sejati
+Kini akan kuratapi
+Dosa dan pelanggaran
+
+\subsection*{Perhentian IX
+\\Yesus jatuh untuk ketiga kalinya}
+
+\BP{Kami menyembah Dikau, ya Tuhan dan bersyukur kepadaMu}
+\BU{Sebab dengan salib suciMu Engkau telah menebus dunia}
+\BL{Yesus, mengapa kami tidak mampu untuk merasakan kejatuhan-Mu, karena memikul salib yang berat. Engkau memanggulnya karena dosa kami, yakni sikap hidup yang menuruti jalan pikiran diri sendiri daripada taat kepada kehendakMu. Ketidaktaatan itu nampak dalam sikap kami yang suka membela diri meskipun salah, mau bekerja serius kalau ada imbalan dan mau melayani bila ada untungnya.}
+
+\begin{center}\dots hening sejenak \dots\end{center}
+
+\BP{Yesus, apa kesalahan dan kejahatan-Mu kepada kami, sampai kami pun ikut membuat Engkau menderita kesakitan dengan memanggul salib? Kami sering menghitung-hitung kesalahan dan dosa orang lain, tetapi kami takut dan malu untuk mengakui segala dosa yang kami perbuat.}
+\BU{Tuhan Yesus, ajarilah kami untuk berani mengakui segala dosa yang sudah kami lakukan, agar bukan aku lagi yang hidup, melainkan Engkaulah yang hidup dalam diriku.}
+\BP{Kasihanilah kami ya Tuhan kasihanilah kami!}
+\BU{Ya Allah, kasihanilah kami orang ber-dosa ini.}
+\BP{Bapa Kami \dots -- Salam Maria \dots}
+\BP{Kemuliaan \dots}
+
+Bila hatiku gelisah
+Karma dosa dan derita
+Tangan-Mu ulurkanlah
+
+
+\subsection*{Perhentian X
+\\Pakaian Yesus ditanggalkan}
+
+\BP{Kami menyembah Dikau, ya Tuhan dan bersyukur kepadaMu}
+\BU{Sebab dengan salib suciMu Engkau telah menebus dunia}
+\BL{Mengapa para imam kepala, ahli Taurat dan para algojo masih belum puas menghujat, memfitnah, menganiaya dan menjatuhkan hukuman mati kepada Yesus? Ketidakpuasannya itu dilampiaskan dengan menelanjangi tubuh Yesus, bahkan pakaianNya pun diundi. Dalam kehidupan bersama sering terjadi pembicaraan yang menelanjangi orang yang sedang jatuh karena kelemahannya. Orang yang jatuh dalam dosa justru makin ditelanjangi kejelekannya. Begitukah gaya hidup orang beriman yang sejati?}
+
+\begin{center}\dots hening sejenak \dots\end{center}
+
+\BP{Yesus, Engkau tidak membela diri wa-laupun ditelanjangi, padahal Engkau tidak bersalah. MartabatMu sebagai anak Allah tidak lagi dihargai oleh kami orang berdosa.}
+\BU{Ya, Tuhan, semoga Engkau mencu-rahkan Roh-Mu, agar kami mampu dan tergerak untuk menjadikan kelemahan sesama kami, terutama kelemahan anggota keluarga dan rekan sekomunitas, sebagai undanganMu untuk lebih sungguh sungguh mengasihinya.}
+\BP{Kasihanilah kami ya Tuhan kasihanilah kami!}
+\BU{Ya Allah, kasihanilah kami orang ber-dosa ini.}
+\BP{Bapa Kami \dots -- Salam Maria \dots}
+\BP{Kemuliaan \dots}
+
+Pakaian Mu dibagikan
+Martabat Mu direndahkan
+Kautinggikan harkatku
+
+\subsection*{Perhentian XI
+\\Yesus disalibkan}
+
+\BP{Kami menyembah Dikau, ya Tuhan dan bersyukur kepadaMu}
+\BU{Sebab dengan salib suciMu Engkau telah menebus dunia}
+\BL{Yesus, setelah Engkau ditelanjangi, rasanya tidak ada yang dapat dipertahankan lagi. Ngeri rasanya menemani Engkau yang menderita, bagaikan lembu yang diberangus siap masuk ke pembantaian. Tidak ada lagi masa depan, tak ada lagi hak membela diri, tak ada kebebasan untuk menentukan jalan hidupMu. Kini Engkau terlentang, dipaku pada kedua pergelangan tangan dan kaki-Mu. Engkau mengerang kesakitan, namun tidak ada usaha sedikitpun untuk menghindar. Itukah balasan manusia atas kasihMu yang tak terhingga?}
+
+\begin{center}\dots hening sejenak \dots\end{center}
+
+\BP{Yesus, betapa malu diri kami. Begitu picik dan sempit jalan pikiran kami, sampai kami menyalibkan Engkau yang tidak bersalah. Kami pendosa yang berlagak sebagai orang saleh dan benar, yang tidak perlu bertobat.}
+\BU{Tuhan, semoga Engkau menganuge-rahkan rahmat pertobatan agar kami mau menyalibkan segala ambisi untuk mencari enaknya sendiri, diistimewakan dan menguasai orang lain.}
+\BP{Kasihanilah kami ya Tuhan kasihanilah kami!}
+\BU{Ya Allah, kasihanilah kami orang ber-dosa ini.}
+\BP{Bapa Kami \dots -- Salam Maria \dots}
+\BP{Kemuliaan \dots}
+
+Dari salib Kau melihat
+Tak terbilang yang menghujat
+Berapakah yang taat
+
+
+\subsection*{Perhentian XII
+\\Yesus mati disalib}
+
+\BP{Kami menyembah Dikau, ya Tuhan dan bersyukur kepadaMu}
+\BU{Sebab dengan salib suciMu Engkau telah menebus dunia}
+\BL{Yesusâ€¦habis sudah tenaga-Mu. Darah dan air mengucur dari luka-luka di kepala, punggung, kaki dan sekujur badanMu. Engkau tidak bertahan lama bergantung di kayu salib. Aku mendengar suara-Mu berseru nyaring, Eloi ... Eloi ... lama sabakthani .... Allah-Ku,... ya Allah-Ku .... mengapa Engkau meninggalkan Aku?â€ Lalu, tertunduklah lemas kepala-Mu tak lagi berdaya...! Engkau wafat!
+\\
+Marilah kita berlutut}
+
+\BL{Yesus, miris rasanya mendengar Engkau berteriak pilu begitu menyayat....serasa tiada asa lagi kan bertunas kembali. Hanya ada kegelapan, kehampaan dan kekeringan hidup manusia karena dosa yang menyelimuti akhir hidupMu. Itulah perjuanganMu tiada henti untuk menebus dosa kami yang bertimbun-timbun.
+Akankah kematianMu menjadi akhir segalanya? Tentu tidak, karena Engkau sendiri bersabda: â€œBiji gandum yang tidak mati dan jatuh ke tanah tidak akan berbuah banyak!â€ Demikian pula kematianMu, kan membuahkan iman, harapan dan kasih.}
+
+\begin{center}\dots hening sejenak \dots\end{center}
+
+\BP{Yesus, Tuhan kami, dengan kematianMu di kayu salib, Engkau telah bertindak menjadi Imam Agung dan kurban persembahan yang abadi bagi Allah Bapa. Itulah persembahanMu yang sejati dan tak tergantikan oleh kurban manapun juga.}
+\BU{Ya Tuhan, semoga Engkau berkenan menerima persembahan seluruh jiwa dan raga kami yang mudah jatuh dalam dosa. Persatukanlah kami dengan kematian Kristus, agar boleh berharap mengalami kebangkitan bersama dengan-Nya kelak pada akhir zaman.}
+\BP{Kasihanilah kami ya Tuhan kasihanilah kami!}
+\BU{Ya Allah, kasihanilah kami orang ber-dosa ini.}
+\BP{Bapa Kami \dots -- Salam Maria \dots}
+\BP{Kemuliaan \dots}
+
+Biji mati menghasilkan
+Buah yang berkelimpahan
+wafatMu menghidupkan
+
+
+\subsection*{Perhentian XIII
+\\Yesus diturunkan dari salib}
+
+\BP{Kami menyembah Dikau, ya Tuhan dan bersyukur kepadaMu}
+\BU{Sebab dengan salib suciMu Engkau telah menebus dunia}
+\BL{Yesus, dalam keheningan kesunyian tak berbatas, BundaMu, Maria, setia menemani Engkau dengan hati hancur. Semua terasa kering kerontang dan gelap. Dalam kekeringan dan kegelapan hidup itu, Yusuf dari Arimatea mau terlibat dalam peristiwa wafatMu. Ia menurunkan Engkau dari salib lalu menyerahkan Engkau ke pangkuan BundaMu, Maria. Dengan penuh keibuan, Ia memeluk erat tubuhMu. Bunda Maria meneteskan air mata! Ia menangis karena merasa tidak ada lagi harapan yang mampu menghiburnya. Adakah harapan akan bertunas lagi? Walau tidak ada alasan untuk berharap Bunda Maria tetap menyandarkan hidupnya kepada Tuhan, â€œterjadilah kehendakMu menurut perkataanMuâ€. Itulah sikap keibuan BundaMu yang menguatkan dan meneguhkan Yohanes, Yakobus serta Maria Magdalena dalam keputusasaannya karena ditinggalkan Gurunya.}
+
+\begin{center}\dots hening sejenak \dots\end{center}
+
+\BP{Tuhan Yesus, setelah Engkau wafat, lambungMu ditusuk tombak, sehingga darah dan air menyirami bumi yang kering akan kasih akibat sikap manusia yang menolak kasih-Mu.}
+\BU{Semoga Engkau menganugerahi kami Roh kasihMu agar kami yang telah ditebus oleh darah muliaMu, senantiasa belajar menerima cinta-Mu dan menghadirkannya bagi sesama.}
+\BP{Kasihanilah kami ya Tuhan kasihanilah kami!}
+\BU{Ya Allah, kasihanilah kami orang ber-dosa ini.}
+\BP{Bapa Kami \dots -- Salam Maria \dots}
+\BP{Kemuliaan \dots}
+
+Salib tanda kehinaan
+Jadi lambang kemenangan
+Karâ€™na Tuhan tâ€™lah menang
+
+
+\subsection*{Perhentian XIV
+\\Yesus dimakamkan}
+
+\BP{Kami menyembah Dikau, ya Tuhan dan bersyukur kepadaMu}
+\BU{Sebab dengan salib suciMu Engkau telah menebus dunia}
+\BL{Yesus, kini rasanya, setelah Engkau dimakamkan, tidak ada harapan hidup kan bersinar kembali. Akankah kebangkitan pada hari ketiga sebagaimana dikatakan sewaktu hidupNya akan menjadi kenyataan? Dengan dimakamkan, Yesus mengalami kegelapan kematian bersama dengan manusia berdosa. Itulah tindakan Yesus yang sehati seperasaan, dan senasib sepenanggungan dengan umat manusia.}
+
+-\begin{center}\dots hening sejenak \dots\end{center}
+
+\BP{Allah Bapa, PuteraMu telah mengalami kematian bersama dengan manusia, agar memberikan harapan baru, yakni hidup kekal bersama dengan Yesus pada akhir zaman nanti.}
+\BU{Kami mohon ya Bapa, utuslah RohMu agar mengajar kami untuk tidak segan segan lagi belajar mati, yakni belajar melepaskan ambisi untuk mencari jalan pintas dalam segala hal, mencari popularitas dan menguasai orang lain demi kepentingan dirinya sendiri.}
+\BP{Kasihanilah kami ya Tuhan kasihanilah kami!}
+\BU{Ya Allah, kasihanilah kami orang ber-dosa ini.}
+\BP{Bapa Kami \dots -- Salam Maria \dots}
+\BP{Kemuliaan \dots}
+
+Tuhan Yesus dimakamkan,
+Masuk alam kematian
+Sampai bangkit mulia
+
+Penutup
+
+Doa Penutup
+
+\BP{Terpujilah Kristus Tuhan, Raja mulia dan kekal}
+\BU{Terpujilah Kristus Tuhan, Raja mulia dan kekal}
+\BP{Allah Bapa kami yang maharahim, kami bersyukur dan bangga akan salib Tuhan Yesus Kristus. PenderitaanNya di salib telah diterima Bapa dengan membangkitkanNya dari antara orang mati. Kebangkitan itulah yang meneguhkan kami untuk tidak lagi takut memanggul salib, melainkan menjadikan salib sebagai jalan dan gaya hidup kami sebagai orang beriman.}
+\BU{Semoga ibadat Jalan Salib ini semakin menggerakkan kami untuk membangun budaya kasih dengan hidup jujur, sederhana, rendah hati dan kerelaan saling melayani dalam kasih. Demi Kristus Tuhan dan pengantara kami. Amin.}
+
+Berkat dan Pengutusan
+
+\BP{Tuhan sertamu.}
+\BU{Dan sertamu juga}.
+\BP{Semoga kita dan segala niat serta usaha kita untuk menjalani laku tobat pada masa Prapaskah ini dilindungi, dilimpahi dan dibimbing oleh berkat Allah yang mahakuasa, dalam nama Bapa dan Pu-tera dan Roh Kudus.}
+\BU{Amin}
+
+Lagu Penutup
+
+\end{document}

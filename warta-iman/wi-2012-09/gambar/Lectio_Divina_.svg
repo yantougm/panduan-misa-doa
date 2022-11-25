@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   width="520"
+   height="520"
+   version="1.0"
+   sodipodi:docname="Lectio Divina .svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Wappen der Gemeinde Wallenhorst</dc:title>
+        <dc:date>1973</dc:date>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs5">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective9" />
+  </defs>
+  <sodipodi:namedview
+     inkscape:window-height="967"
+     inkscape:window-width="1280"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     guidetolerance="10.0"
+     gridtolerance="10.0"
+     objecttolerance="10.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="266.05436"
+     inkscape:cy="271.31731"
+     inkscape:window-x="-5"
+     inkscape:window-y="-3"
+     inkscape:current-layer="svg2" />
+  <g
+     id="g2452">
+    <path
+       id="ring"
+       d="M 260,18.219148 C 121.90188,18.219148 9.82225,126.53697 9.82225,260 C 9.82225,393.46303 121.90188,501.78085 260,501.78085 C 398.09812,501.78085 510.17775,393.46303 510.17775,260 C 510.17775,126.53697 398.09812,18.219148 260,18.219148 z M 260,89.480872 C 357.39549,89.480872 436.44115,165.87344 436.44115,260 C 436.44118,354.12656 357.39551,430.51913 260,430.51913 C 162.60447,430.51913 83.55885,354.12656 83.55885,260 C 83.55885,165.87344 162.60449,89.480872 260,89.480872 z"
+       style="fill:#ff2a2a;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5.17775726;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <path
+       sodipodi:nodetypes="ccccc"
+       id="raute1"
+       d="M 4.0156717,4.3692289 L 177.78857,36.168273 L 209.38364,211.06302 L 35.610744,179.26397 L 4.0156717,4.3692289 z"
+       style="fill:#ffe680;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:6.33937883000000024;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <path
+       sodipodi:nodetypes="ccccc"
+       id="raute2"
+       d="M 515.98433,4.3692289 L 484.38926,179.26397 L 310.61636,211.06302 L 342.21143,36.168273 L 515.98433,4.3692289 z"
+       style="fill:#ffe680;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:6.33937883000000024;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <path
+       sodipodi:nodetypes="ccccc"
+       id="raute3"
+       d="M 518.78108,517.0133 L 342.66851,485.00644 L 310.64804,308.96866 L 486.76061,340.97553 L 518.78108,517.0133 z"
+       style="fill:#ffe680;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:6.40273380000000003;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <path
+       sodipodi:nodetypes="ccccc"
+       id="raute4"
+       d="M 5.4297449,517.04512 L 36.807289,340.9535 L 209.38378,308.93684 L 178.00624,485.02847 L 5.4297449,517.04512 z"
+       style="fill:#ffe680;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:6.33909798000000002;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <text
+       transform="scale(0.8324821,1.201227)"
+       sodipodi:linespacing="125%"
+       id="text2396"
+       y="237.46265"
+       x="141.44368"
+       style="font-size:57.81926346px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter Bold Italic"
+       xml:space="preserve"><tspan
+         y="237.46265"
+         x="141.44368"
+         id="tspan2398"
+         sodipodi:role="line">Lectio Divina</tspan></text>
+    <text
+       transform="matrix(0.7252895,0.688444,-0.688444,0.7252895,0,0)"
+       sodipodi:linespacing="100%"
+       id="text2404"
+       y="15.493193"
+       x="94.949509"
+       style="font-size:40px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter Bold Italic"
+       xml:space="preserve"><tspan
+         style="font-size:40px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#008000;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter Bold Italic"
+         y="15.493193"
+         x="94.949509"
+         id="tspan2406"
+         sodipodi:role="line">Lectio</tspan></text>
+    <text
+       transform="matrix(0.6877201,-0.725976,0.725976,0.6877201,0,0)"
+       sodipodi:linespacing="100%"
+       id="text2408"
+       y="384.51221"
+       x="119.80508"
+       style="font-size:40px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter Bold Italic"
+       xml:space="preserve"><tspan
+         y="384.51221"
+         x="119.80508"
+         id="tspan2410"
+         sodipodi:role="line">Meditatio</tspan></text>
+    <text
+       transform="matrix(0.7673036,0.6412841,-0.6412841,0.7673036,0,0)"
+       sodipodi:linespacing="100%"
+       id="text2412"
+       y="62.697269"
+       x="528.78314"
+       style="font-size:40.00000381px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter Bold Italic"
+       xml:space="preserve"><tspan
+         y="62.697269"
+         x="528.78314"
+         id="tspan2414"
+         sodipodi:role="line">Oratio</tspan></text>
+    <text
+       transform="matrix(0.6821787,-0.7311855,0.7311855,0.6821787,0,0)"
+       sodipodi:linespacing="100%"
+       id="text2416"
+       y="372.90839"
+       x="-350.86526"
+       style="font-size:40px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter Bold Italic"
+       xml:space="preserve"><tspan
+         y="372.90839"
+         x="-350.86526"
+         id="tspan2418"
+         sodipodi:role="line">Contemplatio</tspan></text>
+  </g>
+</svg>

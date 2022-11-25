@@ -1,0 +1,404 @@
+\documentclass[titlepage,10pt,openany]{scrbook}
+\usepackage[papersize={107.5mm,148.5mm},twoside,bindingoffset=0.5cm,hmargin={1cm,1cm},				vmargin={1.5cm,1.5cm},footskip=0.5cm,driver=dvipdfm]{geometry}
+
+%\usepackage[papersize={148.5mm,215mm},twoside,bindingoffset=0.5cm,hmargin={1cm,1cm},				vmargin={1.5cm,1.5cm},footskip=0.5cm,driver=dvipdfm]{geometry}
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{url}
+\usepackage[svgnames]{xcolor}
+%\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage[bahasa]{babel}
+\usepackage{fancyhdr}
+\usepackage{pifont}
+\usepackage{microtype}
+\usepackage{pst-text}
+\usepackage{palatino}
+\usepackage{marvosym}
+\usepackage{pdfpages}
+\usepackage{hyphenat}
+\usepackage{tikz}
+\usepackage{pdfcolmk}
+
+
+\makeatletter
+%%%% light series
+%% e.g., kernel doc, section s: line 12 or thereabouts
+\DeclareRobustCommand\ltseries
+{\not@math@alphabet\ltseries\relax
+	\fontseries\ltdefault\selectfont}
+%% e.g., kernel doc, section t: line 32 or thereabouts
+\newcommand{\ltdefault}{l}
+%% e.g., kernel doc, section v: line 19 or thereabouts
+
+\DeclareTextFontCommand{\textlt}{\ltseries}
+% heavy(bold) series
+\DeclareRobustCommand\hbseries
+{\not@math@alphabet\hbseries\relax
+	\fontseries\hbdefault\selectfont}
+\newcommand{\hbdefault}{hb}
+\DeclareTextFontCommand{\texthb}{\hbseries}
+\makeatother
+
+
+\renewcommand{\footrulewidth}{0.5pt}
+\lhead[\fancyplain{}{\thepage}]%
+      {\fancyplain{}{\rightmark}}
+\rhead[\fancyplain{}{\leftmark}]%
+      {\fancyplain{}{\thepage}}
+\pagestyle{fancy}
+
+\lfoot[\emph{\footnotesize Misa Peringatan 2 tahun \namaalm}]{}
+\rfoot[]{\emph{\footnotesize Misa Peringatan 2 tahun \namaalm}}
+\cfoot{}
+
+\makeatletter
+\newcommand{\judul}[1]{%
+  {\parindent \z@ \centering 
+    \interlinepenalty\@M \Large \bfseries #1\par\nobreak \vskip 20\p@ }}
+\newcommand{\subjudul}[1]{%
+  {\parindent \z@ 
+    \interlinepenalty\@M \bfseries #1\par\nobreak \vskip 10\p@ }}
+\newcommand{\lagu}[1]{%
+  {\parindent \z@ 
+    \interlinepenalty\@M \slshape \bfseries \normalsize \textit{#1}\par\nobreak \vskip 10\p@ }}
+\newcommand{\keterangan}[1]{%
+  {\parindent \z@  \slshape 
+    \interlinepenalty\@M \textsl{#1}\par\nobreak  \vskip 5\p@}}
+
+\renewenvironment{description}
+               {\list{}{\labelwidth\z@ \itemindent-\leftmargin
+                        \let\makelabel\descriptionlabel}}
+               {\endlist}
+\renewcommand*\descriptionlabel[1]{\hspace\labelsep 
+                                \normalfont\bfseries #1 }
+
+
+\makeatother
+
+\newcommand{\BU}[1]{\begin{itemize} \item[U:] #1 \end{itemize}}
+\newcommand{\BI}[1]{\begin{itemize} \item[I:] #1 \end{itemize}}
+\newcommand{\BIU}[1]{\begin{itemize} \item[I+U:] #1 \end{itemize}}
+\newcommand{\BPU}[1]{\begin{itemize} \item[P+U:] #1 \end{itemize}}
+\newcommand{\BP}[1]{\begin{itemize} \item[P:] #1 \end{itemize}}
+\newcommand{\inputlagu}[1]{\itshape{\input{#1}}}
+\newcommand{\namaalm}{Bapak Vincentius Fererius Parlan }
+\newcommand{\namaromo}{Rm. Augustinus Toto Supriyanto. Pr}
+
+\title{Misa Peringatan 2 Tahun}
+\author{\namaalm}
+\date{oleh \\ Rm \namaromo\\27 Mei 2017}
+\input{../../indohyp}
+\DeclareFixedFont{\PT}{T1}{ppl}{b}{it}{0.5in}
+\DeclareFixedFont{\PTsmall}{T1}{ppl}{b}{it}{0.2in}
+\DeclareFixedFont{\PTsmallest}{T1}{ppl}{b}{it}{0.15in}
+\DeclareFixedFont{\PTtext}{T1}{ppl}{b}{it}{11pt}
+\DeclareFixedFont{\Logo}{T1}{pbk}{m}{n}{0.3in}
+
+\hyphenation{me-nyi-ap-kan pan-jat-kan se-jah-te-ra Par-lan o-rang bang-kit me-ma-suki me-nga-sih-ani}
+\begin{document}
+%\maketitle
+\thispagestyle{empty}
+%\begin{pspicture}(8cm,10cm)
+%\psset{unit=1cm}
+%\rput[cb](4,10){\PTsmall {EKARISTI}}
+%\rput[cb](4,9){\PTsmall {PERINGATAN 100 HARI}}
+%\rput[cb](4,8){\PTsmall {\namaalm}}
+%\rput[cb](4,3){\PTsmallest {oleh}} 
+%\rput[cb](4,2.5){\PTsmallest {Rm \namaromo}}
+%\rput[cb](4,1){\PTsmallest {27 September 2015}}
+%\end{pspicture}
+
+%\input{misa-2-tahun-vfp-cover}
+\begin{center}
+\includegraphics[scale=0.39005]{kover-ekaristi-2-tahun.png}
+\end{center}
+
+%\titleRMMH
+
+\section*{RITUS PEMBUKA} 
+
+ 
+
+\lagu{Lagu Pembuka}  
+\input{../../lagu/bila-kau-pergi} 
+
+\subjudul{Tanda Salib} 
+
+\BI{Demi nama  Bapa dan Putera dan Roh Kudus}
+
+\BU{Amin}
+
+ 
+
+\subjudul{Salam}
+
+\BI{Semoga kasih karunia, rahmat dan damai sejahtera dari 
+Allah Bapa dan dari PuteraNya Yesus Kristus beserta 
+saudara.} 
+
+\BU{Sekarang dan selama-lamanya.}
+
+ 
+
+\subjudul{Pengantar}
+
+\BI{Saudara-saudari yang terkasih, kita berkumpul bersama keluarga Ibu Waljiyah untuk mengenangkan belas kasih dan kemurahan hati Allah. Secara khusus kita ingin berdoa untuk saudara kita \namaalm yang telah dua tahun menghadap Allah Bapa di surga. Doa peringatan arwah seperti sekarang ini merupakan ungkapan pengharapan iman kita akan kehadiran Tahun Rahmat Tuhan, masa pembebasan bagi saudara kita itu. Pada peringatan arwah 2 tahun ini kita ingin merenungkan iman kita akan Allah Sumber Sukacita Sejati.
+
+Semoga saudara kita \namaalm boleh menikmati sukacita sejati dan abadi di surga dan keluarga yang ditinggalkan serta kita semua juga mengalami kegembiraan sejati dalam kehidupan sehari-hari. Marilah memasuki perayaan ini dengan hati yang terbuka dan terarah kepada Allah. Kita mohon belas kasihan Allah atas segala dosa dan kelemahan kita.}
+
+
+\subjudul{Tobat}
+
+\BI{Saudara-saudara, menyadari bahwa kita hanyalah serupa 
+debu bernoda di depan alas kaki Allah Bapa, marilah kita 
+bersyukur bahwa kita masih diperkenankan berdoa dan 
+bermohon kepada Allah Bapa. 
+
+Saya mengaku, \ldots \ldots
+} 
+
+
+
+\BI{Semoga Allah Bapa yang Maha Kuasa, mengasihani kita, 
+mengampuni dosa kita dan mengantar kita ke dalam 
+kehidupan kekal.}
+
+\BU{Amin}
+
+\lagu{Tuhan Kasihanilah Kami} 
+
+\subjudul{Doa Pembuka}
+
+\BI{Marilah berdoa\\
+	Allah Bapa sumber sukacita, kami telah menerima jaminan kebahagiaan abadi dalam Diri Yesus Kristus Putera-Mu. Kami serahkan hamba-Mu, \namaalm{} yang telah Engkau panggil dua tahun yang lalu dalam sukacita surgawi. Persatukanlah kami dalam pengharapan akan kebahagiaan kekal di surga, kendati masih harus berjuang di dunia ini. Bantulah kami agar memiliki sukacita sejati dan saling menghibur satu sama lain. Dengan pengantaraan Yesus Kristus PuteraMu Tuhan kami yang bersama dengan Dikau dalam persekutuan Roh Kudus hidup dan berkuasa, Allah sepanjang segala masa.}
+
+\BU{Amin}
+
+ 
+
+\section*{LITURGI SABDA} 
+
+\keterangan{Pembacaan dari Surat Paulus kepada umat di
+Korintus (2 Kor 1:3-7)}
+
+\BP{Terpujilah Allah, Bapa Tuhan kita Yesus Kristus, Bapa yang penuh belas
+	kasih dan Allah sumber segala penghiburan. Ia menghibur kami dalam
+	segala penderitaan, sehingga kami sanggup menghibur semua orang
+	yang berada dalam macam-macam penderitaan dengan penghiburan
+	yang kami terima sendiri dan Allah. Sebab seperti halnya kami
+	mendapat bagian berlimpah dalam kesengsaraan Kristus, demikian pula
+	berlimpahlah penghiburan kami oleh Kristus. Jika kami menderita, hal
+	itu menjadi penghiburan dan keselamatan kamu; jika kami dihibur,
+	maka hal itu adalah untuk penghiburan kamu, sehingga kamu beroleh
+	kekuatan untuk dengan sabar menderita kesengsaraan yang sama
+	seperti yang kami derita juga. Dan pengharapan kami akan kamu adalah
+	teguh, karena kami tahu, bahwa sama seperti kamu turut mengambil
+	bagian dalam kesengsaraan kami, kamu juga turut mengambil bagian
+	dalam penghiburan kami. 
+	
+	
+Demikianlah Sabda Tuhan.}
+
+\BU{Syukur kepada Allah}
+
+\lagu{Lagu tanggapan sabda}
+\input{../../lagu/kumohon-ya-tuhan} 
+
+\subjudul{Injil}
+
+\BI{Tuhan sertamu}
+
+\BU{dan sertamu juga} 
+
+\BI{Inilah Injil Yesus Kristus menurut Yohanes (15:9-12)}
+
+\BU{Dimuliakanlah Tuhan}
+
+\BI{\textit{Tinggallah di dalam kasih-Ku, supaya sukacitamu menjadi penuh.}
+	
+	Dalam amanat perpisahan-Nya Yesus berkata kepada murid-murid-Nya,
+	"Seperti Bapa telah mengasihi Aku, demikianlah juga Aku telah
+	mengasihi kamu; tinggallah di dalam kasih-Ku itu. Jikalau kamu
+	menuruti perintahKu kamu akan tinggal di dalam kasih-Ku, seperti Aku
+	rnenuruti perintah Bapa-Ku dan tinggal di dalarn kasih-Nya.
+	Semuanya itu Kukatakan kepadamu supaya sukacita-Ku ada di dalam
+	kamu dan sukacitamu menjadi penuh. Inilah perintah-Ku yaitu supaya
+	kamu saling mengasihi, seperti Aku telah mengasihi kamu."
+}
+
+
+\BI{Demikianlah Injil Tuhan}
+
+\BU{Terpujilah Kristus}
+
+ 
+
+\subjudul{Homili}
+
+\subjudul{Syahadat} 
+
+\subjudul{Doa Umat}
+
+\BI{Saudara-saudari, kehadiran kita bersama di sini adalah untuk mengungkapkan iman kita akan Allah sumber sukacita sejati. Marilah dengan rendah hati kita ungkapkan doa dan permohonan kita kepada Bapa:}
+% % %
+\BP{Ya Bapa, kedatangan Yesus Kristus di tengah-tengah kami menghadirkan tahun rahmat Tuhan kepada umat manusia. Semoga, peringatan dua tahun meninggalnya saudara kami \namaalm ini pun, menghadirkan rahmat bagi saudara-saudari yang ditinggalkan dan kami semua yang hadir di sini.
+
+\textit{Hening sejenak \ldots\ldots} 
+
+Marilah kita mohon :}
+
+\BU{Kabulkanlah doa kami ya Tuhan}
+
+
+\BP{Ajarkanlah kepada kami iman, harapan, dan kasih yang sejati, agar kami mampu mengalami sukacita sejati baik di dunia ini maupun dalam persekutuan para kudus sebagaimana telah dialami oleh saudara kami \namaalm ini. 
+
+\textit{Hening sejenak \ldots\ldots} 
+
+Marilah kita mohon :}
+
+\BU{Kabulkanlah doa kami ya Tuhan.}
+
+\BP{Bantulah kami untuk meyakini bahwa hidup bukanlah berakhir di dunia ini, namun tetap berlanjut dalam kehidupan abadi bersamaMu. Semoga dalam peziarahan yang penuh tantangan ini kami tetap mampu memancarkan kegembiraan dan sukacita sejati. 
+
+\textit{Hening sejenak \ldots\ldots} 
+
+Marilah kita mohon :}
+
+\BU{Kabulkanlah doa kami ya Tuhan.}
+
+\BP{Ya Bapa, bantulah kami yang masih berjuang ini untuk meneruskan teladan dan ajaran kasih Putra-Mu, Yesus Kristus di tengah-tengah dunia yang penuh tantangan ini.
+
+\textit{Hening sejenak \ldots\ldots} 
+
+Marilah kita mohon :}
+
+\BU{Kabulkanlah doa kami ya Tuhan.}
+
+\BP{Bagi semua orang yang meninggal terutama Bapak dan Ibu Karsodinomo, Bapak dan Ibu Parjosuwito, Bapak dan Ibu Siswosudarmo, Bapak Ignatius Subiyatmo, Bapak Petrus Slamet Handoko dan Ibu Monica Soehartati, serta Bapak Atun Hudori, semoga karena kerahiman Tuhan mereka diijinkan memandang
+	kemuliaan wajah Allah.
+	
+	\textit{Hening sejenak \ldots\ldots} 
+	
+	Marilah kita mohon :}
+
+\BU{Kabulkanlah doa kami ya Tuhan.}
+
+\BI{Bapa, kasih-Mu tiada batas. Kesabaran-Mu begitu besar. Semoga dalam pengharapan iman yang benar, kami mampu mewujudkan permohonan kami ini dalam limpahan rahmat-Mu. Dengan pengantaraan Kristus, Tuhan kami.}
+
+\BU{Amin}
+
+\section*{LITURGI EKARISTI}
+
+\lagu{Lagu pengantar persembahan}
+\input{../../lagu/terimalah-persembahan-kami}
+
+\BI{Kami memuji Engkau ya Bapa, Allah semesta alam, sebab 
+dari kemurahanMu kami menerima roti dan anggur yang 
+kami persembahkan ini. Inilah hasil dari bumi dan usaha 
+manusia yang bagi kami akan menjadi santapan rohani.}
+
+\BU{Terpujilah Allah selama-lamanya}
+
+\BI{Berdoalah saudara-saudara supaya persembahan kita ini 
+diterima oleh Allah Bapa yang mahakuasa.}
+
+\BU{Semoga persembahan ini diterima demi kemuliaan Tuhan 
+dan keselamatan kita serta seluruh umat Allah yang kudus.}
+
+\BI{Allah Bapa sumber kekudusan, terimalah bahan persembahan roti dananggur yang kami unjukkan untuk keselamatan hamba-Mu \namaalm. Bersama dengan keteguhan hati kami yang percaya akanbelas kasihan-Mu. Kami percayakan arwah sanak-saudara kami yang telah  berpulang,  juga   hamba-Mu  \namaalm,  yang  telahseribu   hari   menghadap-Mu   ke   dalam     pangkuan   kasih-Mu   di   surga. Dengan pengantaraan Kristus, Tuhan kami.}
+
+\BU{Amin} 
+
+\subjudul{DOA SYUKUR AGUNG}
+
+
+\subjudul{Kudus}
+
+\subjudul{Bapa Kami}
+
+\subjudul{Anak Domba Allah}
+
+\subjudul{Komuni}
+\newpage
+\subjudul{Lagu Komuni}
+\input{../../lagu/indah-rencanamu} 
+
+\subjudul{Doa sesudah komuni}
+
+\BI{Marilah berdoa: 
+	
+	Allah Bapa yang Mahabaik, kami telah menyambut rejeki surgawi pada peringatan   seribu   hari   hamba-Mu  \namaalm   berada  dalamrumah-Mu yang abadi.  Semoga berkat Ekaristi Suci ini kami bertekun dalam iman, harapan, dan kasih, dan saudara kami \namaalm itu   menjadi   pendoa   bagi   kami   yang   masih   melanjutkan   pengabdian kami. Semoga  kami  siap  siaga  selalu  menyambut kehadiranMu  yang menyelamatkan. Dengan pengantaraan Kristus, Tuhan kami.}
+
+\BU{Amin.}
+
+ 
+
+\section*{RITUS PENUTUP}
+
+\BI{Tuhan beserta kita}
+
+\BU{Sekarang dan selama-lamanya}
+
+\BI{Semoga saudara sekalian diberkati oleh Allah Yang 
+Mahakuasa \Cross ~Bapa dan Putera dan Roh Kudus.}
+
+\BU{Amin}
+
+ 
+
+\subjudul{Pengutusan}
+
+\BI{Saudara sekalian, Perayaan Ekaristi untuk memohon 
+berkat Allah Bapa bagi arwah \namaalm telah selesai.}
+
+\BU{Syukur kepada Allah}
+
+\BI{Kita diutus untuk mewartakan bahwa Tuhan Yesus adalah 
+jalan, kebangkitan dan hidup.}
+
+\BU{Amin.}
+
+ 
+
+\lagu{Lagu Penutup}
+
+\input{../../lagu/ndherek-gusti} 
+
+\newpage
+\begin{flushright}
+{\Large Ucapan terima kasih}\\
+\noindent Dengan penuh syukur dalam kasih Tuhan, kami mengucapkan banyak
+terima kasih kepada:
+\large
+
+\textbf{Romo \namaromo}\\
+yang telah berkenan memimpin perayaan ekaristi peringatan 2 tahun meninggalnya\\ \namaalm
+ini.
+
+\textbf{Koor Calista}\\
+yang telah menyemarakkan perayaan ekaristi ini.
+
+\textbf{Umat lingkungan St. Yustinus, para undangan, segenap keluarga, dan orang-orang terkasih}\\
+yang telah berkenan hadir memberikan cinta dan doa dalam perayaan
+ekaristi ini.
+
+Semoga Tuhan memberkati dan memelihara ikatan kasih\\ di antara kita semua.
+
+Amin.
+
+\bigskip 
+
+\textit{Ibu MG Waldjijah\\
+dan segenap keluarga}
+\end{flushright}
+
+\end{document} 
+
+[07:09, 5/24/2016] +62 813-2829-0020: 
+Pembk hatiku percaya, antar bacaan keheningan hati, persembahan terimalah syukur kami, Kom bagaikan rusa rindukan sungaimu, penutup Asmo Dalem Maria.
+[07:09, 5/24/2016] +62 813-2829-0020: Lagu misa tgl 4 Juni, ordinarium Lauda sion
+
+Undefined control sequence. Marilah kita mohon :}

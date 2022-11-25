@@ -1,0 +1,715 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>SUSUNAN PANITIA PERNIKAHAN :: Susunan Panitia Pernikahan yang Ideal? Y</title>
+<meta name="description" content="Upacara pernikahan yang sifatnya keluarga-wi idealnya memang melibatkan anggota keluarga atau teman-teman terdekat untuk masuk dalam daftar susunan panitia pernikahan. Selain bisa semakin mempererat silaturahmi, susunan panitia pernikahan dari orang-orang terdekat seperti keluarga dan teman juga bisa membantu untuk menghemat biaya pernikahan. " />
+<meta name="keywords" content="susunan panitia pernikahan, ketua, seksi acara, seksi konsumsi, seksi dokumentasi" />
+<meta name="language" content="indonesian" />
+
+
+<link rel="stylesheet" href="http://www.anneahira.com/css/container_article.css" type="text/css" />
+<link rel="stylesheet" href="http://www.anneahira.com/css/global.css" type="text/css" />
+<link rel="stylesheet" href="http://www.anneahira.com/css/number_slideshow.css" type="text/css"></link>
+
+<script type="text/javascript" src="http://www.anneahira.com/js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="http://www.anneahira.com/js/jquery-ui-1.8.4.custom.min.js"></script>
+<script type="text/javascript" src="http://www.anneahira.com/js/jquery.cycle.all.min.js"></script>
+<script type="text/javascript" src="http://www.anneahira.com/js/jquery.easing.compatibility.js"></script>
+<script type="text/javascript" src="http://www.anneahira.com/js/jquery.ui.stars-3.0/jquery.ui.stars.js"></script>
+<link href="http://www.anneahira.com/js/jquery.ui.stars-3.0/jquery.ui.stars.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://gettopup.com/releases/latest/top_up-min.js"></script>
+
+<script type="text/javascript" src="http://www.anneahira.com/js/fancybox/jquery.fancybox-1.3.0.pack.js"></script>
+<link href="http://www.anneahira.com/js/fancybox/jquery.fancybox-1.3.0.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="http://www.anneahira.com/js/jquery.scrollfollow.js"></script>
+<script type="text/javascript" src="http://www.anneahira.com/js/jscroller-0.4.js"></script>
+
+<script type="text/javascript" src="http://www.anneahira.com/js/java.js"></script>
+<script type="text/javascript" src="http://www.anneahira.com/js/effect.js"></script>
+<script type="text/javascript" src="http://www.anneahira.com/js/jquery.validate.js"></script>
+
+<script type="text/javascript">
+$(function(){
+	 $('#typea').scrollFollow({ relativeTo:'top',container:'mainbody',speed:700, easing:'easeInBack' } ); 
+});
+</script>
+
+<script type="text/javascript">
+
+$(document).ready(function() {	
+
+	//Get the screen height and width
+	var maskHeight = $(document).height();
+	var maskWidth = $(window).width();
+
+	//Set heigth and width to mask to fill up the whole screen
+	$('#mask').css({'width':maskWidth,'height':maskHeight});
+	
+	//transition effect		
+	$('#mask').fadeIn(1000);	
+	$('#mask').fadeTo("slow",0.8);	
+
+	//Get the window height and width
+	var winH = $(window).height();
+	var winW = $(window).width();
+		  
+	//Set the popup window to center
+	$('#dialog').css('top',  winH/2-$('#dialog').height()/2);
+	$('#dialog').css('left', winW/2-$('#dialog').width()/2);
+
+	//transition effect
+	$('#dialog').fadeIn(2000); 
+	
+	//if close button is clicked
+	$('.window .close').click(function (e) {
+		//Cancel the link behavior
+		e.preventDefault();
+		
+		$('#mask').hide();
+		$('.window').hide();
+	});		
+	
+	//if mask is clicked
+	/*$('#mask').click(function () {
+		$(this).hide();
+		$('.window').hide();
+	});	*/		
+	
+});
+</script>
+
+<script type="text/javascript"> 
+	$(document).ready(function() { 
+	  $("#form1").validate({ 
+		rules: { 
+		  name: "required", 
+		  email: {
+		  required: true, 
+		  email: true 
+		}, 
+		security_code: {
+		required: true 
+		},
+		comment: { 
+		  required: true 
+		} 
+		}, 
+		messages: { 
+		  comment: "Masukkan komentar Anda." 
+		} 
+	  }); 
+	});
+</script>   
+
+<script type="text/javascript">
+
+$(function(){
+
+	$("#stars-wrapper").stars({
+		inputType: "select",
+		disabled: true
+	});
+		
+	$("#stars-wrapper2").stars({
+		inputType: "select",
+		captionEl: $("#stars-cap"),
+		oneVoteOnly: true,
+		callback: function(ui, type, value){
+		  vaid = $("#aid").val();
+		  $.post(mainpath+"system/rate.php", { rate: value, aid: vaid },
+		   function(data){
+			 if (data=='error'){ alert('Add Rate Failed'); }
+		   });
+		}
+	});
+	
+
+	$("#stars-wrapper3").stars({
+		inputType: "select",
+		captionEl: $("#stars-cap"),
+		oneVoteOnly: true,
+		callback: function(ui, type, value){
+		  vaid = $("#aid").val();
+		  $.post(mainpath+"system/rate2.php", { rate: value, aid: vaid },
+		   function(data){
+			 if (data=='error'){ alert('Add Rate Failed'); }
+		   });
+		}
+	});
+	
+	$("#stars-wrapper4").stars({
+		inputType: "select",
+		captionEl: $("#stars-cap"),
+		oneVoteOnly: true,
+		callback: function(ui, type, value){
+		  vaid = $("#aid").val();
+		  $.post(mainpath+"system/rate3.php", { rate: value, aid: vaid },
+		   function(data){
+			 if (data=='error'){ alert('Add Rate Failed'); }
+		   });
+		}
+	});
+	
+	/*$('#typea').scrollFollow({ relativeTo:'top',container:'mainbody',speed:700, easing:'easeInBack' } );
+		
+	$('#typeb').scrollFollow({ relativeTo:'top',container:'mainbody',speed:1000, easing:'easeInBack' } );*/
+			
+});
+</script>
+
+
+<script type="text/javascript">
+
+function disableSelection(target){
+if (typeof target.onselectstart!="undefined") //IE route
+	target.onselectstart=function(){return false}
+else if (typeof target.style.MozUserSelect!="undefined") //Firefox route
+	target.style.MozUserSelect="none"
+else //All other route (ie: Opera)
+	target.onmousedown=function(){return false}
+target.style.cursor = "default"
+}
+
+</script>
+
+
+<style type="text/css">		
+#mainbody { width:1005px; margin:0 auto; min-height:1000px; overflow:hidden;}
+#typea { position: relative; }
+#typeb { position: relative; }
+
+#mask {
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:9000;
+  background-color:#000;
+  display:none;
+}
+  
+#boxes .window {
+  position:fixed;
+  left:0;
+  top:0; /*-50;*/
+  width:655px; /*500px;*/ 
+  height: 550px; /*410px;*/
+  display:none;
+  z-index:9999;
+  padding:0px;
+  margin:0px;
+}
+
+#boxes #dialog {
+  width:655px; /*500px;*/ 
+  height: 550px; /*410px;*/
+  padding:0px;
+  margin:0px;
+}
+</style>
+
+</head>
+
+<body oncontextmenu="return false;">
+
+<script type="text/javascript">
+disableSelection(document.body); 
+</script>
+<div id="mainbody">
+<div class="followme">
+			<div id="typea"><a target="_blank" href="http://www.asianbrain.com"><img border="0" src="http://www.anneahira.com/images/banner/follow-me-banner.png" /></a></div>
+	
+</div>
+<div class="rightcontent">
+	<!--<div id="header-top">
+		<div id="head-top">
+		<a href="http://www.anneahira.com/anne-ahira.htm"><img border="0" src="http://www.anneahira.com/images/templates/siapa-anne-ahira.jpg" alt="siapa anne ahira" /></a><a href="http://www.asianbrain.com/"><img border="0" src="http://www.anneahira.com/images/templates/asian-brain.jpg" alt="asian brain" /></a>
+		</div>
+	</div>-->
+	
+	<div id="header">
+		<div id="header-left"><a href="http://www.anneahira.com/"><img border="0" src="http://www.anneahira.com/images/templates/logo-anne-ahira.jpg" alt="logo anne ahira" /></a></div>
+		<div id="header-right"><!--<a href="http://www.anneahira.com/"><img border="0" src="http://www.anneahira.com/images/templates/beranda.jpg" alt="beranda" /></a>--></div>
+		<div style="clear:both;">
+	</div>
+	
+	<div style="margin-top:10px;"></div>
+	
+	<div id="nav">
+		<div id="nav-left"></div>
+		<div id="nav-middle">
+				<form style="padding:0;margin:0;" method="post" action="http://www.anneahira.com/search">
+			<strong>Cari Artikel:</strong>
+			<select class="input-text" style="width:200px;" name="sub_cat_id" onchange="get_topic3(this.value,'','4');">
+			<option value="">- - Pilih Kategori - -</option>
+								<optgroup label="Agama &amp; Kepercayaan">
+												<option value="1">Islam</option>
+														<option value="2">Katolik</option>
+														<option value="3">Kristen</option>
+														<option value="4">Hindu</option>
+														<option value="5">Budha</option>
+												</optgroup>
+										<optgroup label="Belanja">
+												<option value="6">Anak-anak &amp; Bayi</option>
+														<option value="7">Baju atau Pakaian</option>
+														<option value="8">Elektronik</option>
+														<option value="9">Makanan &amp; Minuman</option>
+														<option value="10">Mainan</option>
+												</optgroup>
+										<optgroup label="Binatang Peliharaan">
+												<option value="136">Anjing</option>
+														<option value="137">Kucing</option>
+														<option value="138">Ikan Akuarium </option>
+														<option value="139">Kura-kura</option>
+														<option value="140">Marmut</option>
+												</optgroup>
+										<optgroup label="Bisnis">
+												<option value="14">Peluang Usaha</option>
+														<option value="15">Wirausaha</option>
+														<option value="16">Bisnis Online</option>
+														<option value="17">Forex</option>
+														<option value="18">Asuransi</option>
+												</optgroup>
+										<optgroup label="Busana &amp; Aksesoris">
+												<option value="22">Pakaian</option>
+														<option value="23">Sepatu</option>
+														<option value="24">Tas</option>
+														<option value="25">Perhiasan</option>
+														<option value="26">Jam Tangan</option>
+												</optgroup>
+										<optgroup label="Elektronik">
+												<option value="27">Home Theater</option>
+														<option value="28">HP</option>
+														<option value="29">Kamera</option>
+														<option value="30">Komputer </option>
+														<option value="31">Laptop</option>
+												</optgroup>
+										<optgroup label="Hiburan">
+												<option value="38">Artis / Selebritis</option>
+														<option value="39">Cerita Dewasa</option>
+														<option value="40">Cerita Lucu</option>
+														<option value="41">Film</option>
+														<option value="42">Kisah Sejati</option>
+												</optgroup>
+										<optgroup label="Hobi">
+												<option value="49">Kerajinan Tangan</option>
+														<option value="50">Koleksi</option>
+														<option value="51">Sulam &amp; Jahit</option>
+														<option value="52">Petualangan</option>
+														<option value="53">Memancing</option>
+												</optgroup>
+										<optgroup label="Industri &amp; Perdagangan">
+												<option value="56">Perkebunan</option>
+														<option value="57">Peternakan</option>
+														<option value="58">Tekstil &amp; Garmen</option>
+														<option value="59">Pertanian</option>
+														<option value="60">Manufaktur</option>
+												</optgroup>
+										<optgroup label="Keluarga">
+												<option value="68">Bayi &amp; Balita</option>
+														<option value="69">Anak-Anak</option>
+														<option value="70">Pengasuhan</option>
+														<option value="71">Remaja</option>
+														<option value="72">Pernikahan</option>
+												</optgroup>
+										<optgroup label="Kesehatan">
+												<option value="75">Diet &amp; Nutrisi</option>
+														<option value="76">Macam-Macam Penyakit</option>
+														<option value="77">Gaya Hidup Sehat</option>
+														<option value="78">Medis</option>
+														<option value="79">Obat-Obatan</option>
+												</optgroup>
+										<optgroup label="Komputer &amp; Teknologi">
+												<option value="80">Informasi Teknologi</option>
+														<option value="81">Internet &amp; Jaringan</option>
+														<option value="82">Hardware</option>
+														<option value="83">Software</option>
+														<option value="84">Sistem Operasi</option>
+												</optgroup>
+										<optgroup label="Olah Raga">
+												<option value="87">Atletik</option>
+														<option value="88">Ketangkasan</option>
+														<option value="89">Kekuatan</option>
+														<option value="90">Kecepatan</option>
+														<option value="91">Ketepatan</option>
+												</optgroup>
+										<optgroup label="Otomotif">
+												<option value="35">Motor</option>
+														<option value="36">Mobil</option>
+														<option value="37">Suku Cadang</option>
+												</optgroup>
+										<optgroup label="Pekerjaan &amp; Karir">
+												<option value="97">Profesi</option>
+														<option value="98">Karier</option>
+														<option value="99">Training &amp; Seminar</option>
+														<option value="100">Lowongan Pekerjaan</option>
+														<option value="165">Motivasi</option>
+												</optgroup>
+										<optgroup label="Pendidikan">
+												<option value="101">Sekolah</option>
+														<option value="102">Kuliah</option>
+														<option value="103">Luar Negeri</option>
+														<option value="104">Non-Formal</option>
+														<option value="200">Beasiswa dan Informasi Pendidikan</option>
+												</optgroup>
+										<optgroup label="Cinta &amp; Persahabatan">
+												<option value="105">Novel</option>
+														<option value="106">Film</option>
+														<option value="107">Puisi</option>
+														<option value="108">Tips</option>
+														<option value="109">Souvenir</option>
+												</optgroup>
+										<optgroup label="Referensi">
+												<option value="130">Astronomi</option>
+														<option value="131">Contoh-Contoh Surat</option>
+														<option value="132">Dunia</option>
+														<option value="133">Legalitas</option>
+														<option value="134">Psikologi</option>
+												</optgroup>
+										<optgroup label="Rumah &amp; Taman">
+												<option value="121">Desain</option>
+														<option value="122">Rumah</option>
+														<option value="123">Dekorasi</option>
+														<option value="124">Berkebun</option>
+														<option value="196">Taman</option>
+												</optgroup>
+										<optgroup label="Sosial &amp; Budaya">
+												<option value="146">Suku</option>
+														<option value="147">Bahasa</option>
+														<option value="148">Sosial</option>
+														<option value="149">Budaya</option>
+														<option value="176">Seni</option>
+												</optgroup>
+										<optgroup label="Liburan &amp; Rekreasi">
+												<option value="111">Bandung</option>
+														<option value="112">Jakarta</option>
+														<option value="113">Bali</option>
+														<option value="114">Surabaya</option>
+														<option value="115">Yogyakarta</option>
+												</optgroup>
+										<optgroup label="Wanita &amp; Kecantikan">
+												<option value="126">Perawatan Wajah &amp; Tubuh</option>
+														<option value="127">Dapur</option>
+														<option value="128">Kehamilan</option>
+														<option value="129">Salon</option>
+														<option value="178">Make Up</option>
+												</optgroup>
+										<optgroup label="Catatan Harian Anne Ahira">
+												<option value="152">Jalan-Jalan</option>
+														<option value="153">Rekomendasi</option>
+														<option value="154">I Love Monday</option>
+												</optgroup>
+										<optgroup label="Berita">
+												<option value="190">Bencana</option>
+														<option value="192">Misteri Dunia</option>
+														<option value="194">Kemacetan</option>
+														<option value="195">Korupsi</option>
+														<option value="204">Tahun Baru</option>
+												</optgroup>
+										<optgroup label="Sayuran dan Buah">
+												<option value="220">sayuran</option>
+														<option value="221">buah-buahan</option>
+												</optgroup>
+							</select>
+		&nbsp; <span id="topic_id"></span> <input class="input-text" style="width:150px;" type="text" name="search_term" /> <input type="hidden" value="Cari" /><input type="image" src="http://www.anneahira.com/images/templates/tombol-cari.png" align="absbottom" /></form> 
+		<div id="siapa"><a href="http://www.anneahira.com/anne-ahira.htm"><b>Siapa Anne Ahira</b></a></div>
+		</div>
+		<div id="nav-right">
+<a href="http://www.asianbrainsupport.com"><img src="http://www.anneahira.com/images/templates/contact.jpg" border="0" alt="Asian Brain Support" /></a></div>
+	</div>
+	
+	<div style="clear:both;"></div>
+
+
+
+	<!--<script>
+	$("#boxes").load("#dialog");
+	</script> 
+
+	<div id="boxes">
+	
+	<div id="dialog" class="window">
+	<div align="right" style="background-color:#000000; height:20px; width:520px; margin:0; padding-top:3px ;padding-bottom:0px"><a href="#" class="close" style="color:#999999; padding-right:10px; padding-top:10px;font-size:10px;" />Close x</a></div>
+		</div>-->
+	
+	<!-- Mask to cover the whole screen -->
+    <!--<div id="mask"></div>	
+	</div>-->
+
+		<!--<script type='text/javascript'>
+	
+	var cid = ;
+	var cwid = ;
+	var chei = ;
+	
+	</script>
+	<script type='text/javascript' src='js/slide-client.js'></script>-->
+	<div id="yellow">
+	
+		
+	<div align="center">
+	<script type="text/javascript"><!--
+e9 = new Object();
+    e9.size = "728x90";
+//--></script>
+<script type="text/javascript" src="http://tags.expo9.exponential.com/tags/AnneAhiracom/ROS/tags.js"></script>
+	<!--<a href="http://www.asianbrain.com" target="_blank"><img src="http://www.anneahira.com/images/banner/728x90.jpg" border="0" width="728" height="90" title="Asian Brain Promo" /></a>-->
+	</div>
+	
+		<br clear="all" style="margin-bottom:20px" />
+</div>
+
+<div id="navlink">
+	<a href="http://www.anneahira.com/">AnneAhira.com</a>
+			&nbsp;<img src="http://www.anneahira.com/images/templates/panah4.gif" />&nbsp; <a href="http://www.anneahira.com/keluarga.htm">Keluarga</a>
+				&nbsp;<img src="http://www.anneahira.com/images/templates/panah4.gif" />&nbsp; <a href="http://www.anneahira.com/pernikahan.htm">Pernikahan</a>
+				&nbsp;<img src="http://www.anneahira.com/images/templates/panah4.gif" />&nbsp; <a href="http://www.anneahira.com/artikel-pernikahan.htm">Artikel Umum Pernikahan</a>
+				&nbsp;<img src="http://www.anneahira.com/images/templates/panah4.gif" />&nbsp; <a href="http://www.anneahira.com/susunan-panitia-pernikahan.htm">Susunan Panitia Pernikahan</a>
+		</div>
+
+<div id="kategori">
+
+	<div id="article-content">
+		<a class="article-title" href="http://www.anneahira.com/susunan-panitia-pernikahan.htm"><h1 id="article-title">Susunan Panitia Pernikahan yang Ideal? Ya, Keluarga dan Orang Terdekat</h1></a>
+		<div>Oleh: 
+		<!--<a href="http://www.anneahira.com/" class="blue">--><a href="https://plus.google.com/108682554424900025754?rel=author">AnneAhira.com</a> Content Team		</div><br clear="all" />
+							
+		<div id="article-text">
+							
+				
+				<p></p>
+<p><span style="font-family: arial,helvetica,sans-serif;"><span style="font-size: small;">Pernikahan merupakan <a title="peristiwa isra mi raj" href="http://www.anneahira.com/peristiwa-isra-mi-raj.htm">peristiwa</a> terpenting dalam sejarah hidup seseorang.</span><span style="font-size: small;"> Karena begitu sakralnya pernikahan, maka hampir semua orang ingin pernikahan mereka berlangsung dengan khidmat, lancar, dan tersusun dengan rapi. Ini adalah satu peristiwa yang kebanyakan orang hanya ingin melakukannya sekali saja seumur hidup. Itulah sebabnya, <strong><a title="susunan panitia pernikahan" href="http://www.anneahira.com/susunan-panitia-pernikahan.htm">susunan panitia pernikahan</a></strong> tiba-tiba akan menjadi suatu hal yang cukup penting.</span></span></p>
+<p><span style="font-family: arial,helvetica,sans-serif;"><span style="font-size: small;">Mendengar nama susunan kepanitiaan pasti mengingatkan Anda tentang sebuah acara besar yang lebih identik dengan kegiatan <a title="perguruan tinggi" href="http://www.anneahira.com/perguruan-tinggi.htm">kampus</a> atau sekolah. Nyatanya, susunan kepanitiaan juga bukan hanya berlaku untuk kegiatan semacam itu. Susunan kepanitiaan juga bisa ditemukan dalam acara-acara pernikahan. Jadi, <a title="persiapan pernikahan" href="http://www.anneahira.com/persiapan-pernikahan-16772.htm">susunan panitia pernikahan</a> juga terhitung penting, <em>lho.</em></span></span></p>
+<p><span style="font-family: arial,helvetica,sans-serif;"><span style="font-size: small;">Susunan kepanitiaan terlanjur memiliki <em>image</em> yang <a title="celana santai" href="http://www.anneahira.com/celana-santai.htm">santai</a> dan bukan untuk acara sakral seperti pernikahan. Tapi, tidak dapat dipungkiri bahwa <strong>susunan panitia pernikahan</strong> juga menjadi salah satu pendukung lancarnya sebuah acara pernikahan. Dengan merencanakan susunan panitia pernikahan secara matang, hal-hal yang memungkinkan akan mengganggu sakralnya <a title="persiapan pernikahan" href="http://www.anneahira.com/persiapan-pernikahan-16772.htm">upacara pernikahan</a> bisa sedikit diminimalisir.</span></span></p>
+<p><span style="font-family: arial,helvetica,sans-serif;"><span style="font-size: small;">Upacara pernikahan yang sifatnya keluarga-wi idealnya memang melibatkan <a title="buat rumah" href="http://www.anneahira.com/buat-rumah.htm">anggota keluarga</a> atau teman-teman terdekat untuk masuk dalam daftar susunan panitia pernikahan. Selain bisa semakin mempererat <a title="makna silaturahmi" href="http://www.anneahira.com/makna-silaturahmi.htm">silaturahmi</a>, susunan panitia pernikahan dari orang-orang terdekat seperti keluarga dan teman juga bisa membantu untuk menghemat biaya pernikahan. </span></span></p>
+<p><span style="font-family: arial,helvetica,sans-serif;"><span style="font-size: small;">Meminta orang-orang terdekat untuk masuk dalam susunan panitia pernikahan juga sebagai salah satu bentuk penghargaan kita terhadap mereka. Bahwa pernikahan adalah waktunya berbagi <a title="kasih sayang" href="http://www.anneahira.com/kasih-sayang.htm">kebahagiaan</a>, berbagi rasa deg-degan dan berbagi sensasi yang hanya dapat dirasakan ketika pernikahan itu terjadi. Menyenangkan bukan jika kita bisa membaginya dengan orang terdekat?<br /></span></span></p>
+<p><span style="font-family: arial,helvetica,sans-serif;"><strong><span style="font-size: small;">Susunan Panitia Pernikahan - Ketua</span></strong></span></p>
+<p><span style="font-family: arial,helvetica,sans-serif; font-size: small;">Membicarakan susunan panitia pernikahan yang pertama kali terpikirkan pastilah siapa yang menjadi ketuanya. Seorang ketua hendaklah dipilih seseorang yang memiliki jiwa <a title="Kepemimpinan" href="http://www.anneahira.com/kepemimpinan.htm">kepemimpinan</a> yang tinggi, tegas, supel, pandai berkomunikasi, dan yang terpenting seorang yang bijaksana. </span><span style="font-family: arial,helvetica,sans-serif; font-size: small;">Dengan begitu Ia akan menempatkan orang yang tepat di tempat yang tepat pula. Pantas rasanya jika ketua dari susunan panitia pernikahan dijabat oleh paman atau om. Atau lelaki yang dituakan.<br /></span></p>
+<p><span style="font-family: arial,helvetica,sans-serif; font-size: small;"> Hal diperlukan ketika ia melakukan pembagian <a title="makalah keselamatan kerja" href="http://www.anneahira.com/makalah-keselamatan-kerja.htm">kerja</a>. Untuk menciptakan sebuah tim yang solid yang mampu bekerjasama secara sinergis nantinya. Ketua juga harus bisa mengatur susunan panitia pernikahan. Orang yang dipilih sebagai ketua hendaknya adalah orang yang supel, pandai <a title="komunikasi antar pribadi" href="http://www.anneahira.com/komunikasi-antar-pribadi.htm">berkomunikasi</a> sehingga banyak mengenal orang dan terampil dalam memberikan perintah atau mengambil keputusan. </span></p>
+<p><span style="font-family: arial,helvetica,sans-serif; font-size: small;">Ia akan memberikan <a title="kepercayaan suku bugis" href="http://www.anneahira.com/kepercayaan-suku-bugis.htm">kepercayaan</a> pada ahlinya. Ia juga dapat mengkomunikaskan dengan baik apa yang ada di pikirannya agar tidak sampai terjadi miss komunikasi dalam susunan kepanitiaan. Keberhasilan susunan panitia pernikahan ada di tangannya, sehingga ketua panitia pernikahan haruslah orang yang bisa mengatur semuanya.<br /></span></p>
+<p><span style="font-family: arial,helvetica,sans-serif; font-size: small;">Keputusan yang diambil pun adalah keputusan yang tegas bukan keputusan yang plin-plan atau penuh keraguan. Ia harus dapat mengambil keputusan yang tepat dengan pertimbangan yang <a title="kumpulan kata-kata bijak" href="http://www.anneahira.com/kumpulan-kata-kata-bijak.htm">bijak</a> dalam pengambilan keputusannya. Hal itu sangat diperlukan agar pernikahan bisa berjalan lancar sesuai sasaran, yaitu <a title="acara pernikahan" href="http://www.anneahira.com/acara-pernikahan.htm">acara</a> pernikahan yang <a title="berat badan ideal balita" href="http://www.anneahira.com/berat-badan-ideal-balita.htm">ideal</a>. Om atau paman atau Pakdhe dalam bahasa Jawa rasanya bisa "diberi tugas" menjadi kepala dari susunan panitia pernikahan.</span></p>
+<h2><span style="font-family: arial,helvetica,sans-serif;"><strong><span style="font-size: small;">Susunan Panitia Pernikahan - Koordinator Lapangan</span></strong></span></h2>
+<p><span style="font-family: arial,helvetica,sans-serif; font-size: small;">Urutan selanjutnya dalam susunan panitia pernikahan adalah koordinator lapangan. Benar-benar terdengar seperti bercanda ya? Tapi begitulah faktanya. Dalam pernikahan, orang yang bertanggung jawab terhadap apa-apa yang terjadi di <a title="penyuluhan pertanian" href="http://www.anneahira.com/penyuluhan-pertanian-13177.htm">lapangan</a> memang sangat diperlukan. Dan tentu saja Anda yang bisa menilai, siapa anggota keluarga yang pantas menyandang "jabatan" terhormat ini.<br /></span></p>
+<p><span style="font-family: arial,helvetica,sans-serif; font-size: small;">Koordinator <a title="ukuran lapangan olahraga" href="http://www.anneahira.com/ukuran-lapangan-olahraga.htm">lapangan</a> hendaknya dipilih orang yang dinamis. Mampu menyesuaikan lingkungan dengan cepat dan membuat langkah-langkah yang tepat ketika Ia mengkoordinir semua susunan kepanitiaan. Ia memiliki peranan yang penting ketika acara pernikahan digelar. Lancar atau tidaknya acara pernikahan sangat bergantung padanya.</span></p>
+<p><span style="font-family: arial,helvetica,sans-serif; font-size: small;">Selain itu, hendaknya ia memiliki <a title="jurnal olahraga" href="http://www.anneahira.com/jurnal-olahraga.htm">wawasan</a> yang luas dan banyak keahlian. Hal ini diperlukan jika ada sesuatu ketidaksesuaian yang terjadi dari susunan kepanitiaan, maka Ia dapat mengambil alih <a title="tugas wartawan" href="http://www.anneahira.com/tugas-wartawan.htm">tugas</a> tersebut agar tidak terjadi kekacauan dan ketidakteraturan ketika acara berlangsung. Bagaimana? Sudah menemukan orang yang tepat untuk mengisi jabatan koordinator lapangan dalam susunan panitia pernikahan Anda?</span><br /><span style="font-family: arial,helvetica,sans-serif;"><strong></strong></span></p>
+<h2><span style="font-family: arial,helvetica,sans-serif;"><strong><span style="font-size: small;">Susunan Panitia Pernikahan - Seksi Acara</span></strong></span></h2>
+<p><span style="font-family: arial,helvetica,sans-serif; font-size: small;">Susunan panitia pernikahan selanjutnya yang juga takkalah penting adalah pembawa acara. Seksi acara bertugas untuk menyusun acara dari persiapan, <a title="proses pembuatan kopi" href="http://www.anneahira.com/proses-pembuatan-kopi.htm">proses</a> hingga akhir acara. Orang yang tepat untuk menjadi seksi acara adalah orang yang mengetahui keprotokoleran suatu pernikahan yang ideal. Meminta tolong pada <a title="kisah ali bin abi tholib" href="http://www.anneahira.com/kisah-ali-bin-abi-tholib.htm">sepupu</a> sepertinya tidak berlebihan. Mengingat "jabatan" ini akan lebih pas jika dipegang oleh seorang muda yang atraktif dan cenderung tidak membosankan.<br /></span></p>
+<p><span style="font-family: arial,helvetica,sans-serif; font-size: small;">Memiliki <a title="dasar-dasar pengetahuan" href="http://www.anneahira.com/dasar-dasar-pengetahuan.htm">pengetahuan</a> dan pengalaman yang cukup dalam sebuah acara pernikahan juga menjadi syarat tambahan yang harus dipenuhi pembawa acara jika mau terlibat dalam <em>susunan panitia pernikahan</em>. Dengan begitu acara pernikahan bisa menjadi acara yang berkesan baik untuk kedua mempelai maupun untuk keluarga dan seluruh tamu <a title="format undangan pernikahan" href="http://www.anneahira.com/format-undangan-pernikahan.htm">undangan</a> yang hadir.</span><br /><span style="font-family: arial,helvetica,sans-serif;"><strong></strong></span></p>
+<h2><span style="font-family: arial,helvetica,sans-serif;"><strong><span style="font-size: small;">Susunan Panitia Pernikahan - Seksi Akomodasi</span></strong></span></h2>
+<p><span style="font-family: arial,helvetica,sans-serif; font-size: small;">Ini juga menjadi "jabatan" yang takkalah pentig dalam susunan panitia pernikahan. Tugasnya adalah mempersiapkan segala hal yang berhubungan dengan akomodasi, baik <a title="gedung pernikahan" href="http://www.anneahira.com/gedung-pernikahan-6170.htm">gedung</a> maupun seluruh <a title="peralatan memasak" href="http://www.anneahira.com/peralatan-memasak.htm">peralatan</a> dan perlengkapan yang dibutuhkan dalam acara pernikahan.</span></p>
+<p><span style="font-family: arial,helvetica,sans-serif; font-size: small;">Orang yang dipilih hendaknya orang-orang yang sedikit <a title="sopan santun dalam berbicara" href="http://www.anneahira.com/sopan-santun-dalam-berbicara.htm">bicara</a> tapi banyak bekerja. Ia harus melakukan<em> survey</em> terlebih dahulu untuk memilih apa-apa saja yang dibutuhkan pada acara pernikahan tersebut. Pengecekan harus juga dilakukan oleh seksi akomodasi ini, agar ketika acara berlangsung semua <a title="alat musik jawa barat" href="http://www.anneahira.com/alat-musik-jawa-barat.htm">alat</a> dan perlangkapan cukup, dan kualitasnya juga baik. Meminta bantuan pada anggota keluarga yang terkenal cukup teliti menjadi kriteria yang pas.</span><br /><br /><span style="font-family: arial,helvetica,sans-serif;"><strong><span style="font-size: small;">Susunan anitia Pernikahan - Seksi Konsumsi</span></strong></span></p>
+<p><span style="font-family: arial,helvetica,sans-serif; font-size: small;">Seorang seksi konsumsi hendaknya orang yang <a title="pengertian internet menurut para ahli" href="http://www.anneahira.com/pengertian-internet-menurut-para-ahli-6511.htm">ahli</a> dalam masak memasak dan memiliki wawasan yang luas tentang makanan. Ia yang akan menentukan jasa <a title="bisnis catering" href="http://www.anneahira.com/bisnis-catering.htm">catering</a> apa yang akan dipilih, makanan apa saja yang akan disajikan, berapa jumlahnya, dan bagaimana penyajiannya. Urusan konsumsi, siapa lagi orang yang bisa dipercaya selain ibu-ibu. Ya, masukan tante ke dalam susunan panitia pernikahan akan sangat membantu.<br /></span></p>
+<p><span style="font-family: arial,helvetica,sans-serif; font-size: small;">Ia yang bertanggung jawab untuk penyediaan <a title="makanan untuk penderita asam urat" href="http://www.anneahira.com/makanan-untuk-penderita-asam-urat.htm">makanan</a> sebelum, pada hari H, maupun sampai akhir acara. Jangan sampai memalukan <a title="bed cover pengantin" href="http://www.anneahira.com/bed-cover-pengantin.htm">pengantin</a> dan keluarga karena makanan tidak cukup, tidak enak, atau ditampilkan dengan tidak memikat, dan tidak menggugah selera. Pastikan juga bahwa, bagian dari susunan panitia pernikahan yang satu ini memiliki selera yang tinggi terhadap makanan.</span><br /><span style="font-family: arial,helvetica,sans-serif;"><strong></strong></span></p>
+<h2><span style="font-family: arial,helvetica,sans-serif;"><strong><span style="font-size: small;">Susunan Panitia Pernikahan - Seksi Transportasi</span></strong></span></h2>
+<p><span style="font-family: arial,helvetica,sans-serif; font-size: small;">Segala hal yang berhubungan dengan <a title="mobil" href="http://www.anneahira.com/mobil-1129.htm">transportasi</a> menjadi tanggung jawabnya. Ia harus melakukan <em>survey</em>, menyediakan dan membagi-bagi penggunaan alat transportasi, terutama saat acara berlangsung. </span></p>
+<p><span style="font-family: arial,helvetica,sans-serif; font-size: small;">Jangan sampai terjadi keterlambatan atau bahkan kekurangan sarana transportasi pada saat acara berlangsung. Ia harus memastikan semua alat transportasi baik, tidak ada <a title="kerusakan tv" href="http://www.anneahira.com/kerusakan-tv.htm">kerusakan</a> dan berbahan bakar cukup. Susunan panitia pernikahan yang satu ini juga cukup penting. Percayakan pada anggota keluarga yang memiliki <a title="mobil terbaru" href="http://www.anneahira.com/mobil-terbaru.htm">kendaraan</a> dan bisa berkendara.</span><br /><span style="font-family: arial,helvetica,sans-serif;"><strong></strong></span></p>
+<h2><span style="font-family: arial,helvetica,sans-serif;"><strong><span style="font-size: small;">Susunan Panitia Pernikahan - Seksi Dokumentasi</span></strong></span></h2>
+<p><span style="font-family: arial,helvetica,sans-serif; font-size: small;">Dalam <span style="text-decoration: underline;">susunan panitia pernikahan</span>, urusan dokumentasi menjadi tanggung jawabnya. Karena pernikahan adalah peristiwa yang penting maka hendaklah terdokumentasikan dengan baik. Baik melalui <a title="cara mengedit foto" href="http://www.anneahira.com/cara-mengedit-foto.htm">foto</a> ataupun <a title="software pemotong video" href="http://www.anneahira.com/software-pemotong-video.htm">video</a>.</span><br /><span style="font-family: arial,helvetica,sans-serif; font-size: small;">Dokumentasi yang baik akan membuat sebuah pernikahan meninggalkan kesan mendalam dan tak terlupakan. Karena tersusun rapi dalam dokumentasi yang ada. Percayakan tugas ini pada anggota keluarga yang mahir <a title="teknik pemotretan" href="http://www.anneahira.com/teknik-pemotretan.htm">memotret</a>.<br /></span></p>			
+		
+		<!--<img border="0" src="images/banner/mandiri-footer-3.jpg" />-->
+
+		</div>
+		
+		<div style="clear:both;"></div>
+				<div id="bookmarks">
+			<table cellpadding="3px">
+			<tr>
+			<td align="left" width="300" class="bookmarks-red" nowrap="nowrap"><font face="Georgia">Tolong SHARE <br />artikel ini</font></td>		
+			<td align="center"><div style="margin-left:0px;width:70px;"><script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script><g:plusone></g:plusone></div></td>
+			<!--<td><div style="border-right:1px dotted #999999; height:40px; margin:0 3px 0 3px;"></div></td>-->
+			<td align="center"><div style="width:120px;margin:0px;">
+			<a href='http://www.facebook.com/sharer.php' name='fb_share' rel='nofollow' title='share' type='button_count'>Share</a><script src='http://static.ak.fbcdn.net/connect.php/js/FB.Share' type='text/javascript'/></script></a></div>
+			</td>
+			<!--<td><div style="border-right:1px dotted #999999; height:40px; margin:0 3px 0 3px;"></div></td>-->
+			<td align="center">
+			    <a href="https://twitter.com/share" class="twitter-share-button" data-via="twitterapi" data-lang="en">Share</a>
+
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	
+			</td>
+			
+						</tr>
+			</table>
+		</div>
+
+<!--<div style="margin-top:10px;margin-bottom:10px;padding:15px;border:#ccc solid 1px;background:#eee;font-size:11px;">
+Anda boleh mempublikasikan kembali tulisan di atas pada website atau blog dengan catatan : <br />
+<ol>
+	<li style="margin-bottom:5px;">Anda <span style="text-decoration:underline;">harus</span> mencantumkan sumber tulisan dengan <strong>link aktif</strong> menuju <a href=""><strong>www.AnneAhira.com</strong></a></li>
+	<li>Anda tidak mengubah baik sebagian atau pun keseluruhan tulisan <strong>TERMASUK SEMUA LINK YANG ADA DI DALAM ARTIKEL</strong> <span style="text-decoration:underline;">harus tetap ada</span> dan aktif.</li>
+</ol>
+Nama "Anne Ahira" dilindungi oleh Direktorat Jendral HAKI (Hak Kekayaan Intelektual) Republik Indonesia No.Agenda J00-2007027969
+</div>
+-->
+		<div style="margin-top:10px;"></div>
+		<img src="http://www.anneahira.com/images/templates/tulis-komentar-emas.jpg" />
+		<div style="margin-bottom:10px;"></div>
+		
+		<div id="comment-left-top"></div>
+		<div id="comment-middle-top"></div>
+		<div id="comment-right-top"></div>
+		<div style="clear:both;"></div>
+		
+		<div id="comment-content">
+			<form id="form1" name="form1" style="padding:0; margin:0;" method="post" action="http://www.anneahira.com/comment_add">
+			
+			<table border="0" cellpadding="5">
+			  <tr>
+				<td width="100" class="comment_text">Nama</td><td width="10">:</td>
+				<td><input class="input-text-comment" style="width:240px;" type="text" name="name" class="required"  /></td>
+			  </tr>
+			  <tr>
+				<td class="comment_text">Email</td><td width="10">:</td>
+				<td><input class="input-text-comment" style="width:240px;" type="text" name="email" class="required"  /></td>
+			  </tr>
+			  <tr>
+				<td valign="top" class="comment_text">Komentar</td><td width="10" valign="top">:</td>
+				<td><textarea class="input-text-comment" style="height:80px; width:240px" name="comment" class="required" ></textarea></td>
+			  </tr>
+			  <tr>
+				<td>&nbsp;</td><td>&nbsp;</td>
+				<td><img src="view/CaptchaSecurityImages.php?width=80&height=35&characters=5" align="absmiddle" /><input id="security_code" name="security_code" type="text" class="input-text-comment" style="width:40px;margin:0px 10px 0px 10px;"  class="required" /><input type="image" src="http://www.anneahira.com/images/templates/tombol-submit.png" align="absmiddle" /></td>
+				<td>&nbsp;</td>
+			  </tr>
+			  <tr>
+			    <td colspan="3">
+				<div style="margin-top:5px;font-size:11px;"><font color="#FF0000">Catatan :</font>
+				Gunakan bahasa Indonesia yang baik dan benar, jangan menggunakan terlalu banyak singkatan seperti SMS. Setiap komentar memerlukan persetujuan moderator.
+				</div>
+				</td>
+			  </tr>
+			</table>
+			<input type="hidden" name="comment_article_id" value="6941" />
+			<input type="hidden" name="submit" value="Submit" />
+			</form>
+		</div>
+		
+		<div id="comment-left-bottom"></div>
+		<div id="comment-middle-bottom"></div>
+		<div id="comment-right-bottom"></div>
+		<div style="clear:both;"></div>
+		<div style="padding-top:20px;"></div>
+		
+				
+		<div id="comment_list"></div>
+		<script type="text/javascript">load_comment('comment','6941','1');</script>
+		<br />	
+	</div>
+	
+	<div id="right-side">
+	
+	<script type="text/javascript" src="http://static.ak.connect.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php/en_US"></script>
+
+		<script type="text/javascript">FB.init("d62b8cfd955f0e280368f1e88350a6cd");</script>
+		<fb:fan profile_id="156735887976" stream="" connections="10" width="300"></fb:fan>
+		<div style="font-size:12px; padding-left:10px">
+			<a class="fblink" href="http://www.facebook.com/pages/Anne-Ahira-Asian-Brain/156735887976">Anne Ahira - Asian Brain on Facebook</a>
+<!--<script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>--><fb:like href="http://www.facebook.com/profile.php?id=100001664780692" show_faces="true" width="450"></fb:like>
+
+
+<!--<form target="_blank" action="http://www.facebook.com/addfriend.php"><input name="id" type="hidden" value="100001664780692" /><input type="image" value="Connect with me on Facebook!" src="http://images.bloganol.com/2010/03/addmefb.png" style="width:111px;height:22px;margin:0px;padding:0px;" /></form>-->
+
+<!-- Facebook Badge START -->
+	<!--<a href="http://www.facebook.com/people/Mohamed-Abouzeid/100001664780692" target="_TOP" style="font-family: &quot;lucida grande&quot;,tahoma,verdana,arial,sans-serif; font-size: 11px; font-variant: normal; font-style: normal; font-weight: normal; color: #3B5998; text-decoration: none;" title="Mohamed Abouzeid">Mohamed Abouzeid</a><br/><a href="http://www.facebook.com/people/Mohamed-Abouzeid/100001664780692" target="_TOP" title="Mohamed Abouzeid"><img src="http://badge.facebook.com/badge/100001664780692.1318.1744636745.png" width="120" height="270" style="border: 0px;" /></a><br/>-->
+<!-- Facebook Badge END -->		</div>
+
+	<div style="padding-top:20px;"></div>
+
+		
+
+	<script type="text/javascript"><!--
+	e9 = new Object();
+		e9.size = "300x250";
+	//--></script>
+	<script type="text/javascript" src="http://tags.expo9.exponential.com/tags/AnneAhiracom/ROS/tags.js"></script>
+
+	<!--<a href="http://www.asianbrain.com" target="_blank"><img src="http://www.anneahira.com/images/banner/300x250.jpg" border="0" width="300" height="250" title="Asian Brain Promo" /></a>-->
+	
+<div style="padding-top:20px;"> </div>
+	
+	
+			<div id="terkait">
+			<div id="terkait-bar">Artikel Terkait</div>
+			<div id="terkait-content">
+				<ul>
+				<li class="line"><a href="http://www.anneahira.com/nikah.htm">Nikah Mut’ah - Pelacuran di Bawah Payung Agama</a></li><li class="line"><a href="http://www.anneahira.com/tips-pengantin-baru.htm">Tips Pengantin Baru</a></li><li class="line"><a href="http://www.anneahira.com/konsultasi-perkawinan.htm">Konsultasi Perkawinan: Cinta dan Keadilan</a></li><li class="line"><a href="http://www.anneahira.com/masalah-perkawinan.htm">Selayang Pandang Masalah Perkawinan</a></li><li class="line"><a href="http://www.anneahira.com/prosesi-pernikahan.htm">Prosesi Pernikahan - Pesan Moral Tradisi Sawer</a></li><li class="line"><a href="http://www.anneahira.com/perkawinan-adat-batak.htm">Perkawinan Adat Batak: Salah Satu Upacara Terpenting Masyarakat Batak</a></li><li class="end"><a href="http://www.anneahira.com/perkawinan-adat-jawa.htm">Perkawinan Adat Jawa - 3R yang Sakral</a></li>				</ul>
+			</div>
+			<div id="terkait-bottom"></div>
+		</div>
+			<div style="padding-top:20px;"></div>
+	<div id="share">
+		<div id="share-bar">Share</div>
+		<div id="share-content">
+			<table align="center" cellpadding="7.5px">
+			<tr>
+			<td><a rel="nofollow" href="javascript:void(0);" onclick="window.open('http://www.facebook.com/share.php?u=http://www.anneahira.com/susunan-panitia-pernikahan.htm&t=Susunan Panitia Pernikahan yang Ideal? Ya, Keluarga dan Orang Terdekat'); return false;"><img src="http://www.anneahira.com/images/templates/facebook-besar.png" border="0" /><br />facebook</a></td>
+			<td><div style="border-right:1px dotted #999999; height:56px;"></div></td>
+			<td><a rel="nofollow" href="javascript:void(0);" onclick="window.open('http://twitter.com/?status=Susunan Panitia Pernikahan yang Ideal? Ya, Keluarga dan Orang Terdekat%0Dhttp://www.anneahira.com/susunan-panitia-pernikahan.htm'); return false;"><img src="http://www.anneahira.com/images/templates/twitter-besar.png" border="0" /><br />Twitter</a></td>
+			<td><div style="border-right:1px dotted #999999; height:56px;"></div></td>
+			<td><a rel="nofollow" href="javascript:void(0);" onclick="window.open('http://www.linkedin.com/shareArticle?mini=true&url=http://www.anneahira.com/susunan-panitia-pernikahan.htm&title=Susunan Panitia Pernikahan yang Ideal? Ya, Keluarga dan Orang Terdekat&summary=Upacara pernikahan yang sifatnya keluarga-wi idealnya memang melibatkan anggota keluarga atau teman-teman terdekat untuk masuk dalam daftar susunan panitia pernikahan. Selain bisa semakin mempererat silaturahmi, susunan panitia pernikahan dari orang-orang terdekat seperti keluarga dan teman juga bisa membantu untuk menghemat biaya pernikahan. &source=www.AnneAhira.com'); return false;"><img src="http://www.anneahira.com/images/templates/linkedin-besar.png" border="0" /><br />Linkedin</a></td>
+			</tr>
+			</table>
+		</div>
+	</div>	
+
+		<br clear="all" />
+	
+	
+	</div>
+	
+	
+</div>
+<hr style="clear:both;" class="hr" />
+
+<div id="footer">
+    <img src="http://www.anneahira.com/images/templates/logo-anne-ahira-kecil.png" border="0" align="left" style="margin-top:-20px; margin-left:20px; margin-right:-50px; margin-bottom:30px; " /><p><a href="http://www.anneahira.com/">Beranda</a> | <a href="http://www.asianbrainsupport.com/">Kontak Kami</a> | <a href="http://www.anneahira.com/privacy.htm">Privacy</a> | <a href="http://www.anneahira.com/artikel-sitemap.htm">Artikel Sitemap</a> | <a href="http://www.anneahira.com/sitemap.htm">Sitemap</a> | <a href="http://www.anneahira.com/rss.htm">RSS Feeds</a> | <a href="http://www.asianbrain.com">Bisnis Online</a></p>
+    <div id="footer-text">
+		<u>Kantor Pusat </u> :<br />
+		<br />
+		Jl. Bojong Sereh No.668<br />
+		Bandung 40376 Jawa Barat - INDONESIA<br />
+		<!--Telepon: (022) 5944-999, 5945-999, 5946-999 <br />
+		Fax: (022) 5947-999-->
+	</div>
+</div>
+
+<!-- Start Alexa Certify Javascript -->
+<script type="text/javascript" src="https://d31qbv1cthcecs.cloudfront.net/atrk.js"></script><script type="text/javascript">_atrk_opts = { atrk_acct: "fDXkf1agQ600Wq", domain:"anneahira.com"}; atrk ();</script><noscript><img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=fDXkf1agQ600Wq" style="display:none" height="1" width="1" alt="" /></noscript>
+<!-- End Alexa Certify Javascript -->
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-3069267-10']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+
+<!-- BEGIN: SeeVolution -->
+    <script type="text/javascript">
+    (function()
+      {
+        var ms = document.createElement("script");
+        var site = ("https:" == document.location.protocol) ? "https://c.svlu.net/cjs.aspx" : "http://c.svlu.net/cjs.aspx";
+        ms.src = site;
+        ms.setAttribute("async", "true");
+        document.documentElement.firstChild.appendChild(ms);
+      })();
+    </script>
+<!-- END: SeeVolution -->
+
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+\newcommand{\edisi}[1]{%
+\DeclareFixedFont{\PT}{T1}{ppl}{b}{}{0.7in}
+\DeclareFixedFont{\PTit}{T1}{ppl}{b}{it}{0.7in}
+\DeclareFixedFont{\PTsmall}{T1}{ppl}{b}{it}{0.25in}
+\DeclareFixedFont{\PTsmaller}{T1}{ppl}{b}{it}{0.175in}
+\DeclareFixedFont{\PTsmallest}{T1}{ppl}{b}{it}{0.15in}
+
+\begin{pspicture}(14cm,2cm)
+\rput[rb](10.35cm,3cm){\PTsmallest {#1}}
+\rput[lb](-2cm,1.5cm){\PT {WARTA IMAN}}
+\rput[lb](0cm,0.5cm){\PTsmall {Lingkungan St. Petrus Maguwo}}
+\end{pspicture}%
+}
+
+\newcounter{kgkcounter}[chapter]
+\renewcommand{\thekgkcounter}{\arabic{kgkcounter}. }
+\newcommand{\kgk}[1]{\refstepcounter{kgkcounter}\textbf{\flushleft \textbf{\thekgkcounter #1}}\\}
+
+\newcommand{\kutipan}[1]{%
+\noindent{\framebox{\parbox{10cm}{\centering\emph{#1}}}}}

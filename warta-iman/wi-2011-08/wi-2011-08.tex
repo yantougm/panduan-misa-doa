@@ -1,0 +1,40 @@
+\documentclass[a5paper,titlepage,10pt,normalheadings]{scrbook}
+\usepackage[a5paper,backref]{hyperref}
+\usepackage[papersize={148.5mm,215mm},twoside,bindingoffset=0.5cm,hmargin={2cm,2cm},
+				vmargin={2cm,2cm},footskip=1.1cm,driver=dvipdfm]{geometry}
+\usepackage{palatino}
+\usepackage{pstricks}
+\usepackage{graphicx}
+\usepackage{floatflt}
+\usepackage[bahasa]{babel} 
+\author{Lingkungan St. Petrus Maguwo}
+\title{Warta Iman}
+\setlength{\parindent}{1cm}
+\psset{unit=1mm}
+
+\newcounter{kgkcounter}[chapter]
+\renewcommand{\thekgkcounter}{\arabic{kgkcounter}. }
+\newcommand{\kgk}[1]{\refstepcounter{kgkcounter}\textbf{\flushleft \textbf{\thekgkcounter #1}}\\}
+
+\hyphenation{pe-sa-wat-pe-sa-wat}
+\hyphenation{Scho-ol}
+\hyphenation{Ho-ge}
+\hyphenation{sung-g uh}
+
+\begin{document}
+\input{cover}
+\input{00}
+\input{01}
+
+\input{../dua-perintah-cinta-kasih}
+\input{02}
+
+\input{../tujuh-karya-amal}
+\input{03}
+\input{05}
+
+\input{../hukum-emas}
+\input{04}
+\input{06}
+\input{kgk-01}
+\end{document}

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">8</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">f0d3243d-b892-42ca-9e22-e4d76f0cb215</dc:identifier>
+    <dc:title>Panduan APP 2011 Pertemuan V</dc:title>
+        <dc:creator opf:file-as="KAS, Yanto" opf:role="aut">KAS, Yohanes Suyanto</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (0.6.42) [http://calibre-ebook.com]</dc:contributor>
+        <dc:date>2011-04-03T17:00:00+00:00</dc:date>
+        <dc:language>UND</dc:language>
+        <dc:publisher>St Petrus</dc:publisher>
+        <meta content="0" name="calibre:rating"/>
+        <meta content="2011-04-03T17:00:00+00:00" name="calibre:timestamp"/>
+    </metadata>
+    <guide/>
+</package>

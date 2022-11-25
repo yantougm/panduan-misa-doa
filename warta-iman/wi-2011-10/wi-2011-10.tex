@@ -1,0 +1,50 @@
+\documentclass[a5paper,titlepage,10pt,openany]{scrbook}
+\usepackage[a5paper,backref]{hyperref}
+\usepackage[papersize={148.5mm,215mm},twoside,bindingoffset=0.5cm,hmargin={2cm,2cm},
+				vmargin={2cm,2cm},footskip=1.1cm,driver=dvipdfm]{geometry}
+\usepackage{palatino}
+\usepackage{pstricks}
+\usepackage{graphicx}
+\usepackage{floatflt}
+\usepackage[bahasa]{babel} 
+%\usepackage[pdftex]{dropping}
+\usepackage{lettrine}
+\author{Lingkungan St. Petrus Maguwo}
+\title{Warta Iman}
+\setlength{\parindent}{1cm}
+\psset{unit=1mm}
+
+\makeatletter
+\renewcommand{\@makeschapterhead}[1]{%
+  {\parindent \z@ \centering \normalfont
+    \interlinepenalty\@M \Large \bfseries #1\par\nobreak \vskip 20\p@ }}
+\renewcommand{\section}{\@startsection {section}{1}{\z@}%
+                                   {-3.5ex \@plus -1ex \@minus -.2ex}%
+                                   {2.3ex \@plus.2ex}%
+%                                   {\normalfont\normalsize\bfseries\centering}}
+                                   {\normalfont\normalsize\bfseries}}
+\renewcommand\subsection{\@startsection{subsection}{2}{\z@}%
+                                     {-3.25ex\@plus -1ex \@minus -.2ex}%
+                                     {1.5ex \@plus .2ex}%
+                                     {\normalfont\normalsize\bfseries}}
+\renewcommand\subsubsection{\@startsection{subsubsection}{3}{\parindent}%
+                                    {3.25ex \@plus1ex \@minus.2ex}%
+                                    {-1em}%
+                                    {\normalfont\normalsize\bfseries}}
+\makeatother
+\input{../indohyp}
+
+\begin{document}
+\input{cover}
+\input{redaksi}
+\input{bagaimana-menghormati-maria}
+\input{maria-dan-marta}
+\input{salam-maria-rosario}
+\input{kritis-kritik-kreatif-kegiatan}
+\input{ssssttt-ada-gosip}
+\input{birunya-langit}
+\input{sendangsono}
+\input{../filler/yohanes-kasianus}
+\input{salam-maria-berbagai-bahasa}
+\input{kgk-009-013}
+\end{document}

@@ -1,0 +1,115 @@
+\documentclass[a5paper,headsepline,titlepage,11pt,nnormalheadings,DIVcalc]{scrbook}
+\usepackage[a5paper,backref]{hyperref}
+\usepackage[papersize={165mm,215mm},twoside,bindingoffset=0.5cm,hmargin={2cm,2cm},
+				vmargin={2cm,2cm},footskip=1.1cm,driver=dvipdfm]{geometry}
+%\usepackage[papersize={148mm,215mm},twoside,bindingoffset=0.5cm,hmargin={2cm,2cm},
+%				vmargin={2cm,2cm},driver=dvipdfm]{geometry}
+%\usepackage{palatino}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage[bahasa]{babel}
+\usepackage{fancyhdr}
+\usepackage{longtable}
+\usepackage{hhline,multirow}
+\usepackage{pst-node}
+
+%\setlength{\voffset}{0.5in}
+%\setlength{\oddsidemargin}{28pt}
+%\setlength{\evensidemargin}{0pt}
+\renewcommand{\footrulewidth}{0.5pt}
+\lhead[\fancyplain{}{\thepage}]%
+      {\fancyplain{}{~}}
+\rhead[\fancyplain{}{~}]%
+      {\fancyplain{}{\thepage}}
+\pagestyle{plain}
+\lfoot[\emph{Informasi 2010}]{}
+\rfoot[]{\emph{Lingkungan St Petrus Maguwo}}
+\cfoot{}
+
+\newcommand{\BU}[1]{\begin{itemize} \item[U:] #1 \end{itemize}}
+\newcommand{\BI}[1]{\begin{itemize} \item[I:] #1 \end{itemize}}
+\newcommand{\BP}[1]{\begin{itemize} \item[P:] #1 \end{itemize}}
+\title{Informasi Lingkungan St. Petrus}
+\author{Wilayah Yohanes De Britto \\Stasi Maguwo \\Paroki Kalasan}
+\date{2010}
+\include{indohyp}
+\renewcommand*\thesection{\arabic{section}.}
+\setlength{\parindent}{0mm} 
+
+\begin{document}
+\section*{hasjashjaj}
+\newpage
+{\Large \center DOA SYUKUR 2010\\UMAT ALLAH KEUSKUPAN AGUNG SEMARANG}
+
+Allah Bapa Maha Pemurah,\\
+kami bersyukur kepada-Mu\\
+sebab Engkau senatiasa membimbing kami,\\
+seluruh umat-Mu di Keuskupan Agung Semarang,\\
+untuk bersahabat dengan-Mu,\\
+mengangkat martabat pribadi manusia,\\
+dan melestarikan keutuhan ciptaan.\\
+
+Terlebih kami bersyukur kepada-Mu\\
+atas habitus baru dalam paguyuban-paguyuban\\
+di tengah umat-Mu,\\
+yang menumbuhkembangkan semangat berbagi.\\
+Kami juga bersyukur atas keluarga-keluarga\\
+yang menjadi basis hidup beriman,\\
+atas anak-anak, remaja, dan kaum muda\\
+yang semakin terlibat dalam pengembangan umat,\\
+dan segala upaya pemberdayaan saudara-saudari kami\\
+yang kecil, lemah, miskin, tersingkir, dan difabel.\\
+
+Bersama Bunda Maria,\\
+hamba-Mu dan bunda kami,\\
+kami mohon,\\
+utuslah Roh Kudus-Mu\\
+untuk melanjutkan pekerjaan baik\\
+yang telah Engkau mulai di tengah kami\\
+agar kami dapat menjadi saksi budaya kasih dan kebenaran-Mu\\
+bagi masyarakat dan lingkungan hidup kami.\\
+
+Doa syukur dan permohonan ini\\
+kami hunjukkan kepada-Mu\\
+dengan pengantraan Kristus, Tuhan kami. Amin.
+
+\newpage
+
+\begin{center}
+Puasa Katolik
+\end{center}
+
+1=C 4/4 \hspace{3cm} D. Bambang Sutrisno, Pr.
+
+
+\begin{tabular}{l|l|l}
+$\overline{5~~~5}~$&$~3~~~\overline{.~~~5}~~~\overline{6~~~5}~~~\overline{6~~~5}~~$&$~~3~~~.~~~.$\\
+\multicolumn{3}{l}{Me-nu-ju ~~~~~~pe-ra-ya-~an ~Pas~-~ka}\\
+\multicolumn{3}{l}{Per-ta-ma ~~~~~memperbanyak do~-~a}\\
+\\
+$\overline{5~~~5}~$&$~3~~~\overline{.~~~5}~~~\overline{6~~~5}~~~\overline{4~~~3}~~$&$~~2~~~.~~~0$\\
+\multicolumn{3}{l}{Pu-a~-~~sa ~~~~empat pu-luh ha~~-~~ri}\\
+\multicolumn{3}{l}{Ke-du~-~a ~~~~~memperdalam i~~-~~man}\\
+\\
+$\overline{2~~~3}~$&$~4~~~\overline{.~~~4}~~~\overline{6~~~6}~~~\overline{5~~~4}~~$&$~~3~~~.~~~.$\\
+\multicolumn{3}{l}{Ka-re~-~na ~~~~li-bur ~~ha-ri Ming-~gu}\\
+\multicolumn{3}{l}{Ke-ti~-~ga ~~~~kurang makan mi~-~num}\\
+\\
+$\overline{\dot{1}~~~7}~$&$~6~~~\overline{.~~~6}~~~\overline{7~~~7}~~~\overline{6~~~7}~~$&$~~\dot{1}~~~.~~~0~~~~~$\\
+\multicolumn{3}{l}{Pu-a~-~sa ~~~~~mu~~lai ha-ri ~Ra~-~bu.}\\
+\multicolumn{3}{l}{Keem~pat menyumbang yang pa-pa.}\\
+
+\end{tabular}
+
+\subsection*{Lembar isian/Evaluasi Pertemuan I APP KAS 2010}
+\begin{enumerate}
+\item Apa yang paling mengesan/disukai/disyukuri/yang sudah baik dari kegiatan Aksi Puasa selama ini (pribadi, keluarga, lingkungan, paroki, dst)?
+
+\item Hal-hal pa yang belum dimengerti atau baru pertama kali didengar tentang Aksi Puasa Pembangunan?
+
+\item Apakah ada usul-usul untuk meningkatkan keterlibatan umat dalam kegiatan APP (pendalaman tema APP, Aksi nyata, dan pengumpulan derma APP)?
+
+\item Apakah sudah ada panitia APP di tingkat PAroki? Sejauh mana diketahui tentang peran panitia APP Paroki?
+
+\end{enumerate}
+\end{document} 

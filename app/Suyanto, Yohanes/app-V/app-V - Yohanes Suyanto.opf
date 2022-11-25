@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">7</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">b23b416c-393f-43fb-b074-b23148dce0fd</dc:identifier>
+    <dc:title>app-V</dc:title>
+        <dc:creator opf:file-as="Suyanto, Yohanes" opf:role="aut">Yohanes Suyanto</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (0.6.42) [http://calibre-ebook.com]</dc:contributor>
+        <dc:date>2011-04-02T15:43:48.109541+00:00</dc:date>
+        <dc:language>UND</dc:language>
+        <meta content="2011-04-02T15:43:48.109519+00:00" name="calibre:timestamp"/>
+    </metadata>
+    <guide>
+        <reference href="app-V - Yohanes Suyanto.jpg" type="cover" title="Cover"/>
+    </guide>
+</package>

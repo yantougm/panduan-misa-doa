@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>UGM Mini File Sharing - </title>
+<meta name="description" content="Free File Hosting Script">
+<meta name="author" content="Inekai">
+<meta name="keywords" content="File, Hosting, Script, Free">
+<meta name="expire" content="never">
+<link rel="stylesheet" type="text/css" href="css/default.css ">
+</head><body>
+<center><table style="margin-top:10px;width:790px;height:2;">
+<tr><td style="padding-bottom:10px;" height="1">
+<a class="headlink" href="index.php">
+<p style="margin:0px;">
+<span style="font-size:32px;color:#FFFFFF;"><img src="img/upload-ugm.png" width="40" weight="39" >UGM Mini File Sharing</span></p></a></td>
+<td align=right valign=bottom style="padding-bottom:10px;color:#ffffff" height="1">
+<a class="toplinks" href="index.php">Upload File</a>&nbsp;|&nbsp;
+<!--<a class="toplinks" href="index.php?page=img">Upload Gambar</a>&nbsp;|&nbsp;
+<a class="toplinks" href="files.php">Files</a>&nbsp;|&nbsp;-->
+<a class="toplinks" href="index.php?page=tos">T.O.S.</a> &nbsp;|&nbsp;
+<a class="toplinks" href="index.php?page=faq">F.A.Q.</a>&nbsp;|&nbsp;
+<!--<a class="toplinks" href="top.php">Top 10</a> &nbsp;|&nbsp;
+<a class="toplinks" href="admin.php">Admin</a>-->
+</td></td></tr></center>
+<center>
+<table style="margin-top:0px;width:790px;height:400px;"><tr><td style="border:1px #AAAAAA solid;height:100%;background-color:#FFFFFF;padding:20px;text-align:left;" valign=top>
+  <center><img src="img/pic_download.gif" border=0 width=24 height=24> <font size=5><b>Download File dari Server kami</b> <img src="img/pic_download_1.gif" border=0 width=24 height=24></font><br>
+<p>
+<center><table  border="0" cellpadding="0" cellspacing="0" width=""><tr><td width="16"><img src="img/top_lef.gif" width="16" height="16"></td><td height="16" background="img/top_mid.gif"><img src="img/top_mid.gif" width="16" height="16"></td><td width="24"><img src="img/top_rig.gif" width="24" height="16"></td></tr><tr><td width="16" background="img/cen_lef.gif"><img src="img/cen_lef.gif" width="16" height="11"></td><td align="center" valign="middle" bgcolor="#FFFFFF"><img src="img/warning.gif" border=0 width=12 height=12> <a href='report.php?file=650ubunchu01_ubuntu-tiba.zip' style=color:#FF0000>Report This File</a><br><br><table cellspacing=1 cellpadding=2 border=0 bgcolor=#C0C0C0><tr><td align=left bgcolor=#F4F4F4 background="img/button03.gif">Nama File:</td><td bgcolor=#EEF4FB background="img/button03.gif"><font color=#000080>ubunchu01_ubuntu-tiba.zip</td></tr><tr><td align=left bgcolor=#F4F4F4 background="img/button03.gif">File Bandwith Used:</td><td bgcolor=#EEF4FB background="img/button03.gif"><font color=#000080>127.68 MB</td></tr><tr><td align=left bgcolor=#F4F4F4 background="img/button03.gif">Alamat IP:</td><td bgcolor=#EEF4FB background="img/button03.gif"><font color=#000080>222.124.24.61</td></tr><tr><td align=left bgcolor=#F4F4F4 background="img/button03.gif">Ukuran File:</td><td bgcolor=#EEF4FB background="img/button03.gif"><font color=#000080>6.08 MB</td></tr><tr><td align=left bgcolor=#F4F4F4 background="img/button03.gif">File didownload:</td><td bgcolor=#EEF4FB background="img/button03.gif"><font color=#000080>21 x</td></tr><tr><td align=left bgcolor=#F4F4F4 background="img/button03.gif">Terakhir didownload: </td><td bgcolor=#EEF4FB background="img/button03.gif"><font color=#000080>2009-04-15 23:16</td></tr>
+<tr><td align=left bgcolor=#F4F4F4 background="img/button03.gif"></td><td bgcolor=#EEF4FB background="img/button03.gif"><font color=#000080></td></tr></td></tr></table>       </td>
+      <td width="24" background="img/cen_rig.gif"><img src="img/cen_rig.gif" width="24" height="11"></td>
+    </tr>
+    <tr>
+      <td width="16" height="16"><img src="img/bot_lef.gif" width="16" height="16"></td>
+      <td height="16" background="img/bot_mid.gif"><img src="img/bot_mid.gif" width="16" height="16"></td>
+      <td width="24" height="16"><img src="img/bot_rig.gif" width="24" height="16"></td>
+    </tr>
+  </table>
+     <form id="form">
+  <script>
+function refreshh() {
+window.location='http://upload.ugm.ac.id/download.php?file=650ubunchu01_ubuntu-tiba.zip';
+}
+
+function checksubmit()
+{
+if (document.getElementById("form").scode.value == 130623 )
+{
+window.location='http://upload.ugm.ac.id/download2.php?a=650ubunchu01_ubuntu-tiba.zip&b=98262e57b55a94496910614b1da33aaf';
+window.setTimeout("refreshh()", 3000);
+return false;
+}
+else
+{
+alert("ERROR:\n Securitycode was wrong!\n Please input the right Securitycode to download the File!");
+window.location='http://upload.ugm.ac.id/download.php?file=650ubunchu01_ubuntu-tiba.zip';
+}
+
+}
+</script>
+<br>
+<table cellspacing=2 cellpadding=2 border=0 height=16 width="250"><tr><td align=center background="img/captcha-a.png"><font color="#C0C0C0" size="5"><b><font face=times new roman>130623</td><td> Securitycode: <font size=1><strong><input type="text" name="scode" size="4" /></tr></table>
+</form>
+<p><div id="dl" align="center">
+
+Kalau Anda melihat tulisan ini maka Anda perlu mengaktifkan JavaScript di browser Anda
+</div>
+<script language="Javascript">
+x909=5;
+function countdown()
+{
+ if ((0 <= 100) || (0 > 0))
+ {
+  x909--;
+  if(x909 == 0)
+  {
+document.getElementById("dl").innerHTML = '<input type="submit" value="Download File Sekarang" onClick="checksubmit()" onClick="window.location=\'http://upload.ugm.ac.id/download2.php?a=650ubunchu01_ubuntu-tiba.zip&b=98262e57b55a94496910614b1da33aaf\'">';
+  }
+  if(x909 > 0)
+  {
+ document.getElementById("dl").innerHTML = 'Tiket download sedang dipesan<br>Harap tunggu <font color=#FF0000><b> '+x909+'</b></font> detik...';
+   setTimeout('countdown()',1000);
+  }
+ }
+}
+countdown();
+</script><p>
+<center>
+<!-- START ADENGAGE.COM CODE 2.0 -->
+<STYLE>
+.ae_table_horiz { width:auto; height:auto; background-color:None; }
+.ae_td_horiz,.ae_image_td_horiz { padding-bottom: 4px; padding-top: 4px; padding-left: 3px; padding-right: 3px; vertical-align:top; }
+.ae_image_td_vert, .ae_image_td_horiz { text-align:right; padding-top:4px; padding-bottom:4px; padding-right: 4px; }
+.ae_image_td_sky { text-align:left; padding-top:4px; padding-bottom:0px; padding-right: 0px; }
+.ae_bb_td_horiz { padding-bottom: 4px; padding-top: 4px; padding-left: 3px; padding-right: 3px; vertical-align:top; }
+A.ae_title_horiz, A.ae_image_link_horiz {font-family: Verdana,Sans-Serif; font-size: 12px; font-style: normal; font-weight: bold; font-variant: normal; text-transform: none; color: blue; text-decoration: None; }
+.ae_desc_horiz {font-family: Verdana,Sans-Serif; font-size: 10px; font-style: normal; font-weight: normal; font-variant: normal; text-transform: none; color: black; }
+.ae_click_count_horiz {font-family: Verdana,Sans-Serif; font-size: 10px; font-style: normal; font-weight: normal; font-variant: normal; text-transform: none; color: None; }
+A.ae_powered_horiz {font-family: Verdana,Sans-Serif; font-size: 10px; font-style: normal; font-weight: normal; font-variant: normal; text-transform: none; color: blue; text-decoration: None; }
+A.ae_yourlink_horiz {font-family: Verdana,Sans-Serif; font-size: 10px; font-style: normal; font-weight: bold; font-variant: normal; text-transform: none; color: blue; text-decoration: None; }
+A.ae_title_horiz:hover, A.ae_powered_horiz:hover, A.ae_yourlink_horiz:hover, A.ae_image_link_horiz:hover { color: blue;  text-decoration: Underline;}
+.ae_image_horiz { border-width:0px; border-color:blue;}
+</STYLE>
+<SCRIPT LANGUAGE="JavaScript">
+adengage_num_ads = 4;
+adengage_layout_type = "horiz";
+adengage_show_your_ad_here = 1;
+adengage_yourlink_text = "See your link here";
+adengage_show_powered_by = 0;
+adengage_show_click_count = 0;
+adengage_class_suffix = adengage_layout_type;
+adengage_arrow_text = "";
+window.adengage_draw_break = 1;
+window.adengage_use_image = 1;
+window.adengage_image_size = 50;
+window.adengage_hide_desc = 0;
+</SCRIPT><SCRIPT SRC="http://adcode.adengage.com/js/ae_17819_adbox.js" LANGUAGE="JavaScript"></SCRIPT>
+<!--END ADENGAGE.COM CODE 2.0 -->
+</center>
+ </td></tr></table></center>
+
+<center><!--<font color="white"><a class="toplinks" target=_blank href="http://www.galaxyscripts.com/" target="_blank">Galaxy Scripts</a> -
+<a class="toplinks" target=_blank href="http://www.galaxyscripts.com/" target="_blank">Your Affiliate</a> -
+<a class="toplinks" target=_blank href="http://www.galaxyscripts.com/" target="_blank">Your Affiliate</a> -
+<a class="toplinks" target=_blank href="http://www.galaxyscripts.com/" target="_blank">Your Affiliate</a> -
+<a class="toplinks" target=_blank href="http://www.galaxyscripts.com/" target="_blank">Your Affiliate</a></font></p></center>
+<p><center><font color="white" face="Verdana" size="1">Copyright © 2007 - 2008 UGM Mini File Sharing. All Rights Reserved</font></b></p></center>-->
+<p><center><font color="white" face="Verdana" size="1">UGM Mini File Sharing</font></b></p></center>
+
+
+<!--<p><span style="color:white"><font face="Verdana" size="1"><center>Powered By <b>Mini File Host</b> v1.5 <a target="_blank" href="http://www.galaxyscripts.com"><font color="#FFFFFF"><b>Galaxyscripts</b></font></a></p>-->
+<p><span style="color:white"><font face="Verdana" size="1"><center>Powered By <b>Mini File Host</b></font></a></p>
+</body></html>
